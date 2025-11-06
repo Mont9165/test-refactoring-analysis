@@ -197,15 +197,25 @@ def analyze_by_refactoring_type(df, level):
     return results
 
 
-def plot_change_patterns(results_df, level):
+def plot_change_patterns(results_df, level, order=None):
     """
-    Create simple horizontal bar visualizations for change patterns (exclude NumberOfMethods, no bold, no value labels).
+    Create simple horizontal bar visualizations for change patterns.
+    If an order is provided, it uses that order for the y-axis.
     """
     # NumberOfMethodsを除外
     results_df = results_df[results_df["test_smell"] != "NumberOfMethods"]
+    results_df = results_df[results_df['no_change_rate'] < 98]
 
-    # 改善率降順で並び替え
-    results_df = results_df.sort_values('improvement_rate', ascending=False)
+    if order is not None:
+        # 指定された順序でデータを並び替える
+        # test_smellをインデックスにしてからreindexで並び替え、その後インデックスをリセット
+        results_df = results_df.set_index('test_smell').reindex(order).reset_index()
+        # 順序リストに含まれない可能性のある行（NaN）を削除
+        results_df = results_df.dropna(subset=['total_pairs'])
+    else:
+        # 順序が指定されない場合は、従来通り改善率でソート
+        results_df = results_df.sort_values('improvement_rate', ascending=False)
+
     y = np.arange(len(results_df))
     no_changes = results_df["no_change_rate"].values
     improvements = results_df["improvement_rate"].values
@@ -216,20 +226,36 @@ def plot_change_patterns(results_df, level):
     color_improve = '#4daf4a'
     color_degrade = '#e41a1c'
 
-    plt.figure(figsize=(12, 8))
+    plt.figure(figsize=(14, 8))
     plt.barh(y, no_changes, color=color_nochange, label='No Change')
     plt.barh(y, improvements, left=no_changes, color=color_improve, label='Improvements')
-    plt.barh(y, degradations, left=no_changes+improvements, color=color_degrade, label='Degradations')
+    plt.barh(y, degradations, left=no_changes + improvements, color=color_degrade, label='Degradations')
 
-    plt.yticks(y, test_smells,  fontsize=16)
+    plt.yticks(y, test_smells, fontsize=20)
     plt.xlabel('Percentage (%)', fontsize=16)
     plt.xticks(fontsize=16)
-    # plt.ylabel('Test Smells')
-    plt.legend(loc='upper right', fontsize=16)
-    plt.tight_layout()
-    plt.savefig(f"{RESULTS_DIR}/change_patterns_{level}_better.pdf", dpi=600)
-    plt.close()
+    plt.legend(loc='upper left', fontsize=24)
+    plt.axvline(x=60, color='grey', linestyle=':', linewidth=1, alpha=0.7)
+    plt.axvline(x=80, color='grey', linestyle=':', linewidth=1, alpha=0.7)
+    # for i in range(len(test_smells)):
+    #     # 「変化なし」セグメントの中心にラベルを配置
+    #     if no_changes[i] > 5:  # 5%より大きい場合のみ描画
+    #         plt.text(no_changes[i] / 2, i, f'{no_changes[i]:.1f}',
+    #                  ha='center', va='center', color='white', fontsize=12, weight='bold')
+    #
+    #     # 「改善」セグメントの中心にラベルを配置
+    #     if improvements[i] > 5:
+    #         plt.text(no_changes[i] + improvements[i] / 2, i, f'{improvements[i]:.1f}',
+    #                  ha='center', va='center', color='white', fontsize=12, weight='bold')
+    #
+    #     # 「悪化」セグメントの中心にラベルを配置
+    #     if degradations[i] > 5:
+    #         plt.text(no_changes[i] + improvements[i] + degradations[i] / 2, i, f'{degradations[i]:.1f}',
+    #                  ha='center', va='center', color='white', fontsize=12, weight='bold')
 
+    plt.tight_layout()
+    plt.savefig(f"{RESULTS_DIR}/change_patterns_{level}_without_no_change.pdf", dpi=600)
+    plt.close()
 
 def perform_statistical_tests(df, level):
     """
@@ -247,7 +273,7 @@ def perform_statistical_tests(df, level):
     from statsmodels.stats.multitest import multipletests
 
     # Directory settings
-    BASE_DIR = "/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring"
+    BASE_DIR = "/app"
     CSV_DIR = f"{BASE_DIR}/5_analyze_test_refactoring/src/smells_result"
     RESULTS_DIR = f"{BASE_DIR}/5_analyze_test_refactoring/src/analysis/rq3/descriptive_analysis"
 
@@ -607,36 +633,38 @@ def main():
     """Main function to execute the descriptive analysis."""
     # Load data
     file_df_raw, method_df_raw = load_data()
-    
+
     # Preprocess data
     file_df = preprocess_data(file_df_raw)
     method_df = preprocess_data(method_df_raw)
-    
+
     # Analyze change patterns
     file_patterns = analyze_change_patterns(file_df, "file")
     method_patterns = analyze_change_patterns(method_df, "method")
-    
-    # # Analyze by refactoring type
-    # file_by_type = analyze_by_refactoring_type(file_df, "file")
-    # method_by_type = analyze_by_refactoring_type(method_df, "method")
-    #
-    # Create visualizations
-    plot_change_patterns(file_patterns, "file")
-    plot_change_patterns(method_patterns, "method")
-    
-    # Perform statistical tests where appropriate
-    # file_stats = perform_statistical_tests(file_df, "file")
-    # method_stats = perform_statistical_tests(method_df, "method")
-    
-    # Save results
+
+    # ★★★ ここから修正 ★★★
+
+    # 1. file levelの結果を基に、グラフの「基準となる順序」を決定する
+    #    プロット時と同様に'NumberOfMethods'を除外
+    file_patterns_for_order = file_patterns[file_patterns["test_smell"] != "NumberOfMethods"]
+    #    改善率で降順にソートし、テストスメル名のリストを作成
+    master_smell_order = file_patterns_for_order.sort_values('improvement_rate', ascending=False)['test_smell'].tolist()
+
+    # 2. グラフ作成時に、決定した順序リストを両方に渡す
+    print("\n=== Creating plots with unified order ===")
+    plot_change_patterns(file_patterns, "file", order=master_smell_order)
+    plot_change_patterns(method_patterns, "method", order=master_smell_order)
+
+    # ★★★ ここまで修正 ★★★
+
+    # analyze_by_refactoring_type と perform_statistical_tests はコメントアウトされているので省略
+
     # file_patterns.to_csv(f"{RESULTS_DIR}/change_patterns_file.csv", index=False)
     # method_patterns.to_csv(f"{RESULTS_DIR}/change_patterns_method.csv", index=False)
-    # file_stats.to_csv(f"{RESULTS_DIR}/statistical_results_file.csv", index=False)
-    # method_stats.to_csv(f"{RESULTS_DIR}/statistical_results_method.csv", index=False)
-    
+
     print(f"\n=== Analysis Complete ===")
     print(f"Results saved to: {RESULTS_DIR}")
 
 
 if __name__ == "__main__":
-    main() 
+    main()

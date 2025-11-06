@@ -1,0 +1,178 @@
+\newpage
+\section{Methodology}
+\label{sec:Method}
+% This section describes the data collection and analysis process in this study. 
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.7\linewidth]{100_Fig/TOSEM-overview.pdf}
+    \caption{Overview of the data analysis\KOSEI{Need to be changed}}
+    \label{fig:violin_satd}
+\end{figure}
+
+\subsection{Context Selection}
+\label{subsec:collect-repo}
+
+In this study, we collected commits for manual inspection from \allprojectnum\ projects on GitHub. 
+To select the projects, we used the SEART GitHub Search Engine~\cite{DBLP:conf/msr/DabicAB21}.\footnote{\url{https://seart-ghs.si.usi.ch/}} 
+The selected projects meet the following criteria:
+
+\begin{itemize}
+    \item \textbf{Java systems.} This study is limited to Java projects since we use a state-of-the-art refactoring tool~\cite{DBLP:journals/corr/abs-2403-05939} that only works on Java code.
+    \item \textbf{Active projects.} To exclude inactive projects, we selected only projects that had at least one commit between March 1, 2024, and September 1, 2024.
+    \item \textbf{Diverse projects.} To collect a diverse set of projects and commits for manual inspection, we set a minimum of 30 stars and 10 forks for the selected projects.
+    \item \textbf{Non-forked projects.} Forked projects were excluded.
+\end{itemize}
+
+% \subsection{Collection of Commits for Manual Inspection}
+% We cloned \allprojectnum\ projects and retrieved commit information. The following criteria were used to select commits for manual inspection:
+
+% \begin{itemize}
+%     \item \textbf{Commit messages.} The commit message must contain both terms related to ``\texttt{test}'' and ``\texttt{refactor}''.
+%     \item \textbf{Parent commits.} The commit must have exactly one parent.
+% \end{itemize}
+
+% \\
+
+% Based on the above criteria, the number of selected commits was \num{\allRefactorCommit}.
+% The number of projects that contained only commits matching these criteria was \onlytestcommitProjectnum. Figure~\ref{fig:commit-distributions} shows the distributions of key metrics for these selected commits: the number of modified files, total added lines, and total deleted lines. 
+% % All three distributions are highly right-skewed, with the medians being substantially lower than the means. 
+% % This indicates that while most of our selected commits are small in scale, a minority of very large commits also exist.
+
+% \begin{itemize}
+%     \item \textbf{Test File Definition.} Modified files must be exclusively test-related. A file is considered a test file if its full path matches the following regular expression: \KOSEI{Add}
+% \end{itemize}
+
+% We randomly select 
+
+% % 
+
+
+\subsection{Commit Filtering and Sampling}
+From the initial set of projects, we performed a multi-step filtering process to identify relevant commits.
+
+\subsubsection{Identifying Commits Related to Test Refactoring}
+\label{subsub:IdentifyCommit}
+First, we searched for all commits potentially related to test refactoring. The criteria for this step were:
+\begin{itemize}
+    \item \textbf{Commit Message:} The commit message must contain both the terms ``\texttt{test}'' and ``\texttt{refactor}''.
+    \item \textbf{Parent Commits:} The commit must have exactly one parent to exclude merge commits.
+\end{itemize}
+This initial filtering yielded a set of \num{\allRefactorCommit} commits from \num{\allRefactorproject} projects. This collection of commits serves as the population for our sampling.
+
+\subsubsection{Isolating Commits with Test-Only Modifications}
+\label{subsub:IsolateTestCommit}
+To eliminate commits that might include production code refactoring, we applied a stricter filter to identify commits where \textit{only} test files were modified. 
+
+\begin{itemize}
+    \item \textbf{File Scope:} All modified files in a commit must be test files. A file is considered a test file if its name matches the regular expression: \texttt{.*[tT]est.*\textbackslash.java\$}.
+\end{itemize}
+
+
+This resulted in a refined dataset of \num{\onlyModifiedTestcommit}\ commits from \num{\onlyModifiedTestcommitProject}\ projects. 
+Figure~\ref{fig:commit-distributions} illustrates the statistical characteristics of this entire set of test-only commits, showing the distributions of modified files, added lines, and deleted lines.
+
+
+\subsubsection{Sampling for Manual Inspection}
+
+
+For our manual inspection, we determined the required sample size from the population of \num{\allRefactorCommit}\ commits identified in Section \ref{subsub:IdentifyCommit} to ensure statistical significance. 
+Using a 95\% confidence level and a 5\% margin of error, the calculated sample size was \ManualInspectionCommit. 
+We then randomly selected these \ManualInspectionCommit\ commits from this refined set of \num{\onlyModifiedTestcommit}\ test-only commits. This final sample for manual inspection spans \num{\ManualInspectionProject} projects.
+
+
+
+
+\begin{figure}[htbp]
+    \centering
+
+    
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{100_Fig/Methodology/changed_files_count_distribution.pdf}
+        \caption{Modified files}
+        \label{fig:ModifiedFiles}
+    \end{subfigure}
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        % Empty space for alignment
+    \end{subfigure}
+
+    \vspace{0.5cm}
+
+
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{100_Fig/Methodology/total_addition_lines_distribution.pdf}
+        \caption{Added lines}
+        \label{fig:AdditionLines}
+    \end{subfigure}
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{100_Fig/Methodology/total_deletions_lines_distribution.pdf}
+        \caption{Deleted lines}
+        \label{fig:DeletionLines}
+    \end{subfigure}
+    
+    \caption{Distributions of commit metrics}
+    \label{fig:commit-distributions}
+\end{figure}
+
+
+\subsection{Data Analysis}
+We introduce the analysis approaches for each research question, using the data obtained through the processes described earlier.
+
+Our analysis workflow consists of the following steps: (1) manual annotation of test refactorings via consensus-based annotation, (2) detection of general refactorings using \rminer~\cite{DBLP:journals/tosem/AlikhanifardT25}, (3) analysis of the relationship between test and general refactorings, (4) detailed examination and categorization of various test refactoring types, and (5) analysis of the relationship between test refactorings and test smells.
+
+
+
+\subsubsection{RQ1 (Relationship Between Test Refactoring and General Refactoring)}
+To understand the extent to which developers intentionally perform test refactorings, we manually inspect the commit messages and corresponding changed files of the sampled \ManualInspectionCommit\ commits.
+
+We adopt a consensus-based annotation approach~\cite{DBLP:conf/emnlp/SnowOJN08, oortwijn-etal-2021-interrater}, in which two annotators independently classify each commit as representing a test refactoring or not. We chose this approach to mitigate subjective judgments inherent in classifying test refactorings, as individual annotators may interpret the intent and scope of refactorings differently. Furthermore, consensus-based annotation enhances the reliability and reproducibility of the classification results, aligning with best practices recommended in prior studies. In cases of disagreement between annotators, a third researcher participates in the discussion to resolve discrepancies and finalize labels. All three annotators involved in this process have 5–15 years of programming experience.
+
+In parallel, we apply \rminer~\cite{DBLP:journals/tosem/AlikhanifardT25} to the same set of \ManualInspectionCommit\ commits to detect instances of general refactorings. We then analyze the co-occurrence patterns and frequencies of test refactorings and general refactorings within these commits.
+
+
+
+\subsubsection{RQ2 (Type of Test Refactoring) }
+
+To understand what kinds of practical test refactorings developers perform in real-world OSS projects, we conduct a detailed annotation of specific test refactoring instances using \rhub~\cite{DBLP:conf/iwpc/KuramotoSH21}. As illustrated in Figure~\ref{fig:refactorhub}, \rhub enables us to examine the code changes before and after each commit and systematically record the type of refactoring, a brief description, and the precise location of the modification. 
+
+To ensure consistency and reliability in our annotation process, we first created a catalog of test-specific refactorings by reviewing prior literature~\cite{xUnitTestPatterns, DBLP:journals/tse/SoaresRGAS23, DBLP:journals/ese/MartinsPCFPM25, DBLP:conf/scam/MartinsCRPM23, DBLP:journals/tosem/AlikhanifardT25}. This catalog includes definitions, examples, and distinguishing features of over 70 refactoring patterns. All annotators were trained using this catalog and met regularly to discuss ambiguous cases and refine the definitions. The full catalog used in this study is provided in Appendix~\ref{appendix:refactoring-catalog}.
+
+During annotation, each annotator independently labeled a subset of commits. After initial labeling, we conducted regular calibration meetings to resolve disagreements and unify criteria. When a refactoring not included in the initial catalog was encountered, annotators discussed it collaboratively during these meetings to determine whether it should be added to the catalog as a new type or treated as a variation of an existing one. Annotations include the refactoring type (selected from the catalog or added through discussion), a concise summary of the change, and affected code ranges. This process allows us to conduct a fine-grained analysis of test-specific refactoring practices in the wild.
+
+% \KOSEI{Added detailed explanation of visual inspection. Sharing a catalog of test refactorings created in advance, etc.}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\linewidth]{100_Fig/Methodology/refactorhub.pdf}
+    \caption{Description of \rhub}
+    \label{fig:refactorhub}
+\end{figure}
+
+Based on these annotations, we analyze (1) which types of test refactorings are most frequently applied, (2) how developers perform these refactorings, and (3) the specific purposes or goals served by these refactorings.
+
+\subsubsection{RQ3 (Relationship with Test Smell)}
+To investigate the relationship between test refactorings and test quality, we focus on test smells as proxies for test quality. In this study, we use \tsdetect~\cite{DBLP:conf/sigsoft/PerumaANM0P20}, a state-of-the-art tool that detects 16 out of the 19 test smells proposed by Deursen\etal~\cite{Deursen2001-bv} at the method level. \tsdetect achieves over 95\% precision and recall on average for each smell type, making it suitable for accurate test smell detection.
+
+We conducted our analysis at both the \textbf{file level} and the \textbf{refactoring level} to understand the characteristics from multiple perspectives. Our analysis workflow consists of three complementary approaches to comprehensively assess the impact of test refactorings on test smells.
+
+\paragraph{Descriptive Analysis}
+First, we performed a descriptive analysis to understand the overall patterns of test smell changes after refactoring. For each test smell, we calculated the percentage of commits that showed improvement (decrease in smell count), degradation (increase in smell count), or no change. This analysis provides a comprehensive overview of how test refactorings affect test quality metrics.
+
+\paragraph{Conditional Statistical Analysis}
+Given that many test smell instances may remain unchanged after refactoring, we conducted a conditional statistical analysis focusing only on test smell instances that actually changed after refactoring. This approach ensures that our statistical tests are applied to meaningful changes rather than being diluted by unchanged instances. We applied the \textbf{Wilcoxon signed-rank test} to compare before and after values for each test smell, calculating effect sizes using Cohen's d for paired samples. We only performed statistical tests when there were at least 5 changed instances to ensure adequate statistical power.
+
+\paragraph{Refactoring-Smell Relationship Analysis}
+To provide practical guidance for developers, we analyzed which specific refactoring types are most effective for reducing particular test smells. For each combination of refactoring type and test smell, we calculated improvement rates, effect sizes, and statistical significance. This analysis helps identify the most effective refactoring strategies for specific test quality issues.
+
+The null hypothesis for our statistical tests was defined as follows and tested at a significance level of $\alpha = 0.05$:
+\begin{itemize}
+    \item $H_0$: There is no significant difference in test smell counts before and after test refactoring.
+\end{itemize}
+
+We applied multiple testing correction using the Benjamini-Hochberg procedure to control for false discoveries when conducting multiple statistical tests. Effect sizes were interpreted using Cohen's guidelines: small ($|d| \geq 0.2$), medium ($|d| \geq 0.5$), and large ($|d| \geq 0.8$).
+
+% \subsubsection{RQ4 (Automatic classification)}

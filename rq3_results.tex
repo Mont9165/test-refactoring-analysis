@@ -1,0 +1,72 @@
+\subsection{\rqC}
+
+\subsubsection{Overall Impact of Test Refactorings on Test Smells}
+
+Our analysis reveals that test refactorings have a limited but significant impact on test smells. The descriptive analysis shows that the majority of test smell instances (85.6\% at file level and 91.9\% at refactoring level) remain unchanged after refactoring, indicating that test refactorings typically target specific aspects of test code rather than comprehensively addressing all test quality issues.
+
+
+\input{200_Tab/RQ3/Summary_TestSmellChanges_AfterRefactoring}
+
+To better understand which test smells are more likely to improve through refactoring, Figures~\ref{fig:test-smell-improvement-rate-file} and~\ref{fig:test-smell-improvement-rate-refactoring} show the improvement rates for each test smell at the \textbf{file level} and \textbf{refactoring level}, respectively. These visualizations help highlight which smells tend to benefit from refactorings and which are more resistant to change.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.85\linewidth]{100_Fig/RQ3/change_patterns_file_better.pdf}
+\caption{Improvement rate of each test smell after refactoring (file level)}
+\label{fig:test-smell-improvement-rate-file}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.85\linewidth]{100_Fig/RQ3/change_patterns_method_better.pdf}
+\caption{Improvement rate of each test smell after refactoring (refactoring level)}
+\label{fig:test-smell-improvement-rate-refactoring}
+\end{figure}
+
+
+\subsubsection{Statistically Significant Improvements}
+
+When focusing on test smell instances that changed after refactoring, we found several statistically significant improvements. Table~\ref{tab:significant-improvements} presents the results of our conditional statistical analysis.
+
+\input{200_Tab/RQ3/sig_testsmell_improvement}
+
+
+The most notable finding is the substantial improvement in \textit{Duplicate Assert} test smells, which showed large effect sizes at both file level (d = -1.947) and refactoring level (d = -1.212). This suggests that test refactorings are particularly effective at reducing redundant assertions in test code.
+
+\subsubsection{Refactoring Type Effectiveness}
+
+To better understand the relationship between test refactorings and test smells, we analyzed which specific refactoring types are most effective in reducing particular smells. Table~\ref{tab:refactoring-effectiveness} summarizes the refactoring–smell pairs that exhibited the highest improvement rates, highlighting the most effective refactoring types for each test smell.
+
+\begin{table}[htbp]
+\centering
+\caption{Most Effective Refactoring Types for Test Smell Reduction}
+\label{tab:refactoring-effectiveness}
+\begin{tabular}{llrrr}
+\toprule
+\textbf{Test Smell} & \textbf{Best Refactoring Type} & \textbf{Improvement Rate} & \textbf{Effect Size} & \textbf{Significant} \\
+\midrule
+Duplicate Assert & Split Test Method & 67.6\% & -1.947 & Yes \\
+Magic Number Test & Grouping Tests & 69.2\% & -1.123 & Yes \\
+Assertion Roulette & Grouping Tests & 46.2\% & -0.234 & No \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Key Findings:}
+\begin{itemize}
+    \item \textbf{Split Test Method} is highly effective for reducing \textit{Duplicate Assert} test smells, with a 67.6\% improvement rate and large effect size.
+    \item \textbf{Grouping Tests} shows effectiveness across multiple test smells, particularly for \textit{Magic Number Test} (69.2\% improvement rate).
+    \item \textbf{Parameterized Test} refactoring demonstrates moderate effectiveness for various test smells.
+\end{itemize}
+
+\subsubsection{Limitations and Implications}
+
+Our analysis reveals several important limitations and implications:
+
+\begin{itemize}
+    \item \textbf{Limited Scope}: The high proportion of unchanged test smells (85-92\%) suggests that test refactorings address specific, targeted issues rather than comprehensive test quality improvements.
+    \item \textbf{Context-Dependent Effectiveness}: The effectiveness of refactorings varies significantly depending on the specific test smell and refactoring type combination.
+    \item \textbf{Statistical Power}: Many refactoring-scent combinations have insufficient sample sizes for reliable statistical analysis, indicating the need for larger-scale studies.
+\end{itemize}
+
+\paragraph{Answer to RQ3:} Test refactorings do help reduce certain test smells, particularly \textit{Duplicate Assert} and \textit{Magic Number Test}. However, their impact is limited and context-dependent, with most test smell instances remaining unchanged. The effectiveness varies significantly by refactoring type, with \textit{Split Test Method} and \textit{Grouping Tests} showing the most consistent positive effects. 

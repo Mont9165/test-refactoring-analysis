@@ -1,0 +1,23 @@
+test_smell,total_count,outlier_count,outlier_percentage,max_outlier,min_outlier
+Assertion Roulette,173,47,27.167630057803464,5,-14
+Conditional Test Logic,173,23,13.294797687861271,4,-5
+Constructor Initialization,173,0,0.0,0,0
+Default Test,173,0,0.0,0,0
+EmptyTest,173,0,0.0,0,0
+Exception Catching Throwing,173,41,23.699421965317917,7,-19
+General Fixture,173,20,11.560693641618498,11,-8
+Mystery Guest,173,11,6.358381502890173,3,-1
+Print Statement,173,9,5.202312138728324,1,-4
+Redundant Assertion,173,0,0.0,0,0
+Sensitive Equality,173,6,3.4682080924855487,1,-7
+Verbose Test,173,0,0.0,0,0
+Sleepy Test,173,1,0.5780346820809248,-1,-1
+Eager Test,173,14,8.092485549132949,7,-14
+Lazy Test,173,13,7.514450867052023,27,-32
+Duplicate Assert,173,22,12.716763005780345,2,-3
+Unknown Test,173,21,12.138728323699421,28,-9
+IgnoredTest,173,6,3.4682080924855487,2,-1
+Resource Optimism,173,2,1.1560693641618496,1,-8
+Magic Number Test,173,27,15.606936416184972,28,-19
+Dependent Test,173,0,0.0,0,0
+NumberOfMethods,173,0,0.0,0,0

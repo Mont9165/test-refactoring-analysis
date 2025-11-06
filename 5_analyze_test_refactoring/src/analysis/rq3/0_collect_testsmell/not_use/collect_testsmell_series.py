@@ -4,7 +4,7 @@ import subprocess
 import pandas as pd
 
 # Constants
-BASE_DIR = "/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring"
+BASE_DIR = "/app"
 JAR_PATH = f"{BASE_DIR}/5_analyze_test_smell/TestSmellDetector/jar/TestSmellDetector-0.1-jar-with-dependencies.jar"
 TEST_SMELL_DIR = f"{BASE_DIR}/5_analyze_test_smell/TestSmellDetector/"
 RESULTS_DIR = f"{BASE_DIR}/5_analyze_test_smell/src/results"

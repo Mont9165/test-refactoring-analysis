@@ -4,7 +4,7 @@ import seaborn as sns
 import os
 
 # データのディレクトリ
-BASE_DIR = "/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring"
+BASE_DIR = "/app"
 JSON_DIR = f"{BASE_DIR}/5_analyze_test_refactoring/src/results"
 RESULTS_DIR = f"{BASE_DIR}/5_analyze_test_refactoring/src/analysis/rq2"
 

@@ -1,0 +1,168 @@
+type_name,test_smell,Wilcoxon_stat,p_value,effect_size_r
+Add explanation message,Assertion Roulette,0.0,0.31731050786291415,0.7071067811865474
+Add explanation message,Conditional Test Logic,0.0,0.31731050786291415,0.7071067811865474
+Add explanation message,General Fixture,0.0,0.31731050786291415,0.7071067811865474
+Add explanation message,Sensitive Equality,0.0,0.31731050786291415,0.7071067811865474
+Add explanation message,Eager Test,0.0,0.31731050786291415,0.7071067811865474
+Add explanation message,Lazy Test,0.0,0.31731050786291415,0.7071067811865474
+Add explanation message,Duplicate Assert,0.0,0.31731050786291415,0.7071067811865474
+Add explanation message,Magic Number Test,0.0,0.31731050786291415,0.7071067811865474
+Add explanation message,NumberOfMethods,0.0,0.31731050786291415,0.7071067811865474
+Assert All,IgnoredTest,0.0,0.5,0.4769362762044698
+Assert All,NumberOfMethods,0.0,0.5,0.4769362762044698
+Await Event,Assertion Roulette,0.0,0.15729920705028505,0.577350269189626
+Await Event,Print Statement,0.0,0.31731050786291415,0.408248290463863
+Await Event,IgnoredTest,0.0,0.15729920705028505,0.577350269189626
+Await Event,Magic Number Test,0.0,0.15729920705028505,0.577350269189626
+Await Event,NumberOfMethods,0.0,0.15729920705028505,0.577350269189626
+Change Assertion Type,Assertion Roulette,5.0,0.4795001221869535,0.23570226039551587
+Change Assertion Type,Exception Catching Throwing,0.0,0.045500263896358396,0.6666666666666666
+Change Assertion Type,Print Statement,0.0,0.045500263896358396,0.6666666666666666
+Change Assertion Type,Eager Test,5.0,0.4795001221869535,0.23570226039551587
+Change Assertion Type,Lazy Test,1.0,0.06599205505934755,0.6128258770283411
+Change Assertion Type,Magic Number Test,0.0,0.045500263896358396,0.6666666666666666
+Change Assertion Type,NumberOfMethods,3.0,0.17971249487899976,0.44721359549995787
+Custom Assertion,IgnoredTest,0.0,0.31731050786291415,0.7071067811865474
+Custom Assertion,NumberOfMethods,1.0,1.0,0.0
+De-Parameterize Test,Conditional Test Logic,0.0,1.0,0.0
+De-Parameterize Test,Unknown Test,0.0,1.0,0.0
+De-Parameterize Test,Magic Number Test,0.0,1.0,0.0
+De-Parameterize Test,NumberOfMethods,0.0,1.0,0.0
+Delegated Setup,Assertion Roulette,0.0,0.025596805385948558,0.49915182296860483
+Delegated Setup,Conditional Test Logic,0.0,0.17971249487899976,0.29999999999999993
+Delegated Setup,Exception Catching Throwing,0.0,0.31731050786291415,0.22360679774997894
+Delegated Setup,General Fixture,0.0,0.039359508888249725,0.46072133762546347
+Delegated Setup,Print Statement,0.0,0.15729920705028505,0.316227766016838
+Delegated Setup,Unknown Test,6.0,0.6547208460185769,0.10000000000000003
+Delegated Setup,Resource Optimism,0.0,0.31731050786291415,0.22360679774997894
+Delegated Setup,Magic Number Test,3.0,1.0,0.0
+Delegated Setup,NumberOfMethods,0.0,0.00024204608712114617,0.8207559246023195
+Grouping Tests,Assertion Roulette,1.0,0.02687924469707247,0.6138498140448515
+Grouping Tests,Conditional Test Logic,0.0,0.17971249487899976,0.3721042037676253
+Grouping Tests,Constructor Initialization,0.0,0.31731050786291415,0.2773500981126145
+Grouping Tests,Exception Catching Throwing,3.0,0.0625089161964483,0.5166112993626547
+Grouping Tests,General Fixture,0.0,0.31731050786291415,0.2773500981126145
+Grouping Tests,Redundant Assertion,0.0,0.15729920705028505,0.39223227027636814
+Grouping Tests,Sensitive Equality,0.0,0.31731050786291415,0.2773500981126145
+Grouping Tests,Eager Test,0.0,0.17971249487899976,0.3721042037676253
+Grouping Tests,Lazy Test,0.0,0.17971249487899976,0.3721042037676253
+Grouping Tests,Duplicate Assert,0.0,0.06559969214707187,0.5106429211881653
+Grouping Tests,Unknown Test,0.0,0.042168197097155954,0.5635355675740087
+Grouping Tests,IgnoredTest,0.0,0.31731050786291415,0.2773500981126145
+Grouping Tests,Magic Number Test,2.0,0.009344113002204883,0.7208885625950234
+Grouping Tests,NumberOfMethods,2.0,0.000732421875,0.9366517484476092
+Implicit Setup,Assertion Roulette,3.0,1.0,0.0
+Implicit Setup,Conditional Test Logic,0.0,0.17971249487899976,0.4743416490252568
+Implicit Setup,Exception Catching Throwing,0.0,0.31731050786291415,0.3535533905932737
+Implicit Setup,General Fixture,2.0,0.5929800980174267,0.18898223650461365
+Implicit Setup,Print Statement,0.0,0.31731050786291415,0.3535533905932737
+Implicit Setup,Sensitive Equality,0.0,0.31731050786291415,0.3535533905932737
+Implicit Setup,Eager Test,0.0,0.31731050786291415,0.3535533905932737
+Implicit Setup,Lazy Test,0.0,0.31731050786291415,0.3535533905932737
+Implicit Setup,Duplicate Assert,0.0,0.17971249487899976,0.4743416490252568
+Implicit Setup,Unknown Test,1.0,0.6547208460185769,0.158113883008419
+Implicit Setup,Magic Number Test,3.0,1.0,0.0
+Implicit Setup,NumberOfMethods,6.5,0.20000529271911371,0.4530915699976327
+Implicit Teardown,Assertion Roulette,0.0,1.0,0.0
+Implicit Teardown,Exception Catching Throwing,0.0,1.0,0.0
+Implicit Teardown,Duplicate Assert,0.0,1.0,0.0
+Implicit Teardown,Unknown Test,0.0,1.0,0.0
+Implicit Teardown,Magic Number Test,0.0,1.0,0.0
+Implicit Teardown,NumberOfMethods,0.0,1.0,0.0
+Inline Assertion,Unknown Test,0.0,0.08326451666355039,0.7745966692414835
+Inline Assertion,IgnoredTest,0.0,0.08326451666355039,0.7745966692414835
+Inline Assertion,NumberOfMethods,0.0,0.0625,0.8330390158819877
+Inline Setup,Mystery Guest,0.0,0.31731050786291415,0.5773502691896257
+Inline Setup,Lazy Test,0.0,0.31731050786291415,0.5773502691896257
+Inline Setup,Magic Number Test,0.0,0.31731050786291415,0.5773502691896257
+Inline Setup,NumberOfMethods,0.0,0.25,0.6641545244222073
+Lazy Teardown,Assertion Roulette,0.0,1.0,0.0
+Lazy Teardown,Conditional Test Logic,0.0,1.0,0.0
+Lazy Teardown,General Fixture,0.0,1.0,0.0
+Lazy Teardown,Sensitive Equality,0.0,1.0,0.0
+Lazy Teardown,Eager Test,0.0,1.0,0.0
+Lazy Teardown,Lazy Test,0.0,1.0,0.0
+Lazy Teardown,Duplicate Assert,0.0,1.0,0.0
+Lazy Teardown,Magic Number Test,0.0,1.0,0.0
+Lazy Teardown,NumberOfMethods,0.0,1.0,0.0
+Merge Test Method,Assertion Roulette,0.0,1.0,0.0
+Merge Test Method,Exception Catching Throwing,0.0,1.0,0.0
+Merge Test Method,General Fixture,0.0,1.0,0.0
+Merge Test Method,Eager Test,0.0,1.0,0.0
+Merge Test Method,Magic Number Test,0.0,1.0,0.0
+Merge Test Method,NumberOfMethods,0.0,1.0,0.0
+Parameterized Test,Assertion Roulette,0.0,0.025596805385948558,0.6191216388163047
+Parameterized Test,Conditional Test Logic,5.0,0.4795001221869535,0.19611613513818404
+Parameterized Test,Constructor Initialization,0.0,0.15729920705028505,0.39223227027636814
+Parameterized Test,Exception Catching Throwing,6.0,0.17241510261138115,0.3784399334330128
+Parameterized Test,General Fixture,0.0,0.05878172135535887,0.524142418360959
+Parameterized Test,Sensitive Equality,0.0,0.31731050786291415,0.2773500981126145
+Parameterized Test,Eager Test,0.0,0.10880943004054569,0.4447495899966607
+Parameterized Test,Lazy Test,0.0,0.10247043485974941,0.45291081365783836
+Parameterized Test,Duplicate Assert,0.0,0.31731050786291415,0.2773500981126145
+Parameterized Test,Unknown Test,0.0,0.31731050786291415,0.2773500981126145
+Parameterized Test,IgnoredTest,1.5,0.4142161782425251,0.22645540682891915
+Parameterized Test,Resource Optimism,0.0,0.31731050786291415,0.2773500981126145
+Parameterized Test,Magic Number Test,1.0,0.04520135297652212,0.5554700788944521
+Parameterized Test,NumberOfMethods,17.0,0.15199599099260785,0.39730865819689604
+Prebuilt Fixture,Assertion Roulette,10.0,0.49508575626006945,0.14545454545454545
+Prebuilt Fixture,Conditional Test Logic,0.0,0.08326451666355039,0.36927447293799825
+Prebuilt Fixture,Exception Catching Throwing,0.0,0.05878172135535887,0.40291148201269006
+Prebuilt Fixture,General Fixture,0.0,0.31731050786291415,0.21320071635561041
+Prebuilt Fixture,Lazy Test,0.0,0.31731050786291415,0.21320071635561041
+Prebuilt Fixture,Duplicate Assert,1.0,0.6547208460185769,0.09534625892455927
+Prebuilt Fixture,Unknown Test,0.0,0.31731050786291415,0.21320071635561041
+Prebuilt Fixture,Resource Optimism,0.0,0.31731050786291415,0.21320071635561041
+Prebuilt Fixture,Magic Number Test,0.0,0.05878172135535887,0.40291148201269006
+Prebuilt Fixture,NumberOfMethods,0.0,0.006956476135331761,0.5754118154485097
+Print to Assertion,Assertion Roulette,0.0,0.5,0.4769362762044698
+Print to Assertion,Print Statement,0.0,0.5,0.4769362762044698
+Print to Assertion,Unknown Test,0.0,0.5,0.4769362762044698
+Replace Dependency with Test Double,Conditional Test Logic,0.0,0.31731050786291415,0.7071067811865474
+Replace Dependency with Test Double,Sleepy Test,0.0,0.31731050786291415,0.7071067811865474
+Replace annotation with assertThrow,Assertion Roulette,0.0,0.15729920705028505,0.7071067811865477
+Replace annotation with assertThrow,Exception Catching Throwing,0.0,0.31731050786291415,0.49999999999999994
+Replace annotation with assertThrow,Sensitive Equality,0.0,0.31731050786291415,0.49999999999999994
+Replace annotation with assertThrow,Eager Test,0.0,0.31731050786291415,0.49999999999999994
+Replace annotation with try/catch,Exception Catching Throwing,0.0,0.25,0.6641545244222073
+Replace assertThrow with try/catch,Assertion Roulette,0.0,1.0,0.0
+Replace assertThrow with try/catch,Unknown Test,0.0,1.0,0.0
+Replace assertThrow with try/catch,NumberOfMethods,0.0,1.0,0.0
+Split Parameterize Test,IgnoredTest,0.0,1.0,0.0
+Split Parameterize Test,NumberOfMethods,0.0,1.0,0.0
+Split Test Method,Assertion Roulette,12.0,0.01186151155651356,0.431531225451627
+Split Test Method,Conditional Test Logic,0.0,0.0633177868300456,0.31846487764924103
+Split Test Method,Exception Catching Throwing,96.0,0.734708044291658,0.058115639255146595
+Split Test Method,General Fixture,0.0,0.17971249487899976,0.23008949665421108
+Split Test Method,Mystery Guest,0.0,3.1106791438833405e-05,0.7143273939240544
+Split Test Method,Sensitive Equality,0.0,0.0005320055051392492,0.5940885257860079
+Split Test Method,Eager Test,1.5,0.10405923452892792,0.27876839611480897
+Split Test Method,Lazy Test,0.0,0.06788915486182899,0.3131121455425747
+Split Test Method,Duplicate Assert,0.0,2.3689218206532182e-05,0.7249140044734034
+Split Test Method,Unknown Test,0.0,0.31731050786291415,0.17149858514250882
+Split Test Method,IgnoredTest,0.0,0.31731050786291415,0.17149858514250882
+Split Test Method,Resource Optimism,0.0,0.31731050786291415,0.17149858514250882
+Split Test Method,Magic Number Test,0.0,7.46060569114198e-07,0.8487418842095067
+Split Test Method,NumberOfMethods,0.0,1.1641532182693481e-10,1.1051256540523262
+Test Helper,Assertion Roulette,0.0,0.31731050786291415,0.44721359549995787
+Test Helper,Conditional Test Logic,1.0,0.6547208460185769,0.20000000000000007
+Test Helper,Exception Catching Throwing,0.0,0.31731050786291415,0.44721359549995787
+Test Helper,Print Statement,0.0,0.31731050786291415,0.44721359549995787
+Test Helper,Eager Test,1.0,0.6547208460185769,0.20000000000000007
+Test Helper,Lazy Test,0.0,0.31731050786291415,0.44721359549995787
+Test Helper,Duplicate Assert,0.0,0.31731050786291415,0.44721359549995787
+Test Helper,Unknown Test,0.0,0.31731050786291415,0.44721359549995787
+Test Helper,Magic Number Test,1.0,0.6547208460185769,0.20000000000000007
+Test Helper,NumberOfMethods,6.0,0.8125,0.10608000817310125
+Testcase Superclass,Assertion Roulette,0.0,0.31731050786291415,0.7071067811865474
+Testcase Superclass,Conditional Test Logic,0.0,0.31731050786291415,0.7071067811865474
+Testcase Superclass,Exception Catching Throwing,0.0,0.5,0.4769362762044698
+Testcase Superclass,General Fixture,0.0,0.31731050786291415,0.7071067811865474
+Testcase Superclass,Unknown Test,0.0,0.31731050786291415,0.7071067811865474
+Testcase Superclass,Magic Number Test,0.0,0.5,0.4769362762044698
+Testcase Superclass,NumberOfMethods,0.0,0.5,0.4769362762044698
+Verification Method,Assertion Roulette,0.0,0.17971249487899976,0.5999999999999999
+Verification Method,General Fixture,0.0,0.31731050786291415,0.44721359549995787
+Verification Method,Print Statement,0.0,0.31731050786291415,0.44721359549995787
+Verification Method,Unknown Test,0.0,0.10247043485974941,0.7302967433402215
+Verification Method,NumberOfMethods,0.0,0.0625,0.8330390158819877

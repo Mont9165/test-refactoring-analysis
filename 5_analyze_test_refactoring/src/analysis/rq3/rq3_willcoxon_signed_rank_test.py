@@ -7,7 +7,7 @@ from scipy.stats import wilcoxon, norm
 from statsmodels.stats.multitest import multipletests
 
 # Directory settings
-BASE_DIR = "/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring"
+BASE_DIR = "/app"
 CSV_DIR = f"{BASE_DIR}/5_analyze_test_refactoring/src/smells_result"
 RESULTS_DIR = f"{BASE_DIR}/5_analyze_test_refactoring/src/analysis/rq3/statistical_analysis"
 

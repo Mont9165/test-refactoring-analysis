@@ -18,7 +18,7 @@ class TestCollectTestSmell(unittest.TestCase):
         """OSに応じてデフォルトのBASE_DIRが正しく返されることをテストする"""
         # macOSの場合
         mock_system.return_value = "Darwin"
-        self.assertEqual(collect_testsmell.get_default_base_dir(), "/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring")
+        self.assertEqual(collect_testsmell.get_default_base_dir(), "/app")
 
         # Linux/その他の場合
         mock_system.return_value = "Linux"

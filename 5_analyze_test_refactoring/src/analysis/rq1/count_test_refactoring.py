@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import os
 
 
-BASE_DIR = "/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring"
+BASE_DIR = "/app"
 JSON_DIR = f"{BASE_DIR}/5_analyze_test_refactoring/src/results"
 RESULTS_DIR = f"{BASE_DIR}/5_analyze_test_refactoring/src/analysis/rq1/output/test"
 SAMPLE_COMMITS_PATH = os.path.join(BASE_DIR, "2_sampling_test_refactor_commits", "result", "sampling_test_commits.csv")

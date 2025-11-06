@@ -1,0 +1,17 @@
+2025-06-21 10:29:52,169 - root - INFO - Starting script with config: Namespace(base_dir='/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring', parallel=False, workers=10, log_file='logfile.log', safe_parallel=False)
+2025-06-21 10:29:52,190 - root - INFO - Running in SERIAL mode.
+2025-06-21 10:29:52,190 - root - INFO - Acquired lock for repo: https://github.com/tracecompass/tracecompass/commit/1d1befc592e6657ebc51d71380f49e7e9657cdfc
+2025-06-21 10:29:52,192 - root - INFO - Skip https://github.com/tracecompass/tracecompass/commit/1d1befc592e6657ebc51d71380f49e7e9657cdfc because output already exists.
+2025-06-21 10:29:52,192 - root - INFO - Skip https://github.com/tracecompass/tracecompass/commit/96ba8ea9b01530674e7e386bbef638ed53cdc568 because output already exists.
+2025-06-21 10:29:52,192 - root - INFO - Released repo lock
+2025-06-21 10:29:52,192 - root - INFO - Acquired lock for repo: https://github.com/apache/directory-studio/commit/a1deb8718f10388bebb5fd42f47e58c4ef4d2b8c
+2025-06-21 10:29:52,194 - root - INFO - Skip https://github.com/apache/directory-studio/commit/a1deb8718f10388bebb5fd42f47e58c4ef4d2b8c because output already exists.
+2025-06-21 10:29:52,194 - root - INFO - Skip https://github.com/apache/directory-studio/commit/b13485aa857828aab249ccb7dfa4b7c9f8717544 because output already exists.
+2025-06-21 10:29:52,194 - root - INFO - Released repo lock
+2025-06-21 10:29:52,194 - root - INFO - Acquired lock for repo: https://github.com/apache/jspwiki/commit/62857b905460a05ccfcfff5287b477b594512198
+2025-06-21 10:29:52,195 - root - INFO - Skip https://github.com/apache/jspwiki/commit/62857b905460a05ccfcfff5287b477b594512198 because output already exists.
+2025-06-21 10:29:52,195 - root - INFO - Skip https://github.com/apache/jspwiki/commit/bfbc9bd5058396a54a7c66f5655e0d3823cd86d9 because output already exists.
+2025-06-21 10:29:52,195 - root - INFO - Released repo lock
+2025-06-21 10:29:52,195 - root - INFO - Acquired lock for repo: https://github.com/Tencent/TencentKona-17/commit/31c128ef22442527503ebf180b3feca3701cb6a0
+2025-06-21 10:29:52,196 - root - INFO - Running TestSmellDetector for https://github.com/Tencent/TencentKona-17/commit/31c128ef22442527503ebf180b3feca3701cb6a0
+2025-06-21 10:30:08,361 - root - INFO - Released repo lock

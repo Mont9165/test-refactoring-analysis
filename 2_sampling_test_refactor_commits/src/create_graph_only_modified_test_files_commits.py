@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # CSVデータを読み込む
 data = pd.read_csv(
-    "/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/1_collect_test_refactoring_commits/src/main/resources/output/refactor_commit_only_modified_test_files_projects_info.csv")
+    "/app/1_collect_test_refactoring_commits/src/main/resources/output/refactor_commit_only_modified_test_files_projects_info.csv")
 
 # プロットのスタイルを設定
 sns.set(style="whitegrid")

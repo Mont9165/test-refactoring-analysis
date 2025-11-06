@@ -1,0 +1,224 @@
+Order Index,URL,Type Name,Description,Memo,Agreement,Annotator Name,File Path,Start Line (Before),End Line (Before),Start Line (After),End Line (After)
+1,https://github.com/apache/jspwiki/commit/62857b905460a05ccfcfff5287b477b594512198,Replace try/catch with asserThrows,,,,test-refactoring,,,,,
+2,https://github.com/camunda/zeebe-process-test/commit/5abd87ecf972ce569f8498a37e08b697430e6bf4,Non-Refactoring,,,,test-refactoring,qa/abstracts/src/main/java/io/camunda/zeebe/process/test/qa/abstracts/jobs/AbstractTimerTest.java,56.0,148.0,53.0,61.0
+3,https://github.com/commercetools/commercetools-jvm-sdk/commit/75169ab164e4fadbf9f6bdc40efb1e37277d31d0,Non-Refactoring,,,,test-refactoring,,,,,
+4,https://github.com/AICP/frameworks_base/commit/0fded55c45c400354a71fac453af7511703868ef,Delegated Setup,,,,test-refactoring,,,,51.0,56.0
+4,https://github.com/AICP/frameworks_base/commit/0fded55c45c400354a71fac453af7511703868ef,Delegated Setup,,,,test-refactoring,,,,61.0,67.0
+5,https://github.com/typedb/typedb/commit/e80a1ddf148ed915364bb4ff99b77ee5e005e102,Guard Assertion,,,,test-refactoring,,,,,
+6,https://github.com/blackducksoftware/detect/commit/4778293dc9aa6b748ef2307d721a81766a2f0c99,Non-Refactoring,,,,test-refactoring,,,,,
+7,https://github.com/JavaMoney/javamoney-lib/commit/5869737309f124b709997364f02bddcdca38b428,Prebuilt Fixture,,,,test-refactoring,,,,,
+8,https://github.com/camunda/camunda/commit/bb7609613e4b768c0f677fac9545e1364b3c6066,Test Helper,Switch method to test helper,,,test-refactoring,,,,,
+9,https://github.com/mangstadt/ez-vcard/commit/5eb9b5b1e5a3e28af2ba614f643065f36b4f1ecb,Non-Refactoring,,,,test-refactoring,,,,,
+10,https://github.com/google/ExoPlayer/commit/9b6c30525ec438ad8bc03e5a6afbff442b2f941a,Delegated Setup,,,,test-refactoring,,,,489.0,514.0
+11,https://github.com/dita-ot/dita-ot/commit/0ffdfe45362559a28ec7edf3371add90bed4fdcb,Parameterized Test,,,,test-refactoring,,,,,
+12,https://github.com/agrestio/agrest/commit/828f993e3312fa246cfdb9bb6cf33a6728b08863,Delete Mock Object,,,,test-refactoring,,,,,
+12,https://github.com/agrestio/agrest/commit/828f993e3312fa246cfdb9bb6cf33a6728b08863,Delete Mock Object,,,,test-refactoring,,,,,
+13,https://github.com/PixelExperience/frameworks_base/commit/11ac7831e3ad143a2337953487b69f5a78988dc6,Delete Mock Object,,,,test-refactoring,,,,,
+13,https://github.com/PixelExperience/frameworks_base/commit/11ac7831e3ad143a2337953487b69f5a78988dc6,Delete Mock Object,Mockを消しただけだけど,,,test-refactoring,,,,,
+13,https://github.com/PixelExperience/frameworks_base/commit/11ac7831e3ad143a2337953487b69f5a78988dc6,Delete Mock Object,,,,test-refactoring,,,,,
+13,https://github.com/PixelExperience/frameworks_base/commit/11ac7831e3ad143a2337953487b69f5a78988dc6,Delete Mock Object,,,,test-refactoring,,,,,
+13,https://github.com/PixelExperience/frameworks_base/commit/11ac7831e3ad143a2337953487b69f5a78988dc6,Non-Refactoring,,,,test-refactoring,,,,,
+13,https://github.com/PixelExperience/frameworks_base/commit/11ac7831e3ad143a2337953487b69f5a78988dc6,Delete Mock Object,,,,test-refactoring,,,,,
+13,https://github.com/PixelExperience/frameworks_base/commit/11ac7831e3ad143a2337953487b69f5a78988dc6,Delete Mock Object,,,,test-refactoring,,,,,
+13,https://github.com/PixelExperience/frameworks_base/commit/11ac7831e3ad143a2337953487b69f5a78988dc6,Non-Refactoring,,,,test-refactoring,services/tests/servicestests/src/com/android/server/soundtrigger_middleware/SoundHw2CompatTest.java,546.0,554.0,,
+13,https://github.com/PixelExperience/frameworks_base/commit/11ac7831e3ad143a2337953487b69f5a78988dc6,Delete Mock Object,,,,test-refactoring,,,,,
+13,https://github.com/PixelExperience/frameworks_base/commit/11ac7831e3ad143a2337953487b69f5a78988dc6,Delegated Setup,,,,test-refactoring,,,,293.0,302.0
+14,https://github.com/tronprotocol/java-tron/commit/6db67ef7080552f4d2d8bf22bbc0fecc6ea595c6,Non-Refactoring,,,,test-refactoring,,,,,
+15,https://github.com/ftsrg/theta/commit/fc1af6246a233c2603cc7e97ccdc4b522b514ca8,Implicit Setup,,,,test-refactoring,,,,,
+16,https://github.com/agrestio/agrest/commit/d008c711e908249ce22946ccba6ea3d99c0520cc,Non-Refactoring,,,,test-refactoring,,,,,
+17,https://github.com/CallForSanity/Gaalop/commit/d2781ae7353c5c2682b0dd175c6348c6f3a95ba0,Non-Refactoring,一旦放置（Non-Refactoringかもしれないが,,,test-refactoring,,,,,
+18,https://github.com/oskariorg/oskari-server/commit/116d6b323d4d9010fc212d1d9bd3109c4dc62556,Split Test Method,,,,test-refactoring,,,,40.0,44.0
+19,https://github.com/mangstadt/ez-vcard/commit/dbd2518ee5bf6668bfa163fc44f7d6eb23592c3d,Change Assertion Type,,,,test-refactoring,,,,,
+19,https://github.com/mangstadt/ez-vcard/commit/dbd2518ee5bf6668bfa163fc44f7d6eb23592c3d,Split Test Method,,,,test-refactoring,,,,,
+20,https://github.com/b3dgs/lionengine/commit/c097023a50bf1b198a584e78ef6728a66bb25b01,Non-Refactoring,,,,test-refactoring,,,,,
+21,https://github.com/google/ExoPlayer/commit/78c4cb74ea3ec0076bb17307b4850dce3b733b56,Non-Refactoring,,,,test-refactoring,,,,,
+22,https://github.com/tronprotocol/java-tron/commit/aad76e91d5a63281f8f7b510f9bc36472227fa02,Non-Refactoring,,,,test-refactoring,,,,,
+23,https://github.com/arnaudroger/SimpleFlatMapper/commit/dfe9401b13ff55ae9e523f3194b08930b41bb768,Non-Refactoring,,,,test-refactoring,,,,,
+24,https://github.com/authzforce/core/commit/d0e7d89a8ecd43b0cb1280916a11921613b84dae,Merge Test Method,,,,test-refactoring,src/test/java/com/sun/xacml/xacmlv3/MatchTest.java,64.0,71.0,64.0,81.0
+24,https://github.com/authzforce/core/commit/d0e7d89a8ecd43b0cb1280916a11921613b84dae,Merge Test Method,,,,test-refactoring,src/test/java/com/sun/xacml/xacmlv3/MatchTest.java,106.0,113.0,112.0,129.0
+25,https://github.com/flightstats/hub/commit/20351c7f6fc61a453fd9d956205df0eb712af15b,Prebuilt Fixture,,,,test-refactoring,,,,,
+26,https://github.com/camunda/camunda/commit/c400d408b87ea6c5adac21f9ab295089e1716687,Non-Refactoring,独自のアノテーションがあるから判断が難しいので放置中？（by 藤原）,,,test-refactoring,,,,,
+27,https://github.com/tink-crypto/tink/commit/73ae6921db4290308af02c5f2e08049781049ada,Split Test Method,,,,test-refactoring,java_src/src/test/java/com/google/crypto/tink/subtle/RewindableReadableByteChannelTest.java,43.0,106.0,42.0,52.0
+28,https://github.com/swagger-api/swagger-inflector/commit/e717cec25bc68012a8746224d8be99bd1ba13485,Split Test Method,,,,test-refactoring,src/test/java/io/swagger/oas/test/examples/ExampleBuilderTest.java,742.0,782.0,742.0,769.0
+29,https://github.com/C2SP/wycheproof/commit/5edcff5e9eb449503104721c4bbdab82ae0107a1,Delegated Setup,,,,test-refactoring,,,,133.0,140.0
+29,https://github.com/C2SP/wycheproof/commit/5edcff5e9eb449503104721c4bbdab82ae0107a1,Delegated Setup,,,,test-refactoring,,,,128.0,135.0
+30,https://github.com/camunda/camunda/commit/56125a4b6eb15a427933013100460569fd58c49c,Non-Refactoring,,,,test-refactoring,,,,,
+31,https://github.com/ibi-group/datatools-server/commit/6256c56f7f65b02794cb40d67ff86efad605a32c,Custom Assertion,,,,test-refactoring,,,,370.0,376.0
+32,https://github.com/gresrun/jesque/commit/d20099f1e12041501c27d271040fa53f66855a6b,Non-Refactoring,,,,test-refactoring,,,,,
+33,https://github.com/Alluxio/alluxio/commit/048f71b2f721c6e3fcce4d4b13db516774706974,Non-Refactoring,,,,test-refactoring,,,,,
+34,https://github.com/virtualsatellite/VirtualSatellite4-Core/commit/109648248947e1ca9ae2fb7cef199569962fe0a0,Change Assertion Type,,,,test-refactoring,,,,,
+34,https://github.com/virtualsatellite/VirtualSatellite4-Core/commit/109648248947e1ca9ae2fb7cef199569962fe0a0,Change Assertion Type,assertTrue -> assertEqaulsごとにChange Divisionするかどうか次第でAnnotationの仕方が変わるので放置．他の種類のリファクタリングはなさそう（藤原の一時的なメモです．本作業時に消してください）,,,test-refactoring,,,,,
+34,https://github.com/virtualsatellite/VirtualSatellite4-Core/commit/109648248947e1ca9ae2fb7cef199569962fe0a0,Change Assertion Type,,,,test-refactoring,,,,,
+34,https://github.com/virtualsatellite/VirtualSatellite4-Core/commit/109648248947e1ca9ae2fb7cef199569962fe0a0,Change Assertion Type,,,,test-refactoring,,,,,
+34,https://github.com/virtualsatellite/VirtualSatellite4-Core/commit/109648248947e1ca9ae2fb7cef199569962fe0a0,Change Assertion Type,,,,test-refactoring,,,,,
+34,https://github.com/virtualsatellite/VirtualSatellite4-Core/commit/109648248947e1ca9ae2fb7cef199569962fe0a0,Change Assertion Type,,,,test-refactoring,,,,,
+34,https://github.com/virtualsatellite/VirtualSatellite4-Core/commit/109648248947e1ca9ae2fb7cef199569962fe0a0,Change Assertion Type,,,,test-refactoring,,,,,
+34,https://github.com/virtualsatellite/VirtualSatellite4-Core/commit/109648248947e1ca9ae2fb7cef199569962fe0a0,Change Assertion Type,,,,test-refactoring,,,,,
+34,https://github.com/virtualsatellite/VirtualSatellite4-Core/commit/109648248947e1ca9ae2fb7cef199569962fe0a0,Change Assertion Type,,,,test-refactoring,,,,,
+34,https://github.com/virtualsatellite/VirtualSatellite4-Core/commit/109648248947e1ca9ae2fb7cef199569962fe0a0,Change Assertion Type,,,,test-refactoring,,,,,
+34,https://github.com/virtualsatellite/VirtualSatellite4-Core/commit/109648248947e1ca9ae2fb7cef199569962fe0a0,Change Assertion Type,,,,test-refactoring,,,,,
+34,https://github.com/virtualsatellite/VirtualSatellite4-Core/commit/109648248947e1ca9ae2fb7cef199569962fe0a0,Change Assertion Type,,,,test-refactoring,,,,,
+34,https://github.com/virtualsatellite/VirtualSatellite4-Core/commit/109648248947e1ca9ae2fb7cef199569962fe0a0,Change Assertion Type,,,,test-refactoring,,,,,
+35,https://github.com/pascal-lab/Tai-e/commit/5966f64b30fda9d8abe0beec801b20f73f8711d6,Delegated Setup,Change Assertion Typeでもある．Change Assertion Typeは2件分,,,test-refactoring,,,,113.0,115.0
+35,https://github.com/pascal-lab/Tai-e/commit/5966f64b30fda9d8abe0beec801b20f73f8711d6,Delegated Setup,Change Assertion Typeでもある．,,,test-refactoring,,,,114.0,118.0
+35,https://github.com/pascal-lab/Tai-e/commit/5966f64b30fda9d8abe0beec801b20f73f8711d6,Delegated Setup,Change Assertion Typeでもある．,,,test-refactoring,,,,121.0,125.0
+36,https://github.com/cloudsimplus/cloudsimplus/commit/f8ae382bc5b9348cf2eb0acde2375ea69a029f7e,Non-Refactoring,,,,test-refactoring,,,,,
+37,https://github.com/itext/itextpdf/commit/24a6701ad3e9c253c3dc82ca681794d7e2c36795,Non-Refactoring,,,,test-refactoring,,,,,
+38,https://github.com/spotify/dbeam/commit/fd81c05f3522a5d43a79cd90207b94fb842588eb,Non-Refactoring,,,,test-refactoring,,,,,
+39,https://github.com/apache/drill/commit/0c3bad9803c4b8fbc82da889ea434ecbfd49083b,Grouping Tests,,,,test-refactoring,exec/jdbc/src/test/java/org/apache/drill/jdbc/test/TestJdbcQuery.java,283.0,319.0,33.0,68.0
+40,https://github.com/C2SP/wycheproof/commit/a680a9a2a1452dbd4f3e87f6234ffb863d555f1f,Non-Refactoring,,,,test-refactoring,,,,,
+41,https://github.com/AICP/frameworks_base/commit/fbbf13e1fc234122224142d419b638fc287a65e9,Non-Refactoring,元々あった案件（スキップ）,,,test-refactoring,,,,,
+42,https://github.com/camunda/camunda/commit/5345c40c1f3c0a0eaf3014b80d934dbce356450c,Prebuilt Fixture,,,,test-refactoring,,,,,
+43,https://github.com/ehcache/sizeof/commit/a05d23c98e3d85b557c21f3c55bfe4266bed9642,Non-Refactoring,,,,test-refactoring,,,,,
+44,https://github.com/camunda/camunda/commit/8fbbf3643ac5dcdca92ae17fac1360994d1999ff,Non-Refactoring,,,,test-refactoring,,,,,
+45,https://github.com/flightstats/hub/commit/d5d552310769189444445761205ce826fa5387f6,Non-Refactoring,,,,test-refactoring,,,,,
+46,https://github.com/stargate/stargate/commit/d343267977609b977cd3fa33dde60aab4dcf7a47,Grouping Tests,,,,test-refactoring,testing/src/main/java/io/stargate/it/http/RestApiv2Test.java,433.0,462.0,237.0,267.0
+47,https://github.com/Tencent/TencentKona-17/commit/31c128ef22442527503ebf180b3feca3701cb6a0,Non-Refactoring,,,,test-refactoring,,,,,
+48,https://github.com/camunda/camunda/commit/4a3b6e226018e4cee5386da7c9cfc12c61248e37,Delegated Setup,,,,test-refactoring,,,,286.0,293.0
+49,https://github.com/mangstadt/ez-vcard/commit/141ef259bab778ee95085fce2e932b26e323a0da,Non-Refactoring,,,,test-refactoring,,,,,
+50,https://github.com/spotify/dbeam/commit/2ad67dc4d0b79a04c62d107a07c8534f13636eb3,Split Test Method,,,,test-refactoring,dbeam-core/src/test/java/com/spotify/dbeam/jobs/JdbcAvroJobTest.java,92.0,135.0,127.0,174.0
+51,https://github.com/camunda/camunda/commit/7b8ad3523fb18f7f8e5999ec018a40d1d85a3325,Non-Refactoring,,,,test-refactoring,,,,,
+52,https://github.com/camunda/zeebe-process-test/commit/8ca3502b780282adeb382c389c3d2b6c84117d53,Parameterized Test,,,,test-refactoring,,,,,
+53,https://github.com/C2SP/wycheproof/commit/ca5fdffb1ab659adbe474ff45b47cad6ed4aec11,Non-Refactoring,,,,test-refactoring,,,,,
+54,https://github.com/oVirt/ovirt-engine/commit/e4fe9b7eb24ddb0e81bbecc96562a42e0627ea28,Non-Refactoring,,,,test-refactoring,,,,,
+55,https://github.com/MovingBlocks/Terasology/commit/625cd1060e4358db3725267459dca5ab0129657d,Non-Refactoring,,,,test-refactoring,,,,,
+56,https://github.com/ibi-group/datatools-server/commit/0751bdf37da809e1f9ade79dafbe1042d3e0ee2f,Non-Refactoring,,,,test-refactoring,,,,,
+57,https://github.com/Adobe-Consulting-Services/acs-aem-commons/commit/becfe322938d7348a2789b58b79731d14e5fbb2f,Non-Refactoring,,,,test-refactoring,,,,,
+58,https://github.com/googleapis/google-api-java-client/commit/3861e93427de0674a299e78ac1719e10b59ca88f,Non-Refactoring,,,,test-refactoring,,,,,
+59,https://github.com/blackducksoftware/detect/commit/0940d1581afe71127b58094e57af2eb604e7c2bb,Replace try/catch with asserThrows,,,,test-refactoring,,,,,
+59,https://github.com/blackducksoftware/detect/commit/0940d1581afe71127b58094e57af2eb604e7c2bb,Replace try/catch with asserThrows,,,,test-refactoring,,,,,
+60,https://github.com/ci-richard-mcelhinney/nhaystack/commit/f06082fdbd73f9a13ea03ef11084575e83f8a3ff,Non-Refactoring,,,,test-refactoring,,,,,
+61,https://github.com/liferay/liferay-blade-cli/commit/36f1e3b1f75dfae3e3d5a7554872d2a8fa5e32b6,Non-Refactoring,,,,test-refactoring,,,,,
+62,https://github.com/jdbi/jdbi/commit/ddfe1c0e7b00de18deae1731144df01b13597ffd,Non-Refactoring,,,,test-refactoring,,,,,
+63,https://github.com/camunda/camunda/commit/bcac3afd956efe5e425fd87b4ae63cd64ea4d0b7,Non-Refactoring,,,,test-refactoring,,,,,
+64,https://github.com/DataDog/java-dogstatsd-client/commit/dd154c51cec1bba55e2e051cb7e65999e9925b58,Replace Dependency with Test Double,,,,test-refactoring,,,,,
+65,https://github.com/confluence-publisher/confluence-publisher/commit/5a17d36af1459cae18bc582acd86711a782a7799,Non-Refactoring,,,,test-refactoring,,,,,
+66,https://github.com/apache/parquet-java/commit/051725362f48c5b6490a15ae5241967a81b523f9,Non-Refactoring,,,,test-refactoring,,,,,
+67,https://github.com/jboss-modules/jboss-modules/commit/25bfcd2c6cbe67d2dc52485b3a3e3569bda93bb0,Non-Refactoring,,,,test-refactoring,,,,,
+68,https://github.com/tronprotocol/java-tron/commit/781a5b03324a4c9845fdbfa1d176b3e57da304b5,Non-Refactoring,,,,test-refactoring,,,,,
+69,https://github.com/TeamNewPipe/NewPipe/commit/08949ee3475994cb32881651aec78614fa69e992,Non-Refactoring,,,,test-refactoring,,,,,
+70,https://github.com/errai/errai/commit/eab61af8bfc2ddfd5757e7a16cacab11fea7be78,Non-Refactoring,,,,test-refactoring,,,,,
+71,https://github.com/Tencent/TencentKona-17/commit/8452535d4937b26aa5318a8ca822acf5824be0c7,Non-Refactoring,,,,test-refactoring,,,,,
+72,https://github.com/google/ExoPlayer/commit/cce79a70402a231ff1ae6924ea75d59c5680e7b4,Non-Refactoring,,,,test-refactoring,,,,,
+73,https://github.com/thoughtworks/HeartBeat/commit/961170ee1baaac445429f04f3d74c2fd333c7755,Parameterized Test,,,,test-refactoring,backend/src/test/java/heartbeat/service/report/GenerateReporterServiceTest.java,1135.0,1166.0,1137.0,1158.0
+74,https://github.com/groovy/groovy-core/commit/96355e7db94f6684d22c43e590d743c49a321258,Non-Refactoring,,,,test-refactoring,,,,,
+75,https://github.com/watson-developer-cloud/java-sdk/commit/30a2e0550280de3c518b5dca66fc3bf32509669d,Non-Refactoring,,,,test-refactoring,,,,,
+76,https://github.com/apache/paimon/commit/5adb553ad3d0146bcb4ffc10d87c88ca2a826a7f,Delegated Setup,,,,test-refactoring,,,,245.0,271.0
+77,https://github.com/jdbi/jdbi/commit/1c6380ba0d96681cc40388dd562b016bd496f739,Implicit Setup,,,,test-refactoring,,,,,
+78,https://github.com/openmainframeproject/cobol-check/commit/6064fd92e3158478e9fcbedb1fb3a8170ca94f4e,Non-Refactoring,,,,test-refactoring,,,,,
+79,https://github.com/camunda/camunda/commit/a897401232f5e24d3cb0889c668acd5062297a84,Non-Refactoring,,,,test-refactoring,,,,,
+80,https://github.com/camunda/camunda/commit/f6ad2a4fd64931e0ec6ed975df3f44d1c22450e1,De-Parameterize Test,,,,test-refactoring,,,,,
+81,https://github.com/dreamhead/moco/commit/15285f6465b0aad791fc28dde9e6f3614cbd8818,Non-Refactoring,,,,test-refactoring,,,,,
+82,https://github.com/camunda/camunda/commit/45e12319e3c911128dfe87a1f478e2e7225604de,Non-Refactoring,,,,test-refactoring,,,,,
+83,https://github.com/zebrunner/carina/commit/b9f356ce31bac1c9bddf567429a12170cdbd4be3,Non-Refactoring,,,,test-refactoring,,,,,
+84,https://github.com/reposense/RepoSense/commit/019ab8ba1d3058e05f09d48f41d5ec51a9c40570,Split Test Method,,,,test-refactoring,src/test/java/reposense/git/GitLogTest.java,89.0,101.0,89.0,95.0
+85,https://github.com/sergueik/selenium_cdp/commit/91b4c93aa08f626e3392e2eb43c04d97c7e0b310,Split Test Method,,,,test-refactoring,src/test/java/com/github/sergueik/selenium/FramesDevToolsTest.java,52.0,91.0,56.0,73.0
+86,https://github.com/junit-team/junit4/commit/5976b1d40ef41cecafd9769dd8776a6e6610d0c5,Non-Refactoring,,,,test-refactoring,,,,,
+87,https://github.com/apache/hertzbeat/commit/f72cfa0dd80063f44d953dc6ab2023fad07dab87,Prebuilt Fixture,,,,test-refactoring,,,,,
+88,https://github.com/raydac/java-binary-block-parser/commit/3faacb797dd6e99a0e9d6ccf1e72baf45a4abed5,Non-Refactoring,,,,test-refactoring,,,,,
+89,https://github.com/camunda/camunda/commit/8f4daa06b1ed806f9d2e14f0ea286bebd64771a1,Non-Refactoring,,,,test-refactoring,,,,,
+90,https://github.com/b3dgs/lionengine/commit/649a57eca8fc3e0ca0b86fd6b7c0f2941e8bd234,Split Test Method,,,,test-refactoring,lionengine-core/src/test/java/com/b3dgs/lionengine/audio/AudioFactoryTest.java,79.0,108.0,92.0,108.0
+91,https://github.com/AICP/frameworks_base/commit/93702abf6e9a87079e81c46c82d8c3954a426759,Non-Refactoring,,,,test-refactoring,,,,,
+92,https://github.com/camunda/zeebe-process-test/commit/a626ee3f81b2043e54d5967c582e92a39aa340a8,Non-Refactoring,,,,test-refactoring,,,,,
+93,https://github.com/camunda/camunda/commit/92eba248021bbeaa7afc16c18e315da5e5d55d00,Non-Refactoring,,,,test-refactoring,,,,,
+94,https://github.com/arianne/stendhal/commit/6d30072ed40343b82d3056257171b8aeea755a72,Non-Refactoring,,,,test-refactoring,,,,,
+95,https://github.com/apache/karaf/commit/100420f757c2bd6fe00a8d28c14a1388d665b8fe,Replace annotation with try/catch,,,,test-refactoring,,,,,
+96,https://github.com/apache/openjpa/commit/5b7c20eacb99d974a48fcb6bc585ef6fd9f671d5,Delegated Setup,,,,test-refactoring,,,,267.0,269.0
+96,https://github.com/apache/openjpa/commit/5b7c20eacb99d974a48fcb6bc585ef6fd9f671d5,Delegated Setup,,,,test-refactoring,,,,260.0,262.0
+97,https://github.com/commercetools/commercetools-sync-java/commit/da43fbb95db02ca35e447b9b8782c1ee46a174d0,Non-Refactoring,,,,test-refactoring,,,,,
+98,https://github.com/b3dgs/lionengine/commit/2f7245c77be2fb7cee0fdbf0b9ac09be1e0fbd49,Non-Refactoring,,,,test-refactoring,,,,,
+99,https://github.com/commercetools/commercetools-sync-java/commit/3f3cc8cf4212932fbdaf89844efd3b13ef61ea51,Non-Refactoring,,,,test-refactoring,,,,,
+100,https://github.com/jMetal/jMetal/commit/50758e9b1ce75481dbb6f24abde08ec7ec66b346,Replace annotation with assertThrow,,,,test-refactoring,jmetal-core/src/test/java/org/uma/jmetal/operator/selection/BinaryTournamentSelectionTest.java,45.0,50.0,,
+100,https://github.com/jMetal/jMetal/commit/50758e9b1ce75481dbb6f24abde08ec7ec66b346,Non-Refactoring,,,,test-refactoring,,,,,
+100,https://github.com/jMetal/jMetal/commit/50758e9b1ce75481dbb6f24abde08ec7ec66b346,Replace annotation with assertThrow,,,,test-refactoring,,,,,
+101,https://github.com/kousen/java_latest/commit/a826f54461a97b6859605e8a528f321785ae5ac9,Assert All,,,,test-refactoring,,,,,
+101,https://github.com/kousen/java_latest/commit/a826f54461a97b6859605e8a528f321785ae5ac9,Assert All,,,,test-refactoring,,,,,
+101,https://github.com/kousen/java_latest/commit/a826f54461a97b6859605e8a528f321785ae5ac9,Split Test Method,,,,test-refactoring,src/test/java/com/kousenit/dataorientedprogramming/UserServiceTest.java,10.0,34.0,11.0,23.0
+102,https://github.com/jenkinsci/workflow-durable-task-step-plugin/commit/537e864aae80f3dd49e37f5528f81980013743a1,Delegated Setup,,,,test-refactoring,,,,119.0,138.0
+103,https://github.com/hyphanet/fred/commit/2e68720627ae6447ba12d712a9e6e4a123e66b95,Non-Refactoring,,,,test-refactoring,,,,,
+104,https://github.com/Yubico/yubikit-android/commit/df6326d29147b485207f305621d1afaf29935f0e,Non-Refactoring,,,,test-refactoring,,,,,
+105,https://github.com/locationtech/jts/commit/78feb6c98c332eb1d1c6da2c584bbc51aae47dc7,Non-Refactoring,,,,test-refactoring,,,,,
+106,https://github.com/camunda/camunda/commit/8ca8e32882bd2d456dda926ce2ab6559ded0bd73,Non-Refactoring,,,,test-refactoring,,,,,
+107,https://github.com/b3dgs/lionengine/commit/15c0bb0215a2b5827855ef29444a3f8185d3811b,Replace annotation with assertThrow,,,,test-refactoring,lionengine-game/src/test/java/com/b3dgs/lionengine/game/StateFactoryTest.java,53.0,73.0,53.0,65.0
+107,https://github.com/b3dgs/lionengine/commit/15c0bb0215a2b5827855ef29444a3f8185d3811b,Replace annotation with assertThrow,,,,test-refactoring,lionengine-game/src/test/java/com/b3dgs/lionengine/game/SurfaceConfigTest.java,93.0,100.0,99.0,106.0
+108,https://github.com/cassandre-tech/cassandre-trading-bot/commit/437cbf06ffd199922eae8c2ed092de93647461d5,Non-Refactoring,,,,test-refactoring,,,,,
+109,https://github.com/blackducksoftware/detect/commit/327a4dfaba25c514460dc14a2fe33e12ad4649fa,Non-Refactoring,,,,test-refactoring,,,,,
+110,https://github.com/Consensys/tessera/commit/de2696e6a8f9656d99399fb45063ff4f95cb63bc,Prebuilt Fixture,,,,test-refactoring,,,,,
+111,https://github.com/FlowCI/flow-core-x/commit/3d87d7fd4dffcd91e3da170689c7577f2e393a81,Delegated Setup,,,,test-refactoring,,,,335.0,346.0
+112,https://github.com/FasterXML/jackson-modules-java8/commit/8c3d032fb564148c39b5fdf1cdd6e314e6af1cb5,Non-Refactoring,,,,test-refactoring,,,,,
+113,https://github.com/virtualsatellite/VirtualSatellite4-Core/commit/fa78cb24126fb9d10fc7299210e835c4e2335577,Non-Refactoring,,,,test-refactoring,,,,,
+114,https://github.com/NitorCreations/nflow/commit/39a2a85f995c83c658c173898783217be849bf86,Custom Assertion,,,,test-refactoring,,,,194.0,197.0
+115,https://github.com/thoughtworks/HeartBeat/commit/40de27abf7a31466788e25a2350a88216f687eb7,Non-Refactoring,,,,test-refactoring,,,,,
+117,https://github.com/C2SP/wycheproof/commit/9c334080213a46b5f59c50b43909c6121e6dcb2d,Non-Refactoring,,,,test-refactoring,,,,,
+118,https://github.com/commercetools/commercetools-sync-java/commit/b9ac161df8dce50dcd65f093403013be0463cc3d,Non-Refactoring,,,,test-refactoring,,,,,
+119,https://github.com/b3dgs/lionengine/commit/713e83096063d7b2c1f6fe2c9ce4469d84839efe,Non-Refactoring,,,,test-refactoring,,,,,
+120,https://github.com/alexprut/design-patterns-java/commit/2e8833b47eec7ad31f46a55456cccb269528414c,Non-Refactoring,,,,test-refactoring,,,,,
+121,https://github.com/jcabi/jcabi-email/commit/7e7360f24b828bde1786f6ddd68ef1f48dffb223,Non-Refactoring,,,,test-refactoring,,,,,
+122,https://github.com/openjdk/lilliput/commit/310f1274067aa3473cdc6479842c50277e5d42f5,Non-Refactoring,,,,test-refactoring,,,,,
+123,https://github.com/blackducksoftware/detect/commit/686c8abc7792e4519311188771bced8748a4c824,Non-Refactoring,,,,test-refactoring,,,,,
+124,https://github.com/bmwcarit/joynr/commit/71f278e80f7c03628230b8d5b16d3b4cf8154ebc,Custom Assertion,,,,test-refactoring,,,,114.0,126.0
+124,https://github.com/bmwcarit/joynr/commit/71f278e80f7c03628230b8d5b16d3b4cf8154ebc,Prebuilt Fixture,,,,test-refactoring,,,,,
+125,https://github.com/camunda/camunda/commit/ef1e5e6553e0695f468f644cb54dab6f8675f994,Non-Refactoring,,,,test-refactoring,,,,,
+127,https://github.com/mangstadt/biweekly/commit/90e03b96a2197aa039e8b081b42ec44e12b3755e,Inline Setup,,,,test-refactoring,src/test/java/biweekly/util/TestUtils.java,195.0,203.0,,
+128,https://github.com/briar/briar/commit/913e5da2f51641eff463d0ee01ddefc61a5acf34,Non-Refactoring,,,,test-refactoring,,,,,
+129,https://github.com/Tencent/TencentKona-11/commit/95434882fd90cedc75aece11196c71885e2fe102,Inline Setup,,,,test-refactoring,,,,,
+129,https://github.com/Tencent/TencentKona-11/commit/95434882fd90cedc75aece11196c71885e2fe102,Delegated Setup,,,,test-refactoring,,,,96.0,111.0
+130,https://github.com/Alluxio/alluxio/commit/5be8885c99fe58faed5a9eb276df0215413add90,Non-Refactoring,,,,test-refactoring,,,,,
+131,https://github.com/C2SP/wycheproof/commit/ca5fdffb1ab659adbe474ff45b47cad6ed4aec11,Non-Refactoring,,,,test-refactoring,,,,,
+132,https://github.com/syndesisio/syndesis/commit/8022c76068e5ee8081348df8ea5cc8dd61168b81,Non-Refactoring,,,,test-refactoring,,,,,
+133,https://github.com/jenkinsci/subversion-plugin/commit/f3ed97565209b9c5a2ed65a5c0d687e2ac59c698,Non-Refactoring,,,,test-refactoring,,,,,
+136,https://github.com/europeana/corelib/commit/e1c672367345158988dd85c78a8a58ff2ceee20f,Non-Refactoring,,,,test-refactoring,,,,,
+138,https://github.com/jitsi/jitsi-meet-torture/commit/30cefac130c36abbaf6e80fee210a3f803304d3b,Prebuilt Fixture,,,,test-refactoring,,,,,
+138,https://github.com/jitsi/jitsi-meet-torture/commit/30cefac130c36abbaf6e80fee210a3f803304d3b,Prebuilt Fixture,,,,test-refactoring,,,,,
+139,https://github.com/jenkinsci/google-kubernetes-engine-plugin/commit/a7135829483e103268909b02e758db596c014cd5,Non-Refactoring,,,,test-refactoring,,,,,
+139,https://github.com/jenkinsci/google-kubernetes-engine-plugin/commit/a7135829483e103268909b02e758db596c014cd5,Custom Assertion,,,,test-refactoring,,,,,
+140,https://github.com/junit-team/junit4/commit/66bfb24d328bd480e31c3834cfdfdca53173c62a,Replace assertThrow with try/catch,,,,test-refactoring,,,,,
+141,https://github.com/watson-developer-cloud/java-sdk/commit/2adb1669c3219dfa75ab3353e7aacc7d00ceb558,Non-Refactoring,,,,test-refactoring,,,,,
+142,https://github.com/ibi-group/datatools-server/commit/38c1b435ee98669010ad0381a1bdb58499be2fbf,Replace Dependency with Test Double,,,,test-refactoring,,,,,
+143,https://github.com/Alluxio/alluxio/commit/1dcfa607d731e9ebab01229d4ad490714f8527b1,Non-Refactoring,,,,test-refactoring,,,,,
+144,https://github.com/blackducksoftware/detect/commit/80351d34f08d28a75251312217667ad4cc4c989e,Non-Refactoring,,,,test-refactoring,,,,,
+145,https://github.com/elki-project/elki/commit/8ca0786702e7e886acdcbabeb8f37a63556361c6,Non-Refactoring,,,,test-refactoring,,,,,
+148,https://github.com/zebrunner/carina/commit/cfff7c2753dc93b92fb8764ed77a667291ebeaec,Non-Refactoring,,,,test-refactoring,,,,,
+149,https://github.com/errai/errai/commit/c9298966bc4a505c6db05a4678308c003048e9af,Custom Assertion,,,,test-refactoring,,,,47.0,58.0
+150,https://github.com/Taskana/taskana/commit/5c70c1a7bb1da4b306fa748506199836036d6b47,Non-Refactoring,,,,test-refactoring,,,,,
+151,https://github.com/virtualsatellite/VirtualSatellite4-Core/commit/cc81f4d8349cba20ec0a7ddd96e78e7cd4b0f467,Non-Refactoring,,,,test-refactoring,,,,,
+153,https://github.com/liferay/liferay-blade-cli/commit/5948f064b124a759aebffa66c49fea101451175c,Non-Refactoring,,,,test-refactoring,,,,,
+154,https://github.com/camunda/camunda/commit/4f8f5d64673496725ec705c0f8198035793cb430,Non-Refactoring,,,,test-refactoring,,,,,
+156,https://github.com/SpoonLabs/astor/commit/13c38565a932afc028f0325f6a0b6fac37588eaa,Non-Refactoring,,,,test-refactoring,,,,,
+158,https://github.com/zebrunner/carina-demo/commit/41ef144bbe85c477a0fa388755fcf3949ca05225,Non-Refactoring,,,,test-refactoring,,,,,
+159,https://github.com/commercetools/commercetools-sync-java/commit/a98d0e9bcc5963a1b4602070f08c99b728d5f0a9,Non-Refactoring,,,,test-refactoring,,,,,
+160,https://github.com/javamelody/javamelody/commit/16135546b481f2cbf851b024de0e2f8af38892cf,Non-Refactoring,,,,test-refactoring,,,,,
+162,https://github.com/ftsrg/theta/commit/8e59264fbc850e14bbb455774d64e70b8dca2862,Parameterized Test,,,,test-refactoring,,,,,
+163,https://github.com/dita-ot/dita-ot/commit/ae6cb5a9a01751979ce12f1f76907dc0c51eedf7,Parameterized Test,,,,test-refactoring,,,,,
+163,https://github.com/dita-ot/dita-ot/commit/ae6cb5a9a01751979ce12f1f76907dc0c51eedf7,Parameterized Test,,,,test-refactoring,,,,,
+165,https://github.com/aehrc/pathling/commit/8074c0e8504803869240eb57d8bdfdf8978f6aa9,Non-Refactoring,,,,test-refactoring,,,,,
+166,https://github.com/mimno/Mallet/commit/e401d6fab91ec7faaea4295fefcd5d8cabf9ab92,Non-Refactoring,,,,test-refactoring,,,,,
+169,https://github.com/camunda/camunda/commit/34c4fc9344280aecc53d21f18797ef05feb4d8e0,Non-Refactoring,,,,test-refactoring,,,,,
+170,https://github.com/PixelExperience/frameworks_base/commit/21a1dbc58e9dce3d77f8ce2bd7eabbc72ed146eb,Non-Refactoring,,,,test-refactoring,,,,,
+171,https://github.com/drsjb80/JDNSS/commit/e309bc3254db403567f2edeeb8abaeb807a8c37b,Non-Refactoring,,,,test-refactoring,,,,,
+172,https://github.com/arianne/stendhal/commit/2fef04339b15b83dee0f0b443d50e1e1b39808e4,Parameterized Test,,,,test-refactoring,,,,,
+173,https://github.com/commercetools/commercetools-sync-java/commit/b4c04db60bc60886ba9d5d3b3e249f0f793119fd,Non-Refactoring,,,,test-refactoring,,,,,
+174,https://github.com/camunda/camunda/commit/82ac927f5b23cbddb08308f1f20a89e150e78b1b,Non-Refactoring,,,,test-refactoring,,,,,
+177,https://github.com/camunda/camunda/commit/c83bb6e4a1d61a5919ba18efacf9ffb73b36e955,Non-Refactoring,,,,test-refactoring,,,,,
+178,https://github.com/androidx/media/commit/d8b6c2971b0eec6dc44e42338d03f3cf7eb010c3,Non-Refactoring,,,,test-refactoring,,,,,
+179,https://github.com/b3dgs/lionengine/commit/6123fffca86b26b2290d36e7660121a527adf5ae,Non-Refactoring,,,,test-refactoring,,,,,
+180,https://github.com/globalbioticinteractions/globalbioticinteractions/commit/6fdd3044368c762a6fc2f06fbe98b533e2201c46,Non-Refactoring,,,,test-refactoring,,,,,
+181,https://github.com/hngprojects/hng_boilerplate_java_web/commit/3caa3ddc2acb31225853cdeff34e2bb1dfffb271,Non-Refactoring,,,,test-refactoring,,,,,
+182,https://github.com/fabric8io/fabric8-maven-plugin/commit/89abcae3019d2bcbd05142f83353165e581a49b2,Replace try/catch with annotation,,,,test-refactoring,core/src/test/java/io/fabric8/maven/core/handler/JobHandlerTest.java,116.0,143.0,116.0,135.0
+182,https://github.com/fabric8io/fabric8-maven-plugin/commit/89abcae3019d2bcbd05142f83353165e581a49b2,Replace try/catch with annotation,,,,test-refactoring,core/src/test/java/io/fabric8/maven/core/handler/ReplicationControllerHandlerTest.java,118.0,147.0,118.0,138.0
+182,https://github.com/fabric8io/fabric8-maven-plugin/commit/89abcae3019d2bcbd05142f83353165e581a49b2,Replace try/catch with annotation,,,,test-refactoring,core/src/test/java/io/fabric8/maven/core/handler/ReplicaSetHandlerTest.java,140.0,167.0,140.0,159.0
+182,https://github.com/fabric8io/fabric8-maven-plugin/commit/89abcae3019d2bcbd05142f83353165e581a49b2,Replace try/catch with annotation,,,,test-refactoring,core/src/test/java/io/fabric8/maven/core/handler/JobHandlerTest.java,137.0,163.0,137.0,155.0
+182,https://github.com/fabric8io/fabric8-maven-plugin/commit/89abcae3019d2bcbd05142f83353165e581a49b2,Replace try/catch with annotation,,,,test-refactoring,core/src/test/java/io/fabric8/maven/core/handler/DeploymentHandlerTest.java,118.0,146.0,118.0,138.0
+182,https://github.com/fabric8io/fabric8-maven-plugin/commit/89abcae3019d2bcbd05142f83353165e581a49b2,Replace try/catch with annotation,,,,test-refactoring,core/src/test/java/io/fabric8/maven/core/handler/DaemonSetHandlerTest.java,115.0,142.0,115.0,134.0
+182,https://github.com/fabric8io/fabric8-maven-plugin/commit/89abcae3019d2bcbd05142f83353165e581a49b2,Replace try/catch with annotation,,,,test-refactoring,core/src/test/java/io/fabric8/maven/core/handler/StatefulSetHandlerTest.java,119.0,147.0,119.0,139.0
+182,https://github.com/fabric8io/fabric8-maven-plugin/commit/89abcae3019d2bcbd05142f83353165e581a49b2,Replace try/catch with annotation,,,,test-refactoring,core/src/test/java/io/fabric8/maven/core/handler/DeploymentHandlerTest.java,140.0,166.0,140.0,159.0
+182,https://github.com/fabric8io/fabric8-maven-plugin/commit/89abcae3019d2bcbd05142f83353165e581a49b2,Replace try/catch with annotation,,,,test-refactoring,core/src/test/java/io/fabric8/maven/core/handler/DaemonSetHandlerTest.java,144.0,168.0,144.0,161.0
+182,https://github.com/fabric8io/fabric8-maven-plugin/commit/89abcae3019d2bcbd05142f83353165e581a49b2,Replace try/catch with annotation,,,,test-refactoring,core/src/test/java/io/fabric8/maven/core/handler/ProbeHandlerTest.java,292.0,309.0,292.0,302.0
+182,https://github.com/fabric8io/fabric8-maven-plugin/commit/89abcae3019d2bcbd05142f83353165e581a49b2,Replace try/catch with annotation,,,,test-refactoring,core/src/test/java/io/fabric8/maven/core/handler/ProbeHandlerTest.java,101.0,118.0,101.0,110.0
+182,https://github.com/fabric8io/fabric8-maven-plugin/commit/89abcae3019d2bcbd05142f83353165e581a49b2,Non-Refactoring,,,,test-refactoring,,,,,
+182,https://github.com/fabric8io/fabric8-maven-plugin/commit/89abcae3019d2bcbd05142f83353165e581a49b2,Replace try/catch with annotation,,,,test-refactoring,core/src/test/java/io/fabric8/maven/core/handler/StatefulSetHandlerTest.java,141.0,167.0,141.0,160.0
+182,https://github.com/fabric8io/fabric8-maven-plugin/commit/89abcae3019d2bcbd05142f83353165e581a49b2,Replace try/catch with annotation,,,,test-refactoring,core/src/test/java/io/fabric8/maven/core/handler/ReplicationControllerHandlerTest.java,140.0,167.0,140.0,159.0
+182,https://github.com/fabric8io/fabric8-maven-plugin/commit/89abcae3019d2bcbd05142f83353165e581a49b2,Replace try/catch with annotation,,,,test-refactoring,core/src/test/java/io/fabric8/maven/core/handler/ReplicaSetHandlerTest.java,118.0,147.0,118.0,138.0
+183,https://github.com/jpmml/jpmml-model/commit/57788b2d3902a5ab982db8219d36e3e47941cf8f,Non-Refactoring,,,,test-refactoring,,,,,
+185,https://github.com/imagej/imagej-ops/commit/1b4673b26e8c758da3d10a6692b4b51dfc91e362,Non-Refactoring,,,,test-refactoring,,,,,
+185,https://github.com/imagej/imagej-ops/commit/1b4673b26e8c758da3d10a6692b4b51dfc91e362,Prebuilt Fixture,,,,test-refactoring,,,,,

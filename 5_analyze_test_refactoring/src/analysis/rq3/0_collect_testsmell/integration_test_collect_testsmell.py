@@ -9,7 +9,7 @@ class TestCollectTestSmellIntegration(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         # テスト用のパスを設定
-        cls.BASE_DIR = "/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring"
+        cls.BASE_DIR = "/app"
         cls.JAR_PATH = f"{cls.BASE_DIR}/5_analyze_test_refactoring/TestSmellDetector/jar/TestSmellDetector-0.1-jar-with-dependencies.jar"
         cls.TEST_SMELL_DIR = f"{cls.BASE_DIR}/5_analyze_test_refactoring/TestSmellDetector/"
         # テスト用のコミットURL（例: toyリポジトリのコミット）

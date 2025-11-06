@@ -1,0 +1,23 @@
+test_smell,total_pairs,changed_pairs,test_performed,wilcoxon_stat,p_value,effect_size,significant,reason
+Assertion Roulette,173,47,True,400.5,0.08555214871610417,-0.2558985442375051,False,
+Conditional Test Logic,173,23,True,115.0,0.5009052753448486,-0.14119102814269124,False,
+Constructor Initialization,173,0,False,,,,,Insufficient changes
+Default Test,173,0,False,,,,,Insufficient changes
+EmptyTest,173,0,False,,,,,Insufficient changes
+Exception Catching Throwing,173,41,True,297.5,0.0872652611187732,-0.30391173814545774,False,
+General Fixture,173,20,True,82.0,0.40909767150878906,-0.1063739500818284,False,
+Mystery Guest,173,11,True,4.5,0.0068359375,1.209415795813904,True,
+Print Statement,173,9,True,6.0,0.0546875,-0.8804710999221752,False,
+Redundant Assertion,173,0,False,,,,,Insufficient changes
+Sensitive Equality,173,6,True,9.0,0.84375,-0.2279211529192759,False,
+Verbose Test,173,0,False,,,,,Insufficient changes
+Sleepy Test,173,1,False,,,,,Insufficient changes
+Eager Test,173,14,True,36.0,0.3258056640625,-0.28332973614114365,False,
+Lazy Test,173,13,True,30.0,0.305419921875,-0.265,False,
+Duplicate Assert,173,22,True,19.5,0.00017690658569335938,-1.2121830534626528,True,
+Unknown Test,173,21,True,78.5,0.21568012237548828,-0.05918491511760362,False,
+IgnoredTest,173,6,True,9.0,0.84375,0.137360563948689,False,
+Resource Optimism,173,2,False,,,,,Insufficient changes
+Magic Number Test,173,74,True,1135.0,0.16719210004447027,0.05637649916560581,False,
+Dependent Test,173,0,False,,,,,Insufficient changes
+NumberOfMethods,173,0,False,,,,,Insufficient changes

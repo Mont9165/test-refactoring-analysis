@@ -1,0 +1,661 @@
+test_smell,refactoring_type,total_pairs,improvements,degradations,no_changes,improvement_rate,degradation_rate,change_rate,p_value,effect_size,significant,changed_pairs
+Assertion Roulette,Prebuilt Fixture,22,4,3,15,18.181818181818183,13.636363636363635,31.818181818181817,0.578125,-0.24618298195866545,False,7
+Assertion Roulette,Implicit Teardown,1,1,0,0,100.0,0.0,100.0,1.0,0.0,False,1
+Assertion Roulette,Implicit Setup,8,2,1,5,25.0,12.5,37.5,1.0,-0.2020305089104421,False,3
+Assertion Roulette,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Assertion Roulette,Testcase Superclass,2,1,0,1,50.0,0.0,50.0,1.0,0.0,False,1
+Assertion Roulette,Inline Setup,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Assertion Roulette,Grouping Tests,13,6,1,6,46.15384615384615,7.6923076923076925,53.84615384615385,0.03125,-0.8395123504729731,True,7
+Assertion Roulette,Replace Dependency with Test Double,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Assertion Roulette,Inline Assertion,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Assertion Roulette,Delegated Setup,20,6,0,14,30.0,0.0,30.0,0.03125,-1.7856873313329573,True,6
+Assertion Roulette,Parameterized Test,13,6,0,7,46.15384615384615,0.0,46.15384615384615,0.03125,-0.741998516004452,True,6
+Assertion Roulette,Change Assertion Type,9,4,1,4,44.44444444444444,11.11111111111111,55.55555555555556,0.625,-0.12499999999999999,False,5
+Assertion Roulette,Custom Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Assertion Roulette,Add explanation message,2,0,1,1,0.0,50.0,50.0,1.0,0.0,False,1
+Assertion Roulette,Test Helper,5,1,0,4,20.0,0.0,20.0,1.0,0.0,False,1
+Assertion Roulette,Print to Assertion,2,0,2,0,0.0,100.0,100.0,1.0,0.0,False,2
+Assertion Roulette,Await Event,6,0,2,4,0.0,33.33333333333333,33.33333333333333,1.0,0.0,False,2
+Assertion Roulette,Replace annotation with assertThrow,4,2,0,2,50.0,0.0,50.0,1.0,0.0,False,2
+Assertion Roulette,Merge Test Method,1,0,1,0,0.0,100.0,100.0,1.0,0.0,False,1
+Assertion Roulette,Split Test Method,34,2,11,21,5.88235294117647,32.35294117647059,38.23529411764706,0.01708984375,0.7384328126972179,True,13
+Assertion Roulette,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Assertion Roulette,Split Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Assertion Roulette,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Assertion Roulette,Verification Method,5,2,0,3,40.0,0.0,40.0,1.0,0.0,False,2
+Assertion Roulette,De-Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Assertion Roulette,Replace assertThrow with try/catch,1,0,1,0,0.0,100.0,100.0,1.0,0.0,False,1
+Assertion Roulette,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Assertion Roulette,Assert All,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Assertion Roulette,Lazy Teardown,1,0,1,0,0.0,100.0,100.0,1.0,0.0,False,1
+Assertion Roulette,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Conditional Test Logic,Prebuilt Fixture,22,3,0,19,13.636363636363635,0.0,13.636363636363635,0.25,0.0,False,3
+Conditional Test Logic,Implicit Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Conditional Test Logic,Implicit Setup,8,0,2,6,0.0,25.0,25.0,1.0,0.0,False,2
+Conditional Test Logic,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Conditional Test Logic,Testcase Superclass,2,1,0,1,50.0,0.0,50.0,1.0,0.0,False,1
+Conditional Test Logic,Inline Setup,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Conditional Test Logic,Grouping Tests,13,2,0,11,15.384615384615385,0.0,15.384615384615385,1.0,0.0,False,2
+Conditional Test Logic,Replace Dependency with Test Double,2,1,0,1,50.0,0.0,50.0,1.0,0.0,False,1
+Conditional Test Logic,Inline Assertion,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Conditional Test Logic,Delegated Setup,20,2,0,18,10.0,0.0,10.0,1.0,0.0,False,2
+Conditional Test Logic,Parameterized Test,13,2,3,8,15.384615384615385,23.076923076923077,38.46153846153847,0.625,0.40089186286863654,False,5
+Conditional Test Logic,Change Assertion Type,9,0,0,9,0.0,0.0,0.0,1.0,0.0,False,0
+Conditional Test Logic,Custom Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Conditional Test Logic,Add explanation message,2,0,1,1,0.0,50.0,50.0,1.0,0.0,False,1
+Conditional Test Logic,Test Helper,5,1,1,3,20.0,20.0,40.0,1.0,0.0,False,2
+Conditional Test Logic,Print to Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Conditional Test Logic,Await Event,6,0,0,6,0.0,0.0,0.0,1.0,0.0,False,0
+Conditional Test Logic,Replace annotation with assertThrow,4,0,0,4,0.0,0.0,0.0,1.0,0.0,False,0
+Conditional Test Logic,Merge Test Method,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Conditional Test Logic,Split Test Method,34,0,4,30,0.0,11.76470588235294,11.76470588235294,0.125,1.6666666666666667,False,4
+Conditional Test Logic,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Conditional Test Logic,Split Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Conditional Test Logic,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Conditional Test Logic,Verification Method,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Conditional Test Logic,De-Parameterize Test,1,1,0,0,100.0,0.0,100.0,1.0,0.0,False,1
+Conditional Test Logic,Replace assertThrow with try/catch,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Conditional Test Logic,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Conditional Test Logic,Assert All,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Conditional Test Logic,Lazy Teardown,1,0,1,0,0.0,100.0,100.0,1.0,0.0,False,1
+Conditional Test Logic,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Prebuilt Fixture,22,0,0,22,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Implicit Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Implicit Setup,8,0,0,8,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Testcase Superclass,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Inline Setup,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Grouping Tests,13,1,0,12,7.6923076923076925,0.0,7.6923076923076925,1.0,0.0,False,1
+Constructor Initialization,Replace Dependency with Test Double,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Inline Assertion,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Delegated Setup,20,0,0,20,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Parameterized Test,13,0,2,11,0.0,15.384615384615385,15.384615384615385,1.0,0.0,False,2
+Constructor Initialization,Change Assertion Type,9,0,0,9,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Custom Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Add explanation message,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Test Helper,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Print to Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Await Event,6,0,0,6,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Replace annotation with assertThrow,4,0,0,4,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Merge Test Method,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Split Test Method,34,0,0,34,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Split Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Verification Method,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,De-Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Replace assertThrow with try/catch,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Assert All,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Lazy Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Constructor Initialization,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Prebuilt Fixture,22,0,0,22,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Implicit Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Implicit Setup,8,0,0,8,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Testcase Superclass,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Inline Setup,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Grouping Tests,13,0,0,13,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Replace Dependency with Test Double,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Inline Assertion,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Delegated Setup,20,0,0,20,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Parameterized Test,13,0,0,13,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Change Assertion Type,9,0,0,9,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Custom Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Add explanation message,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Test Helper,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Print to Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Await Event,6,0,0,6,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Replace annotation with assertThrow,4,0,0,4,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Merge Test Method,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Split Test Method,34,0,0,34,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Split Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Verification Method,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,De-Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Replace assertThrow with try/catch,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Assert All,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Lazy Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Default Test,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Prebuilt Fixture,22,0,0,22,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Implicit Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Implicit Setup,8,0,0,8,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Testcase Superclass,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Inline Setup,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Grouping Tests,13,0,0,13,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Replace Dependency with Test Double,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Inline Assertion,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Delegated Setup,20,0,0,20,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Parameterized Test,13,0,0,13,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Change Assertion Type,9,0,0,9,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Custom Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Add explanation message,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Test Helper,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Print to Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Await Event,6,0,0,6,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Replace annotation with assertThrow,4,0,0,4,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Merge Test Method,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Split Test Method,34,0,0,34,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Split Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Verification Method,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,De-Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Replace assertThrow with try/catch,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Assert All,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Lazy Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+EmptyTest,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Exception Catching Throwing,Prebuilt Fixture,22,0,4,18,0.0,18.181818181818183,18.181818181818183,0.125,1.0392304845413263,False,4
+Exception Catching Throwing,Implicit Teardown,1,0,1,0,0.0,100.0,100.0,1.0,0.0,False,1
+Exception Catching Throwing,Implicit Setup,8,0,1,7,0.0,12.5,12.5,1.0,0.0,False,1
+Exception Catching Throwing,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Exception Catching Throwing,Testcase Superclass,2,2,0,0,100.0,0.0,100.0,1.0,0.0,False,2
+Exception Catching Throwing,Inline Setup,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Exception Catching Throwing,Grouping Tests,13,5,2,6,38.46153846153847,15.384615384615385,53.84615384615385,0.078125,-1.0795292157943661,False,7
+Exception Catching Throwing,Replace Dependency with Test Double,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Exception Catching Throwing,Inline Assertion,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Exception Catching Throwing,Delegated Setup,20,0,1,19,0.0,5.0,5.0,1.0,0.0,False,1
+Exception Catching Throwing,Parameterized Test,13,4,3,6,30.76923076923077,23.076923076923077,53.84615384615385,0.21875,-0.6083013899702641,False,7
+Exception Catching Throwing,Change Assertion Type,9,4,0,5,44.44444444444444,0.0,44.44444444444444,0.125,0.0,False,4
+Exception Catching Throwing,Custom Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Exception Catching Throwing,Add explanation message,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Exception Catching Throwing,Test Helper,5,1,0,4,20.0,0.0,20.0,1.0,0.0,False,1
+Exception Catching Throwing,Print to Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Exception Catching Throwing,Await Event,6,0,0,6,0.0,0.0,0.0,1.0,0.0,False,0
+Exception Catching Throwing,Replace annotation with assertThrow,4,1,0,3,25.0,0.0,25.0,1.0,0.0,False,1
+Exception Catching Throwing,Merge Test Method,1,1,0,0,100.0,0.0,100.0,1.0,0.0,False,1
+Exception Catching Throwing,Split Test Method,34,6,14,14,17.647058823529413,41.17647058823529,58.82352941176471,0.7561664581298828,0.22729881908468083,False,20
+Exception Catching Throwing,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Exception Catching Throwing,Split Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Exception Catching Throwing,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Exception Catching Throwing,Verification Method,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Exception Catching Throwing,De-Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Exception Catching Throwing,Replace assertThrow with try/catch,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Exception Catching Throwing,Replace annotation with try/catch,3,0,3,0,0.0,100.0,100.0,0.25,0.0,False,3
+Exception Catching Throwing,Assert All,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Exception Catching Throwing,Lazy Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Exception Catching Throwing,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+General Fixture,Prebuilt Fixture,22,0,1,21,0.0,4.545454545454546,4.545454545454546,1.0,0.0,False,1
+General Fixture,Implicit Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+General Fixture,Implicit Setup,8,2,1,5,25.0,12.5,37.5,0.75,-0.4399413450640599,False,3
+General Fixture,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+General Fixture,Testcase Superclass,2,1,0,1,50.0,0.0,50.0,1.0,0.0,False,1
+General Fixture,Inline Setup,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+General Fixture,Grouping Tests,13,1,0,12,7.6923076923076925,0.0,7.6923076923076925,1.0,0.0,False,1
+General Fixture,Replace Dependency with Test Double,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+General Fixture,Inline Assertion,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+General Fixture,Delegated Setup,20,0,5,15,0.0,25.0,25.0,0.0625,0.9695896898516747,False,5
+General Fixture,Parameterized Test,13,4,0,9,30.76923076923077,0.0,30.76923076923077,0.125,-1.5011106998930268,False,4
+General Fixture,Change Assertion Type,9,0,0,9,0.0,0.0,0.0,1.0,0.0,False,0
+General Fixture,Custom Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+General Fixture,Add explanation message,2,0,1,1,0.0,50.0,50.0,1.0,0.0,False,1
+General Fixture,Test Helper,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+General Fixture,Print to Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+General Fixture,Await Event,6,0,0,6,0.0,0.0,0.0,1.0,0.0,False,0
+General Fixture,Replace annotation with assertThrow,4,0,0,4,0.0,0.0,0.0,1.0,0.0,False,0
+General Fixture,Merge Test Method,1,1,0,0,100.0,0.0,100.0,1.0,0.0,False,1
+General Fixture,Split Test Method,34,0,2,32,0.0,5.88235294117647,5.88235294117647,1.0,0.0,False,2
+General Fixture,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+General Fixture,Split Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+General Fixture,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+General Fixture,Verification Method,5,0,1,4,0.0,20.0,20.0,1.0,0.0,False,1
+General Fixture,De-Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+General Fixture,Replace assertThrow with try/catch,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+General Fixture,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+General Fixture,Assert All,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+General Fixture,Lazy Teardown,1,0,1,0,0.0,100.0,100.0,1.0,0.0,False,1
+General Fixture,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Prebuilt Fixture,22,0,0,22,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Implicit Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Implicit Setup,8,0,0,8,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Testcase Superclass,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Inline Setup,3,0,1,2,0.0,33.33333333333333,33.33333333333333,1.0,0.0,False,1
+Mystery Guest,Grouping Tests,13,0,0,13,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Replace Dependency with Test Double,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Inline Assertion,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Delegated Setup,20,0,0,20,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Parameterized Test,13,0,0,13,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Change Assertion Type,9,0,0,9,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Custom Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Add explanation message,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Test Helper,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Print to Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Await Event,6,0,0,6,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Replace annotation with assertThrow,4,0,0,4,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Merge Test Method,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Split Test Method,34,0,22,12,0.0,64.70588235294117,64.70588235294117,4.76837158203125e-07,2.005121647310412,True,22
+Mystery Guest,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Split Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Verification Method,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,De-Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Replace assertThrow with try/catch,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Assert All,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Lazy Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Mystery Guest,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Prebuilt Fixture,22,0,0,22,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Implicit Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Implicit Setup,8,1,0,7,12.5,0.0,12.5,1.0,0.0,False,1
+Print Statement,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Testcase Superclass,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Inline Setup,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Grouping Tests,13,0,0,13,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Replace Dependency with Test Double,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Inline Assertion,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Delegated Setup,20,2,0,18,10.0,0.0,10.0,1.0,0.0,False,2
+Print Statement,Parameterized Test,13,0,0,13,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Change Assertion Type,9,0,4,5,0.0,44.44444444444444,44.44444444444444,0.125,0.0,False,4
+Print Statement,Custom Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Add explanation message,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Test Helper,5,1,0,4,20.0,0.0,20.0,1.0,0.0,False,1
+Print Statement,Print to Assertion,2,2,0,0,100.0,0.0,100.0,1.0,0.0,False,2
+Print Statement,Await Event,6,1,0,5,16.666666666666664,0.0,16.666666666666664,1.0,0.0,False,1
+Print Statement,Replace annotation with assertThrow,4,0,0,4,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Merge Test Method,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Split Test Method,34,0,0,34,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Split Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Verification Method,5,1,0,4,20.0,0.0,20.0,1.0,0.0,False,1
+Print Statement,De-Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Replace assertThrow with try/catch,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Assert All,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Lazy Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Print Statement,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Prebuilt Fixture,22,0,0,22,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Implicit Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Implicit Setup,8,0,0,8,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Testcase Superclass,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Inline Setup,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Grouping Tests,13,2,0,11,15.384615384615385,0.0,15.384615384615385,1.0,0.0,False,2
+Redundant Assertion,Replace Dependency with Test Double,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Inline Assertion,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Delegated Setup,20,0,0,20,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Parameterized Test,13,0,0,13,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Change Assertion Type,9,0,0,9,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Custom Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Add explanation message,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Test Helper,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Print to Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Await Event,6,0,0,6,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Replace annotation with assertThrow,4,0,0,4,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Merge Test Method,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Split Test Method,34,0,0,34,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Split Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Verification Method,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,De-Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Replace assertThrow with try/catch,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Assert All,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Lazy Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Redundant Assertion,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Prebuilt Fixture,22,0,0,22,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Implicit Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Implicit Setup,8,0,1,7,0.0,12.5,12.5,1.0,0.0,False,1
+Sensitive Equality,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Testcase Superclass,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Inline Setup,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Grouping Tests,13,1,0,12,7.6923076923076925,0.0,7.6923076923076925,1.0,0.0,False,1
+Sensitive Equality,Replace Dependency with Test Double,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Inline Assertion,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Delegated Setup,20,0,0,20,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Parameterized Test,13,1,0,12,7.6923076923076925,0.0,7.6923076923076925,1.0,0.0,False,1
+Sensitive Equality,Change Assertion Type,9,0,0,9,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Custom Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Add explanation message,2,0,1,1,0.0,50.0,50.0,1.0,0.0,False,1
+Sensitive Equality,Test Helper,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Print to Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Await Event,6,0,0,6,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Replace annotation with assertThrow,4,1,0,3,25.0,0.0,25.0,1.0,0.0,False,1
+Sensitive Equality,Merge Test Method,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Split Test Method,34,0,12,22,0.0,35.294117647058826,35.294117647058826,0.00048828125,0.0,True,12
+Sensitive Equality,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Split Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Verification Method,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,De-Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Replace assertThrow with try/catch,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Assert All,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Sensitive Equality,Lazy Teardown,1,0,1,0,0.0,100.0,100.0,1.0,0.0,False,1
+Sensitive Equality,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Prebuilt Fixture,22,0,0,22,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Implicit Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Implicit Setup,8,0,0,8,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Testcase Superclass,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Inline Setup,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Grouping Tests,13,0,0,13,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Replace Dependency with Test Double,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Inline Assertion,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Delegated Setup,20,0,0,20,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Parameterized Test,13,0,0,13,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Change Assertion Type,9,0,0,9,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Custom Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Add explanation message,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Test Helper,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Print to Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Await Event,6,0,0,6,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Replace annotation with assertThrow,4,0,0,4,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Merge Test Method,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Split Test Method,34,0,0,34,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Split Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Verification Method,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,De-Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Replace assertThrow with try/catch,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Assert All,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Lazy Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Verbose Test,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Prebuilt Fixture,22,0,0,22,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Implicit Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Implicit Setup,8,0,0,8,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Testcase Superclass,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Inline Setup,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Grouping Tests,13,0,0,13,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Replace Dependency with Test Double,2,1,0,1,50.0,0.0,50.0,1.0,0.0,False,1
+Sleepy Test,Inline Assertion,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Delegated Setup,20,0,0,20,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Parameterized Test,13,0,0,13,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Change Assertion Type,9,0,0,9,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Custom Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Add explanation message,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Test Helper,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Print to Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Await Event,6,0,0,6,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Replace annotation with assertThrow,4,0,0,4,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Merge Test Method,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Split Test Method,34,0,0,34,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Split Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Verification Method,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,De-Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Replace assertThrow with try/catch,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Assert All,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Lazy Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Sleepy Test,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Eager Test,Prebuilt Fixture,22,0,0,22,0.0,0.0,0.0,1.0,0.0,False,0
+Eager Test,Implicit Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Eager Test,Implicit Setup,8,0,1,7,0.0,12.5,12.5,1.0,0.0,False,1
+Eager Test,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Eager Test,Testcase Superclass,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Eager Test,Inline Setup,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Eager Test,Grouping Tests,13,2,0,11,15.384615384615385,0.0,15.384615384615385,1.0,0.0,False,2
+Eager Test,Replace Dependency with Test Double,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Eager Test,Inline Assertion,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Eager Test,Delegated Setup,20,0,0,20,0.0,0.0,0.0,1.0,0.0,False,0
+Eager Test,Parameterized Test,13,3,0,10,23.076923076923077,0.0,23.076923076923077,0.25,-1.5577565614007718,False,3
+Eager Test,Change Assertion Type,9,1,4,4,11.11111111111111,44.44444444444444,55.55555555555556,0.625,0.3333333333333333,False,5
+Eager Test,Custom Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Eager Test,Add explanation message,2,0,1,1,0.0,50.0,50.0,1.0,0.0,False,1
+Eager Test,Test Helper,5,1,1,3,20.0,20.0,40.0,1.0,0.0,False,2
+Eager Test,Print to Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Eager Test,Await Event,6,0,0,6,0.0,0.0,0.0,1.0,0.0,False,0
+Eager Test,Replace annotation with assertThrow,4,1,0,3,25.0,0.0,25.0,1.0,0.0,False,1
+Eager Test,Merge Test Method,1,1,0,0,100.0,0.0,100.0,1.0,0.0,False,1
+Eager Test,Split Test Method,34,1,4,29,2.941176470588235,11.76470588235294,14.705882352941178,0.125,0.9152086306448588,False,5
+Eager Test,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Eager Test,Split Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Eager Test,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Eager Test,Verification Method,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Eager Test,De-Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Eager Test,Replace assertThrow with try/catch,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Eager Test,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Eager Test,Assert All,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Eager Test,Lazy Teardown,1,0,1,0,0.0,100.0,100.0,1.0,0.0,False,1
+Eager Test,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Lazy Test,Prebuilt Fixture,22,0,1,21,0.0,4.545454545454546,4.545454545454546,1.0,0.0,False,1
+Lazy Test,Implicit Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Lazy Test,Implicit Setup,8,0,1,7,0.0,12.5,12.5,1.0,0.0,False,1
+Lazy Test,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Lazy Test,Testcase Superclass,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Lazy Test,Inline Setup,3,1,0,2,33.33333333333333,0.0,33.33333333333333,1.0,0.0,False,1
+Lazy Test,Grouping Tests,13,2,0,11,15.384615384615385,0.0,15.384615384615385,1.0,0.0,False,2
+Lazy Test,Replace Dependency with Test Double,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Lazy Test,Inline Assertion,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Lazy Test,Delegated Setup,20,0,0,20,0.0,0.0,0.0,1.0,0.0,False,0
+Lazy Test,Parameterized Test,13,3,0,10,23.076923076923077,0.0,23.076923076923077,0.25,-15.556349186104045,False,3
+Lazy Test,Change Assertion Type,9,1,4,4,11.11111111111111,44.44444444444444,55.55555555555556,0.125,1.5312499999999998,False,5
+Lazy Test,Custom Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Lazy Test,Add explanation message,2,0,1,1,0.0,50.0,50.0,1.0,0.0,False,1
+Lazy Test,Test Helper,5,1,0,4,20.0,0.0,20.0,1.0,0.0,False,1
+Lazy Test,Print to Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Lazy Test,Await Event,6,0,0,6,0.0,0.0,0.0,1.0,0.0,False,0
+Lazy Test,Replace annotation with assertThrow,4,0,0,4,0.0,0.0,0.0,1.0,0.0,False,0
+Lazy Test,Merge Test Method,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Lazy Test,Split Test Method,34,0,4,30,0.0,11.76470588235294,11.76470588235294,0.125,1.3268622310856881,False,4
+Lazy Test,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Lazy Test,Split Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Lazy Test,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Lazy Test,Verification Method,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Lazy Test,De-Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Lazy Test,Replace assertThrow with try/catch,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Lazy Test,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Lazy Test,Assert All,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Lazy Test,Lazy Teardown,1,0,1,0,0.0,100.0,100.0,1.0,0.0,False,1
+Lazy Test,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,Prebuilt Fixture,22,1,1,20,4.545454545454546,4.545454545454546,9.090909090909092,1.0,0.0,False,2
+Duplicate Assert,Implicit Teardown,1,1,0,0,100.0,0.0,100.0,1.0,0.0,False,1
+Duplicate Assert,Implicit Setup,8,2,0,6,25.0,0.0,25.0,1.0,0.0,False,2
+Duplicate Assert,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,Testcase Superclass,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,Inline Setup,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,Grouping Tests,13,4,0,9,30.76923076923077,0.0,30.76923076923077,0.125,-1.1920791213585393,False,4
+Duplicate Assert,Replace Dependency with Test Double,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,Inline Assertion,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,Delegated Setup,20,0,0,20,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,Parameterized Test,13,1,0,12,7.6923076923076925,0.0,7.6923076923076925,1.0,0.0,False,1
+Duplicate Assert,Change Assertion Type,9,0,0,9,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,Custom Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,Add explanation message,2,1,0,1,50.0,0.0,50.0,1.0,0.0,False,1
+Duplicate Assert,Test Helper,5,1,0,4,20.0,0.0,20.0,1.0,0.0,False,1
+Duplicate Assert,Print to Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,Await Event,6,0,0,6,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,Replace annotation with assertThrow,4,0,0,4,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,Merge Test Method,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,Split Test Method,34,23,0,11,67.64705882352942,0.0,67.64705882352942,2.384185791015625e-07,-1.9468501647301402,True,23
+Duplicate Assert,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,Split Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,Verification Method,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,De-Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,Replace assertThrow with try/catch,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,Assert All,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Duplicate Assert,Lazy Teardown,1,1,0,0,100.0,0.0,100.0,1.0,0.0,False,1
+Duplicate Assert,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Unknown Test,Prebuilt Fixture,22,0,1,21,0.0,4.545454545454546,4.545454545454546,1.0,0.0,False,1
+Unknown Test,Implicit Teardown,1,0,1,0,0.0,100.0,100.0,1.0,0.0,False,1
+Unknown Test,Implicit Setup,8,1,1,6,12.5,12.5,25.0,1.0,0.0,False,2
+Unknown Test,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Unknown Test,Testcase Superclass,2,1,0,1,50.0,0.0,50.0,1.0,0.0,False,1
+Unknown Test,Inline Setup,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Unknown Test,Grouping Tests,13,5,0,8,38.46153846153847,0.0,38.46153846153847,0.0625,-0.8226919978166917,False,5
+Unknown Test,Replace Dependency with Test Double,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Unknown Test,Inline Assertion,5,3,0,2,60.0,0.0,60.0,0.25,0.0,False,3
+Unknown Test,Delegated Setup,20,2,3,15,10.0,15.0,25.0,0.8125,0.2041241452319315,False,5
+Unknown Test,Parameterized Test,13,1,0,12,7.6923076923076925,0.0,7.6923076923076925,1.0,0.0,False,1
+Unknown Test,Change Assertion Type,9,0,0,9,0.0,0.0,0.0,1.0,0.0,False,0
+Unknown Test,Custom Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Unknown Test,Add explanation message,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Unknown Test,Test Helper,5,1,0,4,20.0,0.0,20.0,1.0,0.0,False,1
+Unknown Test,Print to Assertion,2,2,0,0,100.0,0.0,100.0,1.0,0.0,False,2
+Unknown Test,Await Event,6,0,0,6,0.0,0.0,0.0,1.0,0.0,False,0
+Unknown Test,Replace annotation with assertThrow,4,0,0,4,0.0,0.0,0.0,1.0,0.0,False,0
+Unknown Test,Merge Test Method,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Unknown Test,Split Test Method,34,0,1,33,0.0,2.941176470588235,2.941176470588235,1.0,0.0,False,1
+Unknown Test,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Unknown Test,Split Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Unknown Test,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Unknown Test,Verification Method,5,0,3,2,0.0,60.0,60.0,0.25,2.4748737341529163,False,3
+Unknown Test,De-Parameterize Test,1,1,0,0,100.0,0.0,100.0,1.0,0.0,False,1
+Unknown Test,Replace assertThrow with try/catch,1,1,0,0,100.0,0.0,100.0,1.0,0.0,False,1
+Unknown Test,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Unknown Test,Assert All,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Unknown Test,Lazy Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Unknown Test,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Prebuilt Fixture,22,0,0,22,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Implicit Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Implicit Setup,8,0,0,8,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Testcase Superclass,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Inline Setup,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Grouping Tests,13,1,0,12,7.6923076923076925,0.0,7.6923076923076925,1.0,0.0,False,1
+IgnoredTest,Replace Dependency with Test Double,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Inline Assertion,5,3,0,2,60.0,0.0,60.0,0.25,0.0,False,3
+IgnoredTest,Delegated Setup,20,0,0,20,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Parameterized Test,13,2,1,10,15.384615384615385,7.6923076923076925,23.076923076923077,0.75,-0.5345224838248488,False,3
+IgnoredTest,Change Assertion Type,9,0,0,9,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Custom Assertion,2,0,1,1,0.0,50.0,50.0,1.0,0.0,False,1
+IgnoredTest,Add explanation message,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Test Helper,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Print to Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Await Event,6,0,2,4,0.0,33.33333333333333,33.33333333333333,1.0,0.0,False,2
+IgnoredTest,Replace annotation with assertThrow,4,0,0,4,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Merge Test Method,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Split Test Method,34,0,1,33,0.0,2.941176470588235,2.941176470588235,1.0,0.0,False,1
+IgnoredTest,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Split Parameterize Test,1,0,1,0,0.0,100.0,100.0,1.0,0.0,False,1
+IgnoredTest,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Verification Method,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,De-Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Replace assertThrow with try/catch,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Assert All,2,0,2,0,0.0,100.0,100.0,1.0,0.0,False,2
+IgnoredTest,Lazy Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+IgnoredTest,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Prebuilt Fixture,22,0,1,21,0.0,4.545454545454546,4.545454545454546,1.0,0.0,False,1
+Resource Optimism,Implicit Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Implicit Setup,8,0,0,8,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Testcase Superclass,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Inline Setup,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Grouping Tests,13,0,0,13,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Replace Dependency with Test Double,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Inline Assertion,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Delegated Setup,20,0,1,19,0.0,5.0,5.0,1.0,0.0,False,1
+Resource Optimism,Parameterized Test,13,1,0,12,7.6923076923076925,0.0,7.6923076923076925,1.0,0.0,False,1
+Resource Optimism,Change Assertion Type,9,0,0,9,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Custom Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Add explanation message,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Test Helper,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Print to Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Await Event,6,0,0,6,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Replace annotation with assertThrow,4,0,0,4,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Merge Test Method,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Split Test Method,34,0,1,33,0.0,2.941176470588235,2.941176470588235,1.0,0.0,False,1
+Resource Optimism,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Split Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Verification Method,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,De-Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Replace assertThrow with try/catch,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Assert All,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Lazy Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Resource Optimism,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Magic Number Test,Prebuilt Fixture,22,0,4,18,0.0,18.181818181818183,18.181818181818183,0.125,1.0392304845413263,False,4
+Magic Number Test,Implicit Teardown,1,0,1,0,0.0,100.0,100.0,1.0,0.0,False,1
+Magic Number Test,Implicit Setup,8,1,2,5,12.5,25.0,37.5,1.0,-0.1435916317235476,False,3
+Magic Number Test,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Magic Number Test,Testcase Superclass,2,2,0,0,100.0,0.0,100.0,1.0,0.0,False,2
+Magic Number Test,Inline Setup,3,1,0,2,33.33333333333333,0.0,33.33333333333333,1.0,0.0,False,1
+Magic Number Test,Grouping Tests,13,9,1,3,69.23076923076923,7.6923076923076925,76.92307692307693,0.005859375,-1.1234460354982096,True,10
+Magic Number Test,Replace Dependency with Test Double,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Magic Number Test,Inline Assertion,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Magic Number Test,Delegated Setup,20,2,1,17,10.0,5.0,15.0,1.0,0.35355339059327373,False,3
+Magic Number Test,Parameterized Test,13,5,1,7,38.46153846153847,7.6923076923076925,46.15384615384615,0.0625,-1.0589398278119906,False,6
+Magic Number Test,Change Assertion Type,9,0,4,5,0.0,44.44444444444444,44.44444444444444,0.125,0.0,False,4
+Magic Number Test,Custom Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Magic Number Test,Add explanation message,2,0,1,1,0.0,50.0,50.0,1.0,0.0,False,1
+Magic Number Test,Test Helper,5,1,1,3,20.0,20.0,40.0,1.0,0.0,False,2
+Magic Number Test,Print to Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Magic Number Test,Await Event,6,0,2,4,0.0,33.33333333333333,33.33333333333333,1.0,0.0,False,2
+Magic Number Test,Replace annotation with assertThrow,4,0,0,4,0.0,0.0,0.0,1.0,0.0,False,0
+Magic Number Test,Merge Test Method,1,1,0,0,100.0,0.0,100.0,1.0,0.0,False,1
+Magic Number Test,Split Test Method,34,0,32,2,0.0,94.11764705882352,94.11764705882352,4.656612873077393e-10,1.4799163614348216,True,32
+Magic Number Test,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Magic Number Test,Split Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Magic Number Test,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Magic Number Test,Verification Method,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Magic Number Test,De-Parameterize Test,1,1,0,0,100.0,0.0,100.0,1.0,0.0,False,1
+Magic Number Test,Replace assertThrow with try/catch,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Magic Number Test,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Magic Number Test,Assert All,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Magic Number Test,Lazy Teardown,1,0,1,0,0.0,100.0,100.0,1.0,0.0,False,1
+Magic Number Test,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Prebuilt Fixture,22,0,0,22,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Implicit Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Implicit Setup,8,0,0,8,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Testcase Superclass,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Inline Setup,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Grouping Tests,13,0,0,13,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Replace Dependency with Test Double,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Inline Assertion,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Delegated Setup,20,0,0,20,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Parameterized Test,13,0,0,13,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Change Assertion Type,9,0,0,9,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Custom Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Add explanation message,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Test Helper,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Print to Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Await Event,6,0,0,6,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Replace annotation with assertThrow,4,0,0,4,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Merge Test Method,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Split Test Method,34,0,0,34,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Split Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Verification Method,5,0,0,5,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,De-Parameterize Test,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Replace assertThrow with try/catch,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Assert All,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Lazy Teardown,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+Dependent Test,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+NumberOfMethods,Prebuilt Fixture,22,0,9,13,0.0,40.909090909090914,40.909090909090914,0.00390625,1.1917080461366747,True,9
+NumberOfMethods,Implicit Teardown,1,0,1,0,0.0,100.0,100.0,1.0,0.0,False,1
+NumberOfMethods,Implicit Setup,8,1,6,1,12.5,75.0,87.5,0.21875,0.3865006029094686,False,7
+NumberOfMethods,Suite Fixture Setup,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+NumberOfMethods,Testcase Superclass,2,2,0,0,100.0,0.0,100.0,1.0,0.0,False,2
+NumberOfMethods,Inline Setup,3,3,0,0,100.0,0.0,100.0,0.25,-1.7677669529663689,False,3
+NumberOfMethods,Grouping Tests,13,12,1,0,92.3076923076923,7.6923076923076925,100.0,0.000732421875,-1.1365510134313233,True,13
+NumberOfMethods,Replace Dependency with Test Double,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+NumberOfMethods,Inline Assertion,5,5,0,0,100.0,0.0,100.0,0.0625,-1.8371173070873834,False,5
+NumberOfMethods,Delegated Setup,20,0,17,3,0.0,85.0,85.0,1.52587890625e-05,1.103153260152285,True,17
+NumberOfMethods,Parameterized Test,13,7,4,2,53.84615384615385,30.76923076923077,84.61538461538461,0.1748046875,-0.5695974368679319,False,11
+NumberOfMethods,Change Assertion Type,9,1,4,4,11.11111111111111,44.44444444444444,55.55555555555556,0.3125,0.7499999999999998,False,5
+NumberOfMethods,Custom Assertion,2,1,1,0,50.0,50.0,100.0,1.0,0.0,False,2
+NumberOfMethods,Add explanation message,2,0,1,1,0.0,50.0,50.0,1.0,0.0,False,1
+NumberOfMethods,Test Helper,5,2,3,0,40.0,60.0,100.0,0.8125,-0.2780402068693763,False,5
+NumberOfMethods,Print to Assertion,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+NumberOfMethods,Await Event,6,0,2,4,0.0,33.33333333333333,33.33333333333333,1.0,0.0,False,2
+NumberOfMethods,Replace annotation with assertThrow,4,0,0,4,0.0,0.0,0.0,1.0,0.0,False,0
+NumberOfMethods,Merge Test Method,1,1,0,0,100.0,0.0,100.0,1.0,0.0,False,1
+NumberOfMethods,Split Test Method,34,0,34,0,0.0,100.0,100.0,1.1641532182693481e-10,1.3998264785467112,True,34
+NumberOfMethods,Replace try/catch with asserThrows,2,0,0,2,0.0,0.0,0.0,1.0,0.0,False,0
+NumberOfMethods,Split Parameterize Test,1,0,1,0,0.0,100.0,100.0,1.0,0.0,False,1
+NumberOfMethods,Add Conditional Annotation,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0
+NumberOfMethods,Verification Method,5,0,5,0,0.0,100.0,100.0,0.0625,1.8257418583505538,False,5
+NumberOfMethods,De-Parameterize Test,1,1,0,0,100.0,0.0,100.0,1.0,0.0,False,1
+NumberOfMethods,Replace assertThrow with try/catch,1,1,0,0,100.0,0.0,100.0,1.0,0.0,False,1
+NumberOfMethods,Replace annotation with try/catch,3,0,0,3,0.0,0.0,0.0,1.0,0.0,False,0
+NumberOfMethods,Assert All,2,0,2,0,0.0,100.0,100.0,1.0,0.0,False,2
+NumberOfMethods,Lazy Teardown,1,0,1,0,0.0,100.0,100.0,1.0,0.0,False,1
+NumberOfMethods,Guard Assertion,1,0,0,1,0.0,0.0,0.0,1.0,0.0,False,0

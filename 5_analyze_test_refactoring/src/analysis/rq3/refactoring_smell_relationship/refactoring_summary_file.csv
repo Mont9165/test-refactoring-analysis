@@ -1,0 +1,31 @@
+refactoring_type,total_pairs,total_improvements,total_degradations,overall_improvement_rate,overall_effect_size,significant_improvements,smells_affected
+Prebuilt Fixture,484,8,25,1.6528925619834711,0.13745391060275736,0,10
+Implicit Teardown,22,2,4,9.090909090909092,0.0,0,6
+Implicit Setup,176,10,17,5.681818181818182,-0.018139221944935505,0,12
+Suite Fixture Setup,22,0,0,0.0,0.0,0,0
+Testcase Superclass,44,10,0,22.727272727272727,0.0,0,7
+Inline Setup,66,5,1,7.575757575757576,-0.08035304331665313,0,4
+Grouping Tests,286,53,5,18.53146853146853,-0.2815368061078229,3,14
+Replace Dependency with Test Double,44,2,0,4.545454545454546,0.0,0,2
+Inline Assertion,110,11,0,10.0,-0.0835053321403356,0,3
+Delegated Setup,440,14,28,3.1818181818181817,0.03839696156800945,1,9
+Parameterized Test,286,40,14,13.986013986013987,-0.9876220108640316,1,14
+Change Assertion Type,198,11,21,5.555555555555555,0.11316287878787878,0,7
+Custom Assertion,44,1,2,2.272727272727273,0.0,0,2
+Add explanation message,44,1,8,2.272727272727273,0.0,0,9
+Test Helper,110,11,6,10.0,-0.012638191221335287,0,10
+Print to Assertion,44,4,2,9.090909090909092,0.0,0,3
+Await Event,132,1,8,0.7575757575757575,0.0,0,5
+Replace annotation with assertThrow,88,5,0,5.681818181818182,0.0,0,4
+Merge Test Method,22,5,1,22.727272727272727,0.0,0,6
+Split Test Method,748,32,142,4.278074866310161,0.3551128855791327,1,14
+Replace try/catch with asserThrows,44,0,0,0.0,0.0,0,0
+Split Parameterize Test,22,0,2,0.0,0.0,0,2
+Add Conditional Annotation,22,0,0,0.0,0.0,0,0
+Verification Method,110,3,9,2.727272727272727,0.19548252693197593,0,5
+De-Parameterize Test,22,4,0,18.181818181818183,0.0,0,4
+Replace assertThrow with try/catch,22,2,1,9.090909090909092,0.0,0,3
+Replace annotation with try/catch,66,0,3,0.0,0.0,0,1
+Assert All,44,0,4,0.0,0.0,0,2
+Lazy Teardown,22,1,8,4.545454545454546,0.0,0,9
+Guard Assertion,22,0,0,0.0,0.0,0,0

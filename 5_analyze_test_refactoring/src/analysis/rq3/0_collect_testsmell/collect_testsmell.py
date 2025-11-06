@@ -12,7 +12,7 @@ import time
 def get_default_base_dir():
     """実行OSに応じてデフォルトのBASE_DIRを返す"""
     if platform.system() == "Darwin":  # macOS
-        return "/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring"
+        return "/app"
     return "/work/kosei-ho/InvestigatingTheImpactOfTestSpecificRefactoring" # デフォルトはLinux/サーバー
 
 # --- ロギング設定 ---

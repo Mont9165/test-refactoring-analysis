@@ -1,0 +1,340 @@
+\begin{table}[htbp]
+\centering
+\caption{Test smell changes after refactoring (file level)}
+\label{tab:test-smell-change-summary}
+\begin{tabular}{lrrrrrrr}
+\toprule
+test_smell & improved & degraded & unchanged & total & Improved_pct & Degraded_pct & Unchanged_pct \\
+\midrule
+Assertion Roulette & 37 & 25 & 111 & 173 & 21.400000 & 14.500000 & 64.200000 \\
+Conditional Test Logic & 13 & 12 & 148 & 173 & 7.500000 & 6.900000 & 85.500000 \\
+Constructor Initialization & 1 & 2 & 170 & 173 & 0.600000 & 1.200000 & 98.300000 \\
+Default Test & 0 & 0 & 173 & 173 & 0.000000 & 0.000000 & 100.000000 \\
+EmptyTest & 0 & 0 & 173 & 173 & 0.000000 & 0.000000 & 100.000000 \\
+Exception Catching Throwing & 24 & 29 & 120 & 173 & 13.900000 & 16.800000 & 69.400000 \\
+General Fixture & 9 & 12 & 152 & 173 & 5.200000 & 6.900000 & 87.900000 \\
+Mystery Guest & 0 & 23 & 150 & 173 & 0.000000 & 13.300000 & 86.700000 \\
+Print Statement & 8 & 4 & 161 & 173 & 4.600000 & 2.300000 & 93.100000 \\
+Redundant Assertion & 2 & 0 & 171 & 173 & 1.200000 & 0.000000 & 98.800000 \\
+Sensitive Equality & 3 & 15 & 155 & 173 & 1.700000 & 8.700000 & 89.600000 \\
+Verbose Test & 0 & 0 & 173 & 173 & 0.000000 & 0.000000 & 100.000000 \\
+Sleepy Test & 1 & 0 & 172 & 173 & 0.600000 & 0.000000 & 99.400000 \\
+Eager Test & 9 & 12 & 152 & 173 & 5.200000 & 6.900000 & 87.900000 \\
+Lazy Test & 7 & 12 & 154 & 173 & 4.000000 & 6.900000 & 89.000000 \\
+Duplicate Assert & 35 & 1 & 137 & 173 & 20.200000 & 0.600000 & 79.200000 \\
+Unknown Test & 18 & 10 & 145 & 173 & 10.400000 & 5.800000 & 83.800000 \\
+IgnoredTest & 6 & 8 & 159 & 173 & 3.500000 & 4.600000 & 91.900000 \\
+Resource Optimism & 1 & 3 & 169 & 173 & 0.600000 & 1.700000 & 97.700000 \\
+Magic Number Test & 23 & 51 & 99 & 173 & 13.300000 & 29.500000 & 57.200000 \\
+Dependent Test & 0 & 0 & 173 & 173 & 0.000000 & 0.000000 & 100.000000 \\
+NumberOfMethods & 37 & 92 & 44 & 173 & 21.400000 & 53.200000 & 25.400000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Outlier summary for each test smell (file level)}
+\label{tab:outlier-summary}
+\begin{tabular}{lrrrr}
+\toprule
+test_smell & outlier_count & outlier_percentage & max_outlier & min_outlier \\
+\midrule
+Assertion Roulette & 62 & 35.800000 & 6.000000 & -46.000000 \\
+Conditional Test Logic & 25 & 14.500000 & 4.000000 & -23.000000 \\
+Constructor Initialization & 3 & 1.700000 & 1.000000 & -1.000000 \\
+Default Test & 0 & 0.000000 & 0.000000 & 0.000000 \\
+EmptyTest & 0 & 0.000000 & 0.000000 & 0.000000 \\
+Exception Catching Throwing & 53 & 30.600000 & 8.000000 & -40.000000 \\
+General Fixture & 21 & 12.100000 & 11.000000 & -8.000000 \\
+Mystery Guest & 23 & 13.300000 & 4.000000 & 1.000000 \\
+Print Statement & 12 & 6.900000 & 1.000000 & -3.000000 \\
+Redundant Assertion & 2 & 1.200000 & -1.000000 & -1.000000 \\
+Sensitive Equality & 18 & 10.400000 & 1.000000 & -7.000000 \\
+Verbose Test & 0 & 0.000000 & 0.000000 & 0.000000 \\
+Sleepy Test & 1 & 0.600000 & -1.000000 & -1.000000 \\
+Eager Test & 21 & 12.100000 & 8.000000 & -21.000000 \\
+Lazy Test & 19 & 11.000000 & 27.000000 & -138.000000 \\
+Duplicate Assert & 36 & 20.800000 & 1.000000 & -11.000000 \\
+Unknown Test & 28 & 16.200000 & 28.000000 & -50.000000 \\
+IgnoredTest & 14 & 8.100000 & 2.000000 & -8.000000 \\
+Resource Optimism & 4 & 2.300000 & 1.000000 & -8.000000 \\
+Magic Number Test & 51 & 29.500000 & 28.000000 & -107.000000 \\
+Dependent Test & 0 & 0.000000 & 0.000000 & 0.000000 \\
+NumberOfMethods & 46 & 26.600000 & 28.000000 & -123.000000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Statistically significant test smell improvements}
+\label{tab:significant-improvements}
+\begin{tabular}{lrrr}
+\toprule
+test_smell & improvement_rate & effect_size & significant \\
+\midrule
+Assertion Roulette & 46.154 & -1.786 & True \\
+Mystery Guest & 0.000 & 2.005 & True \\
+Sensitive Equality & 7.692 & 0.000 & True \\
+Duplicate Assert & 67.647 & -1.947 & True \\
+Magic Number Test & 69.231 & -1.123 & True \\
+NumberOfMethods & 100.000 & -1.137 & True \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Effectiveness of refactoring types for test smell reduction}
+\label{tab:refactoring-type-effect}
+\begin{tabular}{llrrrrr}
+\toprule
+refactoring_type & test_smell & sample_size & improvement_rate & effect_size & p_value & significant \\
+\midrule
+Prebuilt Fixture & Assertion Roulette & 22 & 18.182 & 0.145 & 0.495 & False \\
+Prebuilt Fixture & Conditional Test Logic & 22 & 13.636 & 0.369 & 0.083 & False \\
+Prebuilt Fixture & Constructor Initialization & 22 & 0.000 & 0.000 & 1.000 & False \\
+Prebuilt Fixture & Default Test & 22 & 0.000 & 0.000 & 1.000 & False \\
+Prebuilt Fixture & EmptyTest & 22 & 0.000 & 0.000 & 1.000 & False \\
+Prebuilt Fixture & Exception Catching Throwing & 22 & 0.000 & 0.403 & 0.059 & False \\
+Prebuilt Fixture & General Fixture & 22 & 0.000 & 0.213 & 0.317 & False \\
+Prebuilt Fixture & Mystery Guest & 22 & 0.000 & 0.000 & 1.000 & False \\
+Prebuilt Fixture & Print Statement & 22 & 0.000 & 0.000 & 1.000 & False \\
+Prebuilt Fixture & Redundant Assertion & 22 & 0.000 & 0.000 & 1.000 & False \\
+Prebuilt Fixture & Sensitive Equality & 22 & 0.000 & 0.000 & 1.000 & False \\
+Prebuilt Fixture & Verbose Test & 22 & 0.000 & 0.000 & 1.000 & False \\
+Prebuilt Fixture & Sleepy Test & 22 & 0.000 & 0.000 & 1.000 & False \\
+Prebuilt Fixture & Eager Test & 22 & 0.000 & 0.000 & 1.000 & False \\
+Prebuilt Fixture & Lazy Test & 22 & 0.000 & 0.213 & 0.317 & False \\
+Prebuilt Fixture & Duplicate Assert & 22 & 4.545 & 0.095 & 0.655 & False \\
+Prebuilt Fixture & Unknown Test & 22 & 0.000 & 0.213 & 0.317 & False \\
+Prebuilt Fixture & IgnoredTest & 22 & 0.000 & 0.000 & 1.000 & False \\
+Prebuilt Fixture & Resource Optimism & 22 & 0.000 & 0.213 & 0.317 & False \\
+Prebuilt Fixture & Magic Number Test & 22 & 0.000 & 0.403 & 0.059 & False \\
+Prebuilt Fixture & Dependent Test & 22 & 0.000 & 0.000 & 1.000 & False \\
+Prebuilt Fixture & NumberOfMethods & 22 & 0.000 & 0.575 & 0.007 & True \\
+Implicit Setup & Assertion Roulette & 8 & 25.000 & 0.000 & 1.000 & False \\
+Implicit Setup & Conditional Test Logic & 8 & 0.000 & 0.474 & 0.180 & False \\
+Implicit Setup & Constructor Initialization & 8 & 0.000 & 0.000 & 1.000 & False \\
+Implicit Setup & Default Test & 8 & 0.000 & 0.000 & 1.000 & False \\
+Implicit Setup & EmptyTest & 8 & 0.000 & 0.000 & 1.000 & False \\
+Implicit Setup & Exception Catching Throwing & 8 & 0.000 & 0.354 & 0.317 & False \\
+Implicit Setup & General Fixture & 8 & 25.000 & 0.189 & 0.593 & False \\
+Implicit Setup & Mystery Guest & 8 & 0.000 & 0.000 & 1.000 & False \\
+Implicit Setup & Print Statement & 8 & 12.500 & 0.354 & 0.317 & False \\
+Implicit Setup & Redundant Assertion & 8 & 0.000 & 0.000 & 1.000 & False \\
+Implicit Setup & Sensitive Equality & 8 & 0.000 & 0.354 & 0.317 & False \\
+Implicit Setup & Verbose Test & 8 & 0.000 & 0.000 & 1.000 & False \\
+Implicit Setup & Sleepy Test & 8 & 0.000 & 0.000 & 1.000 & False \\
+Implicit Setup & Eager Test & 8 & 0.000 & 0.354 & 0.317 & False \\
+Implicit Setup & Lazy Test & 8 & 0.000 & 0.354 & 0.317 & False \\
+Implicit Setup & Duplicate Assert & 8 & 25.000 & 0.474 & 0.180 & False \\
+Implicit Setup & Unknown Test & 8 & 12.500 & 0.158 & 0.655 & False \\
+Implicit Setup & IgnoredTest & 8 & 0.000 & 0.000 & 1.000 & False \\
+Implicit Setup & Resource Optimism & 8 & 0.000 & 0.000 & 1.000 & False \\
+Implicit Setup & Magic Number Test & 8 & 12.500 & 0.000 & 1.000 & False \\
+Implicit Setup & Dependent Test & 8 & 0.000 & 0.000 & 1.000 & False \\
+Implicit Setup & NumberOfMethods & 8 & 12.500 & 0.453 & 0.200 & False \\
+Grouping Tests & Assertion Roulette & 13 & 46.154 & 0.614 & 0.027 & True \\
+Grouping Tests & Conditional Test Logic & 13 & 15.385 & 0.372 & 0.180 & False \\
+Grouping Tests & Constructor Initialization & 13 & 7.692 & 0.277 & 0.317 & False \\
+Grouping Tests & Default Test & 13 & 0.000 & 0.000 & 1.000 & False \\
+Grouping Tests & EmptyTest & 13 & 0.000 & 0.000 & 1.000 & False \\
+Grouping Tests & Exception Catching Throwing & 13 & 38.462 & 0.517 & 0.063 & False \\
+Grouping Tests & General Fixture & 13 & 7.692 & 0.277 & 0.317 & False \\
+Grouping Tests & Mystery Guest & 13 & 0.000 & 0.000 & 1.000 & False \\
+Grouping Tests & Print Statement & 13 & 0.000 & 0.000 & 1.000 & False \\
+Grouping Tests & Redundant Assertion & 13 & 15.385 & 0.392 & 0.157 & False \\
+Grouping Tests & Sensitive Equality & 13 & 7.692 & 0.277 & 0.317 & False \\
+Grouping Tests & Verbose Test & 13 & 0.000 & 0.000 & 1.000 & False \\
+Grouping Tests & Sleepy Test & 13 & 0.000 & 0.000 & 1.000 & False \\
+Grouping Tests & Eager Test & 13 & 15.385 & 0.372 & 0.180 & False \\
+Grouping Tests & Lazy Test & 13 & 15.385 & 0.372 & 0.180 & False \\
+Grouping Tests & Duplicate Assert & 13 & 30.769 & 0.511 & 0.066 & False \\
+Grouping Tests & Unknown Test & 13 & 38.462 & 0.564 & 0.042 & True \\
+Grouping Tests & IgnoredTest & 13 & 7.692 & 0.277 & 0.317 & False \\
+Grouping Tests & Resource Optimism & 13 & 0.000 & 0.000 & 1.000 & False \\
+Grouping Tests & Magic Number Test & 13 & 69.231 & 0.721 & 0.009 & True \\
+Grouping Tests & Dependent Test & 13 & 0.000 & 0.000 & 1.000 & False \\
+Grouping Tests & NumberOfMethods & 13 & 92.308 & 0.937 & 0.001 & True \\
+Inline Assertion & Assertion Roulette & 5 & 0.000 & 0.000 & 1.000 & False \\
+Inline Assertion & Conditional Test Logic & 5 & 0.000 & 0.000 & 1.000 & False \\
+Inline Assertion & Constructor Initialization & 5 & 0.000 & 0.000 & 1.000 & False \\
+Inline Assertion & Default Test & 5 & 0.000 & 0.000 & 1.000 & False \\
+Inline Assertion & EmptyTest & 5 & 0.000 & 0.000 & 1.000 & False \\
+Inline Assertion & Exception Catching Throwing & 5 & 0.000 & 0.000 & 1.000 & False \\
+Inline Assertion & General Fixture & 5 & 0.000 & 0.000 & 1.000 & False \\
+Inline Assertion & Mystery Guest & 5 & 0.000 & 0.000 & 1.000 & False \\
+Inline Assertion & Print Statement & 5 & 0.000 & 0.000 & 1.000 & False \\
+Inline Assertion & Redundant Assertion & 5 & 0.000 & 0.000 & 1.000 & False \\
+Inline Assertion & Sensitive Equality & 5 & 0.000 & 0.000 & 1.000 & False \\
+Inline Assertion & Verbose Test & 5 & 0.000 & 0.000 & 1.000 & False \\
+Inline Assertion & Sleepy Test & 5 & 0.000 & 0.000 & 1.000 & False \\
+Inline Assertion & Eager Test & 5 & 0.000 & 0.000 & 1.000 & False \\
+Inline Assertion & Lazy Test & 5 & 0.000 & 0.000 & 1.000 & False \\
+Inline Assertion & Duplicate Assert & 5 & 0.000 & 0.000 & 1.000 & False \\
+Inline Assertion & Unknown Test & 5 & 60.000 & 0.775 & 0.083 & False \\
+Inline Assertion & IgnoredTest & 5 & 60.000 & 0.775 & 0.083 & False \\
+Inline Assertion & Resource Optimism & 5 & 0.000 & 0.000 & 1.000 & False \\
+Inline Assertion & Magic Number Test & 5 & 0.000 & 0.000 & 1.000 & False \\
+Inline Assertion & Dependent Test & 5 & 0.000 & 0.000 & 1.000 & False \\
+Inline Assertion & NumberOfMethods & 5 & 100.000 & 0.833 & 0.062 & False \\
+Delegated Setup & Assertion Roulette & 20 & 30.000 & 0.499 & 0.026 & True \\
+Delegated Setup & Conditional Test Logic & 20 & 10.000 & 0.300 & 0.180 & False \\
+Delegated Setup & Constructor Initialization & 20 & 0.000 & 0.000 & 1.000 & False \\
+Delegated Setup & Default Test & 20 & 0.000 & 0.000 & 1.000 & False \\
+Delegated Setup & EmptyTest & 20 & 0.000 & 0.000 & 1.000 & False \\
+Delegated Setup & Exception Catching Throwing & 20 & 0.000 & 0.224 & 0.317 & False \\
+Delegated Setup & General Fixture & 20 & 0.000 & 0.461 & 0.039 & True \\
+Delegated Setup & Mystery Guest & 20 & 0.000 & 0.000 & 1.000 & False \\
+Delegated Setup & Print Statement & 20 & 10.000 & 0.316 & 0.157 & False \\
+Delegated Setup & Redundant Assertion & 20 & 0.000 & 0.000 & 1.000 & False \\
+Delegated Setup & Sensitive Equality & 20 & 0.000 & 0.000 & 1.000 & False \\
+Delegated Setup & Verbose Test & 20 & 0.000 & 0.000 & 1.000 & False \\
+Delegated Setup & Sleepy Test & 20 & 0.000 & 0.000 & 1.000 & False \\
+Delegated Setup & Eager Test & 20 & 0.000 & 0.000 & 1.000 & False \\
+Delegated Setup & Lazy Test & 20 & 0.000 & 0.000 & 1.000 & False \\
+Delegated Setup & Duplicate Assert & 20 & 0.000 & 0.000 & 1.000 & False \\
+Delegated Setup & Unknown Test & 20 & 10.000 & 0.100 & 0.655 & False \\
+Delegated Setup & IgnoredTest & 20 & 0.000 & 0.000 & 1.000 & False \\
+Delegated Setup & Resource Optimism & 20 & 0.000 & 0.224 & 0.317 & False \\
+Delegated Setup & Magic Number Test & 20 & 10.000 & 0.000 & 1.000 & False \\
+Delegated Setup & Dependent Test & 20 & 0.000 & 0.000 & 1.000 & False \\
+Delegated Setup & NumberOfMethods & 20 & 0.000 & 0.821 & 0.000 & True \\
+Parameterized Test & Assertion Roulette & 13 & 46.154 & 0.619 & 0.026 & True \\
+Parameterized Test & Conditional Test Logic & 13 & 15.385 & 0.196 & 0.480 & False \\
+Parameterized Test & Constructor Initialization & 13 & 0.000 & 0.392 & 0.157 & False \\
+Parameterized Test & Default Test & 13 & 0.000 & 0.000 & 1.000 & False \\
+Parameterized Test & EmptyTest & 13 & 0.000 & 0.000 & 1.000 & False \\
+Parameterized Test & Exception Catching Throwing & 13 & 30.769 & 0.378 & 0.172 & False \\
+Parameterized Test & General Fixture & 13 & 30.769 & 0.524 & 0.059 & False \\
+Parameterized Test & Mystery Guest & 13 & 0.000 & 0.000 & 1.000 & False \\
+Parameterized Test & Print Statement & 13 & 0.000 & 0.000 & 1.000 & False \\
+Parameterized Test & Redundant Assertion & 13 & 0.000 & 0.000 & 1.000 & False \\
+Parameterized Test & Sensitive Equality & 13 & 7.692 & 0.277 & 0.317 & False \\
+Parameterized Test & Verbose Test & 13 & 0.000 & 0.000 & 1.000 & False \\
+Parameterized Test & Sleepy Test & 13 & 0.000 & 0.000 & 1.000 & False \\
+Parameterized Test & Eager Test & 13 & 23.077 & 0.445 & 0.109 & False \\
+Parameterized Test & Lazy Test & 13 & 23.077 & 0.453 & 0.102 & False \\
+Parameterized Test & Duplicate Assert & 13 & 7.692 & 0.277 & 0.317 & False \\
+Parameterized Test & Unknown Test & 13 & 7.692 & 0.277 & 0.317 & False \\
+Parameterized Test & IgnoredTest & 13 & 15.385 & 0.226 & 0.414 & False \\
+Parameterized Test & Resource Optimism & 13 & 7.692 & 0.277 & 0.317 & False \\
+Parameterized Test & Magic Number Test & 13 & 38.462 & 0.555 & 0.045 & True \\
+Parameterized Test & Dependent Test & 13 & 0.000 & 0.000 & 1.000 & False \\
+Parameterized Test & NumberOfMethods & 13 & 53.846 & 0.397 & 0.152 & False \\
+Change Assertion Type & Assertion Roulette & 9 & 44.444 & 0.236 & 0.480 & False \\
+Change Assertion Type & Conditional Test Logic & 9 & 0.000 & 0.000 & 1.000 & False \\
+Change Assertion Type & Constructor Initialization & 9 & 0.000 & 0.000 & 1.000 & False \\
+Change Assertion Type & Default Test & 9 & 0.000 & 0.000 & 1.000 & False \\
+Change Assertion Type & EmptyTest & 9 & 0.000 & 0.000 & 1.000 & False \\
+Change Assertion Type & Exception Catching Throwing & 9 & 44.444 & 0.667 & 0.046 & True \\
+Change Assertion Type & General Fixture & 9 & 0.000 & 0.000 & 1.000 & False \\
+Change Assertion Type & Mystery Guest & 9 & 0.000 & 0.000 & 1.000 & False \\
+Change Assertion Type & Print Statement & 9 & 0.000 & 0.667 & 0.046 & True \\
+Change Assertion Type & Redundant Assertion & 9 & 0.000 & 0.000 & 1.000 & False \\
+Change Assertion Type & Sensitive Equality & 9 & 0.000 & 0.000 & 1.000 & False \\
+Change Assertion Type & Verbose Test & 9 & 0.000 & 0.000 & 1.000 & False \\
+Change Assertion Type & Sleepy Test & 9 & 0.000 & 0.000 & 1.000 & False \\
+Change Assertion Type & Eager Test & 9 & 11.111 & 0.236 & 0.480 & False \\
+Change Assertion Type & Lazy Test & 9 & 11.111 & 0.613 & 0.066 & False \\
+Change Assertion Type & Duplicate Assert & 9 & 0.000 & 0.000 & 1.000 & False \\
+Change Assertion Type & Unknown Test & 9 & 0.000 & 0.000 & 1.000 & False \\
+Change Assertion Type & IgnoredTest & 9 & 0.000 & 0.000 & 1.000 & False \\
+Change Assertion Type & Resource Optimism & 9 & 0.000 & 0.000 & 1.000 & False \\
+Change Assertion Type & Magic Number Test & 9 & 0.000 & 0.667 & 0.046 & True \\
+Change Assertion Type & Dependent Test & 9 & 0.000 & 0.000 & 1.000 & False \\
+Change Assertion Type & NumberOfMethods & 9 & 11.111 & 0.447 & 0.180 & False \\
+Test Helper & Assertion Roulette & 5 & 20.000 & 0.447 & 0.317 & False \\
+Test Helper & Conditional Test Logic & 5 & 20.000 & 0.200 & 0.655 & False \\
+Test Helper & Constructor Initialization & 5 & 0.000 & 0.000 & 1.000 & False \\
+Test Helper & Default Test & 5 & 0.000 & 0.000 & 1.000 & False \\
+Test Helper & EmptyTest & 5 & 0.000 & 0.000 & 1.000 & False \\
+Test Helper & Exception Catching Throwing & 5 & 20.000 & 0.447 & 0.317 & False \\
+Test Helper & General Fixture & 5 & 0.000 & 0.000 & 1.000 & False \\
+Test Helper & Mystery Guest & 5 & 0.000 & 0.000 & 1.000 & False \\
+Test Helper & Print Statement & 5 & 20.000 & 0.447 & 0.317 & False \\
+Test Helper & Redundant Assertion & 5 & 0.000 & 0.000 & 1.000 & False \\
+Test Helper & Sensitive Equality & 5 & 0.000 & 0.000 & 1.000 & False \\
+Test Helper & Verbose Test & 5 & 0.000 & 0.000 & 1.000 & False \\
+Test Helper & Sleepy Test & 5 & 0.000 & 0.000 & 1.000 & False \\
+Test Helper & Eager Test & 5 & 0.000 & 0.200 & 0.655 & False \\
+Test Helper & Lazy Test & 5 & 0.000 & 0.000 & 1.000 & False \\
+Test Helper & Duplicate Assert & 5 & 20.000 & 0.447 & 0.317 & False \\
+Test Helper & Unknown Test & 5 & 20.000 & 0.447 & 0.317 & False \\
+Test Helper & IgnoredTest & 5 & 0.000 & 0.000 & 1.000 & False \\
+Test Helper & Resource Optimism & 5 & 0.000 & 0.000 & 1.000 & False \\
+Test Helper & Magic Number Test & 5 & 20.000 & 0.200 & 0.655 & False \\
+Test Helper & Dependent Test & 5 & 0.000 & 0.000 & 1.000 & False \\
+Test Helper & NumberOfMethods & 5 & 40.000 & 0.106 & 0.812 & False \\
+Await Event & Assertion Roulette & 6 & 0.000 & 0.577 & 0.157 & False \\
+Await Event & Conditional Test Logic & 6 & 0.000 & 0.000 & 1.000 & False \\
+Await Event & Constructor Initialization & 6 & 0.000 & 0.000 & 1.000 & False \\
+Await Event & Default Test & 6 & 0.000 & 0.000 & 1.000 & False \\
+Await Event & EmptyTest & 6 & 0.000 & 0.000 & 1.000 & False \\
+Await Event & Exception Catching Throwing & 6 & 0.000 & 0.000 & 1.000 & False \\
+Await Event & General Fixture & 6 & 0.000 & 0.000 & 1.000 & False \\
+Await Event & Mystery Guest & 6 & 0.000 & 0.000 & 1.000 & False \\
+Await Event & Print Statement & 6 & 16.667 & 0.408 & 0.317 & False \\
+Await Event & Redundant Assertion & 6 & 0.000 & 0.000 & 1.000 & False \\
+Await Event & Sensitive Equality & 6 & 0.000 & 0.000 & 1.000 & False \\
+Await Event & Verbose Test & 6 & 0.000 & 0.000 & 1.000 & False \\
+Await Event & Sleepy Test & 6 & 0.000 & 0.000 & 1.000 & False \\
+Await Event & Eager Test & 6 & 0.000 & 0.000 & 1.000 & False \\
+Await Event & Lazy Test & 6 & 0.000 & 0.000 & 1.000 & False \\
+Await Event & Duplicate Assert & 6 & 0.000 & 0.000 & 1.000 & False \\
+Await Event & Unknown Test & 6 & 0.000 & 0.000 & 1.000 & False \\
+Await Event & IgnoredTest & 6 & 0.000 & 0.577 & 0.157 & False \\
+Await Event & Resource Optimism & 6 & 0.000 & 0.000 & 1.000 & False \\
+Await Event & Magic Number Test & 6 & 0.000 & 0.577 & 0.157 & False \\
+Await Event & Dependent Test & 6 & 0.000 & 0.000 & 1.000 & False \\
+Await Event & NumberOfMethods & 6 & 0.000 & 0.577 & 0.157 & False \\
+Split Test Method & Assertion Roulette & 34 & 5.882 & 0.432 & 0.012 & True \\
+Split Test Method & Conditional Test Logic & 34 & 0.000 & 0.318 & 0.063 & False \\
+Split Test Method & Constructor Initialization & 34 & 0.000 & 0.000 & 1.000 & False \\
+Split Test Method & Default Test & 34 & 0.000 & 0.000 & 1.000 & False \\
+Split Test Method & EmptyTest & 34 & 0.000 & 0.000 & 1.000 & False \\
+Split Test Method & Exception Catching Throwing & 34 & 17.647 & 0.058 & 0.735 & False \\
+Split Test Method & General Fixture & 34 & 0.000 & 0.230 & 0.180 & False \\
+Split Test Method & Mystery Guest & 34 & 0.000 & 0.714 & 0.000 & True \\
+Split Test Method & Print Statement & 34 & 0.000 & 0.000 & 1.000 & False \\
+Split Test Method & Redundant Assertion & 34 & 0.000 & 0.000 & 1.000 & False \\
+Split Test Method & Sensitive Equality & 34 & 0.000 & 0.594 & 0.001 & True \\
+Split Test Method & Verbose Test & 34 & 0.000 & 0.000 & 1.000 & False \\
+Split Test Method & Sleepy Test & 34 & 0.000 & 0.000 & 1.000 & False \\
+Split Test Method & Eager Test & 34 & 2.941 & 0.279 & 0.104 & False \\
+Split Test Method & Lazy Test & 34 & 0.000 & 0.313 & 0.068 & False \\
+Split Test Method & Duplicate Assert & 34 & 67.647 & 0.725 & 0.000 & True \\
+Split Test Method & Unknown Test & 34 & 0.000 & 0.171 & 0.317 & False \\
+Split Test Method & IgnoredTest & 34 & 0.000 & 0.171 & 0.317 & False \\
+Split Test Method & Resource Optimism & 34 & 0.000 & 0.171 & 0.317 & False \\
+Split Test Method & Magic Number Test & 34 & 0.000 & 0.849 & 0.000 & True \\
+Split Test Method & Dependent Test & 34 & 0.000 & 0.000 & 1.000 & False \\
+Split Test Method & NumberOfMethods & 34 & 0.000 & 1.105 & 0.000 & True \\
+Verification Method & Assertion Roulette & 5 & 40.000 & 0.600 & 0.180 & False \\
+Verification Method & Conditional Test Logic & 5 & 0.000 & 0.000 & 1.000 & False \\
+Verification Method & Constructor Initialization & 5 & 0.000 & 0.000 & 1.000 & False \\
+Verification Method & Default Test & 5 & 0.000 & 0.000 & 1.000 & False \\
+Verification Method & EmptyTest & 5 & 0.000 & 0.000 & 1.000 & False \\
+Verification Method & Exception Catching Throwing & 5 & 0.000 & 0.000 & 1.000 & False \\
+Verification Method & General Fixture & 5 & 0.000 & 0.447 & 0.317 & False \\
+Verification Method & Mystery Guest & 5 & 0.000 & 0.000 & 1.000 & False \\
+Verification Method & Print Statement & 5 & 20.000 & 0.447 & 0.317 & False \\
+Verification Method & Redundant Assertion & 5 & 0.000 & 0.000 & 1.000 & False \\
+Verification Method & Sensitive Equality & 5 & 0.000 & 0.000 & 1.000 & False \\
+Verification Method & Verbose Test & 5 & 0.000 & 0.000 & 1.000 & False \\
+Verification Method & Sleepy Test & 5 & 0.000 & 0.000 & 1.000 & False \\
+Verification Method & Eager Test & 5 & 0.000 & 0.000 & 1.000 & False \\
+Verification Method & Lazy Test & 5 & 0.000 & 0.000 & 1.000 & False \\
+Verification Method & Duplicate Assert & 5 & 0.000 & 0.000 & 1.000 & False \\
+Verification Method & Unknown Test & 5 & 0.000 & 0.730 & 0.102 & False \\
+Verification Method & IgnoredTest & 5 & 0.000 & 0.000 & 1.000 & False \\
+Verification Method & Resource Optimism & 5 & 0.000 & 0.000 & 1.000 & False \\
+Verification Method & Magic Number Test & 5 & 0.000 & 0.000 & 1.000 & False \\
+Verification Method & Dependent Test & 5 & 0.000 & 0.000 & 1.000 & False \\
+Verification Method & NumberOfMethods & 5 & 0.000 & 0.833 & 0.062 & False \\
+\bottomrule
+\end{tabular}
+\end{table}
+

@@ -1,0 +1,23 @@
+test_smell,best_by_improvement_rate,improvement_rate,total_pairs,best_by_effect_size,effect_size,significant
+Assertion Roulette,Grouping Tests,46.15384615384615,13,Delegated Setup,-1.7856873313329573,True
+Conditional Test Logic,Test Helper,20.0,5,None,0.0,False
+Constructor Initialization,Grouping Tests,7.6923076923076925,13,None,0.0,False
+Default Test,Prebuilt Fixture,0.0,22,None,0.0,False
+EmptyTest,Prebuilt Fixture,0.0,22,None,0.0,False
+Exception Catching Throwing,Change Assertion Type,44.44444444444444,9,None,0.0,False
+General Fixture,Parameterized Test,30.76923076923077,13,None,0.0,False
+Mystery Guest,Prebuilt Fixture,0.0,22,Split Test Method,2.005121647310412,True
+Print Statement,Test Helper,20.0,5,None,0.0,False
+Redundant Assertion,Grouping Tests,15.384615384615385,13,None,0.0,False
+Sensitive Equality,Grouping Tests,7.6923076923076925,13,Split Test Method,0.0,True
+Verbose Test,Prebuilt Fixture,0.0,22,None,0.0,False
+Sleepy Test,Prebuilt Fixture,0.0,22,None,0.0,False
+Eager Test,Parameterized Test,23.076923076923077,13,None,0.0,False
+Lazy Test,Parameterized Test,23.076923076923077,13,None,0.0,False
+Duplicate Assert,Split Test Method,67.64705882352942,34,Split Test Method,-1.9468501647301402,True
+Unknown Test,Inline Assertion,60.0,5,None,0.0,False
+IgnoredTest,Inline Assertion,60.0,5,None,0.0,False
+Resource Optimism,Parameterized Test,7.6923076923076925,13,None,0.0,False
+Magic Number Test,Grouping Tests,69.23076923076923,13,Grouping Tests,-1.1234460354982096,True
+Dependent Test,Prebuilt Fixture,0.0,22,None,0.0,False
+NumberOfMethods,Inline Assertion,100.0,5,Grouping Tests,-1.1365510134313233,True
