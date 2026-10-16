@@ -1,0 +1,211 @@
+smell_a,smell_b,n_paired_commits,spearman_rho,p_value,a_up_b_down,a_down_b_up,both_down,both_up,either_unchanged
+Conditional Test Logic,Duplicate Assert,379,-0.6191564265384818,1.7439625388061616e-41,6,86,12,0,275
+Duplicate Assert,Mystery Guest,379,-0.38991521698524306,3.2785826159946266e-15,0,20,1,0,358
+IgnoredTest,Lazy Test,139,-0.24582139340676537,0.0035351082767499102,3,0,0,0,136
+Duplicate Assert,Magic Number Test,379,-0.1804762220895454,0.00041410464135026314,0,31,15,0,333
+Eager Test,IgnoredTest,139,-0.17488597437517653,0.03947955983041997,0,2,0,0,137
+Lazy Test,Mystery Guest,139,-0.17476546791509645,0.039617776194878496,0,1,0,0,138
+Exception Catching Throwing,Lazy Test,139,-0.16456397767782832,0.05288240636759416,4,6,3,1,125
+Duplicate Assert,Sensitive Equality,379,-0.130299048276275,0.011113609850020441,0,15,8,0,356
+Print Statement,Resource Optimism,379,-0.1198774286015857,0.01957060707014765,0,1,0,0,378
+IgnoredTest,Resource Optimism,379,-0.10778864512452707,0.035940110055259655,1,0,0,0,378
+Duplicate Assert,Lazy Test,139,-0.1059808929591561,0.2143423483118045,0,5,3,0,131
+Eager Test,Exception Catching Throwing,139,-0.06715811837580393,0.4321487831488815,5,4,5,1,124
+Duplicate Assert,Eager Test,139,-0.06552674823259903,0.4434402087528746,0,5,4,0,130
+Duplicate Assert,General Fixture,379,-0.04672981129471395,0.3642888666346892,0,4,1,0,374
+Lazy Test,Unknown Test,139,-0.028127229407990527,0.7423933179757218,0,2,1,0,136
+Assertion Roulette,Sleepy Test,379,-0.012182140026098751,0.8131328908374269,0,0,0,0,379
+Redundant Assertion,Sleepy Test,379,-0.008466494981739367,0.8695079182080336,0,0,0,0,379
+Print Statement,Sleepy Test,379,-0.008120569128266128,0.8747948510349455,0,0,0,0,379
+Eager Test,Sleepy Test,139,-0.00746950328257729,0.9304568052391164,0,0,0,0,139
+Mystery Guest,Resource Optimism,379,-0.007091992522419997,0.8905470445422244,0,0,0,0,379
+Duplicate Assert,Resource Optimism,379,-0.006424845328902674,0.9007875626019377,0,0,0,0,379
+Exception Catching Throwing,Sleepy Test,379,-0.006410714358909932,0.9010046530462907,0,0,0,0,379
+Sleepy Test,Unknown Test,379,-0.005944905968169133,0.9081647800886292,0,0,0,0,379
+IgnoredTest,Sleepy Test,379,-0.0053644248299530425,0.9170979337433791,0,0,0,0,379
+General Fixture,Mystery Guest,379,-0.004968458712609593,0.9231976009495544,0,0,0,0,379
+Assertion Roulette,General Fixture,379,-0.004707170336911303,0.927225109966658,3,5,3,4,364
+Constructor Initialization,Sleepy Test,379,-0.004649856475009365,0.9281088000680053,0,0,0,0,379
+Assertion Roulette,Resource Optimism,379,-0.003498086375398825,0.9458845555881322,0,1,0,1,377
+Constructor Initialization,Lazy Test,139,-0.002120137461430102,0.9802381343633306,0,0,0,0,139
+Lazy Test,Print Statement,139,-0.0020335110223454224,0.9810454285903434,0,0,0,0,139
+Eager Test,Unknown Test,139,-0.0012887259444817657,0.9879869803608119,0,1,1,0,137
+General Fixture,Sleepy Test,379,0.0010728769598988299,0.9833910790075202,0,0,0,0,379
+Lazy Test,Sleepy Test,139,0.0014937219479922775,0.9860762632335749,0,0,0,0,139
+Resource Optimism,Sleepy Test,379,0.0015314277157558983,0.9762941467839061,0,0,0,0,379
+Constructor Initialization,General Fixture,379,0.0018857376262143483,0.9708117877120173,0,0,0,0,379
+Sensitive Equality,Sleepy Test,379,0.0021461272200606653,0.9667835510636256,0,0,0,0,379
+Constructor Initialization,Resource Optimism,379,0.0026917074122839862,0.9583462633372113,0,0,0,0,379
+General Fixture,Print Statement,379,0.003293276434175368,0.9490485415202239,0,0,0,0,379
+Resource Optimism,Unknown Test,379,0.0034413852440079743,0.946760414385582,0,0,0,0,379
+Redundant Assertion,Resource Optimism,379,0.004901081876589992,0.9242359666077025,0,0,0,0,379
+General Fixture,IgnoredTest,379,0.005423898100437738,0.9161821875264375,0,1,0,1,377
+Eager Test,Mystery Guest,139,0.00746950328257729,0.9304568052391164,0,0,0,0,139
+Magic Number Test,Sleepy Test,379,0.00782838045779512,0.8792648462142744,0,0,0,0,379
+Eager Test,Print Statement,139,0.010168771555497532,0.9054270754852202,0,0,0,0,139
+Constructor Initialization,Eager Test,139,0.010601955570749305,0.9014182434047133,0,0,0,0,139
+Duplicate Assert,Sleepy Test,379,0.011098757805991389,0.829484569282403,0,0,0,0,379
+Mystery Guest,Sleepy Test,379,0.012251237709046155,0.812092654464992,0,0,0,0,379
+Conditional Test Logic,Resource Optimism,379,0.017542903504333535,0.7335387752236084,0,0,0,0,379
+Constructor Initialization,Mystery Guest,379,0.021533335861572554,0.6760399391567513,0,0,0,0,379
+IgnoredTest,Mystery Guest,379,0.024842478942816285,0.6297289809468334,0,0,0,0,379
+Mystery Guest,Unknown Test,379,0.02753066843375961,0.593136885876304,0,0,0,0,379
+Mystery Guest,Print Statement,379,0.037606094589343164,0.4654192331810323,0,0,0,0,379
+Mystery Guest,Redundant Assertion,379,0.03920806609665198,0.44661468088427125,0,0,0,0,379
+Conditional Test Logic,Sleepy Test,379,0.042260074857548666,0.41200815766655174,0,0,1,0,378
+Conditional Test Logic,Eager Test,139,0.05090920367308498,0.5517253295067015,3,0,0,4,132
+Duplicate Assert,Exception Catching Throwing,379,0.052821748307847596,0.3050570089217659,0,16,18,0,345
+Conditional Test Logic,Lazy Test,139,0.06311770285549748,0.4604151777134424,3,0,0,4,132
+General Fixture,Redundant Assertion,379,0.06324555720035734,0.21928834339253525,0,0,1,0,378
+Conditional Test Logic,General Fixture,379,0.0987687182310725,0.05471026044720881,2,0,3,5,369
+Magic Number Test,Resource Optimism,379,0.09980112127489055,0.052215600314088464,0,0,1,1,377
+General Fixture,Lazy Test,139,0.10419392461669238,0.22221448905554714,3,0,1,4,131
+General Fixture,Resource Optimism,379,0.10996321281782376,0.03234037477581399,0,0,1,0,378
+Resource Optimism,Sensitive Equality,379,0.11368644582007652,0.026890213616646817,0,0,1,0,378
+Assertion Roulette,Unknown Test,379,0.12281367341374899,0.016752664259831643,3,9,19,0,348
+Exception Catching Throwing,Resource Optimism,379,0.1280785918278849,0.01257891280669811,0,0,1,1,377
+Duplicate Assert,Unknown Test,379,0.13715786691065127,0.0074950843925012155,0,4,13,0,362
+Assertion Roulette,Lazy Test,139,0.15183714714175134,0.07437027038910016,1,7,6,6,119
+Conditional Test Logic,Unknown Test,379,0.1522626049302039,0.0029606777394478715,2,0,13,1,363
+Conditional Test Logic,Exception Catching Throwing,379,0.1535736495742604,0.0027203754638602693,1,0,16,2,360
+Conditional Test Logic,Mystery Guest,379,0.15567848499352227,0.002371471538626885,0,0,1,0,378
+Assertion Roulette,Conditional Test Logic,379,0.1584115015005645,0.0019793701418612314,0,1,21,4,353
+Assertion Roulette,Duplicate Assert,379,0.15857263070455235,0.0019582175621211,11,0,20,0,348
+Duplicate Assert,IgnoredTest,379,0.16787763218951868,0.0010353274831842935,0,0,9,0,370
+Conditional Test Logic,IgnoredTest,379,0.17079406844800907,0.0008420607411898222,0,0,9,0,370
+Conditional Test Logic,Print Statement,379,0.17248818841631008,0.0007456918066173114,0,0,9,0,370
+Exception Catching Throwing,General Fixture,379,0.1756743433361166,0.0005915224975765107,0,0,6,2,371
+Assertion Roulette,IgnoredTest,379,0.1782829198678804,0.00048790213555460505,0,1,9,0,369
+Exception Catching Throwing,Mystery Guest,379,0.1794736483021514,0.0004464456129918255,0,5,1,11,362
+Exception Catching Throwing,Print Statement,379,0.1827117654650712,0.0003496773707195644,2,0,9,0,368
+Magic Number Test,Print Statement,379,0.18704144588039887,0.0002506000843585798,2,0,9,0,368
+General Fixture,Sensitive Equality,379,0.19412394836192215,0.00014298655516369694,0,0,1,4,374
+Duplicate Assert,Print Statement,379,0.19471132778680633,0.00013636165851834295,0,0,9,0,370
+Eager Test,Resource Optimism,139,0.2001826879730714,0.01813868650323324,0,0,1,0,138
+Assertion Roulette,Mystery Guest,379,0.20054883562081785,8.44577440413408e-05,0,0,1,6,372
+Lazy Test,Resource Optimism,139,0.20314618492694977,0.016462577516963672,0,0,1,0,138
+IgnoredTest,Magic Number Test,379,0.20683859273421581,4.962702726854815e-05,1,0,9,1,368
+Constructor Initialization,Duplicate Assert,379,0.20739568140939482,4.730701420561411e-05,0,0,8,0,371
+Exception Catching Throwing,IgnoredTest,379,0.21433703687253927,2.5773573513723558e-05,0,1,9,1,368
+Assertion Roulette,Eager Test,139,0.23832137879169238,0.004724800044744043,4,5,10,6,114
+Sensitive Equality,Unknown Test,379,0.2406230894349794,2.1502765247886766e-06,0,0,8,0,371
+Assertion Roulette,Constructor Initialization,379,0.24273148209712378,1.7393554781476163e-06,0,2,9,0,368
+IgnoredTest,Sensitive Equality,379,0.24311776302316077,1.6727156536855203e-06,1,0,7,0,371
+General Fixture,Unknown Test,379,0.24503182926517267,1.3769997303090169e-06,0,0,4,5,370
+Conditional Test Logic,Redundant Assertion,379,0.24570529768979277,1.2854064874310878e-06,0,0,8,0,371
+Exception Catching Throwing,Unknown Test,379,0.2622382429382746,2.2273346809743514e-07,0,3,13,6,357
+Assertion Roulette,Print Statement,379,0.26920938328968,1.0251477065937546e-07,2,0,13,0,364
+Conditional Test Logic,Magic Number Test,379,0.2762653830980058,4.569084605561068e-08,3,7,18,9,342
+Constructor Initialization,Magic Number Test,379,0.280646352420164,2.7344989583539587e-08,0,0,9,0,370
+Print Statement,Unknown Test,379,0.28304867339846174,2.05572776391939e-08,0,2,11,0,366
+General Fixture,Magic Number Test,379,0.28398945608967213,1.8370402756643697e-08,0,1,9,7,362
+Conditional Test Logic,Sensitive Equality,379,0.28977418861891546,9.115275202159268e-09,0,0,8,4,367
+Duplicate Assert,Redundant Assertion,379,0.2919409013039634,6.98222331547598e-09,0,0,10,0,369
+Conditional Test Logic,Constructor Initialization,379,0.29474352436520584,4.929346894804521e-09,0,0,9,0,370
+Eager Test,General Fixture,139,0.30080640312837303,0.0003205094700514956,0,1,4,4,130
+Exception Catching Throwing,Redundant Assertion,379,0.3008418396776941,2.2808132379130006e-09,0,0,8,0,371
+Print Statement,Sensitive Equality,379,0.30934807764677197,7.551957829103819e-10,0,0,7,0,372
+Assertion Roulette,Exception Catching Throwing,379,0.3371401843772279,1.5830477350561725e-11,2,6,24,12,335
+Constructor Initialization,Exception Catching Throwing,379,0.34272982898145093,6.932589945165013e-12,0,0,9,1,369
+Constructor Initialization,Unknown Test,379,0.34430976316395506,5.4730362193311694e-12,0,0,8,0,371
+IgnoredTest,Print Statement,379,0.3468784423423763,3.715959516081031e-12,0,0,8,0,371
+Magic Number Test,Redundant Assertion,379,0.35065257426437924,2.0902475413199218e-12,0,0,10,0,369
+Assertion Roulette,Redundant Assertion,379,0.356461332016648,8.492637323424461e-13,0,0,10,0,369
+Assertion Roulette,Magic Number Test,379,0.3632922318606142,2.875584872844084e-13,2,12,24,18,323
+IgnoredTest,Unknown Test,379,0.37984934969399087,1.8677264710974986e-14,0,1,12,2,364
+Constructor Initialization,Sensitive Equality,379,0.3978022739629823,8.040129417203523e-16,0,0,7,0,372
+Eager Test,Magic Number Test,139,0.4024526420905812,9.047321589570753e-07,0,7,8,12,112
+Magic Number Test,Unknown Test,379,0.42498081802745213,4.7117170865448386e-18,0,0,22,7,350
+Assertion Roulette,Sensitive Equality,379,0.42726546392523546,2.9933152253921034e-18,0,0,9,10,360
+Mystery Guest,Sensitive Equality,379,0.44252364403763506,1.3222702573874934e-19,0,0,0,11,368
+Redundant Assertion,Sensitive Equality,379,0.4437187956337961,1.0286843704500472e-19,0,0,7,0,372
+Eager Test,Sensitive Equality,139,0.4462847050155189,3.66364312225349e-08,0,0,1,4,134
+Lazy Test,Sensitive Equality,139,0.4529316636821171,2.162859195802757e-08,0,0,1,4,134
+Redundant Assertion,Unknown Test,379,0.45835885481746513,4.376776083789326e-21,0,0,10,0,369
+Exception Catching Throwing,Magic Number Test,379,0.46009710108179147,2.9779932564868545e-21,1,10,24,27,317
+Constructor Initialization,IgnoredTest,379,0.46466945250789954,1.0701430111332644e-21,0,0,8,0,371
+Magic Number Test,Mystery Guest,379,0.487219672701018,5.456581440418508e-24,0,1,1,22,355
+Exception Catching Throwing,Sensitive Equality,379,0.4980165551234919,3.7814839186000497e-25,0,0,11,11,357
+Constructor Initialization,Print Statement,379,0.5049307383702474,6.506678906931524e-26,0,0,8,0,371
+IgnoredTest,Redundant Assertion,379,0.5070087292181612,3.803922404182052e-26,0,0,8,0,371
+Magic Number Test,Sensitive Equality,379,0.5225815982264326,6.043074916376666e-28,0,0,10,15,354
+Lazy Test,Magic Number Test,139,0.5237459136583874,3.691630447519992e-11,0,3,7,14,115
+Print Statement,Redundant Assertion,379,0.5480614294531158,4.2615234341305685e-31,0,0,8,0,371
+Eager Test,Lazy Test,139,0.7160675488011385,3.852540572449354e-23,0,2,10,12,115
+Constructor Initialization,Redundant Assertion,379,0.7341106539980697,2.338025959704894e-65,0,0,8,0,371
+Assertion Roulette,Default Test,379,,,0,0,0,0,379
+Assertion Roulette,Dependent Test,379,,,0,0,0,0,379
+Assertion Roulette,Empty Test,379,,,0,0,0,0,379
+Assertion Roulette,Verbose Test,379,,,0,0,0,0,379
+Conditional Test Logic,Default Test,379,,,0,0,0,0,379
+Conditional Test Logic,Dependent Test,379,,,0,0,0,0,379
+Conditional Test Logic,Empty Test,379,,,0,0,0,0,379
+Conditional Test Logic,Verbose Test,379,,,0,0,0,0,379
+Constructor Initialization,Default Test,379,,,0,0,0,0,379
+Constructor Initialization,Dependent Test,379,,,0,0,0,0,379
+Constructor Initialization,Empty Test,379,,,0,0,0,0,379
+Constructor Initialization,Verbose Test,379,,,0,0,0,0,379
+Default Test,Dependent Test,379,,,0,0,0,0,379
+Default Test,Duplicate Assert,379,,,0,0,0,0,379
+Default Test,Eager Test,139,,,0,0,0,0,139
+Default Test,Empty Test,379,,,0,0,0,0,379
+Default Test,Exception Catching Throwing,379,,,0,0,0,0,379
+Default Test,General Fixture,379,,,0,0,0,0,379
+Default Test,IgnoredTest,379,,,0,0,0,0,379
+Default Test,Lazy Test,139,,,0,0,0,0,139
+Default Test,Magic Number Test,379,,,0,0,0,0,379
+Default Test,Mystery Guest,379,,,0,0,0,0,379
+Default Test,Print Statement,379,,,0,0,0,0,379
+Default Test,Redundant Assertion,379,,,0,0,0,0,379
+Default Test,Resource Optimism,379,,,0,0,0,0,379
+Default Test,Sensitive Equality,379,,,0,0,0,0,379
+Default Test,Sleepy Test,379,,,0,0,0,0,379
+Default Test,Unknown Test,379,,,0,0,0,0,379
+Default Test,Verbose Test,379,,,0,0,0,0,379
+Dependent Test,Duplicate Assert,379,,,0,0,0,0,379
+Dependent Test,Eager Test,139,,,0,0,0,0,139
+Dependent Test,Empty Test,379,,,0,0,0,0,379
+Dependent Test,Exception Catching Throwing,379,,,0,0,0,0,379
+Dependent Test,General Fixture,379,,,0,0,0,0,379
+Dependent Test,IgnoredTest,379,,,0,0,0,0,379
+Dependent Test,Lazy Test,139,,,0,0,0,0,139
+Dependent Test,Magic Number Test,379,,,0,0,0,0,379
+Dependent Test,Mystery Guest,379,,,0,0,0,0,379
+Dependent Test,Print Statement,379,,,0,0,0,0,379
+Dependent Test,Redundant Assertion,379,,,0,0,0,0,379
+Dependent Test,Resource Optimism,379,,,0,0,0,0,379
+Dependent Test,Sensitive Equality,379,,,0,0,0,0,379
+Dependent Test,Sleepy Test,379,,,0,0,0,0,379
+Dependent Test,Unknown Test,379,,,0,0,0,0,379
+Dependent Test,Verbose Test,379,,,0,0,0,0,379
+Duplicate Assert,Empty Test,379,,,0,0,0,0,379
+Duplicate Assert,Verbose Test,379,,,0,0,0,0,379
+Eager Test,Empty Test,139,,,0,0,0,0,139
+Eager Test,Redundant Assertion,139,,,0,0,0,0,139
+Eager Test,Verbose Test,139,,,0,0,0,0,139
+Empty Test,Exception Catching Throwing,379,,,0,0,0,0,379
+Empty Test,General Fixture,379,,,0,0,0,0,379
+Empty Test,IgnoredTest,379,,,0,0,0,0,379
+Empty Test,Lazy Test,139,,,0,0,0,0,139
+Empty Test,Magic Number Test,379,,,0,0,0,0,379
+Empty Test,Mystery Guest,379,,,0,0,0,0,379
+Empty Test,Print Statement,379,,,0,0,0,0,379
+Empty Test,Redundant Assertion,379,,,0,0,0,0,379
+Empty Test,Resource Optimism,379,,,0,0,0,0,379
+Empty Test,Sensitive Equality,379,,,0,0,0,0,379
+Empty Test,Sleepy Test,379,,,0,0,0,0,379
+Empty Test,Unknown Test,379,,,0,0,0,0,379
+Empty Test,Verbose Test,379,,,0,0,0,0,379
+Exception Catching Throwing,Verbose Test,379,,,0,0,0,0,379
+General Fixture,Verbose Test,379,,,0,0,0,0,379
+IgnoredTest,Verbose Test,379,,,0,0,0,0,379
+Lazy Test,Redundant Assertion,139,,,0,0,0,0,139
+Lazy Test,Verbose Test,139,,,0,0,0,0,139
+Magic Number Test,Verbose Test,379,,,0,0,0,0,379
+Mystery Guest,Verbose Test,379,,,0,0,0,0,379
+Print Statement,Verbose Test,379,,,0,0,0,0,379
+Redundant Assertion,Verbose Test,379,,,0,0,0,0,379
+Resource Optimism,Verbose Test,379,,,0,0,0,0,379
+Sensitive Equality,Verbose Test,379,,,0,0,0,0,379
+Sleepy Test,Verbose Test,379,,,0,0,0,0,379
+Unknown Test,Verbose Test,379,,,0,0,0,0,379

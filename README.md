@@ -216,3 +216,23 @@ Analysis results are stored in:
 
 [//]: # ()
 [//]: # (For questions about this replication package, please open an issue in this repository.)
+
+## Revision Analyses (2026)
+
+The major and minor revisions added the analyses below. Each maps to a script
+or directory in this repository (paths relative to
+`5_analyze_test_refactoring/src/analysis/`):
+
+| Analysis (paper section) | Location |
+|---|---|
+| Corrected RQ3 data, 379 refactoring instances from 145 commits: Tables 6-8 and Figures 4-5 (Sec. 5.3) | `rq3/minor_revision_rebuild/` (`scripts/run_all.sh`; see its README) |
+| Motivations of test refactorings, 185 cases, Cohen's kappa = 0.93, Table 9 (Sec. 6.1) | `rq4_socio_technical/` (`compute_motivation_kappa.py`; category definitions in `CODEBOOK.md`) |
+| Taxonomy saturation, Figure 6 (Sec. 6.2) | `rq2/saturation/compute_saturation.py` |
+| Mutation score and coverage, Table 10 (Sec. 6.3) | `rq3/2_mutation_coverage_analysis/` |
+| Dataset characterization (Sec. 4.2.3) | `dataset_characterization/` |
+| RefactoringMiner 3.0.0 on test files: kappa = 0.81, precision 0.88 (44 of 50) (Sec. 9.2) | `rm300_audit/compare_sample_50.py` |
+| General refactorings in the three preceding and three following commits of 156 commits, compared with random baseline windows (Sec. 9.2) | `rm300_audit/adjacent_window_audit.py`, `baseline_following.py`, `window_size_sensitivity.py` |
+
+The RefactoringMiner-based audits, including the blob:none/JGit pitfall that
+silently empties RefactoringMiner's output, are documented in
+`rm300_audit/README.md`.

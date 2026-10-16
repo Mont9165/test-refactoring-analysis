@@ -1,0 +1,321 @@
+refactoring_type,smell,n,improved,degraded,unchanged,wilcoxon_stat,p_value,A12,mean_diff,median_diff
+Add Cleanup Method,Magic Number Test,1,1,0,0,0.0,1.0,1.0,-3.0,-3.0
+Add Cleanup Method,Mystery Guest,1,1,0,0,0.0,1.0,1.0,-2.0,-2.0
+Add Cleanup Method,Assertion Roulette,1,0,0,1,0.0,,0.5,0.0,0.0
+Add Cleanup Method,Conditional Test Logic,1,0,0,1,0.0,,0.5,0.0,0.0
+Add Cleanup Method,Constructor Initialization,1,0,0,1,0.0,,0.5,0.0,0.0
+Add Cleanup Method,Default Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Add Cleanup Method,Dependent Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Add Cleanup Method,Duplicate Assert,1,0,0,1,0.0,,0.5,0.0,0.0
+Add Cleanup Method,Empty Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Add Cleanup Method,Exception Catching Throwing,1,0,0,1,0.0,,0.5,0.0,0.0
+Add Cleanup Method,General Fixture,1,0,0,1,0.0,,0.5,0.0,0.0
+Add Cleanup Method,IgnoredTest,1,0,0,1,0.0,,0.5,0.0,0.0
+Add Cleanup Method,NumberOfMethods,1,0,0,1,0.0,,0.5,0.0,0.0
+Add Cleanup Method,Print Statement,1,0,0,1,0.0,,0.5,0.0,0.0
+Add Cleanup Method,Redundant Assertion,1,0,0,1,0.0,,0.5,0.0,0.0
+Add Cleanup Method,Resource Optimism,1,0,0,1,0.0,,0.5,0.0,0.0
+Add Cleanup Method,Sensitive Equality,1,0,0,1,0.0,,0.5,0.0,0.0
+Add Cleanup Method,Sleepy Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Add Cleanup Method,Unknown Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Add Cleanup Method,Verbose Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Await Event,Print Statement,3,1,0,2,0.0,0.31731050786291415,0.6666666666666666,-0.3333333333333333,0.0
+Await Event,Assertion Roulette,3,0,0,3,0.0,,0.5,0.0,0.0
+Await Event,Conditional Test Logic,3,0,0,3,0.0,,0.5,0.0,0.0
+Await Event,Constructor Initialization,3,0,0,3,0.0,,0.5,0.0,0.0
+Await Event,Default Test,3,0,0,3,0.0,,0.5,0.0,0.0
+Await Event,Dependent Test,3,0,0,3,0.0,,0.5,0.0,0.0
+Await Event,Duplicate Assert,3,0,0,3,0.0,,0.5,0.0,0.0
+Await Event,Empty Test,3,0,0,3,0.0,,0.5,0.0,0.0
+Await Event,Exception Catching Throwing,3,0,0,3,0.0,,0.5,0.0,0.0
+Await Event,General Fixture,3,0,0,3,0.0,,0.5,0.0,0.0
+Await Event,IgnoredTest,3,0,0,3,0.0,,0.5,0.0,0.0
+Await Event,Magic Number Test,3,0,0,3,0.0,,0.5,0.0,0.0
+Await Event,Mystery Guest,3,0,0,3,0.0,,0.5,0.0,0.0
+Await Event,NumberOfMethods,3,0,0,3,0.0,,0.5,0.0,0.0
+Await Event,Redundant Assertion,3,0,0,3,0.0,,0.5,0.0,0.0
+Await Event,Resource Optimism,3,0,0,3,0.0,,0.5,0.0,0.0
+Await Event,Sensitive Equality,3,0,0,3,0.0,,0.5,0.0,0.0
+Await Event,Sleepy Test,3,0,0,3,0.0,,0.5,0.0,0.0
+Await Event,Unknown Test,3,0,0,3,0.0,,0.5,0.0,0.0
+Await Event,Verbose Test,3,0,0,3,0.0,,0.5,0.0,0.0
+Change Assertion Type,Conditional Test Logic,123,19,2,102,21.0,0.00023856345402870985,0.570097164386278,-0.15447154471544716,0.0
+Change Assertion Type,Assertion Roulette,123,9,4,110,32.5,0.31731050786291415,0.5207878908057373,-0.024390243902439025,0.0
+Change Assertion Type,Lazy Test,43,1,0,42,0.0,0.31731050786291415,0.5140616549486209,-0.06976744186046512,0.0
+Change Assertion Type,Duplicate Assert,123,0,2,121,0.0,0.15729920705028505,0.491869918699187,0.016260162601626018,0.0
+Change Assertion Type,Print Statement,123,0,2,121,0.0,0.15729920705028505,0.491869918699187,0.016260162601626018,0.0
+Change Assertion Type,Exception Catching Throwing,123,4,3,116,14.0,1.0,0.5079317866349395,0.008130081300813009,0.0
+Change Assertion Type,Magic Number Test,123,1,4,118,2.5,0.15729920705028516,0.4928283429175755,0.04065040650406504,0.0
+Change Assertion Type,Unknown Test,123,2,3,118,6.0,0.6547208460185769,0.4959349593495935,0.008130081300813009,0.0
+Change Assertion Type,General Fixture,123,2,3,118,6.0,0.6547208460185769,0.4961002049044881,0.008130081300813009,0.0
+Change Assertion Type,Constructor Initialization,123,0,0,123,0.0,,0.5,0.0,0.0
+Change Assertion Type,Default Test,123,0,0,123,0.0,,0.5,0.0,0.0
+Change Assertion Type,Dependent Test,123,0,0,123,0.0,,0.5,0.0,0.0
+Change Assertion Type,Eager Test,43,1,1,41,1.5,1.0,0.5,0.0,0.0
+Change Assertion Type,Empty Test,123,0,0,123,0.0,,0.5,0.0,0.0
+Change Assertion Type,IgnoredTest,123,0,0,123,0.0,,0.5,0.0,0.0
+Change Assertion Type,Mystery Guest,123,0,0,123,0.0,,0.5,0.0,0.0
+Change Assertion Type,NumberOfMethods,123,0,0,123,0.0,,0.5,0.0,0.0
+Change Assertion Type,Redundant Assertion,123,0,0,123,0.0,,0.5,0.0,0.0
+Change Assertion Type,Resource Optimism,123,0,0,123,0.0,,0.5,0.0,0.0
+Change Assertion Type,Sensitive Equality,123,0,0,123,0.0,,0.5,0.0,0.0
+Change Assertion Type,Sleepy Test,123,0,0,123,0.0,,0.5,0.0,0.0
+Change Assertion Type,Verbose Test,123,0,0,123,0.0,,0.5,0.0,0.0
+Change Exception Verification,Exception Catching Throwing,27,15,2,10,18.0,0.0016162222150599855,0.7407407407407407,-0.48148148148148145,-1.0
+Change Exception Verification,Sensitive Equality,27,1,0,26,0.0,0.31731050786291415,0.5185185185185185,-0.037037037037037035,0.0
+Change Exception Verification,Unknown Test,27,1,0,26,0.0,0.31731050786291415,0.5185185185185185,-0.037037037037037035,0.0
+Change Exception Verification,Assertion Roulette,27,1,1,25,1.5,1.0,0.5,0.0,0.0
+Change Exception Verification,Conditional Test Logic,27,0,0,27,0.0,,0.5,0.0,0.0
+Change Exception Verification,Constructor Initialization,27,0,0,27,0.0,,0.5,0.0,0.0
+Change Exception Verification,Default Test,27,0,0,27,0.0,,0.5,0.0,0.0
+Change Exception Verification,Dependent Test,27,0,0,27,0.0,,0.5,0.0,0.0
+Change Exception Verification,Duplicate Assert,27,0,0,27,0.0,,0.5,0.0,0.0
+Change Exception Verification,Eager Test,18,0,0,18,0.0,,0.5,0.0,0.0
+Change Exception Verification,Empty Test,27,0,0,27,0.0,,0.5,0.0,0.0
+Change Exception Verification,General Fixture,27,0,0,27,0.0,,0.5,0.0,0.0
+Change Exception Verification,IgnoredTest,27,0,0,27,0.0,,0.5,0.0,0.0
+Change Exception Verification,Lazy Test,18,0,0,18,0.0,,0.5,0.0,0.0
+Change Exception Verification,Magic Number Test,27,0,0,27,0.0,,0.5,0.0,0.0
+Change Exception Verification,Mystery Guest,27,0,0,27,0.0,,0.5,0.0,0.0
+Change Exception Verification,NumberOfMethods,27,0,0,27,0.0,,0.5,0.0,0.0
+Change Exception Verification,Print Statement,27,0,0,27,0.0,,0.5,0.0,0.0
+Change Exception Verification,Redundant Assertion,27,0,0,27,0.0,,0.5,0.0,0.0
+Change Exception Verification,Resource Optimism,27,0,0,27,0.0,,0.5,0.0,0.0
+Change Exception Verification,Sleepy Test,27,0,0,27,0.0,,0.5,0.0,0.0
+Change Exception Verification,Verbose Test,27,0,0,27,0.0,,0.5,0.0,0.0
+De-Parameterize Test,Assertion Roulette,2,0,0,2,0.0,,0.5,0.0,0.0
+De-Parameterize Test,Conditional Test Logic,2,0,0,2,0.0,,0.5,0.0,0.0
+De-Parameterize Test,Constructor Initialization,2,0,0,2,0.0,,0.5,0.0,0.0
+De-Parameterize Test,Default Test,2,0,0,2,0.0,,0.5,0.0,0.0
+De-Parameterize Test,Dependent Test,2,0,0,2,0.0,,0.5,0.0,0.0
+De-Parameterize Test,Duplicate Assert,2,0,0,2,0.0,,0.5,0.0,0.0
+De-Parameterize Test,Empty Test,2,0,0,2,0.0,,0.5,0.0,0.0
+De-Parameterize Test,Exception Catching Throwing,2,0,0,2,0.0,,0.5,0.0,0.0
+De-Parameterize Test,General Fixture,2,0,0,2,0.0,,0.5,0.0,0.0
+De-Parameterize Test,IgnoredTest,2,0,0,2,0.0,,0.5,0.0,0.0
+De-Parameterize Test,Magic Number Test,2,0,0,2,0.0,,0.5,0.0,0.0
+De-Parameterize Test,Mystery Guest,2,0,0,2,0.0,,0.5,0.0,0.0
+De-Parameterize Test,NumberOfMethods,2,0,0,2,0.0,,0.5,0.0,0.0
+De-Parameterize Test,Print Statement,2,0,0,2,0.0,,0.5,0.0,0.0
+De-Parameterize Test,Redundant Assertion,2,0,0,2,0.0,,0.5,0.0,0.0
+De-Parameterize Test,Resource Optimism,2,0,0,2,0.0,,0.5,0.0,0.0
+De-Parameterize Test,Sensitive Equality,2,0,0,2,0.0,,0.5,0.0,0.0
+De-Parameterize Test,Sleepy Test,2,0,0,2,0.0,,0.5,0.0,0.0
+De-Parameterize Test,Unknown Test,2,0,0,2,0.0,,0.5,0.0,0.0
+De-Parameterize Test,Verbose Test,2,0,0,2,0.0,,0.5,0.0,0.0
+Delete Mock Object,General Fixture,3,2,0,1,0.0,0.17971249487899976,0.8333333333333334,-4.0,-3.0
+Delete Mock Object,Eager Test,2,1,0,1,0.0,0.31731050786291415,0.75,-0.5,-0.5
+Delete Mock Object,Magic Number Test,3,0,1,2,0.0,0.31731050786291415,0.4444444444444444,0.3333333333333333,0.0
+Delete Mock Object,Unknown Test,3,1,0,2,0.0,0.31731050786291415,0.5555555555555556,-0.3333333333333333,0.0
+Delete Mock Object,Assertion Roulette,3,1,1,1,1.0,0.6547208460185769,0.5,-0.3333333333333333,0.0
+Delete Mock Object,Conditional Test Logic,3,0,0,3,0.0,,0.5,0.0,0.0
+Delete Mock Object,Constructor Initialization,3,0,0,3,0.0,,0.5,0.0,0.0
+Delete Mock Object,Default Test,3,0,0,3,0.0,,0.5,0.0,0.0
+Delete Mock Object,Dependent Test,3,0,0,3,0.0,,0.5,0.0,0.0
+Delete Mock Object,Duplicate Assert,3,0,0,3,0.0,,0.5,0.0,0.0
+Delete Mock Object,Empty Test,3,0,0,3,0.0,,0.5,0.0,0.0
+Delete Mock Object,Exception Catching Throwing,3,0,0,3,0.0,,0.5,0.0,0.0
+Delete Mock Object,IgnoredTest,3,0,0,3,0.0,,0.5,0.0,0.0
+Delete Mock Object,Lazy Test,2,0,0,2,0.0,,0.5,0.0,0.0
+Delete Mock Object,Mystery Guest,3,0,0,3,0.0,,0.5,0.0,0.0
+Delete Mock Object,NumberOfMethods,3,0,0,3,0.0,,0.5,0.0,0.0
+Delete Mock Object,Print Statement,3,0,0,3,0.0,,0.5,0.0,0.0
+Delete Mock Object,Redundant Assertion,3,0,0,3,0.0,,0.5,0.0,0.0
+Delete Mock Object,Resource Optimism,3,0,0,3,0.0,,0.5,0.0,0.0
+Delete Mock Object,Sensitive Equality,3,0,0,3,0.0,,0.5,0.0,0.0
+Delete Mock Object,Sleepy Test,3,0,0,3,0.0,,0.5,0.0,0.0
+Delete Mock Object,Verbose Test,3,0,0,3,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,Assertion Roulette,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,Conditional Test Logic,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,Constructor Initialization,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,Default Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,Dependent Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,Duplicate Assert,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,Eager Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,Empty Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,Exception Catching Throwing,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,General Fixture,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,IgnoredTest,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,Lazy Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,Magic Number Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,Mystery Guest,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,NumberOfMethods,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,Print Statement,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,Redundant Assertion,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,Resource Optimism,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,Sensitive Equality,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,Sleepy Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,Unknown Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Flaky Test Mitigation,Verbose Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Grouping Tests,Lazy Test,4,2,0,2,0.0,0.15729920705028505,0.75,-1.5,-1.5
+Grouping Tests,Eager Test,4,0,1,3,0.0,0.31731050786291415,0.375,0.25,0.0
+Grouping Tests,Print Statement,22,2,0,20,0.0,0.17971249487899976,0.5216942148760331,-0.5909090909090909,0.0
+Grouping Tests,IgnoredTest,22,1,1,20,1.0,0.6547208460185769,0.48140495867768596,-0.13636363636363635,0.0
+Grouping Tests,Assertion Roulette,22,1,2,19,1.5,0.4142161782425251,0.4834710743801653,0.09090909090909091,0.0
+Grouping Tests,Magic Number Test,22,4,2,16,3.0,0.11484960926328609,0.5092975206611571,-2.0454545454545454,0.0
+Grouping Tests,Conditional Test Logic,22,3,0,19,0.0,0.10880943004054569,0.506198347107438,-0.9545454545454546,0.0
+Grouping Tests,Exception Catching Throwing,22,3,2,17,3.0,0.2228009911811345,0.493801652892562,-1.9545454545454546,0.0
+Grouping Tests,Duplicate Assert,22,1,0,21,0.0,0.31731050786291415,0.503099173553719,-0.045454545454545456,0.0
+Grouping Tests,Unknown Test,22,1,1,20,1.0,0.6547208460185769,0.496900826446281,-0.7727272727272727,0.0
+Grouping Tests,Redundant Assertion,22,1,0,21,0.0,0.31731050786291415,0.5020661157024794,-0.045454545454545456,0.0
+Grouping Tests,Constructor Initialization,22,0,0,22,0.0,,0.5,0.0,0.0
+Grouping Tests,Default Test,22,0,0,22,0.0,,0.5,0.0,0.0
+Grouping Tests,Dependent Test,22,0,0,22,0.0,,0.5,0.0,0.0
+Grouping Tests,Empty Test,22,0,0,22,0.0,,0.5,0.0,0.0
+Grouping Tests,General Fixture,22,0,0,22,0.0,,0.5,0.0,0.0
+Grouping Tests,Mystery Guest,22,0,0,22,0.0,,0.5,0.0,0.0
+Grouping Tests,NumberOfMethods,22,0,0,22,0.0,,0.5,0.0,0.0
+Grouping Tests,Resource Optimism,22,0,0,22,0.0,,0.5,0.0,0.0
+Grouping Tests,Sensitive Equality,22,0,0,22,0.0,,0.5,0.0,0.0
+Grouping Tests,Sleepy Test,22,0,0,22,0.0,,0.5,0.0,0.0
+Grouping Tests,Verbose Test,22,0,0,22,0.0,,0.5,0.0,0.0
+Inline Assertion,Unknown Test,6,3,0,3,0.0,0.10247043485974941,0.7916666666666666,-4.166666666666667,-3.5
+Inline Assertion,IgnoredTest,6,2,0,4,0.0,0.15729920705028505,0.6666666666666666,-0.3333333333333333,0.0
+Inline Assertion,Assertion Roulette,6,0,0,6,0.0,,0.5,0.0,0.0
+Inline Assertion,Conditional Test Logic,6,0,0,6,0.0,,0.5,0.0,0.0
+Inline Assertion,Constructor Initialization,6,0,0,6,0.0,,0.5,0.0,0.0
+Inline Assertion,Default Test,6,0,0,6,0.0,,0.5,0.0,0.0
+Inline Assertion,Dependent Test,6,0,0,6,0.0,,0.5,0.0,0.0
+Inline Assertion,Duplicate Assert,6,0,0,6,0.0,,0.5,0.0,0.0
+Inline Assertion,Eager Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Inline Assertion,Empty Test,6,0,0,6,0.0,,0.5,0.0,0.0
+Inline Assertion,Exception Catching Throwing,6,0,0,6,0.0,,0.5,0.0,0.0
+Inline Assertion,General Fixture,6,0,0,6,0.0,,0.5,0.0,0.0
+Inline Assertion,Lazy Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Inline Assertion,Magic Number Test,6,0,0,6,0.0,,0.5,0.0,0.0
+Inline Assertion,Mystery Guest,6,0,0,6,0.0,,0.5,0.0,0.0
+Inline Assertion,NumberOfMethods,6,0,0,6,0.0,,0.5,0.0,0.0
+Inline Assertion,Print Statement,6,0,0,6,0.0,,0.5,0.0,0.0
+Inline Assertion,Redundant Assertion,6,0,0,6,0.0,,0.5,0.0,0.0
+Inline Assertion,Resource Optimism,6,0,0,6,0.0,,0.5,0.0,0.0
+Inline Assertion,Sensitive Equality,6,0,0,6,0.0,,0.5,0.0,0.0
+Inline Assertion,Sleepy Test,6,0,0,6,0.0,,0.5,0.0,0.0
+Inline Assertion,Verbose Test,6,0,0,6,0.0,,0.5,0.0,0.0
+Merge Test Method,Assertion Roulette,2,0,2,0,0.0,0.5,0.0,1.0,1.0
+Merge Test Method,Eager Test,2,2,0,0,0.0,0.5,1.0,-1.0,-1.0
+Merge Test Method,Exception Catching Throwing,2,2,0,0,0.0,0.5,1.0,-1.0,-1.0
+Merge Test Method,General Fixture,2,2,0,0,0.0,0.5,1.0,-2.0,-2.0
+Merge Test Method,Magic Number Test,2,2,0,0,0.0,0.5,1.0,-1.0,-1.0
+Merge Test Method,Conditional Test Logic,2,0,0,2,0.0,,0.5,0.0,0.0
+Merge Test Method,Constructor Initialization,2,0,0,2,0.0,,0.5,0.0,0.0
+Merge Test Method,Default Test,2,0,0,2,0.0,,0.5,0.0,0.0
+Merge Test Method,Dependent Test,2,0,0,2,0.0,,0.5,0.0,0.0
+Merge Test Method,Duplicate Assert,2,0,0,2,0.0,,0.5,0.0,0.0
+Merge Test Method,Empty Test,2,0,0,2,0.0,,0.5,0.0,0.0
+Merge Test Method,IgnoredTest,2,0,0,2,0.0,,0.5,0.0,0.0
+Merge Test Method,Lazy Test,2,0,0,2,0.0,,0.5,0.0,0.0
+Merge Test Method,Mystery Guest,2,0,0,2,0.0,,0.5,0.0,0.0
+Merge Test Method,NumberOfMethods,2,0,0,2,0.0,,0.5,0.0,0.0
+Merge Test Method,Print Statement,2,0,0,2,0.0,,0.5,0.0,0.0
+Merge Test Method,Redundant Assertion,2,0,0,2,0.0,,0.5,0.0,0.0
+Merge Test Method,Resource Optimism,2,0,0,2,0.0,,0.5,0.0,0.0
+Merge Test Method,Sensitive Equality,2,0,0,2,0.0,,0.5,0.0,0.0
+Merge Test Method,Sleepy Test,2,0,0,2,0.0,,0.5,0.0,0.0
+Merge Test Method,Unknown Test,2,0,0,2,0.0,,0.5,0.0,0.0
+Merge Test Method,Verbose Test,2,0,0,2,0.0,,0.5,0.0,0.0
+Print to Assertion,Assertion Roulette,2,0,2,0,0.0,0.5,0.0,1.0,1.0
+Print to Assertion,Print Statement,2,2,0,0,0.0,0.5,1.0,-1.0,-1.0
+Print to Assertion,Unknown Test,2,2,0,0,0.0,0.5,1.0,-1.0,-1.0
+Print to Assertion,Conditional Test Logic,2,0,0,2,0.0,,0.5,0.0,0.0
+Print to Assertion,Constructor Initialization,2,0,0,2,0.0,,0.5,0.0,0.0
+Print to Assertion,Default Test,2,0,0,2,0.0,,0.5,0.0,0.0
+Print to Assertion,Dependent Test,2,0,0,2,0.0,,0.5,0.0,0.0
+Print to Assertion,Duplicate Assert,2,0,0,2,0.0,,0.5,0.0,0.0
+Print to Assertion,Eager Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Print to Assertion,Empty Test,2,0,0,2,0.0,,0.5,0.0,0.0
+Print to Assertion,Exception Catching Throwing,2,0,0,2,0.0,,0.5,0.0,0.0
+Print to Assertion,General Fixture,2,0,0,2,0.0,,0.5,0.0,0.0
+Print to Assertion,IgnoredTest,2,0,0,2,0.0,,0.5,0.0,0.0
+Print to Assertion,Lazy Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Print to Assertion,Magic Number Test,2,0,0,2,0.0,,0.5,0.0,0.0
+Print to Assertion,Mystery Guest,2,0,0,2,0.0,,0.5,0.0,0.0
+Print to Assertion,NumberOfMethods,2,0,0,2,0.0,,0.5,0.0,0.0
+Print to Assertion,Redundant Assertion,2,0,0,2,0.0,,0.5,0.0,0.0
+Print to Assertion,Resource Optimism,2,0,0,2,0.0,,0.5,0.0,0.0
+Print to Assertion,Sensitive Equality,2,0,0,2,0.0,,0.5,0.0,0.0
+Print to Assertion,Sleepy Test,2,0,0,2,0.0,,0.5,0.0,0.0
+Print to Assertion,Verbose Test,2,0,0,2,0.0,,0.5,0.0,0.0
+Replace Dependency with Test Double,Magic Number Test,6,1,2,3,1.0,0.28504940740261275,0.3611111111111111,0.6666666666666666,0.0
+Replace Dependency with Test Double,Sleepy Test,6,1,0,5,0.0,0.31731050786291415,0.5833333333333334,-0.16666666666666666,0.0
+Replace Dependency with Test Double,Assertion Roulette,6,1,2,3,1.0,0.27630291733748347,0.4166666666666667,0.5,0.0
+Replace Dependency with Test Double,Conditional Test Logic,6,1,1,4,1.0,0.6547208460185769,0.4861111111111111,0.16666666666666666,0.0
+Replace Dependency with Test Double,Constructor Initialization,6,0,0,6,0.0,,0.5,0.0,0.0
+Replace Dependency with Test Double,Default Test,6,0,0,6,0.0,,0.5,0.0,0.0
+Replace Dependency with Test Double,Dependent Test,6,0,0,6,0.0,,0.5,0.0,0.0
+Replace Dependency with Test Double,Duplicate Assert,6,0,0,6,0.0,,0.5,0.0,0.0
+Replace Dependency with Test Double,Eager Test,5,1,1,3,1.0,0.6547208460185769,0.5,0.2,0.0
+Replace Dependency with Test Double,Empty Test,6,0,0,6,0.0,,0.5,0.0,0.0
+Replace Dependency with Test Double,Exception Catching Throwing,6,0,0,6,0.0,,0.5,0.0,0.0
+Replace Dependency with Test Double,General Fixture,6,0,0,6,0.0,,0.5,0.0,0.0
+Replace Dependency with Test Double,IgnoredTest,6,0,0,6,0.0,,0.5,0.0,0.0
+Replace Dependency with Test Double,Lazy Test,5,1,1,3,1.0,0.6547208460185769,0.5,-2.6,0.0
+Replace Dependency with Test Double,Mystery Guest,6,0,0,6,0.0,,0.5,0.0,0.0
+Replace Dependency with Test Double,NumberOfMethods,6,0,0,6,0.0,,0.5,0.0,0.0
+Replace Dependency with Test Double,Print Statement,6,0,0,6,0.0,,0.5,0.0,0.0
+Replace Dependency with Test Double,Redundant Assertion,6,0,0,6,0.0,,0.5,0.0,0.0
+Replace Dependency with Test Double,Resource Optimism,6,0,0,6,0.0,,0.5,0.0,0.0
+Replace Dependency with Test Double,Sensitive Equality,6,0,0,6,0.0,,0.5,0.0,0.0
+Replace Dependency with Test Double,Unknown Test,6,0,0,6,0.0,,0.5,0.0,0.0
+Replace Dependency with Test Double,Verbose Test,6,0,0,6,0.0,,0.5,0.0,0.0
+Split Parameterize Test,Assertion Roulette,1,0,0,1,0.0,,0.5,0.0,0.0
+Split Parameterize Test,Conditional Test Logic,1,0,0,1,0.0,,0.5,0.0,0.0
+Split Parameterize Test,Constructor Initialization,1,0,0,1,0.0,,0.5,0.0,0.0
+Split Parameterize Test,Default Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Split Parameterize Test,Dependent Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Split Parameterize Test,Duplicate Assert,1,0,0,1,0.0,,0.5,0.0,0.0
+Split Parameterize Test,Empty Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Split Parameterize Test,Exception Catching Throwing,1,0,0,1,0.0,,0.5,0.0,0.0
+Split Parameterize Test,General Fixture,1,0,0,1,0.0,,0.5,0.0,0.0
+Split Parameterize Test,IgnoredTest,1,0,0,1,0.0,,0.5,0.0,0.0
+Split Parameterize Test,Magic Number Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Split Parameterize Test,Mystery Guest,1,0,0,1,0.0,,0.5,0.0,0.0
+Split Parameterize Test,NumberOfMethods,1,0,0,1,0.0,,0.5,0.0,0.0
+Split Parameterize Test,Print Statement,1,0,0,1,0.0,,0.5,0.0,0.0
+Split Parameterize Test,Redundant Assertion,1,0,0,1,0.0,,0.5,0.0,0.0
+Split Parameterize Test,Resource Optimism,1,0,0,1,0.0,,0.5,0.0,0.0
+Split Parameterize Test,Sensitive Equality,1,0,0,1,0.0,,0.5,0.0,0.0
+Split Parameterize Test,Sleepy Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Split Parameterize Test,Unknown Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Split Parameterize Test,Verbose Test,1,0,0,1,0.0,,0.5,0.0,0.0
+Split Test Method,Magic Number Test,37,1,32,4,8.0,8.173954948908526e-07,0.09386413440467495,2.6486486486486487,1.0
+Split Test Method,Duplicate Assert,37,15,0,22,0.0,0.00016244084518680078,0.697954711468225,-0.43243243243243246,0.0
+Split Test Method,Lazy Test,8,1,4,3,1.5,0.10405923452892792,0.3359375,5.875,1.5
+Split Test Method,Mystery Guest,37,1,9,27,4.5,0.01293409326524844,0.46092037983929873,0.32432432432432434,0.0
+Split Test Method,Eager Test,8,2,3,3,3.0,0.2228009911811345,0.4609375,1.375,0.0
+Split Test Method,Assertion Roulette,37,3,3,31,7.5,0.5176341185833455,0.5237399561723886,0.1891891891891892,0.0
+Split Test Method,Conditional Test Logic,37,0,4,33,0.0,0.0633177868300456,0.4821037253469686,0.2702702702702703,0.0
+Split Test Method,Sensitive Equality,37,0,3,34,0.0,0.08326451666355039,0.48429510591672753,0.08108108108108109,0.0
+Split Test Method,General Fixture,37,0,2,35,0.0,0.17971249487899976,0.48575602629656683,0.13513513513513514,0.0
+Split Test Method,Exception Catching Throwing,37,3,6,28,13.5,0.2482130789899235,0.5054784514243974,0.24324324324324326,0.0
+Split Test Method,Unknown Test,37,0,1,36,0.0,0.31731050786291415,0.4992695398100804,0.7567567567567568,0.0
+Split Test Method,IgnoredTest,37,0,1,36,0.0,0.31731050786291415,0.4996347699050402,0.02702702702702703,0.0
+Split Test Method,Constructor Initialization,37,0,0,37,0.0,,0.5,0.0,0.0
+Split Test Method,Default Test,37,0,0,37,0.0,,0.5,0.0,0.0
+Split Test Method,Dependent Test,37,0,0,37,0.0,,0.5,0.0,0.0
+Split Test Method,Empty Test,37,0,0,37,0.0,,0.5,0.0,0.0
+Split Test Method,NumberOfMethods,37,0,0,37,0.0,,0.5,0.0,0.0
+Split Test Method,Print Statement,37,0,0,37,0.0,,0.5,0.0,0.0
+Split Test Method,Redundant Assertion,37,0,0,37,0.0,,0.5,0.0,0.0
+Split Test Method,Resource Optimism,37,0,0,37,0.0,,0.5,0.0,0.0
+Split Test Method,Sleepy Test,37,0,0,37,0.0,,0.5,0.0,0.0
+Split Test Method,Verbose Test,37,0,0,37,0.0,,0.5,0.0,0.0
+Tuning Resources,Assertion Roulette,3,0,0,3,0.0,,0.5,0.0,0.0
+Tuning Resources,Conditional Test Logic,3,0,0,3,0.0,,0.5,0.0,0.0
+Tuning Resources,Constructor Initialization,3,0,0,3,0.0,,0.5,0.0,0.0
+Tuning Resources,Default Test,3,0,0,3,0.0,,0.5,0.0,0.0
+Tuning Resources,Dependent Test,3,0,0,3,0.0,,0.5,0.0,0.0
+Tuning Resources,Duplicate Assert,3,0,0,3,0.0,,0.5,0.0,0.0
+Tuning Resources,Empty Test,3,0,0,3,0.0,,0.5,0.0,0.0
+Tuning Resources,Exception Catching Throwing,3,0,0,3,0.0,,0.5,0.0,0.0
+Tuning Resources,General Fixture,3,0,0,3,0.0,,0.5,0.0,0.0
+Tuning Resources,IgnoredTest,3,0,0,3,0.0,,0.5,0.0,0.0
+Tuning Resources,Magic Number Test,3,0,0,3,0.0,,0.5,0.0,0.0
+Tuning Resources,Mystery Guest,3,0,0,3,0.0,,0.5,0.0,0.0
+Tuning Resources,NumberOfMethods,3,0,0,3,0.0,,0.5,0.0,0.0
+Tuning Resources,Print Statement,3,0,0,3,0.0,,0.5,0.0,0.0
+Tuning Resources,Redundant Assertion,3,0,0,3,0.0,,0.5,0.0,0.0
+Tuning Resources,Resource Optimism,3,0,0,3,0.0,,0.5,0.0,0.0
+Tuning Resources,Sensitive Equality,3,0,0,3,0.0,,0.5,0.0,0.0
+Tuning Resources,Sleepy Test,3,0,0,3,0.0,,0.5,0.0,0.0
+Tuning Resources,Unknown Test,3,0,0,3,0.0,,0.5,0.0,0.0
+Tuning Resources,Verbose Test,3,0,0,3,0.0,,0.5,0.0,0.0

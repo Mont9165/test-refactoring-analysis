@@ -1,0 +1,6 @@
+followup/data_fix      file   cells=6724 | NotPresent 71.0 NoChange 17.1 Imp 6.9 Deg 5.0 | present-only (1950): unchanged 59.0 imp 23.9 deg 17.1
+followup/data_fix      method cells=7258 | NotPresent 83.5 NoChange 9.9 Imp 4.1 Deg 2.5 | present-only (1196): unchanged 60.0 imp 24.7 deg 15.2
+followup2/data_fix2    file   cells=6721 | NotPresent 71.0 NoChange 17.1 Imp 6.9 Deg 5.0 | present-only (1950): unchanged 59.0 imp 23.9 deg 17.1
+followup2/data_fix2    method cells=6721 | NotPresent 82.4 NoChange 10.7 Imp 4.3 Deg 2.7 | present-only (1186): unchanged 60.4 imp 24.4 deg 15.3
+followup/data_fix commits 146 measured 146 present-before 131 = 89.7% of measured
+followup2/data_fix2 commits 145 measured 145 present-before 131 = 90.3% of measured

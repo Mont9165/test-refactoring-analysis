@@ -28,15 +28,16 @@ def analyze_metrics(data):
             metric = col.replace('_before', '')
             after_col = metric + '_after'
             if after_col in data.columns:
-                before = data[col].dropna()
-                after = data[after_col].dropna()
-                # インデックスが揃っている前提です。必要に応じてマージなどの前処理を追加してください。
+                paired = data[[col, after_col]].dropna(how='any')
+                before = paired[col]
+                after = paired[after_col]
                 if len(before) > 0 and len(after) > 0 and len(before) == len(after):
                     try:
                         stat, p_value = wilcoxon(before, after)
                         effect = vargha_delaney_effect(before.values, after.values)
                         results.append({
                             'metric': metric,
+                            'n': len(before),
                             'wilcoxon_stat': stat,
                             'p_value': p_value,
                             'A12': effect
@@ -62,8 +63,9 @@ def analyze_grouped_metrics(data):
                 metric = col.replace('_before', '')
                 after_col = metric + '_after'
                 if after_col in group.columns:
-                    before = group[col].dropna()
-                    after = group[after_col].dropna()
+                    paired = group[[col, after_col]].dropna(how='any')
+                    before = paired[col]
+                    after = paired[after_col]
                     if len(before) > 0 and len(after) > 0 and len(before) == len(after):
                         try:
                             stat, p_value = wilcoxon(before, after)
@@ -71,6 +73,7 @@ def analyze_grouped_metrics(data):
                             results.append({
                                 'type_name': ref_type,
                                 'metric': metric,
+                                'n': len(before),
                                 'wilcoxon_stat': stat,
                                 'p_value': p_value,
                                 'A12': effect

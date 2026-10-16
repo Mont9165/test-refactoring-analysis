@@ -1,0 +1,14 @@
+Eager Test | commits: 145 measured>=1: 63 | no measured but has one-side pair: 4 | of which before>0 known: 2 | one-side pairs in commits that also have measured pairs: 0
+                                                              meas  both  one  bpos
+u                                                                                  
+Tencent/TencentKona-17/commit/31c128ef22442527503ebf180b3fec     0     0    8     8
+aaberg/sql2o/commit/e6a0781491c06b6a2ea52bd4ea97649497cbdf7a     0     0    1     1
+locationtech/jts/commit/78feb6c98c332eb1d1c6da2c584bbc51aae4     0     0    1     0
+pmd/pmd-eclipse-plugin/commit/89b00ec91630e2c63d6e3d48d717a4     0     0    1     0
+Lazy Test | commits: 145 measured>=1: 63 | no measured but has one-side pair: 4 | of which before>0 known: 2 | one-side pairs in commits that also have measured pairs: 0
+                                                              meas  both  one  bpos
+u                                                                                  
+Tencent/TencentKona-17/commit/31c128ef22442527503ebf180b3fec     0     0    8     8
+aaberg/sql2o/commit/e6a0781491c06b6a2ea52bd4ea97649497cbdf7a     0     0    1     1
+locationtech/jts/commit/78feb6c98c332eb1d1c6da2c584bbc51aae4     0     0    1     0
+pmd/pmd-eclipse-plugin/commit/89b00ec91630e2c63d6e3d48d717a4     0     0    1     0

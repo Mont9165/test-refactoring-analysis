@@ -1,0 +1,1794 @@
+commit_url,type_name,owner,repo,sha,commit_subject,commit_body,commit_author,commit_date,pr_number,pr_title,pr_body,pr_state,pr_comments_excerpt,pr_reviews_excerpt,trigger_category,trigger_subcode,evidence_quote,confidence,notes
+https://github.com/AICP/frameworks_base/commit/05c96d4b32e7722a5a16a7939009bc2b74096d76,Implicit Teardown,AICP,frameworks_base,05c96d4b32e7722a5a16a7939009bc2b74096d76,Re-enable biometric prompt tests.,"These were temporarily disabled when the face-to-fingerprint flow was replaced with the coex flow. The test refactor caused presubmit failures because the detach method was not called after the test ended, which could cause unrelated downstream tests to fail.
+
+Bug: 222119218
+Test: atest AuthBiometricViewTest
+Change-Id: Ie6c18ab2fabe6f42cff9706ad51062ebbad82bd0",Joe Bolinger,2022-03-23T22:12:49Z,,,,,,,,,,,
+https://github.com/AICP/frameworks_base/commit/0fded55c45c400354a71fac453af7511703868ef,Delegated Setup,AICP,frameworks_base,0fded55c45c400354a71fac453af7511703868ef,Refactor leak tests,"Change the code to not rely on debug mode compilation for D8/R8.
+
+For R8 -dontoptimize is still required (default for tests) to avoid
+inlining that could ""revert"" this change at compile time.
+
+Test: m -j USE_R8=true SystemUITests
+Test: Run tests and see failures from b/70879514 are gone
+
+Bug: 70879514
+Change-Id: Ic8bb2bd3a91da0ecb2ec4e40183f47e4daf6323c",Søren Gjesse,2017-12-21T10:42:30Z,,,,,,,,,,,
+https://github.com/AICP/frameworks_base/commit/2fc27ebaec26afd1537499c972ddbaa724886817,Change Assertion Type,AICP,frameworks_base,2fc27ebaec26afd1537499c972ddbaa724886817,Refactored UserManagerTest to use JUnit4 and Truth.,"Test: atest FrameworksServicesTests:com.android.server.pm.UserManagerTest
+
+Fixes: 146435179
+Bug: 30839080
+
+Change-Id: I5b936eeee5b423e87481516269aa52c9de7907dc",Felipe Leme,2019-12-17T22:50:11Z,,,,,,,,,,,
+https://github.com/AICP/frameworks_base/commit/2fc27ebaec26afd1537499c972ddbaa724886817,Guard Assertion,AICP,frameworks_base,2fc27ebaec26afd1537499c972ddbaa724886817,Refactored UserManagerTest to use JUnit4 and Truth.,"Test: atest FrameworksServicesTests:com.android.server.pm.UserManagerTest
+
+Fixes: 146435179
+Bug: 30839080
+
+Change-Id: I5b936eeee5b423e87481516269aa52c9de7907dc",Felipe Leme,2019-12-17T22:50:11Z,,,,,,,,,,,
+https://github.com/AICP/frameworks_base/commit/669f02323f9c7298fdef79b44e1a512549d1411a,Flaky Test Mitigation,AICP,frameworks_base,669f02323f9c7298fdef79b44e1a512549d1411a,Networking unit tests: fix some flaky tests,"- less strict regex for SharedLogTest: the subsecond part of the
+   timestamp can have 0, 1, 2 or 3 digits.
+ - refactor NetworkStatsServiceTest and NetworkStatsObserversTest to use
+   waitForIdleHandler facility of ConnectivityServiceTest.
+   NetworkStatsServiceTest was using a flaky custom version of
+   waitForIdleHandler.
+
+Bug: 62918393
+Bug: 32561414
+Test: runtest frameworks-net
+Change-Id: I634acfb5f4fe1bd5267e3f14b9f645edc32d5d12",Hugo Benichi,2017-06-29T13:58:39Z,,,,,,,,,,,
+https://github.com/AICP/frameworks_base/commit/693e21d6052b32ad7815d9c0d7bd01fd6170a608,Prebuilt Fixture,AICP,frameworks_base,693e21d6052b32ad7815d9c0d7bd01fd6170a608,MediaFrameworkTest: Add camera capture result callback test,"Also refactor the code to reduce code duplication.
+
+Change-Id: I428ad73510043ebf9e62cd7841bfdb683c96f9bc",Zhijun He,2013-07-31T21:16:14Z,,,,,,,,,,,
+https://github.com/AICP/frameworks_base/commit/693e21d6052b32ad7815d9c0d7bd01fd6170a608,Implicit Teardown,AICP,frameworks_base,693e21d6052b32ad7815d9c0d7bd01fd6170a608,MediaFrameworkTest: Add camera capture result callback test,"Also refactor the code to reduce code duplication.
+
+Change-Id: I428ad73510043ebf9e62cd7841bfdb683c96f9bc",Zhijun He,2013-07-31T21:16:14Z,,,,,,,,,,,
+https://github.com/AICP/frameworks_base/commit/693e21d6052b32ad7815d9c0d7bd01fd6170a608,Implicit Setup,AICP,frameworks_base,693e21d6052b32ad7815d9c0d7bd01fd6170a608,MediaFrameworkTest: Add camera capture result callback test,"Also refactor the code to reduce code duplication.
+
+Change-Id: I428ad73510043ebf9e62cd7841bfdb683c96f9bc",Zhijun He,2013-07-31T21:16:14Z,,,,,,,,,,,
+https://github.com/AICP/frameworks_base/commit/93702abf6e9a87079e81c46c82d8c3954a426759,Prebuilt Fixture,AICP,frameworks_base,93702abf6e9a87079e81c46c82d8c3954a426759,Cleaned up unit tests.,"This refactoring will make it easier to add new test cases for the
+upcoming bugreport details notification.
+
+BUG: 25794470
+Change-Id: I0bf6ab54a7b4aa1dfa51ad0354682e5764b8a209",Felipe Leme,2015-12-11T21:06:45Z,,,,,,,,,,,
+https://github.com/AICP/frameworks_base/commit/93702abf6e9a87079e81c46c82d8c3954a426759,Verification Method,AICP,frameworks_base,93702abf6e9a87079e81c46c82d8c3954a426759,Cleaned up unit tests.,"This refactoring will make it easier to add new test cases for the
+upcoming bugreport details notification.
+
+BUG: 25794470
+Change-Id: I0bf6ab54a7b4aa1dfa51ad0354682e5764b8a209",Felipe Leme,2015-12-11T21:06:45Z,,,,,,,,,,,
+https://github.com/AICP/frameworks_base/commit/93702abf6e9a87079e81c46c82d8c3954a426759,Delegated Setup,AICP,frameworks_base,93702abf6e9a87079e81c46c82d8c3954a426759,Cleaned up unit tests.,"This refactoring will make it easier to add new test cases for the
+upcoming bugreport details notification.
+
+BUG: 25794470
+Change-Id: I0bf6ab54a7b4aa1dfa51ad0354682e5764b8a209",Felipe Leme,2015-12-11T21:06:45Z,,,,,,,,,,,
+https://github.com/AdoptOpenJDK/jitwatch/commit/7788103ee76fde8751ccbe5adc03855c89ef4bdc,Suite Fixture Setup,AdoptOpenJDK,jitwatch,7788103ee76fde8751ccbe5adc03855c89ef4bdc,refactor the @Before/@After to make test TestBytecodeLoaderWithInnerClasses faster,,TestBoost,2023-12-09T06:44:54Z,,,,,,,,,,,
+https://github.com/Alluxio/alluxio/commit/1dcfa607d731e9ebab01229d4ad490714f8527b1,Testcase Superclass,Alluxio,alluxio,1dcfa607d731e9ebab01229d4ad490714f8527b1,DataServerWriteHandler tests refactoring,.,Pei Sun,2017-01-08T23:59:32Z,4611,[ALLUXIO-2441] Netty data server handlers unittests ,,closed,"@alluxio-bot: Automated checks report:
+  * Valid pull request title: PASS
+  * Contains link to JIRA ticket: FAIL
+    * Pull request body should contain a link back to the appropriate JIRA ticket (https://alluxio.atlassian.net/browse/ALLUXIO-2441)
+  * Commits associated with Github account: PASS
+
+Please fix the reported issues and reply 'alluxio-bot, check this please' to re-run checks
+
+---
+@AmplabJenkins: Merged build finished. Test PASSed.
+---
+@AmplabJenkins: Test PASSed.
+Refer to this link for build results (access rights to CI server needed): 
+https://amplab.cs.berkeley.edu/jenkins//job/Alluxio-Pull-Request-Builder/13023/
+Test PASSed.
+---
+@peisun1115: @gpang  PTAL. Thanks
+---
+@AmplabJenkins: Merged build finished. Test PASSed.
+---
+@AmplabJenkins: Test PASSed.
+Refer to this link for build results (access rights to CI server needed): 
+https://amplab.cs.berkeley.edu/jenkins//job/Alluxio-Pull-Request-Builder/13032/
+Test PASSed.
+---
+@jsimsa: FYI, I have a PR that introduces options for the waitFor method (https://github.com/Alluxio/alluxio/pull/4616) ... if my PR merges first, you should incorporate it into your PR
+---
+@jsimsa: @peisun1115 the waitFor PR (https://github.com/Alluxio/alluxio/pull/4616) has been merged, could you please update the newly introduced waitFor method to use the WaitForOption? thanks
+
+also, please resolve merge conflicts
+---
+@peisun1115: @gpang  PTAL
+
+@jsimsa  I've merged with your change
+---
+@AmplabJenkins: Merged build finished. Test PASSed.
+---
+@AmplabJenkins: Test PASSed.
+Refer to this link for build results (access rights to CI server needed): 
+https://amplab.cs.berkeley.edu/jenkins//job/Alluxio-Pull-Request-Builder/13051/
+Test PASSed.
+---
+@AmplabJenkins: Merged build finished. Test PASSed.
+---
+@AmplabJenkins: Test PASSed.
+Refer to this link for build results (access rights to CI server needed): 
+https://amplab.cs.berkeley.edu/jenkins//job/Alluxio-Pull-Request-Builder/13052/
+Test PASSed.
+---
+@AmplabJenkins: Merged build finished. Test PASSed.
+---
+@AmplabJenkins: Test PASSed.
+Refer to this link for build results (access rights to CI server needed): 
+https://amplab.cs.berkeley.edu/jenkins//job/Alluxio-Pull-Request-Builder/13075/
+Test PASSed.
+---
+@peisun1115: @calvinjia I've addressed your comments. PTAL
+---
+@AmplabJenkins: Merged build finished. Test PASSed.
+---
+@AmplabJenkins: Test PASSed.
+Refer to this link for build results (access rights to CI server needed): 
+https://amplab.cs.berkeley.edu/jenkins//job/Alluxio-Pull-Request-Builder/13078/
+Test PASSed.","@gpang (CHANGES_REQUESTED): @peisun1115 I just had some minor comments. After that, this looks good! Thanks!
+---
+@jsimsa (APPROVED): LGTM, for the waitFor changes
+---
+@gpang (APPROVED): LGTM",,,,,
+https://github.com/C2SP/wycheproof/commit/5edcff5e9eb449503104721c4bbdab82ae0107a1,Delegated Setup,C2SP,wycheproof,5edcff5e9eb449503104721c4bbdab82ae0107a1,Refactoring CipherOutputStreamTest.java,"* The tests are now skipped if the cipher is not supported.
+* Tests are now split into testing encryption, decryption and decryption of
+  corrupt ciphertexts.
+
+CipherOutputStream has the unfortunate behaviour that a decryption failure
+because of an incorrect tag results in an empty plaintext rather than an
+exception.
+Oracle isn't changing this:
+http://www.oracle.com/technetwork/java/javase/8u171-relnotes-4308888.html
+
+The main purpose of the test is to ensure that a provider does not behave
+even worse by returning partial plaintext.
+
+Before the CL tests pass if they return empty plaintext. With this CL
+tests only pass if there is an exception and either fail or are skipped
+if they return empty plaintext.
+
+The corruption tests pass under jdk11 they are skipped under jdk19.
+
+NOKEYCHECK=True
+PiperOrigin-RevId: 468142569",bleichen,2022-08-17T09:14:01Z,,,,,,,,,,,
+https://github.com/CodeStory/fluent-http/commit/98e8e68ad30346714bd754b5eb223801bef84b03,Inline Setup,CodeStory,fluent-http,98e8e68ad30346714bd754b5eb223801bef84b03,Refactor tests,,David Gageot,2014-04-29T09:36:43Z,,,,,,,,,,,
+https://github.com/CodeStory/fluent-http/commit/98e8e68ad30346714bd754b5eb223801bef84b03,Grouping Tests,CodeStory,fluent-http,98e8e68ad30346714bd754b5eb223801bef84b03,Refactor tests,,David Gageot,2014-04-29T09:36:43Z,,,,,,,,,,,
+https://github.com/Consensys/tessera/commit/de2696e6a8f9656d99399fb45063ff4f95cb63bc,Prebuilt Fixture,Consensys,tessera,de2696e6a8f9656d99399fb45063ff4f95cb63bc,unit tests refactored for client factory,,namtruong,2018-06-24T12:41:06Z,,,,,,,,,,,
+https://github.com/DataDog/java-dogstatsd-client/commit/dd154c51cec1bba55e2e051cb7e65999e9925b58,Replace Dependency with Test Double,DataDog,java-dogstatsd-client,dd154c51cec1bba55e2e051cb7e65999e9925b58,refactor test,,Tom Denley,2012-08-02T10:53:46Z,,,,,,,,,,,
+https://github.com/FasterXML/jackson-dataformats-text/commit/ea850727af5f84fc2fe706e3ca8d009aeb1f27dc,Prebuilt Fixture,FasterXML,jackson-dataformats-text,ea850727af5f84fc2fe706e3ca8d009aeb1f27dc,Further minor test refactoring,,Tatu Saloranta,2023-05-14T03:10:51Z,,,,,,,,,,,
+https://github.com/FasterXML/jackson-modules-java8/commit/3956c030f7d334e827da5c2d4f8da68cef5c8d2c,Grouping Tests,FasterXML,jackson-modules-java8,3956c030f7d334e827da5c2d4f8da68cef5c8d2c,Test refactoring for date/time,,Tatu Saloranta,2019-06-01T22:10:17Z,,,,,,,,,,,
+https://github.com/FasterXML/jackson-modules-java8/commit/8c3d032fb564148c39b5fdf1cdd6e314e6af1cb5,Inline Assertion,FasterXML,jackson-modules-java8,8c3d032fb564148c39b5fdf1cdd6e314e6af1cb5,more test refactoring,,Tatu Saloranta,2019-09-23T06:31:02Z,,,,,,,,,,,
+https://github.com/FlowCI/flow-core-x/commit/3d87d7fd4dffcd91e3da170689c7577f2e393a81,Delegated Setup,FlowCI,flow-core-x,3d87d7fd4dffcd91e3da170689c7577f2e393a81,refactor unit test,,Yang Guo,2017-12-07T03:52:27Z,233,Hotfix/227,,closed,,,,,,,
+https://github.com/GoSimpleLLC/nbvcxz/commit/b2cbc3abeb148fe6c07b96607cc143b8928c4808,Parameterized Test,GoSimpleLLC,nbvcxz,b2cbc3abeb148fe6c07b96607cc143b8928c4808,Add test for concurrent use to ensure the results are the same when the same Nbvcxz is used concurrently by multiple threads when calling estimate.,Refactored the tests for less code duplication.,adambrusselback@gmail.com,2019-11-18T22:23:40Z,,,,,,,,,,,
+https://github.com/GoSimpleLLC/nbvcxz/commit/b2cbc3abeb148fe6c07b96607cc143b8928c4808,Test Helper,GoSimpleLLC,nbvcxz,b2cbc3abeb148fe6c07b96607cc143b8928c4808,Add test for concurrent use to ensure the results are the same when the same Nbvcxz is used concurrently by multiple threads when calling estimate.,Refactored the tests for less code duplication.,adambrusselback@gmail.com,2019-11-18T22:23:40Z,,,,,,,,,,,
+https://github.com/JavaMoney/javamoney-lib/commit/5869737309f124b709997364f02bddcdca38b428,Prebuilt Fixture,JavaMoney,javamoney-lib,5869737309f124b709997364f02bddcdca38b428,refactored bid ask spread test,,Manuela Grindei,2016-07-26T22:25:43Z,33,Stocks/Bonds Formulas,Implemented all formulas from http://www.financeformulas.net/Stock-and-Bond-Formulas.html,closed,,,,,,,
+https://github.com/Kong/unirest-java/commit/994f7b4cca0bef1190e097327343b436d66014d6,Implicit Setup,Kong,unirest-java,994f7b4cca0bef1190e097327343b436d66014d6,little test refactor,,Ryan Bergman,2023-09-23T17:36:13Z,,,,,,,,,,,
+https://github.com/MoreUnit/MoreUnit-Eclipse/commit/06068bae9401c8e5d112cd81450faca1b4c712ee,Change Assertion Type,MoreUnit,MoreUnit-Eclipse,06068bae9401c8e5d112cd81450faca1b4c712ee,Test refactoring,,gianasista,2008-12-08T20:29:38Z,,,,,,,,,,,
+https://github.com/MovingBlocks/Terasology/commit/c92f14ff5c5c73d849f7d6d0d2980846209ebead,Prebuilt Fixture,MovingBlocks,Terasology,c92f14ff5c5c73d849f7d6d0d2980846209ebead,Refactor Setting tests to improve readability,,Arav Singhal,2017-03-26T16:33:36Z,2757,FlexibleConfig,"Closes #2668. Implements a `FlexibleConfig` and `Setting` class which allows for an extensible configuration system which does not have hard-coded settings.
+
+### Testing
+
+- Run tests (all relevant tests are in the `org.terasology.config.flexible` package)
+
+### Outstanding before merging
+
+- [x] Add tests for each method in `Setting`
+- [x] Add tests for each method in `FlexibleConfig`
+- [x] Add JavaDoc
+   - [x] Document `RangedValueValidator`
+   - [x] Document `Setting`
+   - [x] Document `SettingImpl`
+   - [x] Document `FlexibleConfig`
+   - [x] Document `FlexibleConfigImpl`
+ - [x] Update tests to be more ""test"" like (check @emanuele3d review)",closed,"@GooeyHub: Can one of the admins please verify this patch?
+---
+@eviltak: A few questions I'd like reviewers to answer:
+
+- [x] Should `FlexibleConfig.add` raise an `Exception` if the key is already present in the map?
+- [x] Should `FlexibleConfig.get` raise an `Exception` if the type of the `Key` and the type of the `Setting` don't match (i.e. `key.vClass.isInstance(setting.getValue())` returns `false`)? I'm leaning towards yes on this one, but it depends on the project architecture.
+- [x] Should `FlexibleConfig.has` be renamed to `FlexibleConfig.contains`?
+- [x] Should `SettingValueValidator` be renamed to `SettingValueConstraint` (or something better)?
+- [x] Should `FlexibleConfig` and `Setting` be refactored into an interface and its implementation?
+---
+@Cervator: @GooeyHub: ok to test
+
+@eviltak: thanks for all the work and consideration you've put into this topic :-)
+
+Poking @emanuele3d and @flo for feedback
+---
+@GooeyHub: Hooray Jenkins reported success with all tests good!
+
+---
+@emanuele3d: @eviltak: this PR might need some more patience than usual unfortunately.
+
+With the other folks interested in architecture we are currently looking at some high-level concepts that have been mentioned a number of time and never fully discussed. Configs is one of those concept and it's not quite clear yet if we are even going in the right direction with issue #2668 and therefore this PR.
+
+So, you might have to wait a bit longer than usual to get a proper review. 
+
+
+
+---
+@eviltak: @emanuele3d that's alright. Any other things (that you mentioned) that you think I can help out in? 
+---
+@Cervator: Heya @eviltak - you can check out some of the related architecture talk over here if you're interested: 
+
+http://forum.terasology.org/threads/config-context-and-security.1761/
+
+A ton of it is beyond the initial Config work which is sort of a phase 1 and the first thing we hope to get done, with this PR the focal point.
+
+So far the main solid point I've taken to have some impact on this PR is the idea of moving to use `SimpleUri` instead of `ResourceUrn` - the latter is way more advanced than what we likely need in a key, and actually comes from `gestalt-asset-core` rather than the engine itself. Could you evaluate that possibility and see if it would cause any trouble to switch?
+
+It might also give us a nice key naming convention simply consisting of a module name + object, with the module name possibly relating to an actual module or something else when appropriate (global rendering config or other stuff - more of a category there)
+
+The idea behind that is covered in the thread: in short it would allow easy extraction of Config+Context+Injection into its own little external library at some point, without having to depend on `gestalt-asset-core` - maybe even including `SimpleUri` itself
+
+On the type stuff and UI auto-building then my brain is still trying to digest that. I *think* I get what you mean but stuff like `<V> Setting<V> get(Key<V> key)` makes my brain m...","@emanuele3d (CHANGES_REQUESTED): @eviltak, thank you for your work. This PR is an excellent starting point.
+
+Generally speaking, the main problem is that you built a Ferrari when all we needed was a relatively simple semi-truck. Fine engineering, no doubts about that, and I congratulate you on your java proficiency. But we need something simpler and more in line with the original design even though that design might appear less robust to you.
+
+So, lots of changes, most minor, but some big ones too.
+
+In regard to your last comment and the relationship between FlexibleConfigs/Settings and Contexts, I agree with your assessment. Cervator and I did discuss this at length about 24 hours ago and I think we are all a bit clearer about it - i.e. as you say, Contexts shouldn't be used to store Setting instances directly although it would make sense to me to use them to store FlexibleConfig instances, via sub-classes or, better perhaps, through a ConfigList instance.",,,,,
+https://github.com/NitorCreations/nflow/commit/39a2a85f995c83c658c173898783217be849bf86,Custom Assertion,NitorCreations,nflow,39a2a85f995c83c658c173898783217be849bf86,refactor test code,,Edvard Fonsell,2020-04-26T09:03:40Z,,,,,,,,,,,
+https://github.com/NitorCreations/nflow/commit/93bfe876883757838d27e456572cca6fbce7a4ec,Verification Method,NitorCreations,nflow,93bfe876883757838d27e456572cca6fbce7a4ec,refactor test code,,Edvard Fonsell,2019-03-06T07:34:43Z,286,Bulk worklfow demo + test,,closed,"@coveralls: 
+[![Coverage Status](https://coveralls.io/builds/22090932/badge)](https://coveralls.io/builds/22090932)
+
+Coverage remained the same at 72.414% when pulling **7d98e9ffc9d4ff6d6d69eb6eca06238add9a2481 on bulk-workflow** into **035b1f2384239012f765215ae0db5df71d8574ee on master**.",,,,,,
+https://github.com/PixelExperience/frameworks_base/commit/11ac7831e3ad143a2337953487b69f5a78988dc6,Delete Mock Object,PixelExperience,frameworks_base,11ac7831e3ad143a2337953487b69f5a78988dc6,Test refactoring,"Extract model loading operations to a method, so they can be reused in
+composite scenarios.
+
+Test: atest SoundTriggerMiddlewareImplTest SoundHw2CompatTest
+Bug: 178722883
+Change-Id: Id292898eae1b408dbbf12ef5310b441a4b476e78",Ytai Ben-Tsvi,2021-02-09T20:09:25Z,,,,,,,,,,,
+https://github.com/PixelExperience/frameworks_base/commit/11ac7831e3ad143a2337953487b69f5a78988dc6,Delegated Setup,PixelExperience,frameworks_base,11ac7831e3ad143a2337953487b69f5a78988dc6,Test refactoring,"Extract model loading operations to a method, so they can be reused in
+composite scenarios.
+
+Test: atest SoundTriggerMiddlewareImplTest SoundHw2CompatTest
+Bug: 178722883
+Change-Id: Id292898eae1b408dbbf12ef5310b441a4b476e78",Ytai Ben-Tsvi,2021-02-09T20:09:25Z,,,,,,,,,,,
+https://github.com/PixelExperience/frameworks_base/commit/38f298d4fb8cf0ce8c9885748aad4c79d8bf89b3,Change Assertion Type,PixelExperience,frameworks_base,38f298d4fb8cf0ce8c9885748aad4c79d8bf89b3,[SP18.3] Adapt TestableNetworkStatsProviderCbBinder,"This is a no-op refactoring to adapt new test provider callback.
+Also this patch adapts TestLooper to allow better control on
+delay messages that will be verified in subsequent tests.
+
+Test: atest OffloadControllerTest
+Bug: 149467454
+Change-Id: Icfd6ff289d6689ae2d5753d3fe472516c808dc7a
+Merged-In: Icfd6ff289d6689ae2d5753d3fe472516c808dc7a
+(cherry-picked from aosp/1295346)",junyulai,2020-04-24T07:47:24Z,,,,,,,,,,,
+https://github.com/PixelExperience/frameworks_base/commit/38f298d4fb8cf0ce8c9885748aad4c79d8bf89b3,Delete Mock Object,PixelExperience,frameworks_base,38f298d4fb8cf0ce8c9885748aad4c79d8bf89b3,[SP18.3] Adapt TestableNetworkStatsProviderCbBinder,"This is a no-op refactoring to adapt new test provider callback.
+Also this patch adapts TestLooper to allow better control on
+delay messages that will be verified in subsequent tests.
+
+Test: atest OffloadControllerTest
+Bug: 149467454
+Change-Id: Icfd6ff289d6689ae2d5753d3fe472516c808dc7a
+Merged-In: Icfd6ff289d6689ae2d5753d3fe472516c808dc7a
+(cherry-picked from aosp/1295346)",junyulai,2020-04-24T07:47:24Z,,,,,,,,,,,
+https://github.com/PixelExperience/frameworks_base/commit/52cb2e1571107210d94666164641ddb95dbd4839,Replace Dependency with Test Double,PixelExperience,frameworks_base,52cb2e1571107210d94666164641ddb95dbd4839,Refactoring and mocking to make sure unit test doesn't call the real service,"Bug: 180938364
+Test: utest
+Change-Id: Ic6a5a84c1d985fa02f8cf52c8c2ff144669b30c1",Nazanin,2021-04-19T23:39:20Z,,,,,,,,,,,
+https://github.com/Taskana/taskana/commit/897b469aeb6f9d9dd17e2a2069ce574c10e5e4cb,Add explanation message,Taskana,taskana,897b469aeb6f9d9dd17e2a2069ce574c10e5e4cb,TSK-1829: refactor testSetPlannedPropertyOnAllTasks,,ryzheboka,2022-03-22T16:08:05Z,,,,,,,,,,,
+https://github.com/Tencent/TencentKona-11/commit/5d6ddbed6ffdd199025cbb33ec492d29c602cce2,Tuning Resources,Tencent,TencentKona-11,5d6ddbed6ffdd199025cbb33ec492d29c602cce2,8272783: Epsilon: Refactor tests to improve performance,"Reviewed-by: clanger
+Backport-of: 7f80683cfeee3c069f48d5bce45fa92b2381b518",Aleksey Shipilev,2021-10-06T07:20:14Z,25,Kona Fiber of 11.0.15,,closed,,,,,,,
+https://github.com/Tencent/TencentKona-11/commit/95434882fd90cedc75aece11196c71885e2fe102,Delegated Setup,Tencent,TencentKona-11,95434882fd90cedc75aece11196c71885e2fe102,8247592: refactor test/jdk/tools/launcher/Test7029048.java,"Reviewed-by: phh
+Backport-of: 8b87402a4409b345b820207dcd2aec720a23325b",Aleksei Voitylov,2022-03-17T12:36:21Z,26,Merge 11.0.16 into Master,,closed,"@shiyuexw: MERGE(*): import from KonaJDK 11.0.16
+---
+@shiyuexw: MERGE(*): import from KonaJDK 11.0.16",,,,,,
+https://github.com/Tencent/TencentKona-11/commit/95434882fd90cedc75aece11196c71885e2fe102,Inline Setup,Tencent,TencentKona-11,95434882fd90cedc75aece11196c71885e2fe102,8247592: refactor test/jdk/tools/launcher/Test7029048.java,"Reviewed-by: phh
+Backport-of: 8b87402a4409b345b820207dcd2aec720a23325b",Aleksei Voitylov,2022-03-17T12:36:21Z,26,Merge 11.0.16 into Master,,closed,"@shiyuexw: MERGE(*): import from KonaJDK 11.0.16
+---
+@shiyuexw: MERGE(*): import from KonaJDK 11.0.16",,,,,,
+https://github.com/Tencent/TencentKona-17/commit/31c128ef22442527503ebf180b3feca3701cb6a0,Grouping Tests,Tencent,TencentKona-17,31c128ef22442527503ebf180b3feca3701cb6a0,8195717: test java/lang/invoke/MethodHandlesTest timed out running testAsCollector1,"Refactor MethodHandlesTest
+
+Reviewed-by: psandoz",Vivek Theeyarath,2018-05-03T11:18:22Z,,,,,,,,,,,
+https://github.com/Tencent/TencentKona-17/commit/832d68597ec6af94bc870a22410d1be95eb2bfa5,Delegated Setup,Tencent,TencentKona-17,832d68597ec6af94bc870a22410d1be95eb2bfa5,8190351: InitialAndMaxUsageTest does not free allocated blob,"Refactored test to add blob to free list and changed the allocation loop to start with blobs of size ~36 Mb.
+
+Reviewed-by: kvn",Tobias Hartmann,2017-10-31T08:33:47Z,,,,,,,,,,,
+https://github.com/Tencent/TencentKona-17/commit/8452535d4937b26aa5318a8ca822acf5824be0c7,De-Parameterize Test,Tencent,TencentKona-17,8452535d4937b26aa5318a8ca822acf5824be0c7,8199645: javax/net/ssl/SSLSession/TestEnabledProtocols.java failed with Connection reset,"Refactor this test with SSLSocketTemplate
+
+Reviewed-by: xuelei",John Jiang,2018-07-11T02:39:58Z,,,,,,,,,,,
+https://github.com/Yubico/yubikit-android/commit/df6326d29147b485207f305621d1afaf29935f0e,Parameterized Test,Yubico,yubikit-android,df6326d29147b485207f305621d1afaf29935f0e,refactor cbor unit tests,,Adam Velebil,2023-08-29T09:59:22Z,,,,,,,,,,,
+https://github.com/aaberg/sql2o/commit/e6a0781491c06b6a2ea52bd4ea97649497cbdf7a,Test Helper,aaberg,sql2o,e6a0781491c06b6a2ea52bd4ea97649497cbdf7a,Refactored some logic from main test class for easier reuse in other test classes.,,Lars Aaberg,2014-10-31T23:38:25Z,,,,,,,,,,,
+https://github.com/aehrc/pathling/commit/2f362cb6ba2fec0a40f0fa4dcee8081740ceea69,Testcase Superclass,aehrc,pathling,2f362cb6ba2fec0a40f0fa4dcee8081740ceea69,Refactoring of terminology unit tests.,,Piotr Szul,2022-11-25T08:09:16Z,,,,,,,,,,,
+https://github.com/agrestio/agrest/commit/146a3f3175b1c0992abe3a60e0d28fcc8a139f2c,Replace Dependency with Test Double,agrestio,agrest,146a3f3175b1c0992abe3a60e0d28fcc8a139f2c,Refactoring - removing Cayenne dependency from generic tests,,Andrus Adamchik,2020-04-18T14:44:22Z,,,,,,,,,,,
+https://github.com/agrestio/agrest/commit/48be2e3a3be51123a67aa8b39ad656a301fa7f1f,Replace Dependency with Test Double,agrestio,agrest,48be2e3a3be51123a67aa8b39ad656a301fa7f1f,Refactoring - removing Cayenne dependency from generic tests,,Andrus Adamchik,2020-04-19T06:40:35Z,,,,,,,,,,,
+https://github.com/agrestio/agrest/commit/828f993e3312fa246cfdb9bb6cf33a6728b08863,Delete Mock Object,agrestio,agrest,828f993e3312fa246cfdb9bb6cf33a6728b08863,Refactoring - removing Cayenne dependency from generic tests,,Andrus Adamchik,2020-04-19T06:40:35Z,,,,,,,,,,,
+https://github.com/alexprut/design-patterns-java/commit/1f6fe9680270f0732caa4e7137d8ca712f8ca547,Print to Assertion,alexprut,design-patterns-java,1f6fe9680270f0732caa4e7137d8ca712f8ca547,Refactoring & Tests: Decorator,,Alex Prut,2017-10-30T13:55:17Z,,,,,,,,,,,
+https://github.com/aliyun/aliyun-oss-android-sdk/commit/f2d65196b1e2eeb58253293e99df806b40fc694a,Prebuilt Fixture,aliyun,aliyun-oss-android-sdk,f2d65196b1e2eeb58253293e99df806b40fc694a,test: refactor get object test case,,jingdan,2018-02-22T09:06:08Z,101,Refactor test case,"1.refactor test case, create bucket and delete bucket automation",closed,,,,,,,
+https://github.com/apache/directory-studio/commit/a1deb8718f10388bebb5fd42f47e58c4ef4d2b8c,Prebuilt Fixture,apache,directory-studio,a1deb8718f10388bebb5fd42f47e58c4ef4d2b8c,Refactor test,git-svn-id: https://svn.apache.org/repos/asf/directory/studio/trunk@1762149 13f79535-47bb-0310-9956-ffa450edef68,Stefan Seelmann,2016-09-24T20:11:29Z,,,,,,,,,,,
+https://github.com/apache/drill/commit/0c3bad9803c4b8fbc82da889ea434ecbfd49083b,Grouping Tests,apache,drill,0c3bad9803c4b8fbc82da889ea434ecbfd49083b,DRILL-751/DRILL-806: View info in INFORMATION_SCHEMA,"Fixes are already part of the DRILL-760 (InfoSchema POJO conversion).
+This patch includes testcases and refactoring of view tests into a separate file.",vkorukanti,2014-06-09T17:25:41Z,,,,,,,,,,,
+https://github.com/apache/hertzbeat/commit/f72cfa0dd80063f44d953dc6ab2023fad07dab87,Prebuilt Fixture,apache,hertzbeat,f72cfa0dd80063f44d953dc6ab2023fad07dab87,[alerter] Refactoring of the class test AlerterWorkerPoolTest (#650),,HattoriHenzo,2023-02-20T02:01:17Z,,,,,,,,,,,
+https://github.com/apache/jspwiki/commit/453d7c436d59174c9b73731ad16e9f9337feb26f,Await Event,apache,jspwiki,453d7c436d59174c9b73731ad16e9f9337feb26f,further test refactoring; overall tests execution time is reduced by ~20%,git-svn-id: https://svn.apache.org/repos/asf/incubator/jspwiki/trunk@1431149 13f79535-47bb-0310-9956-ffa450edef68,Juan Pablo Santos Rodríguez,2013-01-09T23:33:04Z,,,,,,,,,,,
+https://github.com/apache/jspwiki/commit/62857b905460a05ccfcfff5287b477b594512198,Replace try/catch with asserThrows,apache,jspwiki,62857b905460a05ccfcfff5287b477b594512198,small test refactor,,juanpablo,2020-05-03T18:03:40Z,,,,,,,,,,,
+https://github.com/apache/karaf/commit/100420f757c2bd6fe00a8d28c14a1388d665b8fe,Replace annotation with assertThrow,apache,karaf,100420f757c2bd6fe00a8d28c14a1388d665b8fe,Refactor @Test(excepted) using assertThrows,,Taher Ghaleb,2023-08-24T00:38:45Z,1751,Refactor assertTrue(!equals()) using assertNotEquals & @Test(excepted) using assertThrows,"I am working on research that investigates test smell refactoring in which we identify alternative implementations of test cases, study how commonly used these refactorings are, and assess how acceptable they are in practice.
+
+The first smell is when inappropriate assertions are used, while there exist better alternatives. For example, in [GuardProxyCatalogTest.java](https://github.com/apache/karaf/commit/d0456624885a9bff8d4418614b1e8469981c26c3#diff-de2cfbdc07af433a0de11f25b23069dabd16eba9eb4e3157701fbd89562c10b7), I refactored `assertTrue(!GuardProxyCatalog.PROXY_CREATOR_THREAD_NAME.equals(t.getName()));` using `assertNotEquals(GuardProxyCatalog.PROXY_CREATOR_THREAD_NAME, t.getName());`.
+
+The second smell is when exception handling can alternatively be implemented using assertion rather than annotation. For example, in [EventSendCommandTest.java](https://github.com/apache/karaf/commit/100420f757c2bd6fe00a8d28c14a1388d665b8fe#diff-80c4f1284affb61c43d9458dcb2580b0c7d770415291e34238bfc238a7cf6451), I used `assertThrows(IllegalArgumentException.class, () -> {...});` instead of `@Test(expected=IllegalArgumentException.class)`.
+
+While there could be several cases like this, we aim in this pull request to get your feedback on these particular test smells and their refactorings. Thanks in advance for your input.",closed,"@Taher-Ghaleb: Hi, any updates or feedback on the changes, please? Thanks.
+---
+@jbonofre: I wanted to double check the impact for pax exam. Especially at loading time. I will revert if I see problem.
+---
+@Taher-Ghaleb: Thanks @jbonofre. Sure, let me know if you I should do anything. I would also appreciate your input about these changes. Thanks.
+---
+@jbonofre: First glance I don't see anything special. But let me run a pax exam test. Thanks !",,,,,,
+https://github.com/apache/openjpa/commit/5b7c20eacb99d974a48fcb6bc585ef6fd9f671d5,Delegated Setup,apache,openjpa,5b7c20eacb99d974a48fcb6bc585ef6fd9f671d5,"OPENJPA-1248: Test case refactored for easier control of LOB data creation, increased amount of LOB data to a more realistic value (but still under MySQL default BLOB limit - 64 kB).",git-svn-id: https://svn.apache.org/repos/asf/openjpa/trunk@895040 13f79535-47bb-0310-9956-ffa450edef68,Milosz Tylenda,2010-01-01T17:39:28Z,,,,,,,,,,,
+https://github.com/apache/paimon/commit/5adb553ad3d0146bcb4ffc10d87c88ca2a826a7f,Delegated Setup,apache,paimon,5adb553ad3d0146bcb4ffc10d87c88ca2a826a7f,[refactor][test] Extract duplicate code to util method in FileStoreExpireDeleteDirTest (#1279),,yuzelin,2023-06-02T06:33:23Z,1279,[refactor][test] Extract duplicate code to util method in FileStoreExpireDeleteDirTest,"<!-- Please specify the module before the PR name: [core] ... or [flink] ... -->
+
+### Purpose
+
+Refactor test class.
+
+### Tests
+
+<!-- List UT and IT cases to verify this change -->
+
+### API and Format
+
+<!-- Does this change affect API or storage format -->
+
+### Documentation
+
+<!-- Does this change introduce a new feature -->",closed,,@JingsongLi (APPROVED): +1,,,,,
+https://github.com/arianne/stendhal/commit/2fef04339b15b83dee0f0b443d50e1e1b39808e4,Parameterized Test,arianne,stendhal,2fef04339b15b83dee0f0b443d50e1e1b39808e4,Refactor tests,"Change tests to parameterized,
+to make it easier to add new scenarios.",Cosmin Humeniuc,2020-08-09T15:43:44Z,,,,,,,,,,,
+https://github.com/arianne/stendhal/commit/6d30072ed40343b82d3056257171b8aeea755a72,Lazy Setup,arianne,stendhal,6d30072ed40343b82d3056257171b8aeea755a72,refactored testcreate to remove already stored characters before and after,in fact after should be enough,Astrid Sawatzky,2007-12-31T15:01:44Z,,,,,,,,,,,
+https://github.com/arianne/stendhal/commit/6d30072ed40343b82d3056257171b8aeea755a72,Lazy Teardown,arianne,stendhal,6d30072ed40343b82d3056257171b8aeea755a72,refactored testcreate to remove already stored characters before and after,in fact after should be enough,Astrid Sawatzky,2007-12-31T15:01:44Z,,,,,,,,,,,
+https://github.com/authzforce/core/commit/d0e7d89a8ecd43b0cb1280916a11921613b84dae,Merge Test Method,authzforce,core,d0e7d89a8ecd43b0cb1280916a11921613b84dae,Unit test refactoring,,Romain Ferrari,2013-11-28T16:05:13Z,,,,,,,,,,,
+https://github.com/awslabs/aws-mysql-jdbc/commit/4abeab362f8c1739fde9fccbfdf9228ce58054c3,Await Event,awslabs,aws-mysql-jdbc,4abeab362f8c1739fde9fccbfdf9228ce58054c3,test: refactor HikariCP integration tests to be more stable,,Crystal Liang,2024-01-23T03:14:23Z,,,,,,,,,,,
+https://github.com/b3dgs/lionengine/commit/15c0bb0215a2b5827855ef29444a3f8185d3811b,Replace annotation with assertThrow,b3dgs,lionengine,15c0bb0215a2b5827855ef29444a3f8185d3811b,#483: Tests refactored.,,DjThunder,2018-05-02T19:11:24Z,,,,,,,,,,,
+https://github.com/b3dgs/lionengine/commit/649a57eca8fc3e0ca0b86fd6b7c0f2941e8bd234,Split Test Method,b3dgs,lionengine,649a57eca8fc3e0ca0b86fd6b7c0f2941e8bd234,Tests refactored.,,DjThunder,2018-03-24T14:51:05Z,,,,,,,,,,,
+https://github.com/b3dgs/lionengine/commit/713e83096063d7b2c1f6fe2c9ce4469d84839efe,Change Assertion Type,b3dgs,lionengine,713e83096063d7b2c1f6fe2c9ce4469d84839efe,#483: Tests refactored.,,DjThunder,2018-04-27T14:39:35Z,,,,,,,,,,,
+https://github.com/blackducksoftware/detect/commit/0940d1581afe71127b58094e57af2eb604e7c2bb,Replace try/catch with asserThrows,blackducksoftware,detect,0940d1581afe71127b58094e57af2eb604e7c2bb,test-refactor(exception): Test's with simple failOnExcption try-catch statemetns have been replaced with assertThrows.,,Jake Mathews,2022-01-28T17:53:30Z,,,,,,,,,,,
+https://github.com/blackducksoftware/detect/commit/238654e810ea9cf34d8bec2cac683d9cc5d3ebad,Lambdarize Method,blackducksoftware,detect,238654e810ea9cf34d8bec2cac683d9cc5d3ebad,test-refactor(cpan-cli): Replaced full class implementations of resolvers with lambda function.,,Jake Mathews,2020-04-09T15:34:54Z,125,Cpan detectable test,"# Description
+
+New detectable test for cpan",closed,"@ghost: ## Black Duck Security Report
+
+Merging #125 into master will not change security risk.
+
+### Added Components
+
+Clean:       3
+
+### Removed Components
+
+Clean:       2
+
+[Click here to see full report](https://copilot.blackducksoftware.com/github/repos/blackducksoftware/synopsys-detect/pull-requests/125)
+---
+@sonarqubecloud[bot]: Kudos, SonarCloud Quality Gate passed!
+
+[<img src='https://sonarsource.github.io/sonarcloud-github-static-resources/v2/common/bug.png' alt='Bug' width='16' height='16' />](https://sonarcloud.io/project/issues?id=com.synopsys.integration%3Asynopsys-detect&pullRequest=125&resolved=false&types=BUG) [<img src='https://sonarsource.github.io/sonarcloud-github-static-resources/v2/checks/RatingBadge/A.png' alt='A' width='16' height='16' />](https://sonarcloud.io/project/issues?id=com.synopsys.integration%3Asynopsys-detect&pullRequest=125&resolved=false&types=BUG) [0 Bugs](https://sonarcloud.io/project/issues?id=com.synopsys.integration%3Asynopsys-detect&pullRequest=125&resolved=false&types=BUG)  
+[<img src='https://sonarsource.github.io/sonarcloud-github-static-resources/v2/common/vulnerability.png' alt='Vulnerability' width='16' height='16' />](https://sonarcloud.io/project/issues?id=com.synopsys.integration%3Asynopsys-detect&pullRequest=125&resolved=false&types=VULNERABILITY) [<img src='https://sonarsource.github.io/sonarcloud-github-static-resources/v2/checks/RatingBadge/A.png' alt='A' width='16' height='16' />](https://sonarcloud.io/project/issues?id=com.synopsys.integration%3Asynopsys-detect&pullRequest=125&resolved=false&types=VULNERABILITY) [0 Vulnerabilities](https://sonarcloud.io/project/issues?id=com.synopsys.integration%3Asynopsys-detect&pullRequest=125&resolved=false&types=VULNERABILITY) (and [<img src='https://sonarsource.github.io/sonarcloud-github-static-resources/v2/common/security_hotspot.png' alt='Security Hotspot' width='16' height='16' />](https://sonarcloud.io/project/issues?id=com.synopsys.integration%3Asynopsys-detect&pullRequest=125&resolved=false&types=SECURITY_HOTSPOT) [0 Security Hotspots](https://sonarcloud.io/project/issues?id=com.synopsys.integration%3Asynopsys-detect&pullRequest=125&resolved=false&types=SECURITY_HOTSPOT) to review)  
+[<img src='https://sonarsource.github.io/sonarcloud-github-static-resources/v2/common/code_smell.png' alt='Code Smell' width='16' height='16' />](https://sonarcloud.io/project/issues?id=com.synopsys.integration%3Asynopsys-detect&pullRequest=125&resolved=false&types=CODE_SMELL) [<img src='https://sonarsource.github.io/sonarcloud-github-static-resources/v2/checks/RatingBadge/A.png' alt='A' width='16' height='16' />](https://sonarcloud.io/project/issues?id=com.synopsys.integration%3Asynopsys-detect&pullRequest=125&resolved=false&types=CODE_SMELL) [0 Code Smells](https://sonarcloud.io/project/issues?id=com.synopsys.integration%3Asynopsys-detect&pullRequest=125&resolved=false&types=CODE_SMELL)
+
+[<img src='https://sonarsource.github.io/sonarcloud-github-static-resourc...",,,,,,
+https://github.com/blackducksoftware/detect/commit/5ab5058287582f84f6b40ba5a6b9312435473911,Split Test Method,blackducksoftware,detect,5ab5058287582f84f6b40ba5a6b9312435473911,test-refactor(dependency-filter): Refactored test.,,Jake Mathews,2022-01-07T17:40:07Z,,,,,,,,,,,
+https://github.com/blackducksoftware/detect/commit/8b024d4ea6d589e501ecc7ab7249dece2b56a0a0,Split Parameterize Test,blackducksoftware,detect,8b024d4ea6d589e501ecc7ab7249dece2b56a0a0,test-refactor(npm-cli): Split test sources into two for readability. The expected value is no longer a test parameter.,,Jake Mathews,2021-06-21T20:12:11Z,,,,,,,,,,,
+https://github.com/blackducksoftware/detect/commit/9ba649982b1172954289bfe6307ca135466728f2,Delegated Setup,blackducksoftware,detect,9ba649982b1172954289bfe6307ca135466728f2,test-refactor(go-mod): Refactored GoModDependencyManagerTest for readability.,,Jake Mathews,2021-12-09T19:01:27Z,,,,,,,,,,,
+https://github.com/bmwcarit/joynr/commit/71f278e80f7c03628230b8d5b16d3b4cf8154ebc,Prebuilt Fixture,bmwcarit,joynr,71f278e80f7c03628230b8d5b16d3b4cf8154ebc,"[Java,JEE] Refactor and improve GCD test cases",,Thomas Reuter,2019-06-04T13:34:17Z,,,,,,,,,,,
+https://github.com/bmwcarit/joynr/commit/71f278e80f7c03628230b8d5b16d3b4cf8154ebc,Custom Assertion,bmwcarit,joynr,71f278e80f7c03628230b8d5b16d3b4cf8154ebc,"[Java,JEE] Refactor and improve GCD test cases",,Thomas Reuter,2019-06-04T13:34:17Z,,,,,,,,,,,
+https://github.com/bmwcarit/joynr/commit/fbc436acfaa6e7aeba393e8e33e93076779eae83,Delegated Setup,bmwcarit,joynr,fbc436acfaa6e7aeba393e8e33e93076779eae83,[Java] Adapt setup and old add-test for GCDClientTest,"Basic add test is expected to put the default backend in the custom
+header. The setup is extended and refactored, uses a helper method now.",Atanas Gegov,2019-05-23T14:06:37Z,,,,,,,,,,,
+https://github.com/bmwcarit/joynr/commit/fbc436acfaa6e7aeba393e8e33e93076779eae83,Implicit Setup,bmwcarit,joynr,fbc436acfaa6e7aeba393e8e33e93076779eae83,[Java] Adapt setup and old add-test for GCDClientTest,"Basic add test is expected to put the default backend in the custom
+header. The setup is extended and refactored, uses a helper method now.",Atanas Gegov,2019-05-23T14:06:37Z,,,,,,,,,,,
+https://github.com/bootique/bootique/commit/798af649d2f09983ce73d06b74f09b67ed1b8ef1,Delegated Setup,bootique,bootique,798af649d2f09983ce73d06b74f09b67ed1b8ef1,cleanup:,"* better test case naming
+* refactoring repetitive code in the tests",Andrus Adamchik,2016-02-08T13:41:54Z,,,,,,,,,,,
+https://github.com/camsys/onebusaway-nyc/commit/28f0eeaa79b20ba58871a27e2311b67cbdd01ba2,Change Assertion Type,camsys,onebusaway-nyc,28f0eeaa79b20ba58871a27e2311b67cbdd01ba2,"SearchResultFactory test refactored to pass on the contents of a description, not the order of the description.",,Tony Laidig,2015-12-24T20:54:57Z,26,Laidig test fixes jan16,"I did some more work trying to get the complete OBANYC integration test suite to pass on Java 8. There were a few tests that were written such that they would fail on the order, not the contents of, a returned value. These updates keep the original intent of the test, and pass as they should.",closed,,,,,,,
+https://github.com/camunda/camunda/commit/0957f99828dd50e702ad179aefb35c0de5981f71,Grouping Tests,camunda,camunda,0957f99828dd50e702ad179aefb35c0de5981f71,refactor: move terminate tests too separate class,,Remco Westerhoud,2022-08-16T14:06:30Z,10049,Process Instance modification - terminate instances,"## Description
+
+<!-- Please explain the changes you made here. -->
+This PR adds the termination logic to the process instance modification processor. When an element gets terminated we need to take care of a few things:
+
+1. The job needs to be cancelled
+2. Potential incidents needs to be resolved
+3. Event subscriptions need to be cancelled
+
+For the cancelling of event subscriptions I have reused the logic in the behavior classes we already have. This had one side-effect. Before timers got cancelled by sending a cancel command. In the case of PI modification we want to send an event instead of a command. Since the timer cancel command does nothing more than create the event Nico and I concluded that we might as well use an event here for all cases. As a result you will find a minor refactoring in this PR which changes the behavior to send a cancelled event instead of a cancel command. This also resulted in the deprecation of the cancel command.
+
+## Related issues
+
+<!-- Which issues are closed by this PR or are related -->
+
+closes #9690 
+
+<!-- Cut-off marker
+_All lines under and including the cut-off marker will be removed from the merge commit message_
+
+## Definition of Ready
+
+Please check the items that apply, before requesting a review.
+
+You can find more details about these items in our wiki page about [Pull Requests and Code Reviews](https://github.com/camunda/zeebe/wiki/Pull-Requests-and-Code-Reviews).
+
+* [ ] I've reviewed my own code
+* [ ] I've written a clear changelist description
+* [ ] I've narrowly scoped my changes
+* [ ] I've separated structural from behavioural changes
+-->
+
+## Definition of Done
+
+<!-- Please check the items that apply, before merging or (if possible) before requesting a review. -->
+
+_Not all items need to be done depending on the issue and the pull request._
+
+Code changes:
+* [x] The changes are backwards compatibility with previous versions
+* [ ] If it fixes a bug then PRs are created to [backport](https://github.com/camunda/zeebe/com...",closed,"@github-actions[bot]: ## Test Results
+   846 files  +    1     846 suites  +1   1h 46m 58s [:stopwatch:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""duration of all tests"") + 10m 3s
+6 521 tests +118  6 510 [:heavy_check_mark:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""passed tests"") +118  11 [:zzz:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""skipped / disabled tests"") ±0  0 [:x:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""failed tests"") ±0 
+6 705 runs  +118  6 694 [:heavy_check_mark:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""passed tests"") +118  11 [:zzz:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""skipped / disabled tests"") ±0  0 [:x:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""failed tests"") ±0 
+
+Results for commit 7e078e8d. ± Comparison against base commit 94017569.
+
+[test-results]:data:application/gzip;base64,H4sIAGGh/GIC/02MzQrDIBAGXyV47kGzxp++TDFGQZrEYvRU+u7dShqFvcx8y7yJD6s7yH1QXNwGcpSQO1xKMjnEHYXgTKHBNf92MY3sj4+jWFsdo809wwsda1/ehBVNe3EpxXSaVPaalXQ66aoKzS/VRavompX7pI3bFjICkY5K5dQyU40nFZfgKfARmLbM0JmDA609kM8XPWa0kBABAAA=
+
+:recycle: This comment has been updated with latest results.
+---
+@remcowesterhoud: @saig0 Please have a look at this PR when you have the time. I have one open question here.
+
+❓ Error boundary events seem to work differently from message and timer events. I don't see them being cancelled explicitly when we terminate a process instance. Because of this I left them out here a well. Is this right, or do I have to do something special for these?
+---
+@saig0: > Error boundary events seem to work differently from message and timer events. I don't see them being cancelled explicitly when we terminate a process instance. Because of this I left them out here a well. Is this right, or do I have to do something special for these?
+
+@remcowesterhoud this is correct :+1: Error events have no subscriptions like timers or message events. The propagation of the error event happens ad-hoc from the element that threw the error.
+---
+@remcowesterhoud: bors merge
+---
+@ghost: Merge conflict.
+---
+@remcowesterhoud: bors merge
+---
+@ghost: Merge conflict.
+---
+@remcowesterhoud: bors merge
+---
+@ghost: Build succeeded:
+  * [Test summary](https://github.com/camunda/zeebe/runs/7874182433?check_suite_focus=true)
+  * [Go linting](https://github.com/camunda/zeebe/runs/7873921589?check_suite_focus=true)
+  * [Java checks](https://github.com/camunda/zeebe/runs/7873921799?check_suite_focus=true)","@saig0 (APPROVED): @remcowesterhoud great job :tada: Looks all good :+1: 
+
+I have only a few minor suggestions. Please have a look.",,,,,
+https://github.com/camunda/camunda/commit/2d2159118c4c85d0a5f0ad951558d2a90f84c9f3,Grouping Tests,camunda,camunda,2d2159118c4c85d0a5f0ad951558d2a90f84c9f3,refactor: move rejection tests to separate class,,Remco Westerhoud,2022-08-16T09:41:30Z,10081,Reject modify command when process instance is unknown,"## Description
+
+<!-- Please explain the changes you made here. -->
+This PR rejects the command if we cannot find the element instance belonging to the given key.
+
+## Related issues
+
+<!-- Which issues are closed by this PR or are related -->
+
+closes #10078 
+
+<!-- Cut-off marker
+_All lines under and including the cut-off marker will be removed from the merge commit message_
+
+## Definition of Ready
+
+Please check the items that apply, before requesting a review.
+
+You can find more details about these items in our wiki page about [Pull Requests and Code Reviews](https://github.com/camunda/zeebe/wiki/Pull-Requests-and-Code-Reviews).
+
+* [ ] I've reviewed my own code
+* [ ] I've written a clear changelist description
+* [ ] I've narrowly scoped my changes
+* [ ] I've separated structural from behavioural changes
+-->
+
+## Definition of Done
+
+<!-- Please check the items that apply, before merging or (if possible) before requesting a review. -->
+
+_Not all items need to be done depending on the issue and the pull request._
+
+Code changes:
+* [x] The changes are backwards compatibility with previous versions
+* [ ] If it fixes a bug then PRs are created to [backport](https://github.com/camunda/zeebe/compare/stable/0.24...main?expand=1&template=backport_template.md&title=[Backport%200.24]) the fix to the last two minor versions. You can trigger a backport by assigning labels (e.g. `backport stable/1.3`) to the PR, in case that fails you need to create backports manually.
+
+Testing:
+* [ ] There are unit/integration tests that verify all acceptance criterias of the issue
+* [x] New tests are written to ensure backwards compatibility with further versions
+* [ ] The behavior is tested manually
+* [ ] The change has been verified by a QA run
+* [ ] The impact of the changes is verified by a benchmark
+
+Documentation:
+* [ ] The documentation is updated (e.g. BPMN reference, configuration, examples, get-started guides, etc.)
+* [ ] New content is added to the [release announcement](https://drive....",closed,"@github-actions[bot]: ## Test Results
+   845 files  +  2     845 suites  +2   1h 42m 59s [:stopwatch:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""duration of all tests"") + 4m 59s
+6 456 tests  - 23  6 445 [:heavy_check_mark:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""passed tests"")  - 23  11 [:zzz:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""skipped / disabled tests"") ±0  0 [:x:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""failed tests"") ±0 
+6 640 runs   - 23  6 629 [:heavy_check_mark:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""passed tests"")  - 23  11 [:zzz:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""skipped / disabled tests"") ±0  0 [:x:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""failed tests"") ±0 
+
+Results for commit 3f3981cd. ± Comparison against base commit 52f56d98.
+
+[test-results]:data:application/gzip;base64,H4sIACWm+2IC/03MTQ6DIBCG4asY1l0A4sD0Mo3yk5CqNAgr07uXEiUs32cy30mcX+1BnoMS02MgR/apS5PjnHzYCwCTWKRc0/8OYoI7X0fWulp9uuztP8UYa+JmvxahDWyMIV4S815nQdzVVoFjo260QrdZu5/UYdt8KkFGN6Ji2iBjZkEAKkaJiiLXiqNQRuIiuTWWfH+fVatKEAEAAA==
+
+:recycle: This comment has been updated with latest results.
+---
+@remcowesterhoud: @korthout Please have another look. I've processed your comments.
+---
+@remcowesterhoud: bors merge
+---
+@ghost: Build succeeded:
+  * [Java checks](https://github.com/camunda/zeebe/runs/7873616882?check_suite_focus=true)
+  * [Go linting](https://github.com/camunda/zeebe/runs/7873616062?check_suite_focus=true)
+  * [Test summary](https://github.com/camunda/zeebe/runs/7873825763?check_suite_focus=true)","@korthout (CHANGES_REQUESTED): Thanks @remcowesterhoud 
+
+The implementation looks good, but we should test a few more things.
+---
+@korthout (APPROVED): Thanks @remcowesterhoud LGTM 🚀",,,,,
+https://github.com/camunda/camunda/commit/4a3b6e226018e4cee5386da7c9cfc12c61248e37,Delegated Setup,camunda,camunda,4a3b6e226018e4cee5386da7c9cfc12c61248e37,refactor(engine): extract test method,,Philipp Ossler,2022-08-24T04:33:32Z,10178,Modify a process instance by terminating all element instances of a flow scope,"## Description
+
+* check the element instances of the flow scopes after the termination instructions of the modification command were applied.
+* if a flow scope doesn't have any active element instances or pending activations then terminate the flow scope
+* propagate the termination to its parent flow scope because it could be the last active element instance in the parent flow scope
+
+## Related issues
+
+closes #9691 
+
+<!-- Cut-off marker
+_All lines under and including the cut-off marker will be removed from the merge commit message_
+
+## Definition of Ready
+
+Please check the items that apply, before requesting a review.
+
+You can find more details about these items in our wiki page about [Pull Requests and Code Reviews](https://github.com/camunda/zeebe/wiki/Pull-Requests-and-Code-Reviews).
+
+* [ ] I've reviewed my own code
+* [ ] I've written a clear changelist description
+* [ ] I've narrowly scoped my changes
+* [ ] I've separated structural from behavioural changes
+-->
+
+## Definition of Done
+
+<!-- Please check the items that apply, before merging or (if possible) before requesting a review. -->
+
+_Not all items need to be done depending on the issue and the pull request._
+
+Code changes:
+* [x] The changes are backwards compatibility with previous versions
+* [ ] If it fixes a bug then PRs are created to [backport](https://github.com/camunda/zeebe/compare/stable/0.24...main?expand=1&template=backport_template.md&title=[Backport%200.24]) the fix to the last two minor versions. You can trigger a backport by assigning labels (e.g. `backport stable/1.3`) to the PR, in case that fails you need to create backports manually.
+
+Testing:
+* [x] There are unit/integration tests that verify all acceptance criterias of the issue
+* [ ] New tests are written to ensure backwards compatibility with further versions
+* [ ] The behavior is tested manually
+* [ ] The change has been verified by a QA run
+* [ ] The impact of the changes is verified by a benchmark
+
+Documentation:
+* [ ] The docume...",closed,"@github-actions[bot]: ## Test Results
+   852 files  ±    0     852 suites  ±0   1h 36m 32s [:stopwatch:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""duration of all tests"") - 2m 21s
+6 439 tests  - 170  6 428 [:heavy_check_mark:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""passed tests"")  - 170  11 [:zzz:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""skipped / disabled tests"") ±0  0 [:x:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""failed tests"") ±0 
+6 623 runs   - 170  6 612 [:heavy_check_mark:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""passed tests"")  - 170  11 [:zzz:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""skipped / disabled tests"") ±0  0 [:x:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""failed tests"") ±0 
+
+Results for commit e3848644. ± Comparison against base commit 1d90955a.
+
+[test-results]:data:application/gzip;base64,H4sIAJECB2MC/03MSw7CIBSF4a00jB3Yey9I3YzhmRD7MBRGxr1LSUWG5zvJ/2Y+zG5n90FyuAxszyF10+aoUtjWAvw2HVLedPyCcPrNx56NqQbyb8/wKjaOTbwKc5FrAxfjFk+Jea1ZAXiuVhUjNOqiFbpm3X3SbMsSUhnMoSQpiBSiAeW4k0SE3E8AWivN0XthLSn2+QK9ZwR4EAEAAA==
+
+---
+@saig0: bors merge
+---
+@ghost: Build succeeded:
+  * [Java checks](https://github.com/camunda/zeebe/runs/8063715719?check_suite_focus=true)
+  * [Go linting](https://github.com/camunda/zeebe/runs/8063715324?check_suite_focus=true)
+  * [Test summary](https://github.com/camunda/zeebe/runs/8063852413?check_suite_focus=true)","@korthout (APPROVED): LGTM 👍 Thanks @saig0 this was easy to review
+
+👍 I really like the different tests
+
+🔧 Please have a look at my suggestions before merging.
+
+EDIT: and sorry for the late review. I saw it yesterday, and then it slipped my mind 🙇",,,,,
+https://github.com/camunda/camunda/commit/5345c40c1f3c0a0eaf3014b80d934dbce356450c,Prebuilt Fixture,camunda,camunda,5345c40c1f3c0a0eaf3014b80d934dbce356450c,refactor: adjust test values,"* Set reference value to 450 (from 455)
+ * increase deviation, we have seen deviation happening up to 12%
+
+Rerun tests showed that the values work as expected",Christopher Zell,2023-06-26T07:07:04Z,,,,,,,,,,,
+https://github.com/camunda/camunda/commit/57bfa5046b66cc6a2532d475b859fdb9a9ad8b65,Grouping Tests,camunda,camunda,57bfa5046b66cc6a2532d475b859fdb9a9ad8b65,refactor(bpmn-model): extract user task tests from process builder,,Nico Korthout,2021-11-03T14:12:13Z,,,,,,,,,,,
+https://github.com/camunda/camunda/commit/58319798119b6bd1417b9af0a0feaf1825d727ae,Add Conditional Annotation,camunda,camunda,58319798119b6bd1417b9af0a0feaf1825d727ae,refactor(snapshot): disable test except on linux,,Nicolas Pepin-Perreault,2023-10-19T12:42:33Z,,,,,,,,,,,
+https://github.com/camunda/camunda/commit/6548859be81b8925da3cb2e507c1f1089b1ae40b,Grouping Tests,camunda,camunda,6548859be81b8925da3cb2e507c1f1089b1ae40b,test: refactor ExporterContainerTest,,Deepthi Devaki Akkoorath,2024-05-30T06:55:42Z,,,,,,,,,,,
+https://github.com/camunda/camunda/commit/8694c15fa36e2fe779306b04b2ae0339070612df,Change Assertion Type,camunda,camunda,8694c15fa36e2fe779306b04b2ae0339070612df,test(raft): refactor RaftStorageTest,,Deepthi Devaki Akkoorath,2022-10-12T11:37:57Z,,,,,,,,,,,
+https://github.com/camunda/camunda/commit/8694c15fa36e2fe779306b04b2ae0339070612df,Split Test Method,camunda,camunda,8694c15fa36e2fe779306b04b2ae0339070612df,test(raft): refactor RaftStorageTest,,Deepthi Devaki Akkoorath,2022-10-12T11:37:57Z,,,,,,,,,,,
+https://github.com/camunda/camunda/commit/92eba248021bbeaa7afc16c18e315da5e5d55d00,Await Event,camunda,camunda,92eba248021bbeaa7afc16c18e315da5e5d55d00,refactor: add await before migration to prevent flakiness,I also added missing `.await()` statements to some tests in MigrateMessageEventSubprocessTest class.,berkaycanbc,2024-08-30T10:24:06Z,,,,,,,,,,,
+https://github.com/camunda/camunda/commit/950865c398aeba8faef3c1dd3b8f1d6978201ac1,Grouping Tests,camunda,camunda,950865c398aeba8faef3c1dd3b8f1d6978201ac1,refactor(atomix): group tests by # of services to speed setup/teardown,,Nicolas Pepin-Perreault,2023-10-24T17:21:08Z,,,,,,,,,,,
+https://github.com/camunda/camunda/commit/a95a7b83a22259094916624d826c92853d4d181f,Verification Method,camunda,camunda,a95a7b83a22259094916624d826c92853d4d181f,refactor(engine): extract test verification,* reduce duplication in test case by extracting the verification that an element or process instance is completed,Philipp Ossler,2022-08-17T08:04:38Z,,,,,,,,,,,
+https://github.com/camunda/camunda/commit/bb7609613e4b768c0f677fac9545e1364b3c6066,Test Helper,camunda,camunda,bb7609613e4b768c0f677fac9545e1364b3c6066,test(broker): refactor BackupApiRequestHandler to enable testing with multiple response types,,Deepthi Devaki Akkoorath,2022-11-10T12:23:09Z,,,,,,,,,,,
+https://github.com/camunda/camunda/commit/f6ad2a4fd64931e0ec6ed975df3f44d1c22450e1,De-Parameterize Test,camunda,camunda,f6ad2a4fd64931e0ec6ed975df3f44d1c22450e1,refactoring(bpmn-model): extract end event validation tests,"Extract the end event validation tests into a separate class.
+
+Morph the test cases in JUnit 5.",Philipp Ossler,2022-09-21T05:24:56Z,10442,feat: support terminate end events,"## Description
+
+Add support for BPMN terminate end events. See https://github.com/camunda/zeebe/issues/8789#issuecomment-1253338375 on how the BPMN element should work.
+
+The implementation doesn't follow the BPMN spec in one point: the flow scope that contains the terminate end event is not terminated but completed. Reasoning:
+- The state of the flow scope is a detail that doesn't influence the core behavior. In both cases, the process instance should continue, for example, by taking the outgoing sequence flow. The difference is not visible to process participants but only when monitoring the process instance, for example, in Operate.
+- It fits better with the existing implementation. It would be a bigger effort to continue the process instance (e.g. taking the outgoing sequence flow) when the flow scope is terminated. As a result, we would end up in more complex code.
+- It aligns with the behavior of Camunda Platform 7. 
+
+Side note: I implemented the major parts during a [Live Hacking session](https://www.twitch.tv/videos/1584245006). :movie_camera: 
+
+## Related issues
+
+closes #8789
+
+<!-- Cut-off marker
+_All lines under and including the cut-off marker will be removed from the merge commit message_
+
+## Definition of Ready
+
+Please check the items that apply, before requesting a review.
+
+You can find more details about these items in our wiki page about [Pull Requests and Code Reviews](https://github.com/camunda/zeebe/wiki/Pull-Requests-and-Code-Reviews).
+
+* [ ] I've reviewed my own code
+* [ ] I've written a clear changelist description
+* [ ] I've narrowly scoped my changes
+* [ ] I've separated structural from behavioural changes
+-->
+
+## Definition of Done
+
+<!-- Please check the items that apply, before merging or (if possible) before requesting a review. -->
+
+_Not all items need to be done depending on the issue and the pull request._
+
+Code changes:
+* [x] The changes are backwards compatibility with previous versions
+* [ ] If it fixes a bug then PRs are created t...",closed,"@github-actions[bot]: ## Test Results
+   927 files  +  2     927 suites  +2   2h 5m 26s [:stopwatch:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""duration of all tests"") + 5m 17s
+7 448 tests +73  7 438 [:heavy_check_mark:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""passed tests"") +73  10 [:zzz:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""skipped / disabled tests"") ±0  0 [:x:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""failed tests"") ±0 
+7 636 runs  +73  7 626 [:heavy_check_mark:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""passed tests"") +73  10 [:zzz:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""skipped / disabled tests"") ±0  0 [:x:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""failed tests"") ±0 
+
+Results for commit 1668ad16. ± Comparison against base commit c7baaf4a.
+
+[test-results]:data:application/gzip;base64,H4sIAEpiMWMC/03MSw6DIBSF4a0Yxh3w0At0Mw29SEKq0vAYme69lFhleL6T/DtxfpkTuQ+ay9tAUvG5m7ZEk33YKsiJQ5X65t8vx1H95yMVxGais5d/V2P0FGf8UuWCOcYQD4lla1kQcKyzCvyiLtqga7bdJzGsq891EAagjGWAygirJzVLxRmn6PBJHUxIqWBaUUc+XwG8ELIQAQAA
+
+:recycle: This comment has been updated with latest results.
+---
+@saig0: Note that the failing test case is not related to the changes. I can reproduce the failure also on `main`. I created an issue for further analysis: https://github.com/camunda/zeebe/issues/10445.
+---
+@saig0: :heavy_check_mark: I tested the terminate end event manually in Operate.
+
+![image](https://user-images.githubusercontent.com/4305769/191732411-0044228e-3dfc-4787-b530-e48da4600885.png)
+
+---
+@saig0: bors merge
+---
+@saig0: We discussed if the flow scope should be `completed` or `terminated`. Besides the spec, we have different options about the user's (or our) expectations. From the code side, we agreed that the completion behavior fits better and avoids more complex logic for the particular case of the terminate end event. 
+
+We decided to `complete` the flow scope for now. We could change the behavior later if we see a strong need for it. Or, if it aligns with further implementation of other BPMN elements. From a user point-of-view, it's mainly a change of the icon in Operate.     
+---
+@ghost: Build failed:
+  * [Test summary](https://github.com/camunda/zeebe/actions/runs/3113787278/jobs/5049132070)
+---
+@saig0: Bors merge
+---
+@ghost: Build failed:
+  * [Test summary](https://github.com/camunda/zeebe/actions/runs/3114609899/jobs/5050881597)
+---
+@saig0: bors merge
+---
+@ghost: Build failed:
+  * [Test summary](https://github.com/camunda/zeebe/actions/runs/3124865066/jobs/5068798113)
+---
+@saig0: bors merge
+---
+@ghost: Build failed:
+  * [Test summary](https://github.com/camunda/zeebe/actions/runs/3124956602/jobs/5...","@remcowesterhoud (CHANGES_REQUESTED): Whew that was big one 😄 Nice work @saig0 🚀
+
+I have a few questions and comments. But my main thing is what you mentioned in the PR.
+
+>The implementation doesn't follow the BPMN spec in one point: the flow scope that contains the terminate end event is not terminated but completed.
+
+❌ I think we should reconsider this. In my opinion the downsides don't outweigh the positives by terminating instead of completing.
+
+1. You mention that this decision doesn't influence the core behavior. While this is true, it does cause a strange behavior for users willing to test their process using zeebe-process-test. For example, we have an assertion verifying if a process is terminated. For users it would be natural to verify this in the case of a terminate end event. However, this assertion will fail, because in reality Zeebe will complete the process.
+2. You mention it fits better with the existing implementation. I have no doubts that this is true and you will definitely know better than me 😄. The code will become more complex, but the behavior of the code would do what feels natural and is expected. I noticed I had a bit of trouble reviewing this PR already, because sometimes an element would be terminated, other times it would be completed. I understand how it works after the review, but it feels unpredictable, which is again something that consumers of the exported records may have trouble with.
+3. You mention it aligns better with C7. So let's improve it 😄 
+
+Please reconsider this approach.
+
+
+❌ It would be cool if we can support this terminate end event in our randomised tests. This can be a separate issue which we can work on later.
+---
+@remcowesterhoud (APPROVED): 🍪",,,,,
+https://github.com/camunda/zeebe-process-test/commit/8ca3502b780282adeb382c389c3d2b6c84117d53,Parameterized Test,camunda,zeebe-process-test,8ca3502b780282adeb382c389c3d2b6c84117d53,refactor(filters): make test easier to expand,"By using a parameterized test, its easier to expand the tests. Simply
+add another Argument with a record and what the log should contain.",Nico Korthout,2022-07-07T14:45:49Z,434,Log PROCESS_INSTANCE_CREATION records with start instructions,"## Description
+
+<!-- Please explain the changes you made here. -->
+
+Expands the RecordLogger to also log the start instructions of `PROCESS_INSTANCE_CREATION` records.
+
+Also adds easier testing to the RecordStreamLoggerTest.
+
+## Related issues
+
+<!-- Which issues are closed by this PR or are related -->
+
+closes #411
+
+<!-- Cut-off marker
+_All lines under and including the cut-off marker will be removed from the merge commit message_
+
+## Definition of Ready
+
+Please check the items that apply, before requesting a review.
+
+You can find more details about these items in our wiki page about [Pull Requests and Code Reviews](https://github.com/camunda-cloud/zeebe/wiki/Pull-Requests-and-Code-Reviews).
+
+* [ ] I've reviewed my own code
+* [ ] I've written a clear changelist description
+* [ ] I've narrowly scoped my changes
+* [ ] I've separated structural from behavioural changes
+-->
+
+## Definition of Done
+
+<!-- Please check the items that apply, before merging or (if possible) before requesting a review. -->
+
+_Not all items need to be done depending on the issue and the pull request._
+
+Code changes:
+* [x] The changes are backwards compatibility with previous versions
+* [ ] If it fixes a bug then PRs are created to backport the fix
+
+Testing:
+* [ ] There are unit/integration tests that verify all acceptance criterias of the issue
+* [x] New tests are written to ensure backwards compatibility with further versions
+* [ ] The behavior is tested manually
+
+Documentation:
+* [ ] Javadoc has been written
+* [ ] The documentation is updated",closed,"@github-actions[bot]: ## Unit Test Results
+  47 files    47 suites   1m 49s [:stopwatch:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""duration of all tests"")
+111 tests 111 [:heavy_check_mark:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""passed tests"") 0 [:zzz:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""skipped / disabled tests"") 0 [:x:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""failed tests"")
+356 runs  356 [:heavy_check_mark:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""passed tests"") 0 [:zzz:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""skipped / disabled tests"") 0 [:x:](https://github.com/EnricoMi/publish-unit-test-result-action/blob/v1.20/README.md#the-symbols ""failed tests"")
+
+Results for commit 723fe0e5.
+
+[test-results]:data:application/gzip;base64,H4sIAMn4xmIC/12MSwrCMBQAr1KydpF/Ui8jz3wg2DaSz0q8u2lpbXQ5MzAv5MPkMroOXF0GlGsoJ9maoIS4NCZ4bKK1slZCyEG3XI35V4/wbAp/hYcw/QiXUky7SXVZn0zIHY5lb87jxt1w4/5n4jyH0gApyrzDTmgt75JRMIoToBqwVtRTMVpgXIG06P0BiPOVUQcBAAA=
+
+:recycle: This comment has been updated with latest results.
+---
+@korthout: @remcowesterhoud, I've made the requested change. 
+
+I feel like the error logging is a very important part of ZPT, and we should probably focus on improving the test coverage of this logging. That's why I've gone back and tried to improve the tests that I originally added. It should now be easier to expand them for other records.
+
+I've also applied the comma fix for Job record logging, but I haven't changed it for all records. I don't want to mess too much with it without having tests in place. We should consider making that a bigger issue
+---
+@korthout: @remcowesterhoud Would be cool to get this merged before creating `8.1.0-alpha3`","@remcowesterhoud (CHANGES_REQUESTED): Thanks for the change Nico! Overall it looks good but there are some excessive commas being logged which shouldn’t be there.
+
+Please also have a look at the ci, it is failing because the dependency you’ve introduced is not used.
+---
+@remcowesterhoud (APPROVED): Sorry for taking so long to review, thanks for the fix @korthout 🏆",,,,,
+https://github.com/cassandre-tech/cassandre-trading-bot/commit/437cbf06ffd199922eae8c2ed092de93647461d5,Await Event,cassandre-tech,cassandre-trading-bot,437cbf06ffd199922eae8c2ed092de93647461d5,Refactor cassandre tests - Trying to fix CI - #600,,straumat,2021-06-14T20:48:42Z,,,,,,,,,,,
+https://github.com/cassandre-tech/cassandre-trading-bot/commit/5a2885ab3fcde71b32b4fa0158e1c8103ff161c0,Split Test Method,cassandre-tech,cassandre-trading-bot,5a2885ab3fcde71b32b4fa0158e1c8103ff161c0,Refactor repository tests - closes #324,,straumat,2020-11-24T14:51:26Z,,,,,,,,,,,
+https://github.com/cdancy/bitbucket-rest/commit/ced91ea56fd4c749b0d543c37cb3da11db2cee94,Prebuilt Fixture,cdancy,bitbucket-rest,ced91ea56fd4c749b0d543c37cb3da11db2cee94,Tests refactor,,Kacper Jawoszek,2018-07-10T14:48:47Z,,,,,,,,,,,
+https://github.com/confluentinc/kafka-connect-storage-cloud/commit/e4745b751e9d0d65f4120e3a5fc2c0e0f97ad6da,Delegated Setup,confluentinc,kafka-connect-storage-cloud,e4745b751e9d0d65f4120e3a5fc2c0e0f97ad6da,Refactor reusable parts from current unit tests.,,Konstantine Karantasis,2017-02-01T00:49:38Z,9,MINOR: consolidate unit tests for basic functionality,"I feel this is a better format and structure for the unit tests. Will add more in a separate PR.
+
+Seems easier to focus on each test case now. (Also probably will rename DataWriterAvroTest later)",closed,"@kkonstantine: Right? I was happy too that at least once deletions where more than additions. 
+
+One test case failed on jenkins although it didn't locally. Will fix if needed in next iteration of unit tests.","@ewencp (APPROVED): LGTM, always nice to remove code!",,,,,
+https://github.com/confluentinc/kafka-connect-storage-cloud/commit/e4745b751e9d0d65f4120e3a5fc2c0e0f97ad6da,Implicit Setup,confluentinc,kafka-connect-storage-cloud,e4745b751e9d0d65f4120e3a5fc2c0e0f97ad6da,Refactor reusable parts from current unit tests.,,Konstantine Karantasis,2017-02-01T00:49:38Z,9,MINOR: consolidate unit tests for basic functionality,"I feel this is a better format and structure for the unit tests. Will add more in a separate PR.
+
+Seems easier to focus on each test case now. (Also probably will rename DataWriterAvroTest later)",closed,"@kkonstantine: Right? I was happy too that at least once deletions where more than additions. 
+
+One test case failed on jenkins although it didn't locally. Will fix if needed in next iteration of unit tests.","@ewencp (APPROVED): LGTM, always nice to remove code!",,,,,
+https://github.com/confluentinc/kafka-connect-storage-cloud/commit/e4745b751e9d0d65f4120e3a5fc2c0e0f97ad6da,Verification Method,confluentinc,kafka-connect-storage-cloud,e4745b751e9d0d65f4120e3a5fc2c0e0f97ad6da,Refactor reusable parts from current unit tests.,,Konstantine Karantasis,2017-02-01T00:49:38Z,9,MINOR: consolidate unit tests for basic functionality,"I feel this is a better format and structure for the unit tests. Will add more in a separate PR.
+
+Seems easier to focus on each test case now. (Also probably will rename DataWriterAvroTest later)",closed,"@kkonstantine: Right? I was happy too that at least once deletions where more than additions. 
+
+One test case failed on jenkins although it didn't locally. Will fix if needed in next iteration of unit tests.","@ewencp (APPROVED): LGTM, always nice to remove code!",,,,,
+https://github.com/conveyal/r5/commit/135f8092803d0f6a1b1790c93c051a0b2285df5f,Parameterized Test,conveyal,r5,135f8092803d0f6a1b1790c93c051a0b2285df5f,test(getPointsInEnvelope): refactor to test characteristics of envelopes,,Andrew Byrd,2020-01-23T10:15:59Z,556,"Build under Java 11, update library and plugin versions.","We recently found a successful path to update OTP to build under Java 11: no module-info file, only adding an automatic-module-name to the JAR manifest via some Maven config, and allowing ""illegal"" reflective access with JVM switches only within the test runner.
+
+I have applied these same changes to R5 in this pull request. As part of the migration to java 11, several dependencies and Maven plugins had to move to new versions. Of course this cascades other dependency version changes and creates possible conflicts.
+
+Currently this PR does not compile because R5 dependencies (specifically gtfs-lib) are using the old JTS package name, but JTS has moved to the org.locationetch package hierarchy. So this PR is on hold until R5's dependencies to also migrate to Java 11 and bump all their dependency versions. Ideally we should cross-check that the whole dependency tree across projects (OTP, R5, gtfs-lib, osm-lib) is aligned on version numbers, including things like Protobuf, JTS, and Geotools, but also any others we spot.",closed,"@abyrd: The need to run R5 on Java 8 is starting to cause some friction. Today after loading a very large GTFS I got `java.lang.IllegalArgumentException: org.opengis.referencing.datum.DatumFactory is not an ImageIO SPI class` because I happened to be using a Java 11 runtime. Current R5 `dev` branch cannot run on Java 9+, primarily due to the Geotools version. We should try to get everything working on Java 11+ by the end of 2019.
+
+This means updating gtfs-lib and osm-lib to run on Java 11. I contacted @evansiroky and @landonreed about this, hopefully we can coordinate on harmonizing the dependency versions across all these libraries.
+---
+@abyrd: I have the backend using a locked snapshot build of this right now and it seems to be working. 
+---
+@abyrd: There's a problem with updating JTS in gtfs-lib and R5: we have large amounts of serialized TransportNetworks and GTFS feeds (in MapDBs) that expect all JTS objects to be in package `com.vividsolutions` instead of `org.locationtech`. This breaks all deserialization, we'd have to rebuild all the TransportNetworks and GTFS MapDBs from scratch, which could be done but is not the most straightforward thing.
+
+However, since this won't run on Java 11 without migrating to newer GeoTools (and therefore newer JTS) I'm not sure we have much choice in the long term but to re-process all the GTFS and rebuild every network.
+
+Another problem is that in TransportNetworkCache we build R5 networks directly from gtfsCache, which is loading them directly from cached MapDBs. Once we migrated all the MapDBs, older versions of R5 could no longer build Networks from those MapDBs. Maybe the solution is to make a new suffix for the Java11 mapdbs, like `.v2.mapdb` so newer R5 workers and newer backends will use those files while leaving the old ones alone. There may be a large number of different places where various pieces of code generate the names of the GTFS MapDB files though, so that could get messy.
+---
+@abyrd: I have confirmed that updating gtfs-lib to use new suffixes `.v2.db` and `.v2.db.p` may be straightforward. The only places I see these suffixes in the entire project and dependencies is gtfs-lib file BaseGTFSCache. A quick search and replace there, replacing `.db` with `.v2.db` causes all databases to be rebuilt and they should be uploaded to S3 under these new names, leaving the old ones in tact. We'd want to do a migration just to reduce lag the first time people use a feed, which should involve getting all recently used feed IDs from Mongo and hitting the GraphQL API to get something like all the route names from each feed, one by one in a loop.
+---
+@abyrd: We're back to using the same old GTFS MapDB files, thanks to an update to gtfs-lib. This seems to be working, ready for review. Note that a large number of changes can be glossed over: all the deletions from src/main/java/com/conveyal/r5/otp2/ are removing unused OTP2 code from R5.
+
+I just reviewed the whole changeset myself and find that there are re...",,,,,,
+https://github.com/devlauer/plantuml-generator/commit/a9390dfb67e8085126ac681c199f9cbff21c5f22,Parameterized Test,devlauer,plantuml-generator,a9390dfb67e8085126ac681c199f9cbff21c5f22,refactor test class to merge some test cases into one parameterized test,case,dev.lauer,2022-11-12T15:11:29Z,,,,,,,,,,,
+https://github.com/dita-ot/dita-ot/commit/0ffdfe45362559a28ec7edf3371add90bed4fdcb,Parameterized Test,dita-ot,dita-ot,0ffdfe45362559a28ec7edf3371add90bed4fdcb,Refactor test to use parameters,Signed-off-by: Jarno Elovirta <jarno@elovirta.com>,Jarno Elovirta,2023-08-05T15:09:19Z,4370,Release 4.2,"## Description
+DITA-OT 4.2 release.",closed,,,,,,,
+https://github.com/dita-ot/dita-ot/commit/3e42598cdbf25633b965e61ca133380f5cd0442a,Parameterized Test,dita-ot,dita-ot,3e42598cdbf25633b965e61ca133380f5cd0442a,Refactor conversion argument test,Signed-off-by: Jarno Elovirta <jarno@elovirta.com>,Jarno Elovirta,2024-06-20T17:41:56Z,,,,,,,,,,,
+https://github.com/dita-ot/dita-ot/commit/ae6cb5a9a01751979ce12f1f76907dc0c51eedf7,Parameterized Test,dita-ot,dita-ot,ae6cb5a9a01751979ce12f1f76907dc0c51eedf7,Refactor and improve test to include map link crawl,Signed-off-by: Jarno Elovirta <jarno@elovirta.com>,Jarno Elovirta,2023-10-22T12:40:49Z,4370,Release 4.2,"## Description
+DITA-OT 4.2 release.",closed,,,,,,,
+https://github.com/dreamhead/moco/commit/15285f6465b0aad791fc28dde9e6f3614cbd8818,Inline Assertion,dreamhead,moco,15285f6465b0aad791fc28dde9e6f3614cbd8818,refactored test,,dreamhead,2012-11-06T21:56:25Z,,,,,,,,,,,
+https://github.com/eclipse-jkube/jkube/commit/ce55ead00cd9364ec26a2eec7c19f6bfb79a0fe9,Parameterized Test,eclipse-jkube,jkube,ce55ead00cd9364ec26a2eec7c19f6bfb79a0fe9,review: enricher-api test refactor,Signed-off-by: Marc Nuri <marc@marcnuri.com>,Marc Nuri,2022-11-22T06:29:33Z,1715,refactor (jkube-kit-enricher-api): Migrate all tests from JUnit4 to JUnit5 (#1557),"## Description
+<!--
+Thank you for your pull request (PR)!
+
+Please provide a description of what your PR does providing a link (if applicable) to the issue it fixes.
+-->
+Fixes #1557 
+
+
+## Type of change
+<!---
+What types of changes does your code introduce? Put an `x` in all the boxes that apply
+-->
+ - [ ] Bug fix (non-breaking change which fixes an issue)
+ - [ ] Feature (non-breaking change which adds functionality)
+ - [ ] Breaking change (fix or feature that would cause existing functionality to change
+ - [x] Chore (non-breaking change which doesn't affect codebase;
+   test, version modification, documentation, etc.)
+
+## Checklist
+ - [x] I have read the [contributing guidelines](https://www.eclipse.org/jkube/contributing)
+ - [x] I signed-off my commit with a user that has signed the [Eclipse Contributor Agreement](https://www.eclipse.org/legal/ECA.php)
+ - [x] My code follows the style guidelines of this project
+ - [x] I have performed a self-review of my code
+ - [ ] I Added [CHANGELOG](../CHANGELOG.md) entry
+ - [ ] I have updated the [documentation](../kubernetes-maven-plugin/doc) accordingly
+ - [ ] No new bugs, code smells, etc. in [SonarCloud](https://sonarcloud.io/dashboard?id=jkubeio_jkube) report
+ - [ ] I have added tests that prove my fix is effective or that my feature works
+ - [x] New and existing unit tests pass locally with my changes
+ - [ ] I tested my code in Kubernetes
+ - [ ] I tested my code in OpenShift
+
+<!--
+Integration tests (https://github.com/jkubeio/jkube-integration-tests)
+Please check integration tests and provide/improve tests if necessary.
+
+Open your PR in Draft mode and verify all of the applicable Checklist items before marking your issue as ready
+-->",closed,"@manusa: <!-- Eclipse JKube CI bot report -->
+<!-- METADATA {""pr"":""1715"",""runId"":""3520953257""} -->
+### Eclipse JKube [CI Report](https://github.com/jkubeio/ci)
+
+Started new GH workflow run for https://github.com/eclipse/jkube/pull/1715 (_2022-11-22T08:44:44Z_)
+
+:gear: [JKube E2E Tests (3520953257)](https://github.com/jkubeio/ci/actions/runs/3520953257) 
+- :heavy_check_mark: [Bootstrap CI test run (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903756687)
+- :heavy_check_mark: [K8S v1.12.0 dockerfile (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758680)
+- :heavy_check_mark: [K8S v1.12.0 other (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758599)
+- :heavy_check_mark: [K8S v1.12.0 quarkus (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758148)
+- :heavy_check_mark: [K8S v1.12.0 quarkus-native (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758250)
+- :heavy_check_mark: [K8S v1.12.0 springboot (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758411)
+- :heavy_check_mark: [K8S v1.12.0 webapp (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758503)
+- :heavy_check_mark: [K8S v1.24.0 dockerfile (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758056)
+- :heavy_check_mark: [K8S v1.24.0 other (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757961)
+- :heavy_check_mark: [K8S v1.24.0 quarkus (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757528)
+- :heavy_check_mark: [K8S v1.24.0 quarkus-native (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757637)
+- :heavy_check_mark: [K8S v1.24.0 springboot (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757702)
+- :heavy_check_mark: [K8S v1.24.0 webapp (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757867)
+- :heavy_check_mark: [OpenShift v3.11.0 other (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757091)
+- :heavy_check_mark: [OpenShift v3.11.0 quarkus (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903756859)
+- :heavy_check_mark: [OpenShift v3.11.0 springboot (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903756942)
+- :heavy_check_mark: [OpenShift v3.11.0 webapp (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757016)
+- :heavy_check_mark: [OpenShift v3.9.0 other (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757427)
+- :heavy_check_mark: [OpenShift v3.9.0 quarkus (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757169)
+- :heavy_check_mark: [OpenShift v3.9.0 springboot (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757254)
+- :heavy_check_mark: [OpenShift v3.9.0 webapp (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757348)
+- :heavy_chec...",,,,,,
+https://github.com/eclipse-jkube/jkube/commit/ce55ead00cd9364ec26a2eec7c19f6bfb79a0fe9,Grouping Tests,eclipse-jkube,jkube,ce55ead00cd9364ec26a2eec7c19f6bfb79a0fe9,review: enricher-api test refactor,Signed-off-by: Marc Nuri <marc@marcnuri.com>,Marc Nuri,2022-11-22T06:29:33Z,1715,refactor (jkube-kit-enricher-api): Migrate all tests from JUnit4 to JUnit5 (#1557),"## Description
+<!--
+Thank you for your pull request (PR)!
+
+Please provide a description of what your PR does providing a link (if applicable) to the issue it fixes.
+-->
+Fixes #1557 
+
+
+## Type of change
+<!---
+What types of changes does your code introduce? Put an `x` in all the boxes that apply
+-->
+ - [ ] Bug fix (non-breaking change which fixes an issue)
+ - [ ] Feature (non-breaking change which adds functionality)
+ - [ ] Breaking change (fix or feature that would cause existing functionality to change
+ - [x] Chore (non-breaking change which doesn't affect codebase;
+   test, version modification, documentation, etc.)
+
+## Checklist
+ - [x] I have read the [contributing guidelines](https://www.eclipse.org/jkube/contributing)
+ - [x] I signed-off my commit with a user that has signed the [Eclipse Contributor Agreement](https://www.eclipse.org/legal/ECA.php)
+ - [x] My code follows the style guidelines of this project
+ - [x] I have performed a self-review of my code
+ - [ ] I Added [CHANGELOG](../CHANGELOG.md) entry
+ - [ ] I have updated the [documentation](../kubernetes-maven-plugin/doc) accordingly
+ - [ ] No new bugs, code smells, etc. in [SonarCloud](https://sonarcloud.io/dashboard?id=jkubeio_jkube) report
+ - [ ] I have added tests that prove my fix is effective or that my feature works
+ - [x] New and existing unit tests pass locally with my changes
+ - [ ] I tested my code in Kubernetes
+ - [ ] I tested my code in OpenShift
+
+<!--
+Integration tests (https://github.com/jkubeio/jkube-integration-tests)
+Please check integration tests and provide/improve tests if necessary.
+
+Open your PR in Draft mode and verify all of the applicable Checklist items before marking your issue as ready
+-->",closed,"@manusa: <!-- Eclipse JKube CI bot report -->
+<!-- METADATA {""pr"":""1715"",""runId"":""3520953257""} -->
+### Eclipse JKube [CI Report](https://github.com/jkubeio/ci)
+
+Started new GH workflow run for https://github.com/eclipse/jkube/pull/1715 (_2022-11-22T08:44:44Z_)
+
+:gear: [JKube E2E Tests (3520953257)](https://github.com/jkubeio/ci/actions/runs/3520953257) 
+- :heavy_check_mark: [Bootstrap CI test run (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903756687)
+- :heavy_check_mark: [K8S v1.12.0 dockerfile (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758680)
+- :heavy_check_mark: [K8S v1.12.0 other (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758599)
+- :heavy_check_mark: [K8S v1.12.0 quarkus (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758148)
+- :heavy_check_mark: [K8S v1.12.0 quarkus-native (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758250)
+- :heavy_check_mark: [K8S v1.12.0 springboot (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758411)
+- :heavy_check_mark: [K8S v1.12.0 webapp (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758503)
+- :heavy_check_mark: [K8S v1.24.0 dockerfile (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758056)
+- :heavy_check_mark: [K8S v1.24.0 other (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757961)
+- :heavy_check_mark: [K8S v1.24.0 quarkus (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757528)
+- :heavy_check_mark: [K8S v1.24.0 quarkus-native (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757637)
+- :heavy_check_mark: [K8S v1.24.0 springboot (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757702)
+- :heavy_check_mark: [K8S v1.24.0 webapp (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757867)
+- :heavy_check_mark: [OpenShift v3.11.0 other (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757091)
+- :heavy_check_mark: [OpenShift v3.11.0 quarkus (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903756859)
+- :heavy_check_mark: [OpenShift v3.11.0 springboot (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903756942)
+- :heavy_check_mark: [OpenShift v3.11.0 webapp (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757016)
+- :heavy_check_mark: [OpenShift v3.9.0 other (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757427)
+- :heavy_check_mark: [OpenShift v3.9.0 quarkus (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757169)
+- :heavy_check_mark: [OpenShift v3.9.0 springboot (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757254)
+- :heavy_check_mark: [OpenShift v3.9.0 webapp (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757348)
+- :heavy_chec...",,,,,,
+https://github.com/eclipse-jkube/jkube/commit/ce55ead00cd9364ec26a2eec7c19f6bfb79a0fe9,Change Assertion Type,eclipse-jkube,jkube,ce55ead00cd9364ec26a2eec7c19f6bfb79a0fe9,review: enricher-api test refactor,Signed-off-by: Marc Nuri <marc@marcnuri.com>,Marc Nuri,2022-11-22T06:29:33Z,1715,refactor (jkube-kit-enricher-api): Migrate all tests from JUnit4 to JUnit5 (#1557),"## Description
+<!--
+Thank you for your pull request (PR)!
+
+Please provide a description of what your PR does providing a link (if applicable) to the issue it fixes.
+-->
+Fixes #1557 
+
+
+## Type of change
+<!---
+What types of changes does your code introduce? Put an `x` in all the boxes that apply
+-->
+ - [ ] Bug fix (non-breaking change which fixes an issue)
+ - [ ] Feature (non-breaking change which adds functionality)
+ - [ ] Breaking change (fix or feature that would cause existing functionality to change
+ - [x] Chore (non-breaking change which doesn't affect codebase;
+   test, version modification, documentation, etc.)
+
+## Checklist
+ - [x] I have read the [contributing guidelines](https://www.eclipse.org/jkube/contributing)
+ - [x] I signed-off my commit with a user that has signed the [Eclipse Contributor Agreement](https://www.eclipse.org/legal/ECA.php)
+ - [x] My code follows the style guidelines of this project
+ - [x] I have performed a self-review of my code
+ - [ ] I Added [CHANGELOG](../CHANGELOG.md) entry
+ - [ ] I have updated the [documentation](../kubernetes-maven-plugin/doc) accordingly
+ - [ ] No new bugs, code smells, etc. in [SonarCloud](https://sonarcloud.io/dashboard?id=jkubeio_jkube) report
+ - [ ] I have added tests that prove my fix is effective or that my feature works
+ - [x] New and existing unit tests pass locally with my changes
+ - [ ] I tested my code in Kubernetes
+ - [ ] I tested my code in OpenShift
+
+<!--
+Integration tests (https://github.com/jkubeio/jkube-integration-tests)
+Please check integration tests and provide/improve tests if necessary.
+
+Open your PR in Draft mode and verify all of the applicable Checklist items before marking your issue as ready
+-->",closed,"@manusa: <!-- Eclipse JKube CI bot report -->
+<!-- METADATA {""pr"":""1715"",""runId"":""3520953257""} -->
+### Eclipse JKube [CI Report](https://github.com/jkubeio/ci)
+
+Started new GH workflow run for https://github.com/eclipse/jkube/pull/1715 (_2022-11-22T08:44:44Z_)
+
+:gear: [JKube E2E Tests (3520953257)](https://github.com/jkubeio/ci/actions/runs/3520953257) 
+- :heavy_check_mark: [Bootstrap CI test run (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903756687)
+- :heavy_check_mark: [K8S v1.12.0 dockerfile (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758680)
+- :heavy_check_mark: [K8S v1.12.0 other (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758599)
+- :heavy_check_mark: [K8S v1.12.0 quarkus (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758148)
+- :heavy_check_mark: [K8S v1.12.0 quarkus-native (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758250)
+- :heavy_check_mark: [K8S v1.12.0 springboot (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758411)
+- :heavy_check_mark: [K8S v1.12.0 webapp (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758503)
+- :heavy_check_mark: [K8S v1.24.0 dockerfile (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903758056)
+- :heavy_check_mark: [K8S v1.24.0 other (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757961)
+- :heavy_check_mark: [K8S v1.24.0 quarkus (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757528)
+- :heavy_check_mark: [K8S v1.24.0 quarkus-native (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757637)
+- :heavy_check_mark: [K8S v1.24.0 springboot (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757702)
+- :heavy_check_mark: [K8S v1.24.0 webapp (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757867)
+- :heavy_check_mark: [OpenShift v3.11.0 other (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757091)
+- :heavy_check_mark: [OpenShift v3.11.0 quarkus (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903756859)
+- :heavy_check_mark: [OpenShift v3.11.0 springboot (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903756942)
+- :heavy_check_mark: [OpenShift v3.11.0 webapp (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757016)
+- :heavy_check_mark: [OpenShift v3.9.0 other (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757427)
+- :heavy_check_mark: [OpenShift v3.9.0 quarkus (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757169)
+- :heavy_check_mark: [OpenShift v3.9.0 springboot (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757254)
+- :heavy_check_mark: [OpenShift v3.9.0 webapp (#1715)](https://github.com/jkubeio/ci/actions/runs/3520953257/jobs/5903757348)
+- :heavy_chec...",,,,,,
+https://github.com/errai/errai/commit/058e50b10da2d9fc3fcd7736f2d1215c591f9c42,Split Test Method,errai,errai,058e50b10da2d9fc3fcd7736f2d1215c591f9c42,unit test refactoring,,Christian Sadilek,2011-06-15T16:34:26Z,,,,,,,,,,,
+https://github.com/errai/errai/commit/c9298966bc4a505c6db05a4678308c003048e9af,Custom Assertion,errai,errai,c9298966bc4a505c6db05a4678308c003048e9af,test refactoring,,Christian Sadilek,2012-01-04T23:18:35Z,,,,,,,,,,,
+https://github.com/espertechinc/esper/commit/7021f1f0c15774c61dabe44ceb32353e4bcf753a,Split Test Method,espertechinc,esper,7021f1f0c15774c61dabe44ceb32353e4bcf753a,merge minor test refactoring,,Thomas Bernhardt,2015-10-19T19:28:54Z,44,Rel5.4 eha,merge rel5.4 eha to master,closed,,,,,,,
+https://github.com/exadel-inc/etoolbox-authoring-kit/commit/932c817f63f454635d991251b83c62d1d7adf681,Prebuilt Fixture,exadel-inc,etoolbox-authoring-kit,932c817f63f454635d991251b83c62d1d7adf681,[EDMTP-373] Updated and refactored test case,,Alexey-Chernyakov,2021-02-01T23:12:30Z,,,,,,,,,,,
+https://github.com/exadel-inc/etoolbox-authoring-kit/commit/932c817f63f454635d991251b83c62d1d7adf681,Delegated Setup,exadel-inc,etoolbox-authoring-kit,932c817f63f454635d991251b83c62d1d7adf681,[EDMTP-373] Updated and refactored test case,,Alexey-Chernyakov,2021-02-01T23:12:30Z,,,,,,,,,,,
+https://github.com/fabric8io/fabric8-maven-plugin/commit/89abcae3019d2bcbd05142f83353165e581a49b2,Replace try/catch with annotation,fabric8io,fabric8-maven-plugin,89abcae3019d2bcbd05142f83353165e581a49b2,More Refactoring of Test with,proper naming and Exception Handling,Piyush Garg,2018-01-02T09:31:14Z,1136,"Added Test for Container Handler, ServiceHandler, PodTemplateHandler, DeploymentHandler, DaemonSetHandler, EnvVarHandler, ProbeHandler",#1134,closed,"@piyush-garg: @hrishin I added some more assertions for ContainerPart you asked and also added one-case for FQDN. Please review. Test for ServiceHandler is also added. Thanks
+---
+@hrishin: @piyush1594 this looks good now!
+Thanks!","@hrishin (CHANGES_REQUESTED): @piyush1594 thanks, this looks great. :+1: 
+
+Can we
+1) add more test to construct image name with a different configuration? how it constructs the FQDN e.g. registry/repository/name:version
+---
+@hrishin (CHANGES_REQUESTED): @piyush1594 
+
+That's a good amount of work :). Thanks a lot for it :+1: 
+Let's accommodate some changes
+- Big test cases: Right now input, business logic and assertion statements got mixed together. Either it can organized into single order of input, business logic, assertions or divide the test case into smaller tets cases
+
+---
+@hrishin (CHANGES_REQUESTED): Thanks, @piyush1594 . Let's accommodate minor things.",,,,,
+https://github.com/fedex81/helios/commit/1dac09eda579c04545ef76f67045a15eba71addb,Test Helper,fedex81,helios,1dac09eda579c04545ef76f67045a15eba71addb,refactor tests,,Federico Berti,2021-12-29T15:02:52Z,,,,,,,,,,,
+https://github.com/flightstats/hub/commit/20351c7f6fc61a453fd9d956205df0eb712af15b,Prebuilt Fixture,flightstats,hub,20351c7f6fc61a453fd9d956205df0eb712af15b,Refactored the unit test to be less noisy.,,Ryan Zander,2018-01-18T01:09:30Z,1068,Re-release the hand rolled webhook retryer,"**DONT MERGE**
+
+I need to coordinate the merge order with some other PRs.",closed,,,,,,,
+https://github.com/ftsrg/theta/commit/8e59264fbc850e14bbb455774d64e70b8dca2862,Parameterized Test,ftsrg,theta,8e59264fbc850e14bbb455774d64e70b8dca2862,Refactoring tests,,Hajdu Ákos,2016-09-17T16:42:05Z,,,,,,,,,,,
+https://github.com/ftsrg/theta/commit/fc1af6246a233c2603cc7e97ccdc4b522b514ca8,Implicit Setup,ftsrg,theta,fc1af6246a233c2603cc7e97ccdc4b522b514ca8,Refactor tests,,Akos Hajdu,2020-10-13T09:17:18Z,,,,,,,,,,,
+https://github.com/google/ExoPlayer/commit/9b6c30525ec438ad8bc03e5a6afbff442b2f941a,Delegated Setup,google,ExoPlayer,9b6c30525ec438ad8bc03e5a6afbff442b2f941a,webm_extractor_tests: Add tests for multi track Webm Extractor Support,"Refactor the extractor tests to enable testing of multi track Webm support.
+
+Github Issue: #363",Oliver Woodman,2015-05-01T19:13:53Z,431,dev -> dev-webm-vp9-opus,,closed,,,,,,,
+https://github.com/hash-checker/hash-checker/commit/7af1d22b2e19c750f8250bafb8bd69138b3dc23e,Prebuilt Fixture,hash-checker,hash-checker,7af1d22b2e19c750f8250bafb8bd69138b3dc23e,2021-01-15 Version 3.6.1: Refactored tests (#62),,Artem Fomchenkov,2021-01-15T16:30:34Z,,,,,,,,,,,
+https://github.com/hyphanet/fred/commit/2e68720627ae6447ba12d712a9e6e4a123e66b95,Test Helper,hyphanet,fred,2e68720627ae6447ba12d712a9e6e4a123e66b95,refactor NativeBigIntegerTest and add inactive test for java7 BigInteger,,Ximin Luo,2009-09-18T23:15:18Z,,,,,,,,,,,
+https://github.com/ibi-group/datatools-server/commit/38c1b435ee98669010ad0381a1bdb58499be2fbf,Replace Dependency with Test Double,ibi-group,datatools-server,38c1b435ee98669010ad0381a1bdb58499be2fbf,refactor(HandleCorruptGTFSFileTest.java): Updated test to include project id in feed source. This is,,Robin Beer,2021-06-15T17:14:37Z,361,Auto deploy feed version,"### Checklist
+
+- [x] Appropriate branch selected _(all PRs must first be merged to `dev` before they can be merged to `master`)_
+- [x] Any modified or new methods or classes have helpful JavaDoc and code is thoroughly commented
+- [x] The description lists all applicable issues this PR seeks to resolve
+- [x] The description lists any configuration setting(s) that differ from the default settings
+- [x] All tests and CI builds passing
+
+### Description
+
+Auto deploy logic updated to match: https://docs.google.com/document/d/1-ktTBm2phT_7rIVQgk5XbyxT7VtjQnpll4hIyDP8AhQ/edit#heading=h.5s90wltgha1q",closed,"@codecov-io: # [Codecov](https://codecov.io/gh/ibi-group/datatools-server/pull/361?src=pr&el=h1) Report
+> Merging [#361](https://codecov.io/gh/ibi-group/datatools-server/pull/361?src=pr&el=desc) (238d4c6) into [dev](https://codecov.io/gh/ibi-group/datatools-server/commit/11a55977f2c126dbad81910d63ded04810382659?el=desc) (11a5597) will **increase** coverage by `1.86%`.
+> The diff coverage is `59.18%`.
+
+[![Impacted file tree graph](https://codecov.io/gh/ibi-group/datatools-server/pull/361/graphs/tree.svg?width=650&height=150&src=pr&token=q0CzuyPcLE)](https://codecov.io/gh/ibi-group/datatools-server/pull/361?src=pr&el=tree)
+
+```diff
+@@             Coverage Diff              @@
+##                dev     #361      +/-   ##
+============================================
++ Coverage     26.61%   28.48%   +1.86%     
+- Complexity      655      723      +68     
+============================================
+  Files           179      180       +1     
+  Lines          9227     9356     +129     
+  Branches       1249     1284      +35     
+============================================
++ Hits           2456     2665     +209     
++ Misses         6533     6405     -128     
+- Partials        238      286      +48     
+```
+
+| Flag | Coverage Δ | Complexity Δ | |
+|---|---|---|---|
+| unit_tests | `28.48% <59.18%> (+1.86%)` | `0.00 <27.00> (ø)` | |
+
+Flags with carried forward coverage won't be shown. [Click here](https://docs.codecov.io/docs/carryforward-flags#carryforward-flags-in-the-pull-request-comment) to find out more.
+
+| [Impacted Files](https://codecov.io/gh/ibi-group/datatools-server/pull/361?src=pr&el=tree) | Coverage Δ | Complexity Δ | |
+|---|---|---|---|
+| [...om/conveyal/datatools/editor/datastore/FeedTx.java](https://codecov.io/gh/ibi-group/datatools-server/pull/361/diff?src=pr&el=tree#diff-c3JjL21haW4vamF2YS9jb20vY29udmV5YWwvZGF0YXRvb2xzL2VkaXRvci9kYXRhc3RvcmUvRmVlZFR4LmphdmE=) | `0.00% <ø> (ø)` | `0.00 <0.00> (ø)` | |
+| [...ools/manager/controllers/api/StatusController.java](https://codecov.io/gh/ibi-group/datatools-server/pull/361/diff?src=pr&el=tree#diff-c3JjL21haW4vamF2YS9jb20vY29udmV5YWwvZGF0YXRvb2xzL21hbmFnZXIvY29udHJvbGxlcnMvYXBpL1N0YXR1c0NvbnRyb2xsZXIuamF2YQ==) | `33.92% <ø> (+12.50%)` | `9.00 <0.00> (+4.00)` | |
+| [...com/conveyal/datatools/manager/jobs/DeployJob.java](https://codecov.io/gh/ibi-group/datatools-server/pull/361/diff?src=pr&el=tree#diff-c3JjL21haW4vamF2YS9jb20vY29udmV5YWwvZGF0YXRvb2xzL21hbmFnZXIvam9icy9EZXBsb3lKb2IuamF2YQ==) | `24.11% <0.00%> (+5.79%)` | `33.00 <0.00> (+9.00)` | |
+| [...conveyal/datatools/manager/jobs/MergeFeedsJob.java](https://codecov.io/gh/ibi-group/datatools-server/pull/361/diff?src=pr&el=tree#diff-c3JjL21haW4vamF2YS9jb20vY29udmV5YWwvZGF0YXRvb2xzL21hbmFnZXIvam9icy9NZXJnZUZlZWRzSm9iLmphdmE=) | `78.94% <0.00%> (-0.19%)` | `120.00 <0.00> (ø)` | |
+| [...l/datatools/manager/jobs/ProcessSingleFeedJob.java](https://codecov.io/gh/ibi-group/datatools-server/pull/361/diff?src=pr&el=tree#diff-c3JjL21haW4vamF2YS9jb2...","@landonreed (CHANGES_REQUESTED): A few minor things. I still need to review the tests a bit more. Also, we need to get the GH actions PR (#360) reviewed and merged into dev before this one now that Travis CI is turned off and we're not getting CI pass/fail indications.
+---
+@binh-dam-ibigroup (CHANGES_REQUESTED): Please advise regarding the redundant error logs if there is a concurrent deployment, and see the other cosmetic suggestions.
+---
+@binh-dam-ibigroup (APPROVED): LGTM. (The suggestion for parametrized tests is not blocking.)",,,,,
+https://github.com/ibi-group/datatools-server/commit/6256c56f7f65b02794cb40d67ff86efad605a32c,Custom Assertion,ibi-group,datatools-server,6256c56f7f65b02794cb40d67ff86efad605a32c,"test(MergeFeedsJobTest): Update test comments, do some refactor.",,binh-dam-ibigroup,2021-11-24T15:38:19Z,376,Add trip handling strategies for MTC feed merge,"### Checklist
+
+- [x] Appropriate branch selected _(all PRs must first be merged to `dev` before they can be merged to `master`)_
+- [x] Any modified or new methods or classes have helpful JavaDoc and code is thoroughly commented
+- [x] The description lists all applicable issues this PR seeks to resolve
+- [x] The description lists any configuration setting(s) that differ from the default settings
+- [x] All tests and CI builds passing
+
+### Description
+
+This PR implements changes to MTC's service period merge feature as defined here: https://docs.google.com/document/d/1mx9s3XfWfPB7SSXDwCbnRF7F2zLDU2ED4gK-W6eXL9o/edit
+
+This PR also fixes #244.
+
+Notable changes include:
+1. Moving a bunch of pre-existing things (`FeedToMerge` class and util methods) to new files to clean things up.
+2. Implementing `MergeStrategy` enum to mimic strategies in google doc.
+3. Update to gtfs-lib in order to get the `StopTime#hashCode` method.
+4. Some more tests.
+5. **Note:** Works with https://github.com/ibi-group/datatools-ui/pull/686",closed,"@codecov-commenter: # [Codecov](https://codecov.io/gh/ibi-group/datatools-server/pull/376?src=pr&el=h1&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group) Report
+> Merging [#376](https://codecov.io/gh/ibi-group/datatools-server/pull/376?src=pr&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group) (7f699b2) into [dev](https://codecov.io/gh/ibi-group/datatools-server/commit/4677760be525d086b0093255037c6635c8b0c315?el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group) (4677760) will **increase** coverage by `0.79%`.
+> The diff coverage is `89.36%`.
+
+> :exclamation: Current head 7f699b2 differs from pull request most recent head c34970c. Consider uploading reports for the commit c34970c to get more accurate results
+[![Impacted file tree graph](https://codecov.io/gh/ibi-group/datatools-server/pull/376/graphs/tree.svg?width=650&height=150&src=pr&token=q0CzuyPcLE&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group)](https://codecov.io/gh/ibi-group/datatools-server/pull/376?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group)
+
+```diff
+@@             Coverage Diff              @@
+##                dev     #376      +/-   ##
+============================================
++ Coverage     26.90%   27.69%   +0.79%     
+- Complexity      665      692      +27     
+============================================
+  Files           179      182       +3     
+  Lines          9230     9342     +112     
+  Branches       1250     1274      +24     
+============================================
++ Hits           2483     2587     +104     
+  Misses         6513     6513              
+- Partials        234      242       +8     
+```
+
+| Flag | Coverage Δ | |
+|---|---|---|
+| unit_tests | `27.69% <89.36%> (+0.79%)` | :arrow_up: |
+
+Flags with carried forward coverage won't be shown. [Click here](https://docs.codecov.io/docs/carryforward-flags?utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group#carryforward-flags-in-the-pull-request-comment) to find out more.
+
+| [Impacted Files](https://codecov.io/gh/ibi-group/datatools-server/pull/376?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group) | Coverage Δ | |
+|---|---|---|
+| [...nveyal/datatools/manager/utils/MergeFeedUtils.java](https://codecov.io/gh/ibi-group/datatools-server/pull/376/diff?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group#diff-c3JjL21haW4vamF2YS9jb20vY29udmV5YWwvZGF0YXRvb2xzL21hbmFnZXIvdXRpbHMvTWVyZ2VGZWVkVXRpbHMuamF2YQ==) | `76.59% <76.59%> (ø)` | |
+| [...conveyal/datatools/manager/jobs/MergeFeedsJob.java](https://codecov.io/gh/ibi-group/datatools-server/pull...","@binh-dam-ibigroup (COMMENTED): Please see the formatting and refactoring suggestions for now.
+---
+@evansiroky (CHANGES_REQUESTED): This MergeFeedsJob is becoming really complex to the point where it's kind of unclear what all is going on without doing a deep dive into it. To help with this, each step should be thoroughly commented and also, I think it'd really help to have consistent terminology about what past/current/future feeds are.",,,,,
+https://github.com/ibi-group/datatools-server/commit/629ffd2764e667074c751072951a041d05d75f47,Delegated Setup,ibi-group,datatools-server,629ffd2764e667074c751072951a041d05d75f47,refactor(AutoDeployFeedJob): Created separate feed sources for each unit test,,Rob Beer,2021-02-23T08:43:24Z,361,Auto deploy feed version,"### Checklist
+
+- [x] Appropriate branch selected _(all PRs must first be merged to `dev` before they can be merged to `master`)_
+- [x] Any modified or new methods or classes have helpful JavaDoc and code is thoroughly commented
+- [x] The description lists all applicable issues this PR seeks to resolve
+- [x] The description lists any configuration setting(s) that differ from the default settings
+- [x] All tests and CI builds passing
+
+### Description
+
+Auto deploy logic updated to match: https://docs.google.com/document/d/1-ktTBm2phT_7rIVQgk5XbyxT7VtjQnpll4hIyDP8AhQ/edit#heading=h.5s90wltgha1q",closed,"@codecov-io: # [Codecov](https://codecov.io/gh/ibi-group/datatools-server/pull/361?src=pr&el=h1) Report
+> Merging [#361](https://codecov.io/gh/ibi-group/datatools-server/pull/361?src=pr&el=desc) (238d4c6) into [dev](https://codecov.io/gh/ibi-group/datatools-server/commit/11a55977f2c126dbad81910d63ded04810382659?el=desc) (11a5597) will **increase** coverage by `1.86%`.
+> The diff coverage is `59.18%`.
+
+[![Impacted file tree graph](https://codecov.io/gh/ibi-group/datatools-server/pull/361/graphs/tree.svg?width=650&height=150&src=pr&token=q0CzuyPcLE)](https://codecov.io/gh/ibi-group/datatools-server/pull/361?src=pr&el=tree)
+
+```diff
+@@             Coverage Diff              @@
+##                dev     #361      +/-   ##
+============================================
++ Coverage     26.61%   28.48%   +1.86%     
+- Complexity      655      723      +68     
+============================================
+  Files           179      180       +1     
+  Lines          9227     9356     +129     
+  Branches       1249     1284      +35     
+============================================
++ Hits           2456     2665     +209     
++ Misses         6533     6405     -128     
+- Partials        238      286      +48     
+```
+
+| Flag | Coverage Δ | Complexity Δ | |
+|---|---|---|---|
+| unit_tests | `28.48% <59.18%> (+1.86%)` | `0.00 <27.00> (ø)` | |
+
+Flags with carried forward coverage won't be shown. [Click here](https://docs.codecov.io/docs/carryforward-flags#carryforward-flags-in-the-pull-request-comment) to find out more.
+
+| [Impacted Files](https://codecov.io/gh/ibi-group/datatools-server/pull/361?src=pr&el=tree) | Coverage Δ | Complexity Δ | |
+|---|---|---|---|
+| [...om/conveyal/datatools/editor/datastore/FeedTx.java](https://codecov.io/gh/ibi-group/datatools-server/pull/361/diff?src=pr&el=tree#diff-c3JjL21haW4vamF2YS9jb20vY29udmV5YWwvZGF0YXRvb2xzL2VkaXRvci9kYXRhc3RvcmUvRmVlZFR4LmphdmE=) | `0.00% <ø> (ø)` | `0.00 <0.00> (ø)` | |
+| [...ools/manager/controllers/api/StatusController.java](https://codecov.io/gh/ibi-group/datatools-server/pull/361/diff?src=pr&el=tree#diff-c3JjL21haW4vamF2YS9jb20vY29udmV5YWwvZGF0YXRvb2xzL21hbmFnZXIvY29udHJvbGxlcnMvYXBpL1N0YXR1c0NvbnRyb2xsZXIuamF2YQ==) | `33.92% <ø> (+12.50%)` | `9.00 <0.00> (+4.00)` | |
+| [...com/conveyal/datatools/manager/jobs/DeployJob.java](https://codecov.io/gh/ibi-group/datatools-server/pull/361/diff?src=pr&el=tree#diff-c3JjL21haW4vamF2YS9jb20vY29udmV5YWwvZGF0YXRvb2xzL21hbmFnZXIvam9icy9EZXBsb3lKb2IuamF2YQ==) | `24.11% <0.00%> (+5.79%)` | `33.00 <0.00> (+9.00)` | |
+| [...conveyal/datatools/manager/jobs/MergeFeedsJob.java](https://codecov.io/gh/ibi-group/datatools-server/pull/361/diff?src=pr&el=tree#diff-c3JjL21haW4vamF2YS9jb20vY29udmV5YWwvZGF0YXRvb2xzL21hbmFnZXIvam9icy9NZXJnZUZlZWRzSm9iLmphdmE=) | `78.94% <0.00%> (-0.19%)` | `120.00 <0.00> (ø)` | |
+| [...l/datatools/manager/jobs/ProcessSingleFeedJob.java](https://codecov.io/gh/ibi-group/datatools-server/pull/361/diff?src=pr&el=tree#diff-c3JjL21haW4vamF2YS9jb2...","@landonreed (CHANGES_REQUESTED): A few minor things. I still need to review the tests a bit more. Also, we need to get the GH actions PR (#360) reviewed and merged into dev before this one now that Travis CI is turned off and we're not getting CI pass/fail indications.
+---
+@binh-dam-ibigroup (CHANGES_REQUESTED): Please advise regarding the redundant error logs if there is a concurrent deployment, and see the other cosmetic suggestions.
+---
+@binh-dam-ibigroup (APPROVED): LGTM. (The suggestion for parametrized tests is not blocking.)",,,,,
+https://github.com/ibi-group/datatools-server/commit/629ffd2764e667074c751072951a041d05d75f47,Prebuilt Fixture,ibi-group,datatools-server,629ffd2764e667074c751072951a041d05d75f47,refactor(AutoDeployFeedJob): Created separate feed sources for each unit test,,Rob Beer,2021-02-23T08:43:24Z,361,Auto deploy feed version,"### Checklist
+
+- [x] Appropriate branch selected _(all PRs must first be merged to `dev` before they can be merged to `master`)_
+- [x] Any modified or new methods or classes have helpful JavaDoc and code is thoroughly commented
+- [x] The description lists all applicable issues this PR seeks to resolve
+- [x] The description lists any configuration setting(s) that differ from the default settings
+- [x] All tests and CI builds passing
+
+### Description
+
+Auto deploy logic updated to match: https://docs.google.com/document/d/1-ktTBm2phT_7rIVQgk5XbyxT7VtjQnpll4hIyDP8AhQ/edit#heading=h.5s90wltgha1q",closed,"@codecov-io: # [Codecov](https://codecov.io/gh/ibi-group/datatools-server/pull/361?src=pr&el=h1) Report
+> Merging [#361](https://codecov.io/gh/ibi-group/datatools-server/pull/361?src=pr&el=desc) (238d4c6) into [dev](https://codecov.io/gh/ibi-group/datatools-server/commit/11a55977f2c126dbad81910d63ded04810382659?el=desc) (11a5597) will **increase** coverage by `1.86%`.
+> The diff coverage is `59.18%`.
+
+[![Impacted file tree graph](https://codecov.io/gh/ibi-group/datatools-server/pull/361/graphs/tree.svg?width=650&height=150&src=pr&token=q0CzuyPcLE)](https://codecov.io/gh/ibi-group/datatools-server/pull/361?src=pr&el=tree)
+
+```diff
+@@             Coverage Diff              @@
+##                dev     #361      +/-   ##
+============================================
++ Coverage     26.61%   28.48%   +1.86%     
+- Complexity      655      723      +68     
+============================================
+  Files           179      180       +1     
+  Lines          9227     9356     +129     
+  Branches       1249     1284      +35     
+============================================
++ Hits           2456     2665     +209     
++ Misses         6533     6405     -128     
+- Partials        238      286      +48     
+```
+
+| Flag | Coverage Δ | Complexity Δ | |
+|---|---|---|---|
+| unit_tests | `28.48% <59.18%> (+1.86%)` | `0.00 <27.00> (ø)` | |
+
+Flags with carried forward coverage won't be shown. [Click here](https://docs.codecov.io/docs/carryforward-flags#carryforward-flags-in-the-pull-request-comment) to find out more.
+
+| [Impacted Files](https://codecov.io/gh/ibi-group/datatools-server/pull/361?src=pr&el=tree) | Coverage Δ | Complexity Δ | |
+|---|---|---|---|
+| [...om/conveyal/datatools/editor/datastore/FeedTx.java](https://codecov.io/gh/ibi-group/datatools-server/pull/361/diff?src=pr&el=tree#diff-c3JjL21haW4vamF2YS9jb20vY29udmV5YWwvZGF0YXRvb2xzL2VkaXRvci9kYXRhc3RvcmUvRmVlZFR4LmphdmE=) | `0.00% <ø> (ø)` | `0.00 <0.00> (ø)` | |
+| [...ools/manager/controllers/api/StatusController.java](https://codecov.io/gh/ibi-group/datatools-server/pull/361/diff?src=pr&el=tree#diff-c3JjL21haW4vamF2YS9jb20vY29udmV5YWwvZGF0YXRvb2xzL21hbmFnZXIvY29udHJvbGxlcnMvYXBpL1N0YXR1c0NvbnRyb2xsZXIuamF2YQ==) | `33.92% <ø> (+12.50%)` | `9.00 <0.00> (+4.00)` | |
+| [...com/conveyal/datatools/manager/jobs/DeployJob.java](https://codecov.io/gh/ibi-group/datatools-server/pull/361/diff?src=pr&el=tree#diff-c3JjL21haW4vamF2YS9jb20vY29udmV5YWwvZGF0YXRvb2xzL21hbmFnZXIvam9icy9EZXBsb3lKb2IuamF2YQ==) | `24.11% <0.00%> (+5.79%)` | `33.00 <0.00> (+9.00)` | |
+| [...conveyal/datatools/manager/jobs/MergeFeedsJob.java](https://codecov.io/gh/ibi-group/datatools-server/pull/361/diff?src=pr&el=tree#diff-c3JjL21haW4vamF2YS9jb20vY29udmV5YWwvZGF0YXRvb2xzL21hbmFnZXIvam9icy9NZXJnZUZlZWRzSm9iLmphdmE=) | `78.94% <0.00%> (-0.19%)` | `120.00 <0.00> (ø)` | |
+| [...l/datatools/manager/jobs/ProcessSingleFeedJob.java](https://codecov.io/gh/ibi-group/datatools-server/pull/361/diff?src=pr&el=tree#diff-c3JjL21haW4vamF2YS9jb2...","@landonreed (CHANGES_REQUESTED): A few minor things. I still need to review the tests a bit more. Also, we need to get the GH actions PR (#360) reviewed and merged into dev before this one now that Travis CI is turned off and we're not getting CI pass/fail indications.
+---
+@binh-dam-ibigroup (CHANGES_REQUESTED): Please advise regarding the redundant error logs if there is a concurrent deployment, and see the other cosmetic suggestions.
+---
+@binh-dam-ibigroup (APPROVED): LGTM. (The suggestion for parametrized tests is not blocking.)",,,,,
+https://github.com/ibi-group/datatools-server/commit/d28e0001c62ba47a89691634e7012d8e44c9716e,Delegated Setup,ibi-group,datatools-server,d28e0001c62ba47a89691634e7012d8e44c9716e,refactor(NormalizeFieldTransformJobTest): Persist feedsource only once for the test.,,binh-dam-ibigroup,2021-04-07T15:01:53Z,371,Normalize strings transformation,"### Checklist
+
+- [X] Appropriate branch selected _(all PRs must first be merged to `dev` before they can be merged to `master`)_
+- [X] Any modified or new methods or classes have helpful JavaDoc and code is thoroughly commented
+- [na] The description lists all applicable issues this PR seeks to resolve
+- [X] The description lists any configuration setting(s) that differ from the default settings
+- [X] All tests and CI builds passing
+
+### Description
+
+This PR adds functionality for normalizing strings in a GTFS table:
+- Capitalize strings, with exceptions
+- Substitute text/words, with optional space normalization around words, if substituting words.
+In addition:
+- `ZipTransform` and `DbTransform` are refactored to pass the correct `FeedTransformTarget` type to the implementers
+- Parameter validation is extracted from the transformation code itself.
+
+Two optional configuration parameters are introduced:
+- `DEFAULT_CAPITALIZATION_EXCEPTIONS`, a comma-separated list of words as they should appear after capitalization (acronyms, cardinal points)
+- `DEFAULT_SUBSTITUTIONS`, a comma-separated list of text and its replacement, in the format `old => new`, or `old =>+ new` if space needs to be normalized around `new`.
+
+Things that have yet to be resolved:
+- There is a ""convert to sentence case"" stub/option in `NormalizeFieldTransformation`, is it important?
+- Should we support for the GTFS table files inside a folder in the GTFS ZIP archive? e.g. `gtfs.zip/google_transit/routes.txt`",closed,"@codecov-io: # [Codecov](https://codecov.io/gh/ibi-group/datatools-server/pull/371?src=pr&el=h1&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group) Report
+> Merging [#371](https://codecov.io/gh/ibi-group/datatools-server/pull/371?src=pr&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group) (e03367f) into [dev](https://codecov.io/gh/ibi-group/datatools-server/commit/f0a3183b11721c25b56ed9019290f562bf00b60e?el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group) (f0a3183) will **increase** coverage by `0.92%`.
+> The diff coverage is `67.73%`.
+
+[![Impacted file tree graph](https://codecov.io/gh/ibi-group/datatools-server/pull/371/graphs/tree.svg?width=650&height=150&src=pr&token=q0CzuyPcLE&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group)](https://codecov.io/gh/ibi-group/datatools-server/pull/371?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group)
+
+```diff
+@@             Coverage Diff              @@
+##                dev     #371      +/-   ##
+============================================
++ Coverage     26.61%   27.53%   +0.92%     
+- Complexity      649      688      +39     
+============================================
+  Files           178      180       +2     
+  Lines          9188     9354     +166     
+  Branches       1243     1260      +17     
+============================================
++ Hits           2445     2576     +131     
+- Misses         6504     6533      +29     
+- Partials        239      245       +6     
+```
+
+| Flag | Coverage Δ | Complexity Δ | |
+|---|---|---|---|
+| unit_tests | `27.53% <67.73%> (+0.92%)` | `688.00 <47.00> (+39.00)` | |
+
+Flags with carried forward coverage won't be shown. [Click here](https://docs.codecov.io/docs/carryforward-flags?utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group#carryforward-flags-in-the-pull-request-comment) to find out more.
+
+| [Impacted Files](https://codecov.io/gh/ibi-group/datatools-server/pull/371?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group) | Coverage Δ | Complexity Δ | |
+|---|---|---|---|
+| [.../conveyal/datatools/manager/models/CustomFile.java](https://codecov.io/gh/ibi-group/datatools-server/pull/371/diff?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group#diff-c3JjL21haW4vamF2YS9jb20vY29udmV5YWwvZGF0YXRvb2xzL21hbmFnZXIvbW9kZWxzL0N1c3RvbUZpbGUuamF2YQ==) | `0.00% <0.00%> (ø)` | `0.00 <0.00> (?)` | |
+| [...ls/manager/models/transform/ZipTransformation.java](https://codecov.io/gh/ibi-group/datatools-server/pull/371/diff?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comment...","@br648 (COMMENTED): Some minor updates plus the unit tests fail for me. Probably Windows related:
+
+java.nio.file.FileSystemException: C:\Users\rbeer\AppData\Local\Temp\field-normalization6659569610498133099zip: The process cannot access the file because it is being used by another process.
+
+I'm not sure if we are too worried about this?
+---
+@evansiroky (CHANGES_REQUESTED): See comments
+---
+@evansiroky (CHANGES_REQUESTED): Substitutions as YML list look great, but still some items remain:
+
+- https://github.com/ibi-group/datatools-server/pull/371#discussion_r617096379
+- https://github.com/ibi-group/datatools-server/pull/371#discussion_r617126464
+- https://github.com/ibi-group/datatools-server/pull/371#discussion_r621586710
+---
+@landonreed (CHANGES_REQUESTED): This is looking really good! Somehow ended up with 18 comments, but most are about comments or are nits.",,,,,
+https://github.com/ibi-group/datatools-server/commit/d28e0001c62ba47a89691634e7012d8e44c9716e,Prebuilt Fixture,ibi-group,datatools-server,d28e0001c62ba47a89691634e7012d8e44c9716e,refactor(NormalizeFieldTransformJobTest): Persist feedsource only once for the test.,,binh-dam-ibigroup,2021-04-07T15:01:53Z,371,Normalize strings transformation,"### Checklist
+
+- [X] Appropriate branch selected _(all PRs must first be merged to `dev` before they can be merged to `master`)_
+- [X] Any modified or new methods or classes have helpful JavaDoc and code is thoroughly commented
+- [na] The description lists all applicable issues this PR seeks to resolve
+- [X] The description lists any configuration setting(s) that differ from the default settings
+- [X] All tests and CI builds passing
+
+### Description
+
+This PR adds functionality for normalizing strings in a GTFS table:
+- Capitalize strings, with exceptions
+- Substitute text/words, with optional space normalization around words, if substituting words.
+In addition:
+- `ZipTransform` and `DbTransform` are refactored to pass the correct `FeedTransformTarget` type to the implementers
+- Parameter validation is extracted from the transformation code itself.
+
+Two optional configuration parameters are introduced:
+- `DEFAULT_CAPITALIZATION_EXCEPTIONS`, a comma-separated list of words as they should appear after capitalization (acronyms, cardinal points)
+- `DEFAULT_SUBSTITUTIONS`, a comma-separated list of text and its replacement, in the format `old => new`, or `old =>+ new` if space needs to be normalized around `new`.
+
+Things that have yet to be resolved:
+- There is a ""convert to sentence case"" stub/option in `NormalizeFieldTransformation`, is it important?
+- Should we support for the GTFS table files inside a folder in the GTFS ZIP archive? e.g. `gtfs.zip/google_transit/routes.txt`",closed,"@codecov-io: # [Codecov](https://codecov.io/gh/ibi-group/datatools-server/pull/371?src=pr&el=h1&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group) Report
+> Merging [#371](https://codecov.io/gh/ibi-group/datatools-server/pull/371?src=pr&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group) (e03367f) into [dev](https://codecov.io/gh/ibi-group/datatools-server/commit/f0a3183b11721c25b56ed9019290f562bf00b60e?el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group) (f0a3183) will **increase** coverage by `0.92%`.
+> The diff coverage is `67.73%`.
+
+[![Impacted file tree graph](https://codecov.io/gh/ibi-group/datatools-server/pull/371/graphs/tree.svg?width=650&height=150&src=pr&token=q0CzuyPcLE&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group)](https://codecov.io/gh/ibi-group/datatools-server/pull/371?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group)
+
+```diff
+@@             Coverage Diff              @@
+##                dev     #371      +/-   ##
+============================================
++ Coverage     26.61%   27.53%   +0.92%     
+- Complexity      649      688      +39     
+============================================
+  Files           178      180       +2     
+  Lines          9188     9354     +166     
+  Branches       1243     1260      +17     
+============================================
++ Hits           2445     2576     +131     
+- Misses         6504     6533      +29     
+- Partials        239      245       +6     
+```
+
+| Flag | Coverage Δ | Complexity Δ | |
+|---|---|---|---|
+| unit_tests | `27.53% <67.73%> (+0.92%)` | `688.00 <47.00> (+39.00)` | |
+
+Flags with carried forward coverage won't be shown. [Click here](https://docs.codecov.io/docs/carryforward-flags?utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group#carryforward-flags-in-the-pull-request-comment) to find out more.
+
+| [Impacted Files](https://codecov.io/gh/ibi-group/datatools-server/pull/371?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group) | Coverage Δ | Complexity Δ | |
+|---|---|---|---|
+| [.../conveyal/datatools/manager/models/CustomFile.java](https://codecov.io/gh/ibi-group/datatools-server/pull/371/diff?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group#diff-c3JjL21haW4vamF2YS9jb20vY29udmV5YWwvZGF0YXRvb2xzL21hbmFnZXIvbW9kZWxzL0N1c3RvbUZpbGUuamF2YQ==) | `0.00% <0.00%> (ø)` | `0.00 <0.00> (?)` | |
+| [...ls/manager/models/transform/ZipTransformation.java](https://codecov.io/gh/ibi-group/datatools-server/pull/371/diff?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comment...","@br648 (COMMENTED): Some minor updates plus the unit tests fail for me. Probably Windows related:
+
+java.nio.file.FileSystemException: C:\Users\rbeer\AppData\Local\Temp\field-normalization6659569610498133099zip: The process cannot access the file because it is being used by another process.
+
+I'm not sure if we are too worried about this?
+---
+@evansiroky (CHANGES_REQUESTED): See comments
+---
+@evansiroky (CHANGES_REQUESTED): Substitutions as YML list look great, but still some items remain:
+
+- https://github.com/ibi-group/datatools-server/pull/371#discussion_r617096379
+- https://github.com/ibi-group/datatools-server/pull/371#discussion_r617126464
+- https://github.com/ibi-group/datatools-server/pull/371#discussion_r621586710
+---
+@landonreed (CHANGES_REQUESTED): This is looking really good! Somehow ended up with 18 comments, but most are about comments or are nits.",,,,,
+https://github.com/ibi-group/datatools-server/commit/d28e0001c62ba47a89691634e7012d8e44c9716e,Implicit Setup,ibi-group,datatools-server,d28e0001c62ba47a89691634e7012d8e44c9716e,refactor(NormalizeFieldTransformJobTest): Persist feedsource only once for the test.,,binh-dam-ibigroup,2021-04-07T15:01:53Z,371,Normalize strings transformation,"### Checklist
+
+- [X] Appropriate branch selected _(all PRs must first be merged to `dev` before they can be merged to `master`)_
+- [X] Any modified or new methods or classes have helpful JavaDoc and code is thoroughly commented
+- [na] The description lists all applicable issues this PR seeks to resolve
+- [X] The description lists any configuration setting(s) that differ from the default settings
+- [X] All tests and CI builds passing
+
+### Description
+
+This PR adds functionality for normalizing strings in a GTFS table:
+- Capitalize strings, with exceptions
+- Substitute text/words, with optional space normalization around words, if substituting words.
+In addition:
+- `ZipTransform` and `DbTransform` are refactored to pass the correct `FeedTransformTarget` type to the implementers
+- Parameter validation is extracted from the transformation code itself.
+
+Two optional configuration parameters are introduced:
+- `DEFAULT_CAPITALIZATION_EXCEPTIONS`, a comma-separated list of words as they should appear after capitalization (acronyms, cardinal points)
+- `DEFAULT_SUBSTITUTIONS`, a comma-separated list of text and its replacement, in the format `old => new`, or `old =>+ new` if space needs to be normalized around `new`.
+
+Things that have yet to be resolved:
+- There is a ""convert to sentence case"" stub/option in `NormalizeFieldTransformation`, is it important?
+- Should we support for the GTFS table files inside a folder in the GTFS ZIP archive? e.g. `gtfs.zip/google_transit/routes.txt`",closed,"@codecov-io: # [Codecov](https://codecov.io/gh/ibi-group/datatools-server/pull/371?src=pr&el=h1&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group) Report
+> Merging [#371](https://codecov.io/gh/ibi-group/datatools-server/pull/371?src=pr&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group) (e03367f) into [dev](https://codecov.io/gh/ibi-group/datatools-server/commit/f0a3183b11721c25b56ed9019290f562bf00b60e?el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group) (f0a3183) will **increase** coverage by `0.92%`.
+> The diff coverage is `67.73%`.
+
+[![Impacted file tree graph](https://codecov.io/gh/ibi-group/datatools-server/pull/371/graphs/tree.svg?width=650&height=150&src=pr&token=q0CzuyPcLE&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group)](https://codecov.io/gh/ibi-group/datatools-server/pull/371?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group)
+
+```diff
+@@             Coverage Diff              @@
+##                dev     #371      +/-   ##
+============================================
++ Coverage     26.61%   27.53%   +0.92%     
+- Complexity      649      688      +39     
+============================================
+  Files           178      180       +2     
+  Lines          9188     9354     +166     
+  Branches       1243     1260      +17     
+============================================
++ Hits           2445     2576     +131     
+- Misses         6504     6533      +29     
+- Partials        239      245       +6     
+```
+
+| Flag | Coverage Δ | Complexity Δ | |
+|---|---|---|---|
+| unit_tests | `27.53% <67.73%> (+0.92%)` | `688.00 <47.00> (+39.00)` | |
+
+Flags with carried forward coverage won't be shown. [Click here](https://docs.codecov.io/docs/carryforward-flags?utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group#carryforward-flags-in-the-pull-request-comment) to find out more.
+
+| [Impacted Files](https://codecov.io/gh/ibi-group/datatools-server/pull/371?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group) | Coverage Δ | Complexity Δ | |
+|---|---|---|---|
+| [.../conveyal/datatools/manager/models/CustomFile.java](https://codecov.io/gh/ibi-group/datatools-server/pull/371/diff?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=ibi-group#diff-c3JjL21haW4vamF2YS9jb20vY29udmV5YWwvZGF0YXRvb2xzL21hbmFnZXIvbW9kZWxzL0N1c3RvbUZpbGUuamF2YQ==) | `0.00% <0.00%> (ø)` | `0.00 <0.00> (?)` | |
+| [...ls/manager/models/transform/ZipTransformation.java](https://codecov.io/gh/ibi-group/datatools-server/pull/371/diff?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comment...","@br648 (COMMENTED): Some minor updates plus the unit tests fail for me. Probably Windows related:
+
+java.nio.file.FileSystemException: C:\Users\rbeer\AppData\Local\Temp\field-normalization6659569610498133099zip: The process cannot access the file because it is being used by another process.
+
+I'm not sure if we are too worried about this?
+---
+@evansiroky (CHANGES_REQUESTED): See comments
+---
+@evansiroky (CHANGES_REQUESTED): Substitutions as YML list look great, but still some items remain:
+
+- https://github.com/ibi-group/datatools-server/pull/371#discussion_r617096379
+- https://github.com/ibi-group/datatools-server/pull/371#discussion_r617126464
+- https://github.com/ibi-group/datatools-server/pull/371#discussion_r621586710
+---
+@landonreed (CHANGES_REQUESTED): This is looking really good! Somehow ended up with 18 comments, but most are about comments or are nits.",,,,,
+https://github.com/imagej/imagej-ops/commit/1b4673b26e8c758da3d10a6692b4b51dfc91e362,Prebuilt Fixture,imagej,imagej-ops,1b4673b26e8c758da3d10a6692b4b51dfc91e362,Refactor the unit test for the Javassist meta op,Signed-off-by: Johannes Schindelin <johannes.schindelin@gmx.de>,Johannes Schindelin,2014-03-07T20:22:40Z,,,,,,,,,,,
+https://github.com/jMetal/jMetal/commit/50758e9b1ce75481dbb6f24abde08ec7ec66b346,Replace annotation with assertThrow,jMetal,jMetal,50758e9b1ce75481dbb6f24abde08ec7ec66b346,Refactor test cases,,ajnebro,2020-09-14T09:48:44Z,,,,,,,,,,,
+https://github.com/jakartaee/nosql/commit/299412c7e1cce67814280a0e98ff8574718d329d,Verification Method,jakartaee,nosql,299412c7e1cce67814280a0e98ff8574718d329d,refactoring manager test,,otaviojava,2020-05-26T21:36:08Z,52,Appends the TCK into the drivers,,closed,,,,,,,
+https://github.com/jdbi/jdbi/commit/1c6380ba0d96681cc40388dd562b016bd496f739,Implicit Setup,jdbi,jdbi,1c6380ba0d96681cc40388dd562b016bd496f739,Automatic name test case refactor,,Steven Schlansker,2015-10-19T20:50:07Z,191,SqlObject implicit @Bind by parameter name,"We added support for `@Bind` recognizing parameter names, now let's go even further and ditch the annotation if you don't actually need it.
+
+Open question: should we just get rid of the default ""name by parameter index"" entirely?  This wouldn't prevent people from using positional parameters in fluent queries, but it would mean
+
+```
+@SqlUpdate(""insert into table values(:0)"")
+void doSomething(int param);
+```
+
+would need to be rewritten to
+
+```
+@SqlUpdate(""insert into table values(:param)"")
+void doSomething(int param);
+```
+
+The only reason I can see this being used would be if your code does not have parameter names enabled (which is a javac flag IIRC) but then you might as well just `@Bind(""param"")` instead... Thoughts?",closed,"@qualidafial: Do we really want to drop positional parameter support? We're sure there aren't enough users that use it to justify keeping it?
+
+I'm also not sure I like falling back to positional parameters behavior depending on the user's compiler flags. IMO it should only work (or not) depending on compiler flags, not change behavior.
+
+---
+@stevenschlansker: To clarify, I wasn't suggesting removing positional parameter support.  There was a bizarre mode where `@Bind` would create a _named_ parameter with the stringified position index as a name.  So it's a named positional parameter.  Confusing!
+
+Now that's gone.  I simplified the rules a lot:
+
+It's always bound as a positional parameter, which will only be used if the name doesn't match.
+If you omit the name, you _must_ have the parameter name available, otherwise it's an error.
+
+Think that's reasonable?
+
+---
+@qualidafial: Consider comments, then :shipit: when ready.
+
+---
+@stevenschlansker: I think we should rethink how binding happens entirely.  I've dropped a note to that effect on the CHANGES_FOR_3.0 document and we'll revisit it later.  I'm going to merge this partially as a WIP.",,,,,,
+https://github.com/jenkinsci/google-kubernetes-engine-plugin/commit/a7135829483e103268909b02e758db596c014cd5,Custom Assertion,jenkinsci,google-kubernetes-engine-plugin,a7135829483e103268909b02e758db596c014cd5,"Before adding tests for new behavior, take refactoring of autocomplete tests to natural conclusion. Specify the inputs and outputs and let the helpers deal with (most) boilerplate.",,Stephen Shank,2019-02-16T00:56:16Z,11,[Incremental] JENKINS-55523: Refactor entry of ProjectId and Zone selection to dropdowns only,"This also has some unit test refactors that made testing these new changes a lot easier. Unfortunately, this does not actually accomplish auto-completion in the UI in its current form because the query parameters that are needed are not being sent when the text boxes are updated. I posted about this on Jenkins Developers, so hopefully I get some help there. Wanted to get this out there before the weekend, because if the autocomplete doesn't work I can modify this to be purely a dropdown.",closed,,@craigdbarber (APPROVED): LGTM,,,,,
+https://github.com/jenkinsci/google-kubernetes-engine-plugin/commit/de465f3bbf53be586512ba61fab982232d1ff7fc,Inline Assertion,jenkinsci,google-kubernetes-engine-plugin,de465f3bbf53be586512ba61fab982232d1ff7fc,"Refactor tests for readability by removing excessive helper method usage, and making the remaining helper method usage understandable without needing to look at the helper methods.",,Stephen Shank,2019-02-20T23:46:13Z,12,[Incremental] JENKINS-55523: Make Cluster Name a dropdown and autofill available cluster.,"I'm glad I finished #11 before this because that made this change a lot less complicated, especially when it comes to testing.
+
+With how it works now, the happy path is that the user chooses a credential, which causes the default project id to be chosen automatically, which causes the first available zone to be chosen automatically. It doesn't seem to filter this down to zones where the user has resources at the moment, but if the user then selects the correct zone, the first available cluster name is selected.
+
+Assigned myself to the TODO for verification which will come in the next PR.",closed,,@craigdbarber (APPROVED): LGTM,,,,,
+https://github.com/jenkinsci/remoting/commit/ffb771d86a6b593b5dca95940947527c53810c93,Implicit Setup,jenkinsci,remoting,ffb771d86a6b593b5dca95940947527c53810c93,Refactoring to add other transport mode testing,,Kohsuke Kawaguchi,2015-11-07T17:40:33Z,,,,,,,,,,,
+https://github.com/jenkinsci/workflow-durable-task-step-plugin/commit/537e864aae80f3dd49e37f5528f81980013743a1,Delegated Setup,jenkinsci,workflow-durable-task-step-plugin,537e864aae80f3dd49e37f5528f81980013743a1,JENKINS-36547: Refactor tests,"* Use WorkflowAction instead of parsing the log
+* Remove obsolete test",schwaerz,2018-10-11T16:49:19Z,78,[JENKINS-36547] Allow node reuse for pipeline jobs,"JENKINS-36547: Implement the getAffinityKey() method in order to make pipeline jobs try to reuse the node which they have been used last time.
+Added couple of tests. They take quite some time. Please let me know if you think that I need to speed up and/or reduce testing.
+
+Related PR: jenkinsci/jenkins#3611",closed,"@orgi: Unfortunately I cannot get this PR running on Jenkins. Seems like it would always try to test it against Jenkins version 2.121.1 in addition to the specified minimal required version (from incrementals). Of course using the old version it can not work. How to fix that?
+---
+@dwnusbaum: @orgi Because you don't have write permission to the repository, your changes to the Jenkinsfile are ignored. I will refile the PR myself so that you can get an accurate CI build to show that the upstream PR works.
+---
+@dwnusbaum: @orgi See #79
+---
+@orgi: Great, thanks :)
+So I assume currently there's no task left open for me, isn't it?
+---
+@orgi: @jglick: The latest update should address all the mentioned issues. In fact I referenced the released Jenkins version in `pom.xml` and therefore left out the TODO about the Jenkins dependency.
+In addition I removed one test as it felt duplicate to me and the tests for the node reuse take some time to complete.
+
+@dwnusbaum: Do we need to do any changes to the `Jenkinsfile`? Currently the check against Jenkins version `2.121.1` is still removed. Is there a need to check against `2.145`?
+
+Please let me know if there's still something to be done for this fix. I'd be happy seeing this merged.
+---
+@orgi: @jglick & @dwnusbaum: Ok to merge - or is there still something missing?
+---
+@orgi: @dwnusbaum: Merged in the latest changes. I assumed that this would trigger a new build for this PR. However this doesn't seem to be the case. Now I'm, hoping that this very comment will trigger a new build...
+---
+@dwnusbaum: @orgi GitHub is having an outage right now, so webhook delivery is paused (and so no new builds will run until the next repository scan ([scan log](https://ci.jenkins.io/job/Plugins/job/workflow-durable-task-step-plugin/indexing/console))), see https://blog.github.com/2018-10-21-october21-incident-report/ and https://status.github.com/messages. I'm not sure if the hook will get delivered eventually or if you'll have to close/open the PR to trigger a new build once GitHub's issues are fixed.
+---
+@orgi: @dwnusbaum: Thanks for the clarification. Seems like my update got triggered automatically :). I understand you've been busy with the 2.24 release. Is there anything still blocking the merge of my changes?
+---
+@orgi: Wonder whether this very last fail has something to do with my changes. Unfortunately I cannot check the junit xml created as I do not have access to the workspace. However maybe this comment will trigger another build which hopefully runs fine - as the previous builds did.
+---
+@orgi: I'll try to close / open the PR to trigger a new build.
+---
+@orgi: To trigger new build
+---
+@orgi: @dwnusbaum: Build's green now. Hope there's nothing left to be done. Please let me know. Thanks.
+---
+@dwnusbaum: @orgi Great! I will try to take a look in the next few days.
+---
+@orgi: @dwnusbaum: Some days ago I thought I can make the tests little bit faster & more reliable (removing the `sleep()`s. Hope that would not cause a...","@dwnusbaum (COMMENTED): @orgi Sorry I did not have a chance to review the PR yet in detail. I am not very familiar with the load balancer API, but the PR seems fine to me overall, although there are a few things that would be good to clean up.
+---
+@dwnusbaum (APPROVED): Sorry for not getting back sooner on this. Updating the baseline seems fine to me at this point, but I want to release the plugin one last time before updating the baseline. Part of my hesitancy over merging this sooner was that I thought there might be scenarios where after this change, Pipelines would wait to build on a node with affinity instead of using another available node, but the test case I had in mind had the same behavior with and without this change, so I am not worried about that scenario anymore. Test case in question:
+```java
+@Issue(""JENKINS-36547"")
+@Test public void shouldNotWaitToUseSameAgentIfOtherAgentsFree() {
+    story.then(r -> {
+        for (int i = 0; i < 2; i++) {
+            DumbSlave slave = r.createOnlineSlave();
+            slave.setLabelString(""foo"");
+        }
+
+        WorkflowJob p1 = r.jenkins.createProject(WorkflowJob.class, ""demo1"");
+        p1.setDefinition(new CpsFlowDefinition(""node('foo') {}"", true));
+
+        WorkflowRun run1 = r.assertBuildStatusSuccess(p1.scheduleBuild2(0));
+        String node1 = getWorkspaceActions(run1).get(0).getNode();
+
+        WorkflowJob p2 = r.jenkins.createProject(WorkflowJob.class, ""demo2"");
+        p2.setDefinition(new CpsFlowDefinition(""node('""+node1+""') { semaphore 'sem' }"", true));
+        WorkflowRun run2 = p2.scheduleBuild2(0).waitForStart();
+        SemaphoreStep.waitForStart(""sem/1"", run2);
+
+        // I thought that before this change, this line would complete since the build would take place on the free node, but in fact it waits for `slave0` (which is occupied by the sleeping build), and so the test time out. Since the behavior is unchanged this shouldn't be a problem.
+        WorkflowRun run3 = r.assertBuildStatusSuccess(p1.scheduleBuild2(0));
+        String node2 = getWorkspaceActions(run3).get(0).getNode();
+        
+        assertThat(node1, not(equalTo(node2)));
+    });
+}
+```
+
+I added some minor nits that should be cleaned up before merging, but they're not a blocker; I will clean them up while merging if you don't have a chance to take care of them.
+---
+@jglick (APPROVED): Also some nits, but overall looks good!
+---
+@dwnusbaum (APPROVED): @orgi I released the plugin 2 days ago, so `master` is a clean slate and I am going to go ahead and merge this now. Thanks for the PR and your patience on the slow review cycles!",,,,,
+https://github.com/jitsi/jitsi-meet-torture/commit/30cefac130c36abbaf6e80fee210a3f803304d3b,Prebuilt Fixture,jitsi,jitsi-meet-torture,30cefac130c36abbaf6e80fee210a3f803304d3b,Adds a jitsi-meet.tests.toExclude property which can be used to disable,"tests at runtime. Refactors TestsRunner, so that SetupConference and
+DisposeConference are added to the list of tests if they are missing.",Boris Grozev,2015-09-23T16:30:16Z,,,,,,,,,,,
+https://github.com/junit-team/junit4/commit/66bfb24d328bd480e31c3834cfdfdca53173c62a,Replace assertThrow with try/catch,junit-team,junit4,66bfb24d328bd480e31c3834cfdfdca53173c62a,"Refactor test, replace matcher with try catch",,askoog,2013-12-04T14:32:54Z,823,Throw TestFailedOnTimeoutException instead of plain Exception on timeout. Fixes #771,Created a separate branch with the changes I've made and fully merged from upstream/master. This one should probably merge better than the newline-broken tree in PR #777,closed,"@marcphilipp: Looks good to me.
+
+@kcooney Do you want to take a look?
+
+---
+@kcooney: Looks great! Could you please update https://github.com/junit-team/junit/wiki/4.12-release-notes ?",,,,,,
+https://github.com/junit-team/junit4/commit/df016dc056ab15dfa7a6c448ef1905b27eff877f,Replace annotation with try/catch,junit-team,junit4,df016dc056ab15dfa7a6c448ef1905b27eff877f,Refactor AssumptionTests to use try-catch (#1299),"Use a try/catch block instead of the attribute 'expected' of the @Test annotation.
+See bug #1290.
+See discussion on #1289.",Alberto Scotto,2016-05-14T19:37:00Z,1299,refactor  AssumptionTests,"Use a try/catch block instead of the attribute 'expected' of the @Test annotation.
+See bug #1290.
+See discussion on #1289.",closed,"@marcphilipp: Thanks, @alb-i986! 👍",,,,,,
+https://github.com/kousen/java_latest/commit/a826f54461a97b6859605e8a528f321785ae5ac9,Assert All,kousen,java_latest,a826f54461a97b6859605e8a528f321785ae5ac9,Refactor tests to use assertAll for better aggregation,"Updated existing tests to use assertAll for more readable and comprehensive assertion aggregation. Added a new test case to cover the updateEmail method, ensuring both User and Admin email updates are correctly validated.",Ken Kousen,2024-08-01T21:48:42Z,,,,,,,,,,,
+https://github.com/kousen/java_latest/commit/a826f54461a97b6859605e8a528f321785ae5ac9,Split Test Method,kousen,java_latest,a826f54461a97b6859605e8a528f321785ae5ac9,Refactor tests to use assertAll for better aggregation,"Updated existing tests to use assertAll for more readable and comprehensive assertion aggregation. Added a new test case to cover the updateEmail method, ensuring both User and Admin email updates are correctly validated.",Ken Kousen,2024-08-01T21:48:42Z,,,,,,,,,,,
+https://github.com/liferay/liferay-blade-cli/commit/d82788270353a7813221a782de1dd9bcfb11b279,Verification Method,liferay,liferay-blade-cli,d82788270353a7813221a782de1dd9bcfb11b279,BLADE-394 Refactor Server Init Test and naming conventions,,Christopher Bryan Boyd,2019-02-11T22:10:59Z,,,,,,,,,,,
+https://github.com/liferay/liferay-blade-cli/commit/d82788270353a7813221a782de1dd9bcfb11b279,Delegated Setup,liferay,liferay-blade-cli,d82788270353a7813221a782de1dd9bcfb11b279,BLADE-394 Refactor Server Init Test and naming conventions,,Christopher Bryan Boyd,2019-02-11T22:10:59Z,,,,,,,,,,,
+https://github.com/locationtech/jts/commit/78feb6c98c332eb1d1c6da2c584bbc51aae47dc7,Grouping Tests,locationtech,jts,78feb6c98c332eb1d1c6da2c584bbc51aae47dc7,Refactor OverlayNG unit tests,,Martin Davis,2023-05-07T17:06:31Z,,,,,,,,,,,
+https://github.com/mangstadt/biweekly/commit/90e03b96a2197aa039e8b081b42ec44e12b3755e,Inline Setup,mangstadt,biweekly,90e03b96a2197aa039e8b081b42ec44e12b3755e,Smaller refactoring of unit test code that tests xCal functionality.,,Michael Angstadt,2013-08-27T13:56:17Z,,,,,,,,,,,
+https://github.com/mangstadt/ez-vcard/commit/dbd2518ee5bf6668bfa163fc44f7d6eb23592c3d,Split Test Method,mangstadt,ez-vcard,dbd2518ee5bf6668bfa163fc44f7d6eb23592c3d,Refactoring: Cleaned up parameter unit tests.,,mike.angstadt@gmail.com,2013-01-19T14:46:50Z,,,,,,,,,,,
+https://github.com/mangstadt/ez-vcard/commit/dbd2518ee5bf6668bfa163fc44f7d6eb23592c3d,Change Assertion Type,mangstadt,ez-vcard,dbd2518ee5bf6668bfa163fc44f7d6eb23592c3d,Refactoring: Cleaned up parameter unit tests.,,mike.angstadt@gmail.com,2013-01-19T14:46:50Z,,,,,,,,,,,
+https://github.com/martint/jmxutils/commit/b8e0398069cde724652b12e58ffeb20276345d3f,Grouping Tests,martint,jmxutils,b8e0398069cde724652b12e58ffeb20276345d3f,Refactor tests,,John Myers,2013-06-03T00:23:32Z,15,Refactor tests,In preparation for work that requires adding new cases.,closed,,,,,,,
+https://github.com/matteobaccan/owner/commit/0a3565500744e46bfa2f2318923a20ec14a30b7b,Grouping Tests,matteobaccan,owner,0a3565500744e46bfa2f2318923a20ec14a30b7b,test refactoring,,Luigi R. Viggiano,2013-06-15T20:19:09Z,,,,,,,,,,,
+https://github.com/mikera/vectorz/commit/1799a94cb220269fe9af056eee4309748049de34,Split Test Method,mikera,vectorz,1799a94cb220269fe9af056eee4309748049de34,refactor to split up vector type generic tests,,mikera,2014-06-30T20:31:04Z,,,,,,,,,,,
+https://github.com/mycelium-com/wallet-android/commit/bc00f053a7db2243d3752ff44122cb40f5b1bb74,Implicit Setup,mycelium-com,wallet-android,bc00f053a7db2243d3752ff44122cb40f5b1bb74,Refactor to 1 test method,,Nuru Nabiyev,2018-09-25T22:00:31Z,,,,,,,,,,,
+https://github.com/mycelium-com/wallet-android/commit/bc00f053a7db2243d3752ff44122cb40f5b1bb74,Parameterized Test,mycelium-com,wallet-android,bc00f053a7db2243d3752ff44122cb40f5b1bb74,Refactor to 1 test method,,Nuru Nabiyev,2018-09-25T22:00:31Z,,,,,,,,,,,
+https://github.com/mysto/java-fpe/commit/d386ac7918b26ab710c8eddd072b83c67d9ab104,Parameterized Test,mysto,java-fpe,d386ac7918b26ab710c8eddd072b83c67d9ab104,refactors test cases to use static arrays,,Brad Schoening,2021-10-26T03:34:20Z,,,,,,,,,,,
+https://github.com/neo4j/neo4j/commit/2eeed766650136c983f98947acc8edbf7588a721,Verification Method,neo4j,neo4j,2eeed766650136c983f98947acc8edbf7588a721,IndexStatisticsTest shape-up,"- Deterministic flipping to ONLINE, i.e. expected updates/sampling
+  will always be 100% known and doesn't need to be within a margin of error
+- Performs consistency checking on the index after population tests
+- Refactorings to use Person/name tokens everywhere
+- Makes population and concurrent updates actually happen concurrently
+  due to updates thread awaiting population thread start.",Mattias Finné,2018-08-19T13:06:39Z,,,,,,,,,,,
+https://github.com/neo4j/neo4j/commit/33e64d6265511a3fedc4f00bbfd9c505f0e66bda,Lambdarize Method,neo4j,neo4j,33e64d6265511a3fedc4f00bbfd9c505f0e66bda,Check no exception on index/constraint creation in SchemaAcceptanceTest,and some test refactor,Lukas Gustavsson,2024-03-28T08:49:04Z,,,,,,,,,,,
+https://github.com/neo4j/neo4j/commit/f295355a6a5ba4aff3d2f1647fbe8422a77d1a41,Custom Assertion,neo4j,neo4j,f295355a6a5ba4aff3d2f1647fbe8422a77d1a41,Refactor tests,,Olivia Ytterbrink,2016-06-09T14:39:19Z,7354,Implemented procedures for listing users and roles,,closed,,,,,,,
+https://github.com/oVirt/ovirt-engine/commit/81741301b2b463a533bc72c10f8c14031ac4d7f0,Delegated Setup,oVirt,ovirt-engine,81741301b2b463a533bc72c10f8c14031ac4d7f0,"core: add tests for shared disks validations during ""validate"" command phase","Added 2 tests that take into account that shared disks are allowed.
+Minor ""createDisk()"" test setup method refactoring.
+
+Signed-off-by: Pavel Bar <pbar@redhat.com>
+Bug-Url: https://bugzilla.redhat.com/1922977
+Change-Id: I7b72f0b6420ac490c2c69d340883cf4d745a443a",Pavel Bar,2022-03-29T00:15:04Z,,,,,,,,,,,
+https://github.com/oVirt/ovirt-engine/commit/94f5da8379ea345f24fb7024dc31ba427315a47c,Change Assertion Type,oVirt,ovirt-engine,94f5da8379ea345f24fb7024dc31ba427315a47c,engine: Network validator tests use assertThat,"Refactored the network validator's tests to use assertThat syntax with
+the newly introduced matchers for ValidationResult.
+
+Change-Id: Ic8bfd0e15f0204f4a4a099a322fa78d8b33aec85
+Signed-off-by: Mike Kolesnik <mkolesni@redhat.com>",Mike Kolesnik,2013-03-14T12:28:21Z,,,,,,,,,,,
+https://github.com/ome/openmicroscopy/commit/fe2eeac13d0aba1207557598f1b856075fd44d88,Grouping Tests,ome,openmicroscopy,fe2eeac13d0aba1207557598f1b856075fd44d88,Delete files tests separated out. Delete tests now use repository service. Changes to other files to reflect this. Still room for refactoring. See #2880,git-svn-id: file:///home/svn/omero/trunk@8162 05709c45-44f0-0310-885b-81a1db45b4a6,cblackburn,2010-09-30T08:45:08Z,,,,,,,,,,,
+https://github.com/openjdk/lilliput/commit/310f1274067aa3473cdc6479842c50277e5d42f5,Prebuilt Fixture,openjdk,lilliput,310f1274067aa3473cdc6479842c50277e5d42f5,8177328: java/lang/ClassLoader/securityManager/ClassLoaderTest.java times out with -Xcomp,"Remove unneeded automatic module tests; refactor into multiple @runs
+
+Reviewed-by: mchung",Brent Christian,2017-05-12T17:11:42Z,,,,,,,,,,,
+https://github.com/openjdk/lilliput/commit/7f80683cfeee3c069f48d5bce45fa92b2381b518,Tuning Resources,openjdk,lilliput,7f80683cfeee3c069f48d5bce45fa92b2381b518,8272783: Epsilon: Refactor tests to improve performance,Reviewed-by: tschatzl,Aleksey Shipilev,2021-08-24T10:08:18Z,,,,,,,,,,,
+https://github.com/oskariorg/oskari-server/commit/116d6b323d4d9010fc212d1d9bd3109c4dc62556,Split Test Method,oskariorg,oskari-server,116d6b323d4d9010fc212d1d9bd3109c4dc62556,Refactor testIndicatorMetadata test to multiple tests and add new test to verify parsing of indicator spesific dimensions,,Mikko Mustikkamaa,2019-06-11T13:39:41Z,,,,,,,,,,,
+https://github.com/oskariorg/oskari-server/commit/62dd73e6c20fad1be85bd17d69e5d5a03db5204d,Inline Setup,oskariorg,oskari-server,62dd73e6c20fad1be85bd17d69e5d5a03db5204d,"Change few test method names to better reflect the tests, tiny refactoring",,jampukka,2017-05-26T07:43:21Z,58,Feature/appsetup export import,Add ActionHandler for exporting and importing Views,closed,,,,,,,
+https://github.com/osmlab/atlas/commit/a78f06e9636f8f142690b61622b2eddd902b970b,Print to Assertion,osmlab,atlas,a78f06e9636f8f142690b61622b2eddd902b970b,test point refactor,,matthieun,2017-09-01T02:11:24Z,8,Adding boundary tag to nodes on ways that span boundaries,"When a way is not assigned any country code (it is not within a country boundary) but it is still connected to ways that are inside the boundary (long bridges, ferry routes for example), the end nodes of those ways were not assigned any `synthetic_boundary_node` tag. This PR adds the tag to those nodes.
+It also refactors the function that decides when an OSM node becomes an Atlas `Point`. That allows to take the new tags into account, and to avoid building more `Point`s than necessary.",closed,,"@MikeGost (APPROVED): Nice and clean, thanks @matthieun! One question and minor nit.
+---
+@mertemin (CHANGES_REQUESTED): Have some comments about the logic converting OSM node to Atlas point/node
+---
+@mertemin (APPROVED): Thanks for the better explanation about point decision.",,,,,
+https://github.com/pascal-lab/Tai-e/commit/5966f64b30fda9d8abe0beec801b20f73f8711d6,Delegated Setup,pascal-lab,Tai-e,5966f64b30fda9d8abe0beec801b20f73f8711d6,Refactor frontend test,,Tian Tan,2021-02-09T09:44:39Z,,,,,,,,,,,
+https://github.com/pmd/pmd-eclipse-plugin/commit/89b00ec91630e2c63d6e3d48d717a43622d1ccaa,Testcase Superclass,pmd,pmd-eclipse-plugin,89b00ec91630e2c63d6e3d48d717a43622d1ccaa,Refactor swtbot based tests,,Andreas Dangel,2023-05-13T18:32:24Z,,,,,,,,,,,
+https://github.com/release-engineering/pom-manipulation-ext/commit/a6ea809c30ef967f46ff71b7ab71dab97e4b1475,Test Helper,release-engineering,pom-manipulation-ext,a6ea809c30ef967f46ff71b7ab71dab97e4b1475,NCL-5478 Refactor TestUtils to reduce duplicate code,,Nick Cross,2020-03-28T14:00:44Z,762,NCL-5478 Refactor TestUtils to reduce duplicate code,,closed,"@codecov-io: # [Codecov](https://codecov.io/gh/release-engineering/pom-manipulation-ext/pull/762?src=pr&el=h1) Report
+> Merging [#762](https://codecov.io/gh/release-engineering/pom-manipulation-ext/pull/762?src=pr&el=desc) into [master](https://codecov.io/gh/release-engineering/pom-manipulation-ext/commit/4430449fb5847980a767e030de3e3da18e6753c1&el=desc) will **not change** coverage by `%`.
+> The diff coverage is `n/a`.
+
+[![Impacted file tree graph](https://codecov.io/gh/release-engineering/pom-manipulation-ext/pull/762/graphs/tree.svg?width=650&height=150&src=pr&token=HnGfrk5NQk)](https://codecov.io/gh/release-engineering/pom-manipulation-ext/pull/762?src=pr&el=tree)
+
+```diff
+@@            Coverage Diff            @@
+##             master     #762   +/-   ##
+=========================================
+  Coverage     82.19%   82.19%           
+  Complexity     1515     1515           
+=========================================
+  Files           105      105           
+  Lines          5646     5646           
+  Branches        983      983           
+=========================================
+  Hits           4641     4641           
+  Misses          617      617           
+  Partials        388      388           
+```
+
+
+
+------
+
+[Continue to review full report at Codecov](https://codecov.io/gh/release-engineering/pom-manipulation-ext/pull/762?src=pr&el=continue).
+> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)
+> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`
+> Powered by [Codecov](https://codecov.io/gh/release-engineering/pom-manipulation-ext/pull/762?src=pr&el=footer). Last update [4430449...a6ea809](https://codecov.io/gh/release-engineering/pom-manipulation-ext/pull/762?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).",,,,,,
+https://github.com/reposense/RepoSense/commit/019ab8ba1d3058e05f09d48f41d5ec51a9c40570,Split Test Method,reposense,RepoSense,019ab8ba1d3058e05f09d48f41d5ec51a9c40570,[#452] HotFix: GitLogTest fails due to system time >= 2019  (#455),"GitLogTest#gitLog_sinceDateInFuture_noContent() test method has a check
+which asserts that if the until date given is before any of the
+repository's commit date, the git log command should not give any
+commmit info.
+
+However, after the new year in year 2019, the test now fails. This may
+be due to the Year 2038[1] problem. As the given until date is too
+early (year 1950), this causes the time difference to overflow. As
+such, a future until date is formed instead, causing git log to give
+all the commit info, thus the test fails.
+
+As a hotfix for this issue, let's set an earlier until date
+(year 2010) for the test instead.
+
+As this check is also not within the scope of the test method,
+gitLog_sinceDateInFuture_noContent(), let's refactor it out to
+a different test method, gitLog_untilDateBeforeAnyCommit_noContent.
+
+[1]: Description of the Year 2038 problem:
+https://en.wikipedia.org/wiki/Year_2038_problem",Tian Xueyan,2019-01-04T04:40:37Z,,,,,,,,,,,
+https://github.com/restx/restx/commit/92bd155e239e44e73d42e8ceba1acd3d7e1d3929,Parameterized Test,restx,restx,92bd155e239e44e73d42e8ceba1acd3d7e1d3929,tests - refactored TypeHelperTest to a Parameterized test,,fcamblor,2017-08-28T22:36:35Z,,,,,,,,,,,
+https://github.com/sergueik/selenium_cdp/commit/91b4c93aa08f626e3392e2eb43c04d97c7e0b310,Split Test Method,sergueik,selenium_cdp,91b4c93aa08f626e3392e2eb43c04d97c7e0b310,intermediate revision - added a very basic frame properry listing test and refactoring,,Serguei Kouzmine,2022-03-18T01:06:26Z,,,,,,,,,,,
+https://github.com/spotify/dbeam/commit/2ad67dc4d0b79a04c62d107a07c8534f13636eb3,Split Test Method,spotify,dbeam,2ad67dc4d0b79a04c62d107a07c8534f13636eb3,Refactor test to test precommands independently,,hal2,2020-01-09T21:38:25Z,128,Add support for  pre command execution,"Adding support for precommand execution, https://github.com/spotify/dbeam/issues/16. I think unit testing could be done differently but I could not find a cleaner way.",closed,,"@labianchin (COMMENTED): Thanks for the contribution @HectorLagos !
+
+(and sorry it took me a while to look, I was out for holiday)
+
+I've left a single comment regarding a test case. If you can look into it, great. Otherwise I can look into merging and addressing that next week.
+---
+@labianchin (APPROVED): Thanks!",,,,,
+https://github.com/stargate/stargate/commit/d343267977609b977cd3fa33dde60aab4dcf7a47,Grouping Tests,stargate,stargate,d343267977609b977cd3fa33dde60aab4dcf7a47,"More REST/IT refactoring: move Table, Index, Column creation to schema-specific test (#1608)",,Tatu Saloranta,2022-02-02T00:56:33Z,,,,,,,,,,,
+https://github.com/swagger-api/swagger-inflector/commit/e717cec25bc68012a8746224d8be99bd1ba13485,Split Test Method,swagger-api,swagger-inflector,e717cec25bc68012a8746224d8be99bd1ba13485,refactor test,,gracekarina,2018-03-09T15:02:17Z,247,supporting adjacent composed schema,test added.,closed,,,,,,,
+https://github.com/theborakompanioni/bitcoin-spring-boot-starter/commit/e984ab400030122bdb7800fd87daf887f755d4fc,Prebuilt Fixture,theborakompanioni,bitcoin-spring-boot-starter,e984ab400030122bdb7800fd87daf887f755d4fc,refactor: add distinct test config LightningjAutoConfiguration,,theborakompanioni,2020-11-29T11:55:29Z,,,,,,,,,,,
+https://github.com/thoughtworks/HeartBeat/commit/961170ee1baaac445429f04f3d74c2fd333c7755,Parameterized Test,thoughtworks,HeartBeat,961170ee1baaac445429f04f3d74c2fd333c7755,ADM-681:[backend]refactor: alter test to parametrized tests,,Yunsong,2023-12-27T07:00:25Z,102,Rebase back to thoughtworks/heartbeat,Rebase all the commit back to thoughtworks/heartbeat,closed,"@github-actions[bot]: 
+  Hi @davidwangcn9! :wave:
+  Thank you for submitting a pull request! We appreciate your contribution and will review your changes as soon as possible.",,,,,,
+https://github.com/tink-crypto/tink/commit/73ae6921db4290308af02c5f2e08049781049ada,Split Test Method,tink-crypto,tink,73ae6921db4290308af02c5f2e08049781049ada,Refactor testSingleReadsOfVariousLengths into smaller tests.,PiperOrigin-RevId: 329333121,juerg,2020-08-31T17:46:39Z,,,,,,,,,,,
+https://github.com/tracecompass/tracecompass/commit/1d1befc592e6657ebc51d71380f49e7e9657cdfc,Add explanation message,tracecompass,tracecompass,1d1befc592e6657ebc51d71380f49e7e9657cdfc,tmf.ui.tests: Refactor configurable markers test,"Split one test into 5.
+
+Change-Id: Ibcea197f8edf077a3f6a0d58ca286375c5327e4a
+Signed-off-by: Matthew Khouzam <matthew.khouzam@ericsson.com>
+Reviewed-on: https://git.eclipse.org/r/c/tracecompass/org.eclipse.tracecompass/+/180814
+Tested-by: Trace Compass Bot <tracecompass-bot@eclipse.org>
+Tested-by: Patrick Tasse <patrick.tasse@gmail.com>
+Reviewed-by: Patrick Tasse <patrick.tasse@gmail.com>",Matthew Khouzam,2021-05-20T15:04:35Z,,,,,,,,,,,
+https://github.com/tracecompass/tracecompass/commit/1d1befc592e6657ebc51d71380f49e7e9657cdfc,Split Test Method,tracecompass,tracecompass,1d1befc592e6657ebc51d71380f49e7e9657cdfc,tmf.ui.tests: Refactor configurable markers test,"Split one test into 5.
+
+Change-Id: Ibcea197f8edf077a3f6a0d58ca286375c5327e4a
+Signed-off-by: Matthew Khouzam <matthew.khouzam@ericsson.com>
+Reviewed-on: https://git.eclipse.org/r/c/tracecompass/org.eclipse.tracecompass/+/180814
+Tested-by: Trace Compass Bot <tracecompass-bot@eclipse.org>
+Tested-by: Patrick Tasse <patrick.tasse@gmail.com>
+Reviewed-by: Patrick Tasse <patrick.tasse@gmail.com>",Matthew Khouzam,2021-05-20T15:04:35Z,,,,,,,,,,,
+https://github.com/tracecompass/tracecompass/commit/1d1befc592e6657ebc51d71380f49e7e9657cdfc,Lazy Teardown,tracecompass,tracecompass,1d1befc592e6657ebc51d71380f49e7e9657cdfc,tmf.ui.tests: Refactor configurable markers test,"Split one test into 5.
+
+Change-Id: Ibcea197f8edf077a3f6a0d58ca286375c5327e4a
+Signed-off-by: Matthew Khouzam <matthew.khouzam@ericsson.com>
+Reviewed-on: https://git.eclipse.org/r/c/tracecompass/org.eclipse.tracecompass/+/180814
+Tested-by: Trace Compass Bot <tracecompass-bot@eclipse.org>
+Tested-by: Patrick Tasse <patrick.tasse@gmail.com>
+Reviewed-by: Patrick Tasse <patrick.tasse@gmail.com>",Matthew Khouzam,2021-05-20T15:04:35Z,,,,,,,,,,,
+https://github.com/tracecompass/tracecompass/commit/1d1befc592e6657ebc51d71380f49e7e9657cdfc,Implicit Setup,tracecompass,tracecompass,1d1befc592e6657ebc51d71380f49e7e9657cdfc,tmf.ui.tests: Refactor configurable markers test,"Split one test into 5.
+
+Change-Id: Ibcea197f8edf077a3f6a0d58ca286375c5327e4a
+Signed-off-by: Matthew Khouzam <matthew.khouzam@ericsson.com>
+Reviewed-on: https://git.eclipse.org/r/c/tracecompass/org.eclipse.tracecompass/+/180814
+Tested-by: Trace Compass Bot <tracecompass-bot@eclipse.org>
+Tested-by: Patrick Tasse <patrick.tasse@gmail.com>
+Reviewed-by: Patrick Tasse <patrick.tasse@gmail.com>",Matthew Khouzam,2021-05-20T15:04:35Z,,,,,,,,,,,
+https://github.com/typedb/typedb/commit/e80a1ddf148ed915364bb4ff99b77ee5e005e102,Guard Assertion,typedb,typedb,e80a1ddf148ed915364bb4ff99b77ee5e005e102,Refactor some analytics tests (#2114),,Jason Liu,2017-09-20T14:21:22Z,2114,Refactor and clean up some analytics tests,,closed,"@codecov-io: # [Codecov](https://codecov.io/gh/graknlabs/grakn/pull/2114?src=pr&el=h1) Report
+> Merging [#2114](https://codecov.io/gh/graknlabs/grakn/pull/2114?src=pr&el=desc) into [master](https://codecov.io/gh/graknlabs/grakn/commit/3777d3ce89eb35015c00380e262c7c7404f971d6?src=pr&el=desc) will **not change** coverage.
+> The diff coverage is `n/a`.
+
+[![Impacted file tree graph](https://codecov.io/gh/graknlabs/grakn/pull/2114/graphs/tree.svg?token=gpPDOMPqTp&src=pr&width=650&height=150)](https://codecov.io/gh/graknlabs/grakn/pull/2114?src=pr&el=tree)
+
+```diff
+@@           Coverage Diff           @@
+##           master    #2114   +/-   ##
+=======================================
+  Coverage   70.42%   70.42%           
+=======================================
+  Files           5        5           
+  Lines         142      142           
+  Branches       32       32           
+=======================================
+  Hits          100      100           
+  Misses         33       33           
+  Partials        9        9
+```
+
+
+
+------
+
+[Continue to review full report at Codecov](https://codecov.io/gh/graknlabs/grakn/pull/2114?src=pr&el=continue).
+> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)
+> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`
+> Powered by [Codecov](https://codecov.io/gh/graknlabs/grakn/pull/2114?src=pr&el=footer). Last update [3777d3c...782e260](https://codecov.io/gh/graknlabs/grakn/pull/2114?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).",,,,,,
+https://github.com/unclebob/fitnesse/commit/5990a0de28106fce1c47be9c10060f215c89c6a6,Delegated Setup,unclebob,fitnesse,5990a0de28106fce1c47be9c10060f215c89c6a6,Refactor Fixture.testFixtureArguments,,Yavor Nikolov,2014-05-06T07:32:49Z,447,Fix Fixture.getArgsForTable formatting,This is to address dbfit/dbfit#284,closed,"@amolenaar: I can not oversee the implications for this patch. It looks okay. @jediwhale: any thoughts?
+
+---
+@jediwhale: Looks good.
+
+On 2014-05-06 01:55, Arjan Molenaar wrote:
+
+> I can not oversee the implications for this patch. It looks okay. 
+> @jediwhale https://github.com/jediwhale: any thoughts?
+> 
+> —
+> Reply to this email directly or view it on GitHub 
+> https://github.com/unclebob/fitnesse/pull/447#issuecomment-42275816.
+
+## 
+
+Cheers,
+Mike Stockdale
+
+/fit/Sharp http://fitsharp.github.com
+Syterra Software Inc. http://www.syterra.com",,,,,,
+https://github.com/virtualsatellite/VirtualSatellite4-Core/commit/109648248947e1ca9ae2fb7cef199569962fe0a0,Change Assertion Type,virtualsatellite,VirtualSatellite4-Core,109648248947e1ca9ae2fb7cef199569962fe0a0,Refactor importer test - (Task #170),,Tobias Franz,2019-07-31T09:04:48Z,,,,,,,,,,,
+https://github.com/virtualsatellite/VirtualSatellite4-Core/commit/57cb232e392f7ee63b6ae66d643ac80b2ef69964,Add Cleanup Method,virtualsatellite,VirtualSatellite4-Core,57cb232e392f7ee63b6ae66d643ac80b2ef69964,Refactored redundant code for closing wizards - (Task #762),"- Refactored tests to share common code for finishing wizards in a
+dedicated method
+
+---
+Task #762: SWTBot Test Case for exporting and importing to .mat files",SaMuellerDLR,2020-10-07T12:51:50Z,,,,,,,,,,,
+https://github.com/virtualsatellite/VirtualSatellite4-Core/commit/730abe93f6b064e8a9998a9324f3ccdfda869c01,Test Helper,virtualsatellite,VirtualSatellite4-Core,730abe93f6b064e8a9998a9324f3ccdfda869c01,Refactored test data generation tracking (Task #1000),,kova_an,2021-06-24T16:41:59Z,,,,,,,,,,,
+https://github.com/virtualsatellite/VirtualSatellite4-Core/commit/a810eda7261f27eed7ec4fa3e5ee16084b5286d4,Prebuilt Fixture,virtualsatellite,VirtualSatellite4-Core,a810eda7261f27eed7ec4fa3e5ee16084b5286d4,Minor refactorings - (Task #762),"- Introduced some constants to reduce repition of hard coded strings
+- Better use of SWTBot API for navigating trees
+
+---
+Task #762: SWTBot Test Case for exporting and importing to .mat files",SaMuellerDLR,2020-10-07T13:06:49Z,,,,,,,,,,,
+https://github.com/virtualsatellite/VirtualSatellite4-Core/commit/b14cf399b1afa29e0c94b1885c8fb1c623b014ea,Change Assertion Type,virtualsatellite,VirtualSatellite4-Core,b14cf399b1afa29e0c94b1885c8fb1c623b014ea,Further refactoring of the test class - (Task #170),,Tobias Franz,2019-07-31T09:13:39Z,,,,,,,,,,,
+https://github.com/wizzardo/webery/commit/ddb836c34d5ce087d2ab3688fef402dce85ebfbc,Delegated Setup,wizzardo,webery,ddb836c34d5ce087d2ab3688fef402dce85ebfbc,small test refactoring,,wizzardo,2015-06-10T15:05:10Z,,,,,,,,,,,

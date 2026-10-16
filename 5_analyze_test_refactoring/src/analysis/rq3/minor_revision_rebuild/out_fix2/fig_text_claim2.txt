@@ -1,0 +1,6 @@
+file: top improvement shares: Assertion Roulette 20.7%, Eager Test 20.6%, Magic Number Test 17.9%, Lazy Test 15.9%, Exception Catching Throwing 13.8%
+file: top degradation shares: Magic Number Test 16.6%, Lazy Test 11.1%, Exception Catching Throwing 11.0%, Assertion Roulette 9.7%, Eager Test 7.9%
+   Duplicate Assert improvement rank 8/17; Mystery Guest degradation rank 13/17 (1.4%)
+method: top improvement shares: Magic Number Test 17.9%, Lazy Test 17.5%, Assertion Roulette 15.9%, Eager Test 14.3%, Exception Catching Throwing 13.1%
+method: top degradation shares: Magic Number Test 20.0%, Assertion Roulette 11.7%, Exception Catching Throwing 11.0%, Eager Test 9.5%, Lazy Test 7.9%
+   Duplicate Assert improvement rank 8/17; Mystery Guest degradation rank 12/17 (1.4%)

@@ -1,0 +1,18 @@
+OK    file level: instances / commits                                                                                                      expected: 379 / 145                     got: 379 / 145
+OK    refactoring level: instances / commits                                                                                               expected: 379 / 145                     got: 379 / 145
+OK    excluded = one-sided + lilliput 7f80683                                                                                              expected: 24 = 21 + 3                   got: 24 = 21 + 3
+OK    lilliput rows: all tsDetect smell cells NaN (excl. NOM/Empty Test)                                                                   expected: True                          got: True
+OK    Eager Test measured: instances / commits                                                                                             expected: 139 / 63                      got: 139 / 63
+OK    Lazy Test measured: instances / commits                                                                                              expected: 139 / 63                      got: 139 / 63
+OK    Table 6 File: NotPresent/NoChange/Imp/Deg %                                                                                          expected: 71.0/17.1/6.9/5.0             got: 71.0/17.1/6.9/5.0
+OK    Table 6 File present-only: unchanged/imp/deg %                                                                                       expected: 59.0/23.9/17.1                got: 59.0/23.9/17.1
+info     (cells File)                                                                                                                      expected:                               got: total=6721 0/0=4771 nochange=1150 imp=466 deg=334 present-base=1950
+OK    Table 6 Refactoring: NotPresent/NoChange/Imp/Deg %                                                                                   expected: 82.4/10.7/4.3/2.7             got: 82.4/10.7/4.3/2.7
+OK    Table 6 Refactoring present-only: unchanged/imp/deg %                                                                                expected: 60.4/24.4/15.3                got: 60.4/24.4/15.3
+info     (cells Refactoring)                                                                                                               expected:                               got: total=6721 0/0=5535 nochange=716 imp=289 deg=181 present-base=1186
+OK    Spearman CTL vs DA: rho / p / n                                                                                                      expected: -0.62 / ~1.7e-41 / 379        got: -0.62 / 1.74e-41 / 379
+OK    Spearman DA vs MG: rho / p                                                                                                           expected: -0.39 / ~3.3e-15              got: -0.39 / 3.28e-15
+DIFF  unmeasured 0->0 cells = NA/NA + NA/0 + 0/NA [side unmeasured if NaN, no annotation, or AR NaN on that side = decompose_old_t6 rule]  expected: 824 = 580 + 177 + 67          got: 824 = 581 + 176 + 67
+OK      same split, lilliput-row rule instead of AR-NaN rule                                                                               expected: 824 = 580 + 177 + 67          got: 824 = 580 + 177 + 67
+OK    measured 0/0 cells (403 pairs; = Not Present cells of data_fix2 file level)                                                          expected: 4771                          got: 4771
+OK    Mystery Guest increases (file level) by project                                                                                      expected: 23 = errai 22 + fluent-http 1  got: 23 = errai 22 + fluent-http 1

@@ -1,0 +1,3 @@
+method CEV n 27 improved 15 removed to 0 15 degraded 2 | improved by commit: {'fabric8-maven-plugin': 14, 'lionengine': 1}
+file CEV n 27 improved 15 removed to 0 15 degraded 3 | improved by commit: {'fabric8-maven-plugin': 14, 'lionengine': 1}
+Grouping Tests n 22 median dNOM -50.5

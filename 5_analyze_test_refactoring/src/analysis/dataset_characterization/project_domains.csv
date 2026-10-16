@@ -1,0 +1,191 @@
+full_name,domain,description,topics
+C2SP/wycheproof,security-crypto,Project Wycheproof tests crypto libraries against known attacks.,"crypto,cryptography"
+aaberg/sql2o,database-data,"sql2o is a small library, which makes it easy to convert the result of your sql-statements into objects. No resultset hacking required. Kind of like an orm, but without the sql-generation capabilities. Supports named parameters.",
+adobe-consulting-services/acs-aem-commons,library,,"adobe-experience-manager,aem,aem-as-a-cloud-service,aem-as-a-service,aem64,aem65,aemaacs,cq,cq5,crx,jcr,oak,sling,sling-models"
+adoptopenjdk/jitwatch,devtools,"Log analyser / visualiser for Java HotSpot JIT compiler. Inspect inlining decisions, hot methods, bytecode, and assembly. View results in the JavaFX user interface.","escape-analysis,hotspot,hotspot-jit-compiler,java,javafx,jit-compiler,jitwatch,log-analyser"
+aehrc/pathling,database-data,"Tools that make it easier to use FHIR and clinical terminology within data analytics, built on Apache Spark.","analytics,fhir,spark,standards,terminology"
+agrestio/agrest,app-framework,Server-side Java REST Framework for easy access to data graphs from various backends,
+aicp/frameworks_base,platform-runtime,,
+alexprut/design-patterns-java,science-ml,"📗 Classic OOP Design Patterns from GoF, implemented in Java.","design-patterns,gof,java,oop"
+aliyun/aliyun-oss-android-sdk,devtools,Android SDK for aliyun object storage service,
+alluxio/alluxio,database-data,"Alluxio, data orchestration for analytics and machine learning in the cloud","alluxio,data-analysis,data-orchestration,hadoop,memory-speed,presto,spark,tensorflow,virtual-distributed-filesystem"
+androidx/media,library,"Jetpack Media3 support libraries for media use cases, including ExoPlayer, an extensible media player for Android","android,exoplayer,java,media3,media3-exoplayer,media3-transformer,mediaplayer"
+apache/directory-studio,application,Apache Directory Studio,"directory,java,network-client,network-server"
+apache/drill,database-data,Apache Drill is a distributed MPP query layer for self describing data,"big-data,drill,hadoop,hive,java,jdbc,parquet,sql"
+apache/incubator-paimon,database-data,Apache Paimon is a lake format that enables building a Realtime Lakehouse Architecture with Flink and Spark for both streaming and batch operations.,"big-data,data-ingestion,flink,paimon,real-time-analytics,spark,streaming-datalake,table-store"
+apache/jspwiki,application,"Apache JSPWiki is a leading open source WikiWiki engine, feature-rich and built around standard JEE components (Java, servlets, JSP)","apache,asf,content,java,jspwiki,wiki"
+apache/karaf,middleware-infra,"Apache Karaf, the enterprise modulith runtime","apache,karaf,modulith,osgi,runtime"
+apache/openjpa,database-data,Apache OpenJPA,"database,java,javaee,library,openjpa"
+apache/parquet-java,database-data,Apache Parquet Java,"apache,parquet,parquet-java"
+apache/sis,library,Java language library for developing geospatial applications following OGC/ISO standards.,"geospatial,java,standards"
+arianne/stendhal,application,Stendhal is a fun friendly and free multiplayer online adventure game with an old school feel.,"game,game-server,java,mmorpg,rpg"
+arnaudroger/simpleflatmapper,database-data,"Fast and Easy mapping from database and csv to POJO. A java micro ORM, lightweight alternative to iBatis and Hibernate. Fast Csv Parser and Csv Mapper","csv,java,jdbc,jdbi,mapper,orm,spring,sql2o"
+arx-deidentifier/arx,security-crypto,"ARX is a comprehensive open source data anonymization tool aiming to provide scalability and usability. It supports various anonymization techniques, methods for analyzing data quality and re-identification risks and it supports well-known privacy models, such as k-anonymity, l-diversity, t-closeness and differential privacy.","arx,cross-platform,data-analytics,data-anonymization,de-identification,open-source,privacy"
+authzforce/core,security-crypto,AuthzForce ABAC/XACML PDP engine,"abac,access-control,authorization,json,ow2,pdp,xacml,xml-schema"
+awslabs/aws-mysql-jdbc,database-data,The Amazon Web Services (AWS) JDBC Driver for MySQL is a driver that enables applications to take full advantage of the features of clustered MySQL databases. ,"aws-jdbc-driver,java,jdbc,mysql,mysql-connector"
+b3dgs/lionengine,app-framework,Java 2D Game Engine,"android,audio,awt,game-engine,java,network"
+baqend/orestes-bloomfilter,library,"Library of different Bloom filters in Java with optional Redis-backing, counting and many hashing options.",
+bkiers/liqp,library,An ANTLR based 'Liquid Template' parser and rendering engine.,
+blackducksoftware/synopsys-detect,security-crypto,Scanning and analysis for Black Duck SCA products.,"integration-team,sig,solution"
+bmwcarit/joynr,middleware-infra,"A transport protocol agnostic (MQTT, HTTP, WebSockets etc.) Franca IDL based communication framework supporting multiple communication paradigms (RPC, Pub-Sub, broadcast etc.)","broadcast,c-plus-plus,communication,events,http,idl,java,javascript,middleware,mqtt,multicast,rpc,websocket"
+bootique/bootique,app-framework,Bootique is a minimally opinionated platform for modern runnable Java apps.,"bootique,dependency-injection,java,runnable-jar"
+briar/briar,application,Mirror of https://code.briarproject.org/briar/briar,
+callforsanity/gaalop,science-ml,"Gaalop (Geometic Algebra Algorithms Optimizer) is a software to compile and optimize geometric algebra (GA) expressions into high-level programming language code. Geometric algebra expressions can be developed using the freely available CLUCalc software by Christian Perwass. Gaalop optimizes CLUCalc expressions and produces C++ (AMP), OpenCL, CUDA, CLUCalc or LaTeX output. The optimized code is free of geometric algebra operations and runs very efficiently on various platforms.","compiler,geometric-algebra,maxima,precompiler"
+camsys/onebusaway-nyc,application,"An open source bus/transit customer information system (CIS) that offers users realtime arrival information via a desktop and mobile website, via SMS and via a ""DIY Sign"". ",
+camunda/zeebe,middleware-infra,Process Orchestration Framework,"bpmn,grpc,java,microservices,orchestration-framework,workflow,workflow-engine"
+camunda/zeebe-process-test,devtools,Testing project for Camunda Platform 8,
+carrot2/carrot2,science-ml,Carrot2: Text Clustering Algorithms and Applications,
+cassandre-tech/cassandre-trading-bot,app-framework,"Create your Java crypto trading bot in minutes. Our Spring boot starter takes care of exchange connections, accounts, orders, trades, and positions so you can focus on building your strategies.","binance,bitcoin,bot,coinbase,crypto-trading,crypto-trading-bot,cryptocurrency,cryptotrading,java,kucoin,market,spring,spring-boot-starter,sprint-boot,ta4j,technical-analysis,trades,trading,trading-bot,trading-strategies"
+cdancy/bitbucket-rest,devtools,"Java client, built on top of jclouds, for working with Bitbucket's REST API ","api,api-client,bitbucket,bitbucket-rest,ci,cicd,client,continuous-integration,java,jclouds,rest,rest-api"
+ci-richard-mcelhinney/nhaystack,middleware-infra,Niagara module for Project Haystack,"bas,bms,iot,iot-application,modelling,niagara,niagara-framework,tagging"
+citerus/dddsample-core,science-ml,This is the new home of the original DDD Sample app (previously hosted at sf.net).. ,
+cloudfoundry/cf-java-client,devtools,Java Client Library for Cloud Foundry,"cloud-foundry,java,reactor"
+cloudsimplus/cloudsimplus,science-ml,"State-of-the-art Framework 🏗 for Cloud Computing ⛅️ Simulation: a modern, full-featured, easier-to-use, highly extensible 🧩, faster 🚀 and more accurate ☕️ Java 25+ tool for cloud computing research 🎓 Examples: https://github.com/cloudsimplus/cloudsimplus-examples","auto-scaling,cloud-computing,cloud-infrastructure,cloud-simulation,cloudsim,cloudsim-simulator,cloudsimplus,google-cluster-data,iaas,java,java-24,load-balancing,paas,research,saas,simulation,simulation-framework,test-bed,trace,workload"
+codestory/fluent-http,app-framework,This is the simplest fastest full fledged web server we could come up with.,
+commercetools/commercetools-jvm-sdk,devtools,The e-commerce SDK from commercetools running on the Java virtual machine.,"audit-sdk,commercetools,commercetools-java-sdks,commercetools-sdk,java,java-sdk,sdk"
+commercetools/commercetools-sync-java,devtools,Java library for importing and syncing (taking care of changes) data into one or more commercetools projects from external data files or from another commercetools project.,"commercetools,commercetools-importer,commercetools-sdk,commercetools-sync,ecommerce,hacktoberfest,import-and-export,java,sdk,sync"
+confluence-publisher/confluence-publisher,devtools,Maven plugin and Docker image to convert AsciiDoc and publish it to Confluence,"asciidoc,confluence,docker,maven"
+confluentinc/kafka-connect-storage-cloud,database-data,Kafka Connect suite of connectors for Cloud storage (Amazon S3),"aws,aws-s3,cloud,confluent,kafka,kafka-connect,s3"
+consensys/tessera,middleware-infra,Tessera - Enterprise Implementation of Quorum's transaction manager,"blockchain,encryption,java,peer-to-peer,privacy,quorum"
+conveyal/r5,science-ml,"Developed to power Conveyal's web-based interface for scenario planning and land-use/transport accessibility analysis, R5 is our routing engine for multimodal (transit/bike/walk/car) networks with a particular focus on public transit","accessibility,gtfs,modeling,planning,transit,transportation"
+crotwell/taup,science-ml,Flexible Seismic Travel-Time and Raypath Utilities,
+datadog/java-dogstatsd-client,devtools,Java statsd client library,"datadog,java,statsd"
+datastrato/gravitino,database-data,"World's most powerful open data catalog for building a high-performance, geo-distributed and federated metadata lake.","ai-catalog,data-catalog,datalake,federated-query,lakehouse,metadata,metalake,model-catalog,opendatacatalog,skycomputing,stratosphere"
+dekorateio/dekorate,devtools,Tools for generating Kubernetes related manifests.,"java,knative,kubernetes,openshift,tekton"
+devlauer/plantuml-generator,devtools,utility and maven plugin project for generating plantuml class diagrams and sequence diagrams out of java classes,"maven,plantuml,plantuml-generator,uml"
+digital-preservation/droid,application,DROID (Digital Record and Object Identification),"droid,file-identification,file-identity,identification,java,pronom"
+dita-ot/dita-ot,devtools,DITA Open Toolkit — the open-source publishing engine for content authored in the Darwin Information Typing Architecture.,"ant,dita,dita-ot,documentation-tool,hacktoberfest,publishing,xml,xslt"
+dreamhead/moco,devtools,Easy Setup Stub Server,
+dromara/hertzbeat,application,An AI-powered next-generation open source real-time observability system.,"agent,ai,alerting,database,grafana,linux,llm,logs,metrics,monitor,monitoring,notifications,observability,prometheus,self-hosted,server,status,status-page,uptime,zabbix"
+drsjb80/jdnss,middleware-infra,A leaf DNS server in Java,
+eclipse/jkube,devtools,Build and Deploy java applications on Kubernetes,"cloud-native-java,docker,gradle-plugin,hacktoberfest,java,kubernetes,maven-plugin,openshift"
+ehcache/sizeof,library,Configurable sizeOf engine for Ehcache,
+elki-project/elki,science-ml,ELKI Data Mining Toolkit ,"anomalydetection,cluster-analysis,clustering,data-analysis,data-mining,data-mining-algorithms,data-science,distance-functions,index,indexing,java,machine-learning,outlier-detection,outliers,time-series,visualization"
+errai/errai,app-framework,Errai,
+espertechinc/esper,database-data,"Esper Complex Event Processing, Streaming SQL and Event Series Analysis","cep,compiler,complex-event-processing,esper,espertech,event-series-analysis,java,open-source,streaming-sql"
+europeana/corelib,library,"Core Library containing EDM, used by various Europeana web applications (like Search API and OAI-PMH)","cultural-heritage,data-model,edm,europeana,spring"
+exadel-inc/etoolbox-authoring-kit,devtools,"Offers a set of tools that create Granite UI authoring interfaces for Adobe Experience Manager components from Java code. This is a comprehensive solution that makes different widgets work in a coordinated manner, provides greater interactivity in AEM dialogs, and introduces additional features (customizable data lists, options selection, etc.)","aem,aem-component,aem64,aem65,aemaacs,autogenerate,coral,cq,exadel-martech,granite,hacktoberfest,java,maven,touchui-dialogs,wcm"
+fabric8io/fabric8-maven-plugin,devtools,📢 This project is migrated to 👉  https://github.com/eclipse/jkube,"docker,fabric8,java,kubernetes,maven,openshift"
+factcast/factcast,database-data,Simple EventStore based on PostgreSQL ,"cqrs,eventdrivenarchitecture,eventsourcing,hacktoberfest,hacktoberfest2020"
+fasterxml/jackson-dataformats-text,library,"Uber-project for (some) standard Jackson textual format backends: csv, properties, yaml (xml to be added in future)","hacktoberfest,jackson,textual-formats"
+fasterxml/jackson-modules-java8,library,"Set of support modules for Java 8 datatypes (Optionals, date/time) and features (parameter names)","hacktoberfest,jackson,java-date"
+fedex81/helios,application,A Java-based Sega Mega Drive/Genesis emulator. And other systems too.,"32x,colecovision,emulator,genesis,helios,java,megadrive,msx,nes,sega,sega-32x,sg1000,sms"
+flightstats/hub,database-data,"fault tolerant, highly available service for data storage and distribution",
+flowci/flow-core-x,devtools,"Powerful and user-friendly CI/CD server with high availability, parallel processing, runner auto-scaling ","build-automation,build-pipelines,ci,ci-cd,continuous-integration,devops,docker,java"
+ftsrg/theta,science-ml,"Generic, modular and configurable formal verification framework supporting various formalisms and algorithms","abstraction,model-checking,research,tool"
+globalbioticinteractions/globalbioticinteractions,science-ml,Global Biotic Interactions provides access to existing species interaction datasets,"biodiversity,bioinformatics,biology,diet,diseases,ecoinformatics,ecology,eol,etl-framework,food-webs,globi,parasites,pollinators,species-interactions"
+google/exoplayer,library,This project is deprecated and stale. The latest ExoPlayer code is available in https://github.com/androidx/media,
+google/wycheproof,security-crypto,Project Wycheproof tests crypto libraries against known attacks.,"crypto,cryptography"
+googleapis/google-api-java-client,devtools,Google APIs Client Library for Java,
+gosimplellc/nbvcxz,security-crypto,Password strength estimator,
+graphwalker/graphwalker-project,devtools,This is the repo for the Model-based testing tool GraphWalker.,
+gresrun/jesque,middleware-infra,An implementation of Resque in Java.,"java,jedis,job-queue,queue,redis,resque"
+groovy/groovy-core,platform-runtime,"former home of the groovy programming language, moved to https://github.com/apache/groovy",
+hapifhir/hapi-hl7v2,library,,
+hash-checker/hash-checker,application,Fast and simple application that allows you to generate and compare hashes from files and text,"android,android-app,android-application,crc-32,hash,hashing,hashing-algorithm,java,md5,open-source,open-source-project,opensource,sha1,sha224,sha256,sha384,sha512"
+hngprojects/hng_boilerplate_java_web,application,,
+hyphanet/fred,middleware-infra,Freenet REference Daemon,"anonymity,hyphanet,privacy"
+ibi-group/datatools-server,application,Server for IBI's GTFS data management platform.,
+ihtsdo/snowstorm,application,Scalable SNOMED CT Terminology Server using Elasticsearch,"elasticsearch,snomed-ct"
+iluwatar/30-seconds-of-java,science-ml,Collection of reusable tested Java 21 compatible code snippets that you can understand in 30 seconds or less.,"awesome-list,hacktoberfest,java,snippets,snippets-collection,snippets-library"
+imagej/imagej-ops,science-ml,"ImageJ Ops: ""Write once, run anywhere"" image processing",
+itext/itextpdf,library,"[DEPRECATED] Core Java Library + PDF/A, xtra and XML Worker. Only security fixes will be added — please use iText 7",
+jakartaee/nosql,database-data,The specification in Jakarta EE to help Jakarta EE developers create enterprise-grade applications using Java® and NoSQL technologies. ,"eclipse,jakarta,java,jnosql,nosql,open,source"
+javamelody/javamelody,devtools,JavaMelody : monitoring of JavaEE applications,"apm,metrics,monitoring,performance"
+javamoney/javamoney-lib,library,"JavaMoney financial libraries, extending and complementing JSR 354","currencies,currency,java,javamoney,library,money"
+jboss-modules/jboss-modules,library,A Modular Classloading System,"classloader,java,jboss-modules,modular"
+jcabi/jcabi-email,library,Object-Oriented Email Sending Java SDK,"email-sending,java,smtp,smtp-client"
+jdbi/jdbi,database-data,"The Jdbi library provides convenient, idiomatic access to relational databases in Java and other JVM technologies such as Kotlin, Clojure or Scala.","database,hacktoberfest,java,java11,jdbc,jdbi,kotlin,sql"
+jenkinsci/google-kubernetes-engine-plugin,devtools,The Google Kubernetes Engine (GKE) Plugin allows you to deploy build artifacts to Kubernetes clusters running in GKE with Jenkins.,"google-cloud,kubernetes"
+jenkinsci/remoting,devtools,Jenkins Remoting module,"java,jenkins,remote-execution,remoting,remoting-protocols"
+jenkinsci/subversion-plugin,devtools,Jenkins subversion plugin,"adopt-this-plugin,jenkins,jenkins-plugin,scm,subversion,svn"
+jenkinsci/workflow-durable-task-step-plugin,devtools,,
+jfxtras/jfxtras,library,"A supporting library for JavaFX, containing helper classes, extended layouts, controls and other interesting widgets.",
+jhunters/jprotobuf,library,A useful utility library for java programmer using google protobuf,
+jitsi/jitsi-meet-torture,devtools,,hacktoberfest
+jmetal/jmetal,science-ml,jMetal: a framework for multi-objective optimization with metaheuristics,"java,metaheuristics,multiobjective-optimization,software-framework"
+jmock-developers/jmock-library,devtools,An expressive Mock Object library for Test Driven Development ,
+jpmml/jpmml-model,science-ml,Java Class Model API for PMML,
+jtidy/jtidy,library,The new home of JTidy updated to work with HTML5,"cleanup,conformance,html"
+junit-team/junit4,devtools,A programmer-oriented testing framework for Java — :warning: maintenance mode,
+jvoicexml/jvoicexml,app-framework,Open Source VoiceXML interpreter,"java,voicexml"
+kiegroup/droolsjbpm-integration,middleware-infra,"Drools and jBPM integration with seam, spring, camel, ...",hacktoberfest
+kong/unirest-java,library,"Unirest in Java: Simplified, lightweight HTTP client library.",
+kousen/java_latest,science-ml,Samples for Java features from Java 8 through 25,java
+ldbc/ldbc_snb_interactive_v1_impls,database-data,Reference implementations for LDBC Social Network Benchmark's Interactive workload.,snb
+liferay/liferay-blade-cli,devtools,,
+linkedin/parseq,library,Asynchronous Java made easier,
+locationtech/jts,library,The JTS Topology Suite is a Java library for creating and manipulating vector geometry.,"computational-geometry,geometric-algorithms,geometry,geometry-algorithms,geometry-library,gis,java,java-library,jts,jts-topology-suite,ogc,ogc-wkt,triangulation,voronoi"
+lokeshgupta1981/spring-boot-examples,science-ml,,
+mangstadt/biweekly,library,biweekly is an iCalendar library written in Java.,"icalendar,java"
+mangstadt/ez-vcard,library,A vCard parser library for Java,"java,vcard"
+martint/jmxutils,library,Exporting JMX mbeans made easy,
+matteobaccan/owner,library,Get rid of the boilerplate code in properties based configuration.,"config,config-management,configuration,configuration-management,java,properties"
+mcdcorp/opentest,devtools,"Open source test automation tool for web applications, mobile apps and APIs ","api,framework,mobile,test,web"
+mguessan/davmail,middleware-infra,DavMail POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange and Office 365 Gateway - Synced with main subversion repository at,"caldav,carddav,exchange,exchange-server,gateway,imap,ldap,office-365,office365,outlook,pop3,smtp,sourceforge"
+microsoft/hydralab,devtools,Intelligent cloud testing made easy.,"azure,chatgpt,cloud-testing,cross-platform,developer-tools,device-farm,e2e-testing,mobile-development,performance-testing,platform-engineering,spring-boot,test-automation,testgpt,testing,testing-framework,ui-testing"
+mikera/vectorz,library,Fast and flexible numerical library for Java featuring N-dimensional arrays,
+mimno/mallet,science-ml,"MALLET is a Java-based package for statistical natural language processing, document classification, clustering, topic modeling, information extraction, and other machine learning applications to text.",
+moreunit/moreunit-eclipse,devtools,"MoreUnit is an Eclipse plugin that should assist you in writing more unit tests. It supports all programming languages (switching between tests and classes under tests...) and has specific support for Java (creating test stubs, mock support, decoration, refactoring support...).",
+movingblocks/terasology,application,Terasology - open source voxel world,"game,game-development,game-engine,game-engine-3d,gamedev,hacktoberfest,java,sandbox,voxel"
+mycelium-com/wallet-android,application,Mycelium Bitcoin Wallet for Android,
+mysql/mysql-connector-j,database-data,MySQL Connector/J,
+mysto/java-fpe,security-crypto,FPE - Format Preserving Encryption with FF3 in Java,"anonymization,crypto,cryptography,encryption,ff3,format-preserving-encryption,fpe,java,nist-recommendation,privacy-enhancing-technologies,privacy-tools,tokenizaiton"
+neo4j/neo4j,database-data,Graphs for Everyone,"cypher,database,graph,graph-database,graphdb,neo4j,nosql"
+nitorcreations/nflow,middleware-infra,"Embeddable JVM-based workflow engine with high availability, fault tolerance, and support for multiple databases. Additional libraries are provided for visualization and REST API.","java,nflow,orchestrating-processes,saga-pattern,workflow,workflow-automation,workflow-engine"
+nuxeo/nuxeo,app-framework,Content management platform to build modern business applications,
+ome/openmicroscopy,science-ml,"OME (Open Microscopy Environment) develops open-source software and data format standards for the storage and manipulation of biological light microscopy data. A joint project between universities, research establishments and industry in Europe and the USA, OME has over 20 active researchers with strong links to the microscopy community. Funded by private and public research grants, OME has been a major force on the international microscopy stage since 2000.","database,image,java,omero,python,server"
+openjdk/crac,platform-runtime,https://openjdk.org/projects/crac,
+openjdk/lilliput,platform-runtime,https://openjdk.org/projects/lilliput,
+openmainframeproject/cobol-check,devtools,A testing framework for Cobol applications,
+oskariorg/oskari-server,app-framework,Backend implementation for Oskari Map Application Framework,"geoportal,gis,hacktoberfest,java,maps,oskari,sdi,spatial-data-infrastructure"
+osmlab/atlas,library,OSM in memory,"atlas,geospatial,geospatial-data,geospatial-processing,maps,openstreetmap,osm,shard,spatial-analysis,street-networks"
+ovirt/ovirt-engine,middleware-infra,The oVirt Engine virtualization manager,"management,virtualization"
+oxaliscommunity/oxalis,middleware-infra,Oxalis - PEPPOL Access Point open-source implementation. ,"edelivery,peppol"
+pascal-lab/tai-e,devtools,An easy-to-learn/use static analysis framework for Java and Android,"android,call-graph,java,security,static-analysis,taint-analysis"
+pietrobraione/jbse,devtools,"A symbolic Java virtual machine for program analysis, verification and test generation","java-virtual-machine,symbolic-execution-engine"
+pixelexperience/frameworks_base,platform-runtime,,
+pmd/pmd-eclipse-plugin,devtools,The pmd-eclipse-plugin integrates the source code analyzer PMD into the Eclipse IDE,"eclipse,eclipse-marketplace,pmd"
+pravega/pravega,database-data,Pravega - Streaming as a new software defined storage primitive,"data-ingestion,distributed-storage,real-time-data,streaming,streaming-data"
+prmr/jetuml,application,A desktop application for fast UML diagramming.,"desktop-application,diagram,java,javafx,modeling,modeling-tool,uml,uml-diagrams"
+raydac/java-binary-block-parser,library,most comfortable and dynamic way to process binary data in Java and Android,"data-parsing,dsl,java,parser"
+release-engineering/pom-manipulation-ext,devtools,A more generic framework-style extension for preprocessing Maven pom.xml files before the build runs (from within Maven itself),
+remkop/picocli,library,"Picocli is a modern framework for building powerful, user-friendly, GraalVM-enabled command line apps with ease. It supports colors, autocompletion, subcommands, and more.  In 1 source file so apps can include as source & avoid adding a dependency. Written in Java, usable from Groovy, Kotlin, Scala, etc. ","annotations,ansi,ansi-colors,argument-parsing,autocomplete,bash-completion,cli,cli-framework,command-line,command-line-parser,commandline,completion,executable,git,graalvm,java,native-image,options-parsing,parser,subcommands"
+reposense/reposense,devtools,Contribution analysis tool for Git repositories,"author-statistics,code-review,contribution-analysis,git-statistics,repository-management"
+restx/restx,app-framework,"RESTX, the lightweight Java REST framework",
+ryansusana/elepy,app-framework,"Elepy, The Headless Content Management Framework","cms,cms-framework,headless-cms,java,jongo,kotlin,mongodb,rest-api,uikit,vue,vuejs"
+sergueik/selenium_cdp,devtools,"Selenium 4x, executing Chrome DevTools Protocol commands","cdp,chrome,chromium,edge,java,selenium"
+spoonlabs/astor,science-ml,Automatic program repair for Java with generate-and-validate techniques :v::v:: jGenProg (2014) - jMutRepair (2016) - jKali  (2016) - DeepRepair (2017) - Cardumen (2018) - 3sfix (2018),"dynamic-analysis,inria,kth,patch,patch-generation,program-repair,repair"
+spotify/dbeam,database-data,DBeam exports SQL tables into Avro files using JDBC and Apache Beam,
+spring-cloud/spring-cloud-open-service-broker,middleware-infra,Spring Cloud project for creating service brokers that conform to the Open Server Broker API specification,"cloudfoundry,kubernetes,open-service-broker,open-service-broker-api,service-broker,spring-cloud"
+stamp-project/dspot,devtools,Automatically detect and generate missing assertions for Junit test cases (also known as test amplification),"coverage,dspot,h2020,hacktoberfest,inria,java,junit,test-amplification,test-automation"
+stargate/stargate,database-data,An open source data gateway,"cassandra,cql,graphql,grpc,java,rest"
+swagger-api/swagger-inflector,app-framework,,"open-source,openapi-specification,openapi3,rest,rest-api,swagger,swagger-api,swagger-inflector,swagger-oss,swagger-specification"
+swagger-api/swagger-parser,library,Swagger Spec to Java POJOs,"hacktoberfest,java,open-source,openapi,openapi-specification,openapi3,rest,rest-api,swagger,swagger-oss,swagger-parser"
+sybit-education/airtable.java,devtools,Java API for Airtable (http://www.airtable.com),"airtable,airtable-api,airtable-client,api-client,java-api"
+syndesisio/syndesis,middleware-infra,"This project is archived. A flexible, customizable, open source platform that provides core integration capabilities as a service.","camel,hacktoberfest,integration,integration-services,syndesis"
+taskana/taskana,middleware-infra,Lightweight library for general purpose task management,"hacktoberfest,java,task-management,task-management-system,taskana"
+tdesjardins/gwt-ol,library,GWT wrapper for OpenLayers 3+ using JSInterop,"gis,gwt,gwt-ol,gwt-ol3,java,jsinterop,mapping,maps,ogc,ol,ol3,ol6,openlayers,web,wrapper"
+teammates/teammates,application,TEAMMATES is a feedback management tool for education,"angular,educators,feedback-systems,java,peer-evaluations,students,teachers,teammates,typescript,universities"
+teamnewpipe/newpipe,application,A libre lightweight streaming front-end for Android.,"4k,android,bandcamp,download-videos,newpipe,peertube,soundcloud,translation,video,watch,youtube-video"
+tencent/tencentkona-11,platform-runtime,"Tencent Kona JDK11 is a no-cost, production-ready distribution of the Open Java Development Kit (OpenJDK), Long-Term Support(LTS) with quarterly updates. Tencent Kona JDK11 is certified as compatible with the Java SE standard.",
+tencent/tencentkona-17,platform-runtime,"Tencent Kona JDK17 is a no-cost, production-ready distribution of the Open Java Development Kit (OpenJDK), Long-Term Support(LTS) with quarterly updates. Tencent Kona JDK17 is certified as compatible with the Java SE standard.",
+theborakompanioni/bitcoin-spring-boot-starter,library,Write enterprise Bitcoin applications with Spring Boot. Starter projects with multiple Bitcoin related modules that you can include in your application.,"bitcoin,cln,java,lightning,lnd,spring,spring-boot"
+thoughtworks/heartbeat,application,HeartBeat is a tool for tracking project delivery metrics that can help you get a better understanding of delivery performance. This product allows you easily get all aspects of source data faster and more accurate to analyze team delivery performance which enables delivery teams and team leaders focusing on driving continuous improvement and enhancing team productivity and efficiency.,"delivery-metrics,delivery-performance,metrics,metrics-data,metrics-gathering"
+tink-crypto/tink,security-crypto,"Tink is a multi-language, cross-platform, open source library that provides cryptographic APIs that are secure, easy to use correctly, and hard(er) to misuse.","cpp,crypto,cryptography,go,java,javascript,objc,security"
+tinylog-org/tinylog,library,"tinylog is a lightweight logging framework for Java, Kotlin, Scala, and Android","android,java,jcl,kotlin,kotlin-library,logger,logging-library,scala,slf4j,tinylog"
+tracecompass/tracecompass,devtools,Archived Mirror of the main Trace Compass git repository: https://github.com/eclipse-tracecompass,"ctf,eclipse,java,tracing"
+tronprotocol/java-tron,middleware-infra,Java implementation of the Tron whitepaper,
+unclebob/fitnesse,devtools,FitNesse -- The Acceptance Test Wiki,
+vaticle/typedb,database-data,"TypeDB: Built for systems, not records","database,inference,knowledge-base,knowledge-representation,logic,polymorphic,polymorphism,reasoning,strongly-typed,type-system,typedb,typeql"
+virtualsatellite/virtualsatellite4-core,application,Virtual Satellite Core - Baseline Framework and IDE Tools,"dlr,eclipse,mbse,virtualsatellite"
+vt-middleware/passay,security-crypto,Password policy enforcement for Java.,
+watson-developer-cloud/java-sdk,devtools,:1st_place_medal: Java SDK to use the IBM Watson services.,"bluemix,gradle,hacktoberfest,iam,ibm-cloud,ibm-watson-services,java,java-sdk,sdk,watson-apis,watson-services"
+wizzardo/webery,app-framework,,
+wso2/testgrid,devtools,TestGrid provides the enterprise customers confidence on the products and updates WSO2 ship.,common
+xenon-middleware/xenon,middleware-infra,A middleware abstraction library that provides a simple programming interface to various compute and storage resources.,"batch-job,java,library,middleware"
+yegor256/takes,app-framework,"True Object-Oriented Java Web Framework without NULLs, Static Methods, Annotations, and Mutable Objects","http,http-server,java,java-framework,oop,web-framework,xml-xslt"
+yubico/yubikit-android,security-crypto,Yubico Mobile Android SDK - YubiKit,"android,java"
+zalando/nakadi,middleware-infra,A distributed event bus that implements a RESTful API abstraction on top of Kafka-like queues,"apis,data-infrastructure,event-bus,java,java-8,kafka,microservices,postgresql,restful"
+zebrunner/carina,devtools,"Carina automation framework (TestNG): Web, Mobile, API, DB etc testing...","android-test,appium,appium-java,carina-framework,framework,ios-test,java,mybatis,parallel-tests,selenium,test,test-automation,test-automation-framework,testing,testing-tools,testng,testng-dataprovider,testng-framework,testng-listener,web-test"
+zebrunner/carina-demo,science-ml,Carina demo project.,"android-testing,androidtv,api,appium,carina,desktop-app,ios,java,maven,mybatis,restassured,selenium,test,testing,testing-tools,tvos,windows-desktop,zebrunner,zebrunner-reporting"

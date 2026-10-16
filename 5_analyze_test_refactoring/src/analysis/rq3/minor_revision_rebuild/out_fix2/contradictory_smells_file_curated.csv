@@ -1,0 +1,11 @@
+smell_a,smell_b,n_paired_commits,spearman_rho,p_value,a_up_b_down,a_down_b_up,both_down,both_up,either_unchanged
+Mystery Guest,General Fixture,379,-0.004968458712609593,0.9231976009495544,0,0,0,0,379
+Mystery Guest,Eager Test,139,0.007469503282577291,0.9304568052391164,0,0,0,0,139
+Eager Test,Lazy Test,139,0.7160675488011385,3.852540572449354e-23,0,2,10,12,115
+Verbose Test,Lazy Test,139,,,0,0,0,0,139
+Verbose Test,Mystery Guest,379,,,0,0,0,0,379
+Assertion Roulette,Lazy Test,139,0.15183714714175134,0.07437027038910016,1,7,6,6,119
+Conditional Test Logic,Duplicate Assert,379,-0.6191564265384818,1.7439625388061616e-41,6,86,12,0,275
+Magic Number Test,Mystery Guest,379,0.487219672701018,5.456581440418508e-24,0,1,1,22,355
+Magic Number Test,General Fixture,379,0.28398945608967213,1.8370402756643697e-08,1,0,9,7,362
+Sensitive Equality,Magic Number Test,379,0.5225815982264326,6.043074916376666e-28,0,0,10,15,354
