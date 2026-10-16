@@ -1,0 +1,51 @@
+sha,rm_type,match,is_correct,rm_description
+730abe93f6b064e8a9998a9324f3ccdfda869c01,Change Return Type,exact,1,Change Return Type TestStructuralElement to IBeanStructuralElementInstance in method public createSei(name String) : IBe
+20351c7f6fc61a453fd9d956205df0eb712af15b,Inline Variable,loc,1,Inline Variable attempt : DeliveryAttempt in method public testShouldGiveUpIf() : void from class com.flightstats.hub.we
+629ffd2764e667074c751072951a041d05d75f47,Replace Attribute With Variable,type_file,1,Replace Attribute With Variable mockFeedSource2 : FeedSource to mockFeedSource : FeedSource in method private createFeed
+d343267977609b977cd3fa33dde60aab4dcf7a47,Move And Rename Method,exact,1,Move And Rename Method public createIndex(session CqlSession) : void from class io.stargate.it.http.RestApiv2Test to pub
+058e50b10da2d9fc3fcd7736f2d1215c591f9c42,Remove Thrown Exception Type,exact,1,Remove Thrown Exception Type Exception in method public testNestedForeachLoops() : void from class org.jboss.errai.ioc.t
+649a57eca8fc3e0ca0b86fd6b7c0f2941e8bd234,Add Class Modifier,exact,1,Add Class Modifier final in class com.b3dgs.lionengine.ConstantTest
+8c3d032fb564148c39b5fdf1cdd6e314e6af1cb5,Move And Inline Method,exact,0,"Move And Inline Method private read(reader ObjectReader, json String) : LocalDateTime moved from class com.fasterxml.jac"
+9ba649982b1172954289bfe6307ca135466728f2,Replace Attribute With Variable,type_file,1,Replace Attribute With Variable goModDependencyManager : GoModDependencyManager to dependencyManager : GoModDependencyMa
+100420f757c2bd6fe00a8d28c14a1388d665b8fe,Assert Throws,exact,1,"Assert Throws assertThrows(IllegalArgumentException.class,() -> { in method public testParseNoKeyValue() : void from cla"
+c92f14ff5c5c73d849f7d6d0d2980846209ebead,Extract Attribute,loc,1,Extract Attribute private SETTING_ID : SimpleUri in class org.terasology.config.flexible.SettingTest
+669f02323f9c7298fdef79b44e1a512549d1411a,Extract And Move Method,missing,1,"Extract And Move Method public waitForIdleHandler(handlerThread HandlerThread, timeoutMs long) : void extracted from pri"
+2e68720627ae6447ba12d712a9e6e4a123e66b95,Merge Attribute,exact,0,"Merge Attribute [totalTime : long, runsProcessed : int] to nativeTest : TestIntegers in class net.i2p.util.NativeBigInte"
+8c3d032fb564148c39b5fdf1cdd6e314e6af1cb5,Move And Inline Method,missing,0,"Move And Inline Method private read(reader ObjectReader, json String) : LocalDateTime moved from class com.fasterxml.jac"
+7788103ee76fde8751ccbe5adc03855c89ef4bdc,Add Method Modifier,exact,1,Add Method Modifier static in method public tearDown() : void from class org.adoptopenjdk.jitwatch.test.TestBytecodeLoad
+94f5da8379ea345f24fb7024dc31ba427315a47c,Rename Parameter,type_file,1,Rename Parameter expected : ValidationResult to matcher : Matcher<ValidationResult> in method private portMirroringTest(
+058e50b10da2d9fc3fcd7736f2d1215c591f9c42,Rename Variable,loc,0,Rename Variable str : VariableReference to n : VariableReference in method public testAddVariableWithIntegerTypeInferenc
+8c3d032fb564148c39b5fdf1cdd6e314e6af1cb5,Inline Method,exact,1,"Inline Method private notNull(value Object) : void inlined to private expectSuccess(reader ObjectReader, exp Object, jso"
+94f5da8379ea345f24fb7024dc31ba427315a47c,Rename Parameter,type_file,1,Rename Parameter expected : ValidationResult to matcher : Matcher<ValidationResult> in method private networkNameAvailab
+b8e0398069cde724652b12e58ffeb20276345d3f,Change Method Access Modifier,exact,1,"Change Method Access Modifier private to protected in method protected getAttributeInfo(info MBeanInfo, attributeName St"
+0ffdfe45362559a28ec7edf3371add90bed4fdcb,Add Parameter,missing,1,"Add Parameter file : Path in method public testWrite(file Path, map Path) : void from class org.dita.dost.writer.KeyrefP"
+828f993e3312fa246cfdb9bb6cf33a6728b08863,Change Variable Type,type_file,1,Change Variable Type t4 : ResourceEntity<E1> to t4 : ResourceEntity<Tr> in method public testConstrainResponse_FetchLimi
+50758e9b1ce75481dbb6f24abde08ec7ec66b346,Remove Class Annotation,exact,1,Remove Class Annotation @RunWith(MockitoJUnitRunner.class) in class org.uma.jmetal.operator.selection.BinaryTournamentSe
+78feb6c98c332eb1d1c6da2c584bbc51aae47dc7,Extract Class,exact,1,Extract Class org.locationtech.jts.operation.overlayng.OverlayNGEmptyDisjointTest from class org.locationtech.jts.operat
+39a2a85f995c83c658c173898783217be849bf86,Inline Variable,type_file,1,Inline Variable client : WebClient in method protected getInstanceIdResource(instanceId long) : WebClient from class io.
+9b6c30525ec438ad8bc03e5a6afbff442b2f941a,Split Class,exact,1,Split Class com.google.android.exoplayer.extractor.webm.WebmExtractorTest.TestOutput split to [com.google.android.exopla
+2fc27ebaec26afd1537499c972ddbaa724886817,Add Class Annotation,exact,1,Add Class Annotation @RunWith(AndroidJUnit4.class) in class com.android.server.pm.UserManagerTest
+fc1af6246a233c2603cc7e97ccdc4b522b514ca8,Move Code,exact,1,Move Code from public testBV2() : void to public setup() : void in class hu.bme.mit.theta.solver.z3.Z3SolverTest
+9b6c30525ec438ad8bc03e5a6afbff442b2f941a,Move Method,missing,1,Move Method public endTracks() : void from class com.google.android.exoplayer.extractor.webm.WebmExtractorTest.TestOutpu
+39a2a85f995c83c658c173898783217be849bf86,Extract And Move Method,missing,1,Extract And Move Method protected getInstanceResource() : WebClient extracted from public queryDemoWorkflowWithMultipleS
+730abe93f6b064e8a9998a9324f3ccdfda869c01,Inline Method,exact,0,Inline Method private generateRandomTreeWithReferences(n int) : void inlined to public testSaveAndLoad() : void in class
+fbc436acfaa6e7aeba393e8e33e93076779eae83,Extract Method,exact,1,Extract Method private createGCDClientWithProperties(properties Properties) : GlobalCapabilitiesDirectoryClient extracte
+b8e0398069cde724652b12e58ffeb20276345d3f,Pull Up Method,exact,1,Pull Up Method public testNotManagedAttributeInfo() : void from class org.weakref.jmx.TestExporter to public testNotMana
+3956c030f7d334e827da5c2d4f8da68cef5c8d2c,Move Class,exact,1,Move Class com.fasterxml.jackson.datatype.jsr310.TestInstantSerialization.Wrapper moved to com.fasterxml.jackson.datatyp
+dbd2518ee5bf6668bfa163fc44f7d6eb23592c3d,Change Class Access Modifier,exact,1,Change Class Access Modifier public to private in class ezvcard.parameters.MediaTypeParameterTest.OtherTextMediaType
+11ac7831e3ad143a2337953487b69f5a78988dc6,Parameterize Variable,type_file,1,Parameterize Variable canonicalCallback : ISoundTriggerHw2.ModelCallback to canonicalCallback : ISoundTriggerHw2.ModelCa
+39a2a85f995c83c658c173898783217be849bf86,Change Return Type,exact,1,"Change Return Type String to T in method protected updateWorkflowInstance(instanceId long, request UpdateWorkflowInstanc"
+058e50b10da2d9fc3fcd7736f2d1215c591f9c42,Split Method,exact,1,"Split Method public testForeachLoop() : void to [public testForeachLoopWithStringInParameterizedList() : void, public te"
+8c3d032fb564148c39b5fdf1cdd6e314e6af1cb5,Move And Inline Method,exact,0,"Move And Inline Method private read(reader ObjectReader, json String) : LocalDate moved from class com.fasterxml.jackson"
+932c817f63f454635d991251b83c62d1d7adf681,Change Parameter Type,loc,1,Change Parameter Type answer : List<Orderable> to answer : List<Orderable<String>> in method private assertCommon(answer
+2f362cb6ba2fec0a40f0fa4dcee8081740ceea69,Change Attribute Access Modifier,exact,1,Change Attribute Access Modifier private to public in attribute public CODING_BB_VERSION1 : Coding from class au.csiro.p
+1dac09eda579c04545ef76f67045a15eba71addb,Add Parameter,exact,1,"Add Parameter folderName : String in method public saveToFile(folderName String, saveName String, imgExt String, i Image"
+8e59264fbc850e14bbb455774d64e70b8dca2862,Change Attribute Access Modifier,exact,1,Change Attribute Access Modifier package to private in attribute private ve : VarDecl<IntType> from class hu.bme.mit.the
+2e68720627ae6447ba12d712a9e6e4a123e66b95,Extract And Move Method,type_file,1,Extract And Move Method public doubleValue() : double extracted from public testDoubleValue() : void in class net.i2p.ut
+2f362cb6ba2fec0a40f0fa4dcee8081740ceea69,Move And Rename Attribute,exact,1,Move And Rename Attribute private CODING_B_VERSION1 : Coding renamed to public CODING_BB_VERSION1 : Coding and moved fro
+c92f14ff5c5c73d849f7d6d0d2980846209ebead,Rename Variable,loc,1,Rename Variable n : int to MAX_SET_VALUE_COUNT : int in method public testSetEventCall() : void from class org.terasolog
+c9298966bc4a505c6db05a4678308c003048e9af,Parameterize Variable,loc,1,Parameterize Variable jarFileName : String to jarFileName : String in method private testJarUrlDecoding(jarFileName Stri
+693e21d6052b32ad7815d9c0d7bd01fd6170a608,Change Class Access Modifier,missing,1,Change Class Access Modifier package to public in class com.android.mediaframeworktest.integration.CameraDeviceBinderTes
+89abcae3019d2bcbd05142f83353165e581a49b2,Modify Method Annotation,exact,1,Modify Method Annotation @Test to @Test(expected = IllegalArgumentException.class) in method public replicationControlle
+30cefac130c36abbaf6e80fee210a3f803304d3b,Rename Variable,loc,1,Rename Variable testsToRun : String to testsToRunString : String in method public suite() : TestSuite from class org.jit
+df6326d29147b485207f305621d1afaf29935f0e,Remove Attribute Modifier,exact,1,Remove Attribute Modifier final in attribute private value : Object from class com.yubico.yubikit.fido.CborTest.TestData

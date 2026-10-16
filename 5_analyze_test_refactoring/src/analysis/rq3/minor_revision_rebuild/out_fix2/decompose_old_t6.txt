@@ -1,0 +1,27 @@
+cells = 7657 (403 pairs x 19 smells)
+  absent_0to0 (measured)                    4771   62.3%
+  degrade (measured)                         334    4.4%
+  improve (measured)                         466    6.1%
+  present_unchanged (measured)              1150   15.0%
+  unmeasured -> 0to0 (old: no change)        824   10.8%
+  unmeasured -> spurious degrade              38    0.5%
+  unmeasured -> spurious improve              74    1.0%
+old 'No Change' total 6745 = 88.1%
+spurious changes by smell:
+cat                          unmeasured -> spurious degrade  unmeasured -> spurious improve
+smell                                                                                      
+Assertion Roulette                                        6                               7
+Conditional Test Logic                                    5                               7
+Duplicate Assert                                          1                               7
+Eager Test                                                3                               9
+Exception Catching Throwing                               6                               7
+General Fixture                                           2                               7
+IgnoredTest                                               3                               7
+Lazy Test                                                 1                               9
+Magic Number Test                                         9                               7
+Resource Optimism                                         1                               0
+Unknown Test                                              1                               7
+measured cells 6721; absent share among measured 71.0%
+measured pairs per smell: {'Assertion Roulette': 379, 'Eager Test': 139, 'Lazy Test': 139}
+data_fix2 rows 379 Eager both measured 139 Lazy 139
+{'Eager Test': 139, 'Lazy Test': 139} sum 6721

@@ -1,0 +1,23 @@
+test_smell,total_pairs,changed_pairs,change_rate,test_performed,wilcoxon_stat,p_value,effect_size,improvements,degradations,significant,improvement_dominant,reason
+Assertion Roulette,173,62,35.83815028901734,True,738.0,0.0905140309676954,-0.2644334891010275,37.0,25.0,False,True,
+Conditional Test Logic,173,25,14.450867052023122,True,137.5,0.5249125957489014,-0.23692373082784934,13.0,12.0,False,True,
+Constructor Initialization,173,3,1.7341040462427744,False,,,,,,,,Insufficient changes (<5)
+Default Test,173,0,0.0,False,,,,,,,,Insufficient changes (<5)
+EmptyTest,173,0,0.0,False,,,,,,,,Insufficient changes (<5)
+Exception Catching Throwing,173,53,30.63583815028902,True,561.0,0.16899912350412716,-0.2914563784644887,24.0,29.0,False,False,
+General Fixture,173,21,12.138728323699421,True,114.0,0.9728584289550781,0.010415536569927062,9.0,12.0,False,False,
+Mystery Guest,173,23,13.294797687861271,True,0.0,2.384185791015625e-07,2.022982308603952,0.0,23.0,True,False,
+Print Statement,173,12,6.9364161849710975,True,16.0,0.0771484375,-0.6767155423319646,8.0,4.0,False,True,
+Redundant Assertion,173,2,1.1560693641618496,False,,,,,,,,Insufficient changes (<5)
+Sensitive Equality,173,18,10.404624277456648,True,43.5,0.06653594970703125,0.14332591242820386,3.0,15.0,False,False,
+Verbose Test,173,0,0.0,False,,,,,,,,Insufficient changes (<5)
+Sleepy Test,173,1,0.5780346820809248,False,,,,,,,,Insufficient changes (<5)
+Eager Test,173,22,12.716763005780345,True,125.5,0.9746217727661133,-0.2542673288525399,10.0,12.0,False,False,
+Lazy Test,173,20,11.560693641618498,True,100.5,0.8694877624511719,-0.1997764124477605,8.0,12.0,False,False,
+Duplicate Assert,173,36,20.809248554913296,True,6.0,4.0745362639427185e-10,-1.3987797038537446,35.0,1.0,True,True,
+Unknown Test,173,28,16.184971098265898,True,117.0,0.05049888789653778,-0.3659767166346735,18.0,10.0,False,True,
+IgnoredTest,173,14,8.092485549132949,True,43.0,0.5830078125,-0.28834159879932764,6.0,8.0,False,False,
+Resource Optimism,173,4,2.312138728323699,False,,,,,,,,Insufficient changes (<5)
+Magic Number Test,173,74,42.77456647398844,True,1011.5,0.04251052189071911,-0.056649108506975604,23.0,51.0,True,False,
+Dependent Test,173,0,0.0,False,,,,,,,,Insufficient changes (<5)
+NumberOfMethods,173,129,74.56647398843931,True,2797.0,0.0009949447780206802,-0.05366452060577122,37.0,92.0,True,False,

@@ -1,0 +1,53 @@
+== Table 7 (overall, row level, BH q<0.05) ==
+  File Conditional Test Logic       imp  31.9%  deg   3.2%  p=0  q=0  r=-0.95
+  File Assertion Roulette           imp  16.4%  deg   6.3%  p=8.61e-06  q=0.000125  r=-0.55
+  File Mystery Guest                imp   0.3%  deg   6.1%  p=5.62e-05  q=0.000543  r=+0.93
+  File Exception Catching Throwing  imp  14.0%  deg   8.7%  p=0.000146  q=0.000632  r=-0.47
+  File Print Statement              imp   4.7%  deg   1.1%  p=0.000153  q=0.000632  r=-0.84
+  File Redundant Assertion          imp   2.6%  deg   0.0%  p=0.00195  q=0.00631  r=-1.00
+  File IgnoredTest                  imp   4.7%  deg   2.1%  p=0.00225  q=0.00654  r=-0.68
+  File NumberOfMethods              imp  15.8%  deg  34.8%  p=0.00862  q=0.0208  r=+0.22
+  File Unknown Test                 imp   8.7%  deg   4.7%  p=0.0146  q=0.0303  r=-0.39
+  Ref. Duplicate Assert             imp   6.9%  deg   0.8%  p=0.000109  q=0.000632  r=-0.77
+  Ref. Conditional Test Logic       imp  11.6%  deg   3.2%  p=0.000119  q=0.000632  r=-0.56
+  Ref. Assertion Roulette           imp  12.9%  deg   5.5%  p=0.00196  q=0.00631  r=-0.41
+  Ref. Exception Catching Throwing  imp  11.6%  deg   5.8%  p=0.00594  q=0.0157  r=-0.37
+  Ref. Print Statement              imp   2.6%  deg   0.5%  p=0.0107  q=0.024  r=-0.82
+
+== Table 8 (per refactoring type x smell, row level, BH q<0.05) ==
+  File Change Assertion Type      Conditional Test Logic     n=123 imp  62.6%  deg   0.0%  p=0  q=0  r=-1.00
+  File Change Assertion Type      Duplicate Assert           n=123 imp   0.0%  deg  62.6%  p=0  q=0  r=+1.00
+  File Split Test Method          NumberOfMethods            n= 37 imp   0.0%  deg  97.3%  p=1.57e-07  q=3.71e-06  r=+1.00
+  File Split Test Method          Magic Number Test          n= 37 imp   0.0%  deg  91.9%  p=3.44e-07  q=6.1e-06  r=+1.00
+  File Split Test Method          Mystery Guest              n= 37 imp   0.0%  deg  59.5%  p=4.77e-07  q=6.77e-06  r=+1.00
+  Ref. Split Test Method          Magic Number Test          n= 37 imp   2.7%  deg  86.5%  p=8.17e-07  q=9.67e-06  r=+0.97
+  File Grouping Tests             NumberOfMethods            n= 22 imp  95.5%  deg   4.5%  p=1.43e-06  q=1.45e-05  r=-0.98
+  File Delegated Setup            NumberOfMethods            n= 32 imp   0.0%  deg  87.5%  p=2.97e-06  q=2.63e-05  r=+1.00
+  File Grouping Tests             Magic Number Test          n= 22 imp  81.8%  deg   4.5%  p=1.14e-05  q=9.03e-05  r=-0.98
+  File Split Test Method          Duplicate Assert           n= 37 imp  62.2%  deg   0.0%  p=2.37e-05  q=0.000168  r=-1.00
+  File Prebuilt Fixture           NumberOfMethods            n= 34 imp   0.0%  deg  47.1%  p=3.05e-05  q=0.000197  r=+1.00
+  Ref. Split Test Method          Duplicate Assert           n= 37 imp  40.5%  deg   0.0%  p=6.1e-05  q=0.000361  r=-1.00
+  File Grouping Tests             Assertion Roulette         n= 22 imp  68.2%  deg   4.5%  p=9.16e-05  q=0.0005  r=-0.98
+  File Grouping Tests             Unknown Test               n= 22 imp  63.6%  deg   0.0%  p=0.000122  q=0.000619  r=-1.00
+  File Grouping Tests             Exception Catching Throwin n= 22 imp  63.6%  deg   9.1%  p=0.000153  q=0.000722  r=-0.96
+  Ref. Change Assertion Type      Conditional Test Logic     n=123 imp  15.4%  deg   1.6%  p=0.000202  q=0.000897  r=-0.82
+  File Grouping Tests             Duplicate Assert           n= 22 imp  59.1%  deg   0.0%  p=0.000244  q=0.00102  r=-1.00
+  File Split Test Method          Sensitive Equality         n= 37 imp   0.0%  deg  32.4%  p=0.000488  q=0.00193  r=+1.00
+  File Grouping Tests             Conditional Test Logic     n= 22 imp  50.0%  deg   0.0%  p=0.000977  q=0.00365  r=-1.00
+  File Change Assertion Type      NumberOfMethods            n=123 imp   1.6%  deg  13.8%  p=0.00171  q=0.00603  r=+0.76
+  File Parameterized Test         NumberOfMethods            n= 23 imp  65.2%  deg  21.7%  p=0.00192  q=0.00603  r=-0.75
+  File Grouping Tests             Redundant Assertion        n= 22 imp  45.5%  deg   0.0%  p=0.00195  q=0.00603  r=-1.00
+  Ref. Prebuilt Fixture           Assertion Roulette         n= 34 imp  29.4%  deg   0.0%  p=0.00195  q=0.00603  r=-1.00
+  Ref. Change Exception Verificat Exception Catching Throwin n= 27 imp  55.6%  deg   7.4%  p=0.00235  q=0.00695  r=-0.76
+  File Guard Assertion            Conditional Test Logic     n= 10 imp  90.0%  deg   0.0%  p=0.00391  q=0.00956  r=-1.00
+  File Guard Assertion            Duplicate Assert           n= 10 imp   0.0%  deg  90.0%  p=0.00391  q=0.00956  r=+1.00
+  File Grouping Tests             Constructor Initialization n= 22 imp  40.9%  deg   0.0%  p=0.00391  q=0.00956  r=-1.00
+  File Grouping Tests             IgnoredTest                n= 22 imp  40.9%  deg   0.0%  p=0.00391  q=0.00956  r=-1.00
+  File Grouping Tests             Sensitive Equality         n= 22 imp  40.9%  deg   0.0%  p=0.00391  q=0.00956  r=-1.00
+  File Verification Method        NumberOfMethods            n=  8 imp   0.0%  deg 100.0%  p=0.00781  q=0.0179  r=+1.00
+  File Grouping Tests             Print Statement            n= 22 imp  36.4%  deg   0.0%  p=0.00781  q=0.0179  r=-1.00
+  File Delegated Setup            General Fixture            n= 32 imp   0.0%  deg  21.9%  p=0.0156  q=0.0326  r=+1.00
+  File Change Assertion Type      Exception Catching Throwin n=123 imp   5.7%  deg   0.0%  p=0.0156  q=0.0326  r=-1.00
+  File Parameterized Test         Assertion Roulette         n= 23 imp  30.4%  deg   0.0%  p=0.0156  q=0.0326  r=-1.00
+  Ref. Split Test Method          Mystery Guest              n= 37 imp   2.7%  deg  24.3%  p=0.0176  q=0.0357  r=+0.84
+  File Prebuilt Fixture           Assertion Roulette         n= 34 imp  20.6%  deg   5.9%  p=0.0195  q=0.0385  r=-0.87

@@ -1,0 +1,7 @@
+file-level smells with NaN: ['Eager Test', 'Lazy Test']
+Eager Test: measured 139, both NaN 229, before-only NaN 0 (after>0: 0), after-only NaN 11 (before>0: 9)
+   method-level values on file-both-NaN rows: nonzero 3; on one-side-NaN rows: nonzero 2
+   commits with no measured-or-both-NaN pair: 4 of 145
+Lazy Test: measured 139, both NaN 229, before-only NaN 0 (after>0: 0), after-only NaN 11 (before>0: 9)
+   method-level values on file-both-NaN rows: nonzero 3; on one-side-NaN rows: nonzero 2
+   commits with no measured-or-both-NaN pair: 4 of 145

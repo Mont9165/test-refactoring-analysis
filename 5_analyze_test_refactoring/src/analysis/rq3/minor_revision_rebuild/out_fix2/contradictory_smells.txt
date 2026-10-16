@@ -1,0 +1,398 @@
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.claude/worktrees/rm300-audit-scripts/5_analyze_test_refactoring/src/analysis/rq3/minor_revision_rebuild/scripts/contradictory_smells.py:65: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(delta_a, delta_b)
+[file] 210 smell-pairs -> out_fix2/contradictory_smells_file_all.csv
+
+[file] top 10 negatively correlated pairs (most contradictory):
+                         smell_a             smell_b  n_paired_commits  a_up_b_down  a_down_b_up  both_down  both_up  spearman_rho       p_value
+23        Conditional Test Logic    Duplicate Assert               379            6           86         12        0     -0.619156  1.743963e-41
+97              Duplicate Assert       Mystery Guest               379            0           20          1        0     -0.389915  3.278583e-15
+155                  IgnoredTest           Lazy Test               139            3            0          0        0     -0.245821  3.535108e-03
+96              Duplicate Assert   Magic Number Test               379            0           31         15        0     -0.180476  4.141046e-04
+108                   Eager Test         IgnoredTest               139            0            2          0        0     -0.174886  3.947956e-02
+166                    Lazy Test       Mystery Guest               139            0            1          0        0     -0.174765  3.961778e-02
+134  Exception Catching Throwing           Lazy Test               139            4            6          3        1     -0.164564  5.288241e-02
+101             Duplicate Assert  Sensitive Equality               379            0           15          8        0     -0.130299  1.111361e-02
+190              Print Statement   Resource Optimism               379            0            1          0        0     -0.119877  1.957061e-02
+160                  IgnoredTest   Resource Optimism               379            1            0          0        0     -0.107789  3.594011e-02
+
+[file] curated pairs -> out_fix2/contradictory_smells_file_curated.csv
+                  smell_a            smell_b  n_paired_commits  spearman_rho       p_value  a_up_b_down  a_down_b_up  both_down  both_up  either_unchanged
+0           Mystery Guest    General Fixture               379     -0.004968  9.231976e-01            0            0          0        0               379
+1           Mystery Guest         Eager Test               139      0.007470  9.304568e-01            0            0          0        0               139
+2              Eager Test          Lazy Test               139      0.716068  3.852541e-23            0            2         10       12               115
+3            Verbose Test          Lazy Test               139           NaN           NaN            0            0          0        0               139
+4            Verbose Test      Mystery Guest               379           NaN           NaN            0            0          0        0               379
+5      Assertion Roulette          Lazy Test               139      0.151837  7.437027e-02            1            7          6        6               119
+6  Conditional Test Logic   Duplicate Assert               379     -0.619156  1.743963e-41            6           86         12        0               275
+7       Magic Number Test      Mystery Guest               379      0.487220  5.456581e-24            0            1          1       22               355
+8       Magic Number Test    General Fixture               379      0.283989  1.837040e-08            1            0          9        7               362
+9      Sensitive Equality  Magic Number Test               379      0.522582  6.043075e-28            0            0         10       15               354
+[method] 210 smell-pairs -> out_fix2/contradictory_smells_method_all.csv
+
+[method] top 10 negatively correlated pairs (most contradictory):
+                    smell_a             smell_b  n_paired_commits  a_up_b_down  a_down_b_up  both_down  both_up  spearman_rho       p_value
+160             IgnoredTest   Resource Optimism               379            1            0          0        0     -0.314100  4.009706e-10
+155             IgnoredTest           Lazy Test               139            2            0          0        0     -0.269698  1.324156e-03
+29   Conditional Test Logic           Lazy Test               139            3            0          0        1     -0.150905  7.618855e-02
+101        Duplicate Assert  Sensitive Equality               379            0            2          0        0     -0.145536  4.524593e-03
+108              Eager Test         IgnoredTest               139            0            1          0        0     -0.131759  1.220709e-01
+161             IgnoredTest  Sensitive Equality               379            1            0          0        0     -0.130144  1.121079e-02
+18       Assertion Roulette        Unknown Test               379            4            5          3        0     -0.116908  2.283085e-02
+96         Duplicate Assert   Magic Number Test               379            0           15          8        1     -0.097142  5.884092e-02
+97         Duplicate Assert       Mystery Guest               379            0            4          2        0     -0.083168  1.059714e-01
+172               Lazy Test        Unknown Test               139            0            1          0        0     -0.060905  4.763167e-01
+
+[method] curated pairs -> out_fix2/contradictory_smells_method_curated.csv
+                  smell_a            smell_b  n_paired_commits  spearman_rho       p_value  a_up_b_down  a_down_b_up  both_down  both_up  either_unchanged
+0           Mystery Guest    General Fixture               379      0.001923  9.702291e-01            0            0          0        0               379
+1           Mystery Guest         Eager Test               139      0.015335  8.578018e-01            0            0          0        0               139
+2              Eager Test          Lazy Test               139      0.413127  4.318509e-07            1            1          6        4               127
+3            Verbose Test          Lazy Test               139           NaN           NaN            0            0          0        0               139
+4            Verbose Test      Mystery Guest               379           NaN           NaN            0            0          0        0               379
+5      Assertion Roulette          Lazy Test               139      0.117339  1.689245e-01            2            2          3        4               128
+6  Conditional Test Logic   Duplicate Assert               379     -0.016659  7.464879e-01            3            0          4        0               372
+7       Magic Number Test      Mystery Guest               379      0.366114  1.824427e-13            0            0          3       10               366
+8       Magic Number Test    General Fixture               379      0.332564  3.074433e-11            1            0         13        7               358
+9      Sensitive Equality  Magic Number Test               379      0.218059  1.845646e-05            0            0          1        4               374

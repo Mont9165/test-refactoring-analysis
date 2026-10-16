@@ -1,0 +1,573 @@
+level,type,smell,n,k,imp,deg,p,r,q,m_family
+File,Delegated Setup,Assertion Roulette,32,6,6,0,0.03125,-1.0,0.05282738095238095,71
+File,Delegated Setup,Conditional Test Logic,32,3,3,0,nan,nan,nan,71
+File,Delegated Setup,Constructor Initialization,32,0,0,0,nan,nan,nan,71
+File,Delegated Setup,Default Test,32,0,0,0,nan,nan,nan,71
+File,Delegated Setup,Dependent Test,32,0,0,0,nan,nan,nan,71
+File,Delegated Setup,Duplicate Assert,32,0,0,0,nan,nan,nan,71
+File,Delegated Setup,Eager Test,14,1,0,1,nan,nan,nan,71
+File,Delegated Setup,Empty Test,32,0,0,0,nan,nan,nan,71
+File,Delegated Setup,Exception Catching Throwing,32,3,0,3,nan,nan,nan,71
+File,Delegated Setup,General Fixture,32,7,0,7,0.015625,1.0,0.03262867647058824,71
+File,Delegated Setup,IgnoredTest,32,2,2,0,nan,nan,nan,71
+File,Delegated Setup,Lazy Test,14,3,2,1,nan,nan,nan,71
+File,Delegated Setup,Magic Number Test,32,6,2,4,0.15625,0.7142857142857143,0.20931603773584906,71
+File,Delegated Setup,Mystery Guest,32,0,0,0,nan,nan,nan,71
+File,Delegated Setup,NumberOfMethods,32,28,0,28,2.9660927378660773e-06,1.0,2.6324073048561436e-05,71
+File,Delegated Setup,Print Statement,32,4,4,0,nan,nan,nan,71
+File,Delegated Setup,Redundant Assertion,32,0,0,0,nan,nan,nan,71
+File,Delegated Setup,Resource Optimism,32,1,0,1,nan,nan,nan,71
+File,Delegated Setup,Sensitive Equality,32,0,0,0,nan,nan,nan,71
+File,Delegated Setup,Sleepy Test,32,0,0,0,nan,nan,nan,71
+File,Delegated Setup,Unknown Test,32,7,2,5,0.25,0.5714285714285714,0.31140350877192985,71
+File,Delegated Setup,Verbose Test,32,0,0,0,nan,nan,nan,71
+File,Change Assertion Type,Assertion Roulette,123,10,9,1,0.076171875,-0.6363636363636364,0.11756963315217392,71
+File,Change Assertion Type,Conditional Test Logic,123,77,77,0,0.0,-1.0,0.0,71
+File,Change Assertion Type,Constructor Initialization,123,0,0,0,nan,nan,nan,71
+File,Change Assertion Type,Default Test,123,0,0,0,nan,nan,nan,71
+File,Change Assertion Type,Dependent Test,123,0,0,0,nan,nan,nan,71
+File,Change Assertion Type,Duplicate Assert,123,77,0,77,0.0,1.0,0.0,71
+File,Change Assertion Type,Eager Test,43,6,2,4,1.0,0.14285714285714285,1.0,71
+File,Change Assertion Type,Empty Test,123,0,0,0,nan,nan,nan,71
+File,Change Assertion Type,Exception Catching Throwing,123,7,7,0,0.015625,-1.0,0.03262867647058824,71
+File,Change Assertion Type,General Fixture,123,0,0,0,nan,nan,nan,71
+File,Change Assertion Type,IgnoredTest,123,0,0,0,nan,nan,nan,71
+File,Change Assertion Type,Lazy Test,43,6,1,5,0.0625,0.9047619047619048,0.09861111111111111,71
+File,Change Assertion Type,Magic Number Test,123,5,0,5,nan,nan,nan,71
+File,Change Assertion Type,Mystery Guest,123,0,0,0,nan,nan,nan,71
+File,Change Assertion Type,NumberOfMethods,123,19,2,17,0.001712799072265625,0.7578947368421053,0.006029211956521739,71
+File,Change Assertion Type,Print Statement,123,4,0,4,nan,nan,nan,71
+File,Change Assertion Type,Redundant Assertion,123,0,0,0,nan,nan,nan,71
+File,Change Assertion Type,Resource Optimism,123,0,0,0,nan,nan,nan,71
+File,Change Assertion Type,Sensitive Equality,123,0,0,0,nan,nan,nan,71
+File,Change Assertion Type,Sleepy Test,123,0,0,0,nan,nan,nan,71
+File,Change Assertion Type,Unknown Test,123,7,4,3,0.484375,0.2857142857142857,0.537353515625,71
+File,Change Assertion Type,Verbose Test,123,0,0,0,nan,nan,nan,71
+File,Guard Assertion,Assertion Roulette,10,0,0,0,nan,nan,nan,71
+File,Guard Assertion,Conditional Test Logic,10,9,9,0,0.00390625,-1.0,0.009563577586206896,71
+File,Guard Assertion,Constructor Initialization,10,0,0,0,nan,nan,nan,71
+File,Guard Assertion,Default Test,10,0,0,0,nan,nan,nan,71
+File,Guard Assertion,Dependent Test,10,0,0,0,nan,nan,nan,71
+File,Guard Assertion,Duplicate Assert,10,9,0,9,0.00390625,1.0,0.009563577586206896,71
+File,Guard Assertion,Eager Test,0,0,0,0,nan,nan,nan,71
+File,Guard Assertion,Empty Test,10,0,0,0,nan,nan,nan,71
+File,Guard Assertion,Exception Catching Throwing,10,0,0,0,nan,nan,nan,71
+File,Guard Assertion,General Fixture,10,0,0,0,nan,nan,nan,71
+File,Guard Assertion,IgnoredTest,10,0,0,0,nan,nan,nan,71
+File,Guard Assertion,Lazy Test,0,0,0,0,nan,nan,nan,71
+File,Guard Assertion,Magic Number Test,10,0,0,0,nan,nan,nan,71
+File,Guard Assertion,Mystery Guest,10,0,0,0,nan,nan,nan,71
+File,Guard Assertion,NumberOfMethods,10,0,0,0,nan,nan,nan,71
+File,Guard Assertion,Print Statement,10,0,0,0,nan,nan,nan,71
+File,Guard Assertion,Redundant Assertion,10,0,0,0,nan,nan,nan,71
+File,Guard Assertion,Resource Optimism,10,0,0,0,nan,nan,nan,71
+File,Guard Assertion,Sensitive Equality,10,0,0,0,nan,nan,nan,71
+File,Guard Assertion,Sleepy Test,10,0,0,0,nan,nan,nan,71
+File,Guard Assertion,Unknown Test,10,0,0,0,nan,nan,nan,71
+File,Guard Assertion,Verbose Test,10,0,0,0,nan,nan,nan,71
+File,Prebuilt Fixture,Assertion Roulette,34,9,7,2,0.01953125,-0.8666666666666667,0.038519965277777776,71
+File,Prebuilt Fixture,Conditional Test Logic,34,6,6,0,0.03125,-1.0,0.05282738095238095,71
+File,Prebuilt Fixture,Constructor Initialization,34,1,0,1,nan,nan,nan,71
+File,Prebuilt Fixture,Default Test,34,0,0,0,nan,nan,nan,71
+File,Prebuilt Fixture,Dependent Test,34,0,0,0,nan,nan,nan,71
+File,Prebuilt Fixture,Duplicate Assert,34,3,2,1,nan,nan,nan,71
+File,Prebuilt Fixture,Eager Test,7,0,0,0,nan,nan,nan,71
+File,Prebuilt Fixture,Empty Test,34,0,0,0,nan,nan,nan,71
+File,Prebuilt Fixture,Exception Catching Throwing,34,4,1,3,nan,nan,nan,71
+File,Prebuilt Fixture,General Fixture,34,0,0,0,nan,nan,nan,71
+File,Prebuilt Fixture,IgnoredTest,34,0,0,0,nan,nan,nan,71
+File,Prebuilt Fixture,Lazy Test,7,0,0,0,nan,nan,nan,71
+File,Prebuilt Fixture,Magic Number Test,34,4,1,3,nan,nan,nan,71
+File,Prebuilt Fixture,Mystery Guest,34,1,1,0,nan,nan,nan,71
+File,Prebuilt Fixture,NumberOfMethods,34,16,0,16,3.0517578125e-05,1.0,0.00019697709517045453,71
+File,Prebuilt Fixture,Print Statement,34,0,0,0,nan,nan,nan,71
+File,Prebuilt Fixture,Redundant Assertion,34,0,0,0,nan,nan,nan,71
+File,Prebuilt Fixture,Resource Optimism,34,0,0,0,nan,nan,nan,71
+File,Prebuilt Fixture,Sensitive Equality,34,0,0,0,nan,nan,nan,71
+File,Prebuilt Fixture,Sleepy Test,34,0,0,0,nan,nan,nan,71
+File,Prebuilt Fixture,Unknown Test,34,1,0,1,nan,nan,nan,71
+File,Prebuilt Fixture,Verbose Test,34,0,0,0,nan,nan,nan,71
+File,Implicit Setup,Assertion Roulette,10,3,2,1,nan,nan,nan,71
+File,Implicit Setup,Conditional Test Logic,10,2,0,2,nan,nan,nan,71
+File,Implicit Setup,Constructor Initialization,10,0,0,0,nan,nan,nan,71
+File,Implicit Setup,Default Test,10,0,0,0,nan,nan,nan,71
+File,Implicit Setup,Dependent Test,10,0,0,0,nan,nan,nan,71
+File,Implicit Setup,Duplicate Assert,10,2,2,0,nan,nan,nan,71
+File,Implicit Setup,Eager Test,5,1,0,1,nan,nan,nan,71
+File,Implicit Setup,Empty Test,10,0,0,0,nan,nan,nan,71
+File,Implicit Setup,Exception Catching Throwing,10,1,0,1,nan,nan,nan,71
+File,Implicit Setup,General Fixture,10,3,2,1,nan,nan,nan,71
+File,Implicit Setup,IgnoredTest,10,0,0,0,nan,nan,nan,71
+File,Implicit Setup,Lazy Test,5,1,0,1,nan,nan,nan,71
+File,Implicit Setup,Magic Number Test,10,3,1,2,nan,nan,nan,71
+File,Implicit Setup,Mystery Guest,10,0,0,0,nan,nan,nan,71
+File,Implicit Setup,NumberOfMethods,10,8,1,7,0.1484375,0.5833333333333334,0.20931603773584906,71
+File,Implicit Setup,Print Statement,10,1,1,0,nan,nan,nan,71
+File,Implicit Setup,Redundant Assertion,10,0,0,0,nan,nan,nan,71
+File,Implicit Setup,Resource Optimism,10,0,0,0,nan,nan,nan,71
+File,Implicit Setup,Sensitive Equality,10,1,0,1,nan,nan,nan,71
+File,Implicit Setup,Sleepy Test,10,0,0,0,nan,nan,nan,71
+File,Implicit Setup,Unknown Test,10,2,1,1,nan,nan,nan,71
+File,Implicit Setup,Verbose Test,10,0,0,0,nan,nan,nan,71
+File,Verification Method,Assertion Roulette,8,3,3,0,nan,nan,nan,71
+File,Verification Method,Conditional Test Logic,8,0,0,0,nan,nan,nan,71
+File,Verification Method,Constructor Initialization,8,0,0,0,nan,nan,nan,71
+File,Verification Method,Default Test,8,0,0,0,nan,nan,nan,71
+File,Verification Method,Dependent Test,8,0,0,0,nan,nan,nan,71
+File,Verification Method,Duplicate Assert,8,0,0,0,nan,nan,nan,71
+File,Verification Method,Eager Test,2,0,0,0,nan,nan,nan,71
+File,Verification Method,Empty Test,8,0,0,0,nan,nan,nan,71
+File,Verification Method,Exception Catching Throwing,8,1,0,1,nan,nan,nan,71
+File,Verification Method,General Fixture,8,1,0,1,nan,nan,nan,71
+File,Verification Method,IgnoredTest,8,0,0,0,nan,nan,nan,71
+File,Verification Method,Lazy Test,2,0,0,0,nan,nan,nan,71
+File,Verification Method,Magic Number Test,8,1,0,1,nan,nan,nan,71
+File,Verification Method,Mystery Guest,8,0,0,0,nan,nan,nan,71
+File,Verification Method,NumberOfMethods,8,8,0,8,0.0078125,1.0,0.017893145161290324,71
+File,Verification Method,Print Statement,8,1,1,0,nan,nan,nan,71
+File,Verification Method,Redundant Assertion,8,0,0,0,nan,nan,nan,71
+File,Verification Method,Resource Optimism,8,0,0,0,nan,nan,nan,71
+File,Verification Method,Sensitive Equality,8,0,0,0,nan,nan,nan,71
+File,Verification Method,Sleepy Test,8,0,0,0,nan,nan,nan,71
+File,Verification Method,Unknown Test,8,3,0,3,nan,nan,nan,71
+File,Verification Method,Verbose Test,8,0,0,0,nan,nan,nan,71
+File,Grouping Tests,Assertion Roulette,22,16,15,1,9.1552734375e-05,-0.9779411764705882,0.0005000187800480769,71
+File,Grouping Tests,Conditional Test Logic,22,11,11,0,0.0009765625,-1.0,0.0036492598684210527,71
+File,Grouping Tests,Constructor Initialization,22,9,9,0,0.00390625,-1.0,0.009563577586206896,71
+File,Grouping Tests,Default Test,22,0,0,0,nan,nan,nan,71
+File,Grouping Tests,Dependent Test,22,0,0,0,nan,nan,nan,71
+File,Grouping Tests,Duplicate Assert,22,13,13,0,0.000244140625,-1.0,0.0010196461397058824,71
+File,Grouping Tests,Eager Test,4,2,2,0,nan,nan,nan,71
+File,Grouping Tests,Empty Test,22,0,0,0,nan,nan,nan,71
+File,Grouping Tests,Exception Catching Throwing,22,16,14,2,0.000152587890625,-0.9558823529411765,0.0007222493489583334,71
+File,Grouping Tests,General Fixture,22,1,1,0,nan,nan,nan,71
+File,Grouping Tests,IgnoredTest,22,9,9,0,0.00390625,-1.0,0.009563577586206896,71
+File,Grouping Tests,Lazy Test,4,2,2,0,nan,nan,nan,71
+File,Grouping Tests,Magic Number Test,22,19,18,1,1.1444091796875e-05,-0.9789473684210527,9.028116861979167e-05,71
+File,Grouping Tests,Mystery Guest,22,0,0,0,nan,nan,nan,71
+File,Grouping Tests,NumberOfMethods,22,22,21,1,1.430511474609375e-06,-0.9841897233201581,1.4509473528180803e-05,71
+File,Grouping Tests,Print Statement,22,8,8,0,0.0078125,-1.0,0.017893145161290324,71
+File,Grouping Tests,Redundant Assertion,22,10,10,0,0.001953125,-1.0,0.006029211956521739,71
+File,Grouping Tests,Resource Optimism,22,0,0,0,nan,nan,nan,71
+File,Grouping Tests,Sensitive Equality,22,9,9,0,0.00390625,-1.0,0.009563577586206896,71
+File,Grouping Tests,Sleepy Test,22,0,0,0,nan,nan,nan,71
+File,Grouping Tests,Unknown Test,22,14,14,0,0.0001220703125,-1.0,0.0006190708705357143,71
+File,Grouping Tests,Verbose Test,22,0,0,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,Assertion Roulette,6,2,2,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,Conditional Test Logic,6,1,1,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,Constructor Initialization,6,0,0,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,Default Test,6,0,0,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,Dependent Test,6,0,0,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,Duplicate Assert,6,0,0,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,Eager Test,5,2,2,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,Empty Test,6,0,0,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,Exception Catching Throwing,6,0,0,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,General Fixture,6,0,0,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,IgnoredTest,6,0,0,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,Lazy Test,5,2,2,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,Magic Number Test,6,2,2,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,Mystery Guest,6,0,0,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,NumberOfMethods,6,0,0,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,Print Statement,6,0,0,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,Redundant Assertion,6,0,0,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,Resource Optimism,6,0,0,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,Sensitive Equality,6,0,0,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,Sleepy Test,6,1,1,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,Unknown Test,6,0,0,0,nan,nan,nan,71
+File,Replace Dependency with Test Double,Verbose Test,6,0,0,0,nan,nan,nan,71
+File,Inline Assertion,Assertion Roulette,6,0,0,0,nan,nan,nan,71
+File,Inline Assertion,Conditional Test Logic,6,0,0,0,nan,nan,nan,71
+File,Inline Assertion,Constructor Initialization,6,0,0,0,nan,nan,nan,71
+File,Inline Assertion,Default Test,6,0,0,0,nan,nan,nan,71
+File,Inline Assertion,Dependent Test,6,0,0,0,nan,nan,nan,71
+File,Inline Assertion,Duplicate Assert,6,0,0,0,nan,nan,nan,71
+File,Inline Assertion,Eager Test,1,0,0,0,nan,nan,nan,71
+File,Inline Assertion,Empty Test,6,0,0,0,nan,nan,nan,71
+File,Inline Assertion,Exception Catching Throwing,6,1,1,0,nan,nan,nan,71
+File,Inline Assertion,General Fixture,6,0,0,0,nan,nan,nan,71
+File,Inline Assertion,IgnoredTest,6,3,3,0,nan,nan,nan,71
+File,Inline Assertion,Lazy Test,1,1,0,1,nan,nan,nan,71
+File,Inline Assertion,Magic Number Test,6,0,0,0,nan,nan,nan,71
+File,Inline Assertion,Mystery Guest,6,0,0,0,nan,nan,nan,71
+File,Inline Assertion,NumberOfMethods,6,5,5,0,nan,nan,nan,71
+File,Inline Assertion,Print Statement,6,0,0,0,nan,nan,nan,71
+File,Inline Assertion,Redundant Assertion,6,0,0,0,nan,nan,nan,71
+File,Inline Assertion,Resource Optimism,6,0,0,0,nan,nan,nan,71
+File,Inline Assertion,Sensitive Equality,6,0,0,0,nan,nan,nan,71
+File,Inline Assertion,Sleepy Test,6,0,0,0,nan,nan,nan,71
+File,Inline Assertion,Unknown Test,6,3,3,0,nan,nan,nan,71
+File,Inline Assertion,Verbose Test,6,0,0,0,nan,nan,nan,71
+File,Parameterized Test,Assertion Roulette,23,7,7,0,0.015625,-1.0,0.03262867647058824,71
+File,Parameterized Test,Conditional Test Logic,23,13,9,4,0.653564453125,-0.18681318681318682,0.695429104477612,71
+File,Parameterized Test,Constructor Initialization,23,2,0,2,nan,nan,nan,71
+File,Parameterized Test,Default Test,23,0,0,0,nan,nan,nan,71
+File,Parameterized Test,Dependent Test,23,0,0,0,nan,nan,nan,71
+File,Parameterized Test,Duplicate Assert,23,2,2,0,nan,nan,nan,71
+File,Parameterized Test,Eager Test,17,4,4,0,nan,nan,nan,71
+File,Parameterized Test,Empty Test,23,0,0,0,nan,nan,nan,71
+File,Parameterized Test,Exception Catching Throwing,23,8,4,4,0.25,-0.4444444444444444,0.31140350877192985,71
+File,Parameterized Test,General Fixture,23,4,4,0,nan,nan,nan,71
+File,Parameterized Test,IgnoredTest,23,3,2,1,nan,nan,nan,71
+File,Parameterized Test,Lazy Test,17,4,4,0,nan,nan,nan,71
+File,Parameterized Test,Magic Number Test,23,16,7,9,0.925384521484375,-0.029411764705882353,0.9522072612375453,71
+File,Parameterized Test,Mystery Guest,23,0,0,0,nan,nan,nan,71
+File,Parameterized Test,NumberOfMethods,23,20,15,5,0.001922607421875,-0.7476190476190476,0.006029211956521739,71
+File,Parameterized Test,Print Statement,23,0,0,0,nan,nan,nan,71
+File,Parameterized Test,Redundant Assertion,23,0,0,0,nan,nan,nan,71
+File,Parameterized Test,Resource Optimism,23,1,1,0,nan,nan,nan,71
+File,Parameterized Test,Sensitive Equality,23,1,1,0,nan,nan,nan,71
+File,Parameterized Test,Sleepy Test,23,0,0,0,nan,nan,nan,71
+File,Parameterized Test,Unknown Test,23,2,2,0,nan,nan,nan,71
+File,Parameterized Test,Verbose Test,23,0,0,0,nan,nan,nan,71
+File,Custom Assertion,Assertion Roulette,6,2,2,0,nan,nan,nan,71
+File,Custom Assertion,Conditional Test Logic,6,0,0,0,nan,nan,nan,71
+File,Custom Assertion,Constructor Initialization,6,0,0,0,nan,nan,nan,71
+File,Custom Assertion,Default Test,6,0,0,0,nan,nan,nan,71
+File,Custom Assertion,Dependent Test,6,0,0,0,nan,nan,nan,71
+File,Custom Assertion,Duplicate Assert,6,1,1,0,nan,nan,nan,71
+File,Custom Assertion,Eager Test,4,1,1,0,nan,nan,nan,71
+File,Custom Assertion,Empty Test,6,0,0,0,nan,nan,nan,71
+File,Custom Assertion,Exception Catching Throwing,6,1,0,1,nan,nan,nan,71
+File,Custom Assertion,General Fixture,6,1,0,1,nan,nan,nan,71
+File,Custom Assertion,IgnoredTest,6,4,1,3,nan,nan,nan,71
+File,Custom Assertion,Lazy Test,4,2,2,0,nan,nan,nan,71
+File,Custom Assertion,Magic Number Test,6,1,0,1,nan,nan,nan,71
+File,Custom Assertion,Mystery Guest,6,0,0,0,nan,nan,nan,71
+File,Custom Assertion,NumberOfMethods,6,6,2,4,0.53125,0.38095238095238093,0.5802884615384616,71
+File,Custom Assertion,Print Statement,6,0,0,0,nan,nan,nan,71
+File,Custom Assertion,Redundant Assertion,6,0,0,0,nan,nan,nan,71
+File,Custom Assertion,Resource Optimism,6,0,0,0,nan,nan,nan,71
+File,Custom Assertion,Sensitive Equality,6,0,0,0,nan,nan,nan,71
+File,Custom Assertion,Sleepy Test,6,0,0,0,nan,nan,nan,71
+File,Custom Assertion,Unknown Test,6,3,0,3,nan,nan,nan,71
+File,Custom Assertion,Verbose Test,6,0,0,0,nan,nan,nan,71
+File,Change Exception Verification,Assertion Roulette,27,3,2,1,nan,nan,nan,71
+File,Change Exception Verification,Conditional Test Logic,27,2,2,0,nan,nan,nan,71
+File,Change Exception Verification,Constructor Initialization,27,0,0,0,nan,nan,nan,71
+File,Change Exception Verification,Default Test,27,0,0,0,nan,nan,nan,71
+File,Change Exception Verification,Dependent Test,27,0,0,0,nan,nan,nan,71
+File,Change Exception Verification,Duplicate Assert,27,0,0,0,nan,nan,nan,71
+File,Change Exception Verification,Eager Test,18,1,1,0,nan,nan,nan,71
+File,Change Exception Verification,Empty Test,27,0,0,0,nan,nan,nan,71
+File,Change Exception Verification,Exception Catching Throwing,27,18,15,3,0.12310791015625,-0.40350877192982454,0.18112244897959184,71
+File,Change Exception Verification,General Fixture,27,0,0,0,nan,nan,nan,71
+File,Change Exception Verification,IgnoredTest,27,0,0,0,nan,nan,nan,71
+File,Change Exception Verification,Lazy Test,18,0,0,0,nan,nan,nan,71
+File,Change Exception Verification,Magic Number Test,27,0,0,0,nan,nan,nan,71
+File,Change Exception Verification,Mystery Guest,27,0,0,0,nan,nan,nan,71
+File,Change Exception Verification,NumberOfMethods,27,3,3,0,nan,nan,nan,71
+File,Change Exception Verification,Print Statement,27,0,0,0,nan,nan,nan,71
+File,Change Exception Verification,Redundant Assertion,27,0,0,0,nan,nan,nan,71
+File,Change Exception Verification,Resource Optimism,27,0,0,0,nan,nan,nan,71
+File,Change Exception Verification,Sensitive Equality,27,1,1,0,nan,nan,nan,71
+File,Change Exception Verification,Sleepy Test,27,0,0,0,nan,nan,nan,71
+File,Change Exception Verification,Unknown Test,27,1,1,0,nan,nan,nan,71
+File,Change Exception Verification,Verbose Test,27,0,0,0,nan,nan,nan,71
+File,Split Test Method,Assertion Roulette,37,14,3,11,0.0797119140625,0.5428571428571428,0.12041587017952128,71
+File,Split Test Method,Conditional Test Logic,37,4,0,4,nan,nan,nan,71
+File,Split Test Method,Constructor Initialization,37,0,0,0,nan,nan,nan,71
+File,Split Test Method,Default Test,37,0,0,0,nan,nan,nan,71
+File,Split Test Method,Dependent Test,37,0,0,0,nan,nan,nan,71
+File,Split Test Method,Duplicate Assert,37,23,23,0,2.368921820661285e-05,-1.0,0.00016819344926695124,71
+File,Split Test Method,Eager Test,8,6,2,4,0.34375,0.5238095238095238,0.40677083333333336,71
+File,Split Test Method,Empty Test,37,0,0,0,nan,nan,nan,71
+File,Split Test Method,Exception Catching Throwing,37,20,6,14,0.7533550262451172,0.08571428571428572,0.78659127740299,71
+File,Split Test Method,General Fixture,37,2,0,2,nan,nan,nan,71
+File,Split Test Method,IgnoredTest,37,1,0,1,nan,nan,nan,71
+File,Split Test Method,Lazy Test,8,5,0,5,nan,nan,nan,71
+File,Split Test Method,Magic Number Test,37,34,0,34,3.4350080846401454e-07,1.0,6.097139350236258e-06,71
+File,Split Test Method,Mystery Guest,37,22,0,22,4.76837158203125e-07,1.0,6.771087646484375e-06,71
+File,Split Test Method,NumberOfMethods,37,36,0,36,1.5656775542716161e-07,1.0,3.705436878442825e-06,71
+File,Split Test Method,Print Statement,37,0,0,0,nan,nan,nan,71
+File,Split Test Method,Redundant Assertion,37,0,0,0,nan,nan,nan,71
+File,Split Test Method,Resource Optimism,37,1,0,1,nan,nan,nan,71
+File,Split Test Method,Sensitive Equality,37,12,0,12,0.00048828125,1.0,0.001925998263888889,71
+File,Split Test Method,Sleepy Test,37,0,0,0,nan,nan,nan,71
+File,Split Test Method,Unknown Test,37,1,0,1,nan,nan,nan,71
+File,Split Test Method,Verbose Test,37,0,0,0,nan,nan,nan,71
+Ref.,Delegated Setup,Assertion Roulette,32,9,6,3,0.33203125,-0.4222222222222222,0.3995630296610169,71
+Ref.,Delegated Setup,Conditional Test Logic,32,5,4,1,nan,nan,nan,71
+Ref.,Delegated Setup,Constructor Initialization,32,0,0,0,nan,nan,nan,71
+Ref.,Delegated Setup,Default Test,32,0,0,0,nan,nan,nan,71
+Ref.,Delegated Setup,Dependent Test,32,0,0,0,nan,nan,nan,71
+Ref.,Delegated Setup,Duplicate Assert,32,1,0,1,nan,nan,nan,71
+Ref.,Delegated Setup,Eager Test,14,0,0,0,nan,nan,nan,71
+Ref.,Delegated Setup,Empty Test,32,0,0,0,nan,nan,nan,71
+Ref.,Delegated Setup,Exception Catching Throwing,32,6,1,5,0.15625,0.7619047619047619,0.20931603773584906,71
+Ref.,Delegated Setup,General Fixture,32,9,1,8,0.02734375,0.8444444444444444,0.052470439189189186,71
+Ref.,Delegated Setup,IgnoredTest,32,1,0,1,nan,nan,nan,71
+Ref.,Delegated Setup,Lazy Test,14,3,2,1,nan,nan,nan,71
+Ref.,Delegated Setup,Magic Number Test,32,10,3,7,0.185546875,0.509090909090909,0.2439597800925926,71
+Ref.,Delegated Setup,Mystery Guest,32,0,0,0,nan,nan,nan,71
+Ref.,Delegated Setup,NumberOfMethods,32,0,0,0,nan,nan,nan,71
+Ref.,Delegated Setup,Print Statement,32,3,3,0,nan,nan,nan,71
+Ref.,Delegated Setup,Redundant Assertion,32,0,0,0,nan,nan,nan,71
+Ref.,Delegated Setup,Resource Optimism,32,0,0,0,nan,nan,nan,71
+Ref.,Delegated Setup,Sensitive Equality,32,0,0,0,nan,nan,nan,71
+Ref.,Delegated Setup,Sleepy Test,32,0,0,0,nan,nan,nan,71
+Ref.,Delegated Setup,Unknown Test,32,8,2,6,0.4375,0.3888888888888889,0.501008064516129,71
+Ref.,Delegated Setup,Verbose Test,32,0,0,0,nan,nan,nan,71
+Ref.,Change Assertion Type,Assertion Roulette,123,13,9,4,0.460205078125,-0.2857142857142857,0.5186438182043651,71
+Ref.,Change Assertion Type,Conditional Test Logic,123,21,19,2,0.000202178955078125,-0.8181818181818182,0.0008971691131591797,71
+Ref.,Change Assertion Type,Constructor Initialization,123,0,0,0,nan,nan,nan,71
+Ref.,Change Assertion Type,Default Test,123,0,0,0,nan,nan,nan,71
+Ref.,Change Assertion Type,Dependent Test,123,0,0,0,nan,nan,nan,71
+Ref.,Change Assertion Type,Duplicate Assert,123,2,0,2,nan,nan,nan,71
+Ref.,Change Assertion Type,Eager Test,43,2,1,1,nan,nan,nan,71
+Ref.,Change Assertion Type,Empty Test,123,0,0,0,nan,nan,nan,71
+Ref.,Change Assertion Type,Exception Catching Throwing,123,7,4,3,1.0,0.0,1.0,71
+Ref.,Change Assertion Type,General Fixture,123,5,2,3,nan,nan,nan,71
+Ref.,Change Assertion Type,IgnoredTest,123,0,0,0,nan,nan,nan,71
+Ref.,Change Assertion Type,Lazy Test,43,1,1,0,nan,nan,nan,71
+Ref.,Change Assertion Type,Magic Number Test,123,5,1,4,nan,nan,nan,71
+Ref.,Change Assertion Type,Mystery Guest,123,0,0,0,nan,nan,nan,71
+Ref.,Change Assertion Type,NumberOfMethods,123,0,0,0,nan,nan,nan,71
+Ref.,Change Assertion Type,Print Statement,123,2,0,2,nan,nan,nan,71
+Ref.,Change Assertion Type,Redundant Assertion,123,0,0,0,nan,nan,nan,71
+Ref.,Change Assertion Type,Resource Optimism,123,0,0,0,nan,nan,nan,71
+Ref.,Change Assertion Type,Sensitive Equality,123,0,0,0,nan,nan,nan,71
+Ref.,Change Assertion Type,Sleepy Test,123,0,0,0,nan,nan,nan,71
+Ref.,Change Assertion Type,Unknown Test,123,5,2,3,nan,nan,nan,71
+Ref.,Change Assertion Type,Verbose Test,123,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,Assertion Roulette,10,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,Conditional Test Logic,10,6,6,0,0.03125,-1.0,0.05282738095238095,71
+Ref.,Guard Assertion,Constructor Initialization,10,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,Default Test,10,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,Dependent Test,10,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,Duplicate Assert,10,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,Eager Test,0,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,Empty Test,10,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,Exception Catching Throwing,10,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,General Fixture,10,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,IgnoredTest,10,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,Lazy Test,0,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,Magic Number Test,10,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,Mystery Guest,10,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,NumberOfMethods,10,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,Print Statement,10,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,Redundant Assertion,10,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,Resource Optimism,10,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,Sensitive Equality,10,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,Sleepy Test,10,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,Unknown Test,10,0,0,0,nan,nan,nan,71
+Ref.,Guard Assertion,Verbose Test,10,0,0,0,nan,nan,nan,71
+Ref.,Prebuilt Fixture,Assertion Roulette,34,10,10,0,0.001953125,-1.0,0.006029211956521739,71
+Ref.,Prebuilt Fixture,Conditional Test Logic,34,6,6,0,0.03125,-1.0,0.05282738095238095,71
+Ref.,Prebuilt Fixture,Constructor Initialization,34,0,0,0,nan,nan,nan,71
+Ref.,Prebuilt Fixture,Default Test,34,0,0,0,nan,nan,nan,71
+Ref.,Prebuilt Fixture,Dependent Test,34,0,0,0,nan,nan,nan,71
+Ref.,Prebuilt Fixture,Duplicate Assert,34,2,2,0,nan,nan,nan,71
+Ref.,Prebuilt Fixture,Eager Test,7,0,0,0,nan,nan,nan,71
+Ref.,Prebuilt Fixture,Empty Test,34,0,0,0,nan,nan,nan,71
+Ref.,Prebuilt Fixture,Exception Catching Throwing,34,5,5,0,nan,nan,nan,71
+Ref.,Prebuilt Fixture,General Fixture,34,2,2,0,nan,nan,nan,71
+Ref.,Prebuilt Fixture,IgnoredTest,34,0,0,0,nan,nan,nan,71
+Ref.,Prebuilt Fixture,Lazy Test,7,0,0,0,nan,nan,nan,71
+Ref.,Prebuilt Fixture,Magic Number Test,34,9,8,1,0.0546875,-0.7111111111111111,0.08824573863636363,71
+Ref.,Prebuilt Fixture,Mystery Guest,34,1,1,0,nan,nan,nan,71
+Ref.,Prebuilt Fixture,NumberOfMethods,34,0,0,0,nan,nan,nan,71
+Ref.,Prebuilt Fixture,Print Statement,34,0,0,0,nan,nan,nan,71
+Ref.,Prebuilt Fixture,Redundant Assertion,34,0,0,0,nan,nan,nan,71
+Ref.,Prebuilt Fixture,Resource Optimism,34,0,0,0,nan,nan,nan,71
+Ref.,Prebuilt Fixture,Sensitive Equality,34,0,0,0,nan,nan,nan,71
+Ref.,Prebuilt Fixture,Sleepy Test,34,0,0,0,nan,nan,nan,71
+Ref.,Prebuilt Fixture,Unknown Test,34,1,1,0,nan,nan,nan,71
+Ref.,Prebuilt Fixture,Verbose Test,34,0,0,0,nan,nan,nan,71
+Ref.,Implicit Setup,Assertion Roulette,10,6,5,1,0.125,-0.8095238095238095,0.18112244897959184,71
+Ref.,Implicit Setup,Conditional Test Logic,10,2,2,0,nan,nan,nan,71
+Ref.,Implicit Setup,Constructor Initialization,10,0,0,0,nan,nan,nan,71
+Ref.,Implicit Setup,Default Test,10,0,0,0,nan,nan,nan,71
+Ref.,Implicit Setup,Dependent Test,10,0,0,0,nan,nan,nan,71
+Ref.,Implicit Setup,Duplicate Assert,10,3,3,0,nan,nan,nan,71
+Ref.,Implicit Setup,Eager Test,5,3,3,0,nan,nan,nan,71
+Ref.,Implicit Setup,Empty Test,10,0,0,0,nan,nan,nan,71
+Ref.,Implicit Setup,Exception Catching Throwing,10,5,4,1,nan,nan,nan,71
+Ref.,Implicit Setup,General Fixture,10,3,3,0,nan,nan,nan,71
+Ref.,Implicit Setup,IgnoredTest,10,0,0,0,nan,nan,nan,71
+Ref.,Implicit Setup,Lazy Test,5,1,1,0,nan,nan,nan,71
+Ref.,Implicit Setup,Magic Number Test,10,9,8,1,0.046875,-0.7777777777777778,0.07739825581395349,71
+Ref.,Implicit Setup,Mystery Guest,10,0,0,0,nan,nan,nan,71
+Ref.,Implicit Setup,NumberOfMethods,10,0,0,0,nan,nan,nan,71
+Ref.,Implicit Setup,Print Statement,10,1,1,0,nan,nan,nan,71
+Ref.,Implicit Setup,Redundant Assertion,10,0,0,0,nan,nan,nan,71
+Ref.,Implicit Setup,Resource Optimism,10,0,0,0,nan,nan,nan,71
+Ref.,Implicit Setup,Sensitive Equality,10,1,0,1,nan,nan,nan,71
+Ref.,Implicit Setup,Sleepy Test,10,0,0,0,nan,nan,nan,71
+Ref.,Implicit Setup,Unknown Test,10,2,2,0,nan,nan,nan,71
+Ref.,Implicit Setup,Verbose Test,10,0,0,0,nan,nan,nan,71
+Ref.,Verification Method,Assertion Roulette,8,3,3,0,nan,nan,nan,71
+Ref.,Verification Method,Conditional Test Logic,8,0,0,0,nan,nan,nan,71
+Ref.,Verification Method,Constructor Initialization,8,0,0,0,nan,nan,nan,71
+Ref.,Verification Method,Default Test,8,0,0,0,nan,nan,nan,71
+Ref.,Verification Method,Dependent Test,8,0,0,0,nan,nan,nan,71
+Ref.,Verification Method,Duplicate Assert,8,0,0,0,nan,nan,nan,71
+Ref.,Verification Method,Eager Test,2,0,0,0,nan,nan,nan,71
+Ref.,Verification Method,Empty Test,8,0,0,0,nan,nan,nan,71
+Ref.,Verification Method,Exception Catching Throwing,8,0,0,0,nan,nan,nan,71
+Ref.,Verification Method,General Fixture,8,1,0,1,nan,nan,nan,71
+Ref.,Verification Method,IgnoredTest,8,0,0,0,nan,nan,nan,71
+Ref.,Verification Method,Lazy Test,2,0,0,0,nan,nan,nan,71
+Ref.,Verification Method,Magic Number Test,8,2,1,1,nan,nan,nan,71
+Ref.,Verification Method,Mystery Guest,8,0,0,0,nan,nan,nan,71
+Ref.,Verification Method,NumberOfMethods,8,0,0,0,nan,nan,nan,71
+Ref.,Verification Method,Print Statement,8,1,1,0,nan,nan,nan,71
+Ref.,Verification Method,Redundant Assertion,8,0,0,0,nan,nan,nan,71
+Ref.,Verification Method,Resource Optimism,8,0,0,0,nan,nan,nan,71
+Ref.,Verification Method,Sensitive Equality,8,0,0,0,nan,nan,nan,71
+Ref.,Verification Method,Sleepy Test,8,0,0,0,nan,nan,nan,71
+Ref.,Verification Method,Unknown Test,8,3,0,3,nan,nan,nan,71
+Ref.,Verification Method,Verbose Test,8,0,0,0,nan,nan,nan,71
+Ref.,Grouping Tests,Assertion Roulette,22,3,1,2,nan,nan,nan,71
+Ref.,Grouping Tests,Conditional Test Logic,22,3,3,0,nan,nan,nan,71
+Ref.,Grouping Tests,Constructor Initialization,22,0,0,0,nan,nan,nan,71
+Ref.,Grouping Tests,Default Test,22,0,0,0,nan,nan,nan,71
+Ref.,Grouping Tests,Dependent Test,22,0,0,0,nan,nan,nan,71
+Ref.,Grouping Tests,Duplicate Assert,22,1,1,0,nan,nan,nan,71
+Ref.,Grouping Tests,Eager Test,4,1,0,1,nan,nan,nan,71
+Ref.,Grouping Tests,Empty Test,22,0,0,0,nan,nan,nan,71
+Ref.,Grouping Tests,Exception Catching Throwing,22,5,3,2,nan,nan,nan,71
+Ref.,Grouping Tests,General Fixture,22,0,0,0,nan,nan,nan,71
+Ref.,Grouping Tests,IgnoredTest,22,2,1,1,nan,nan,nan,71
+Ref.,Grouping Tests,Lazy Test,4,2,2,0,nan,nan,nan,71
+Ref.,Grouping Tests,Magic Number Test,22,6,4,2,0.15625,-0.7142857142857143,0.20931603773584906,71
+Ref.,Grouping Tests,Mystery Guest,22,0,0,0,nan,nan,nan,71
+Ref.,Grouping Tests,NumberOfMethods,22,0,0,0,nan,nan,nan,71
+Ref.,Grouping Tests,Print Statement,22,2,2,0,nan,nan,nan,71
+Ref.,Grouping Tests,Redundant Assertion,22,1,1,0,nan,nan,nan,71
+Ref.,Grouping Tests,Resource Optimism,22,0,0,0,nan,nan,nan,71
+Ref.,Grouping Tests,Sensitive Equality,22,0,0,0,nan,nan,nan,71
+Ref.,Grouping Tests,Sleepy Test,22,0,0,0,nan,nan,nan,71
+Ref.,Grouping Tests,Unknown Test,22,2,1,1,nan,nan,nan,71
+Ref.,Grouping Tests,Verbose Test,22,0,0,0,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,Assertion Roulette,6,3,1,2,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,Conditional Test Logic,6,2,1,1,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,Constructor Initialization,6,0,0,0,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,Default Test,6,0,0,0,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,Dependent Test,6,0,0,0,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,Duplicate Assert,6,0,0,0,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,Eager Test,5,2,1,1,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,Empty Test,6,0,0,0,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,Exception Catching Throwing,6,0,0,0,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,General Fixture,6,0,0,0,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,IgnoredTest,6,0,0,0,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,Lazy Test,5,2,1,1,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,Magic Number Test,6,3,1,2,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,Mystery Guest,6,0,0,0,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,NumberOfMethods,6,0,0,0,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,Print Statement,6,0,0,0,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,Redundant Assertion,6,0,0,0,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,Resource Optimism,6,0,0,0,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,Sensitive Equality,6,0,0,0,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,Sleepy Test,6,1,1,0,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,Unknown Test,6,0,0,0,nan,nan,nan,71
+Ref.,Replace Dependency with Test Double,Verbose Test,6,0,0,0,nan,nan,nan,71
+Ref.,Inline Assertion,Assertion Roulette,6,0,0,0,nan,nan,nan,71
+Ref.,Inline Assertion,Conditional Test Logic,6,0,0,0,nan,nan,nan,71
+Ref.,Inline Assertion,Constructor Initialization,6,0,0,0,nan,nan,nan,71
+Ref.,Inline Assertion,Default Test,6,0,0,0,nan,nan,nan,71
+Ref.,Inline Assertion,Dependent Test,6,0,0,0,nan,nan,nan,71
+Ref.,Inline Assertion,Duplicate Assert,6,0,0,0,nan,nan,nan,71
+Ref.,Inline Assertion,Eager Test,1,0,0,0,nan,nan,nan,71
+Ref.,Inline Assertion,Empty Test,6,0,0,0,nan,nan,nan,71
+Ref.,Inline Assertion,Exception Catching Throwing,6,0,0,0,nan,nan,nan,71
+Ref.,Inline Assertion,General Fixture,6,0,0,0,nan,nan,nan,71
+Ref.,Inline Assertion,IgnoredTest,6,2,2,0,nan,nan,nan,71
+Ref.,Inline Assertion,Lazy Test,1,0,0,0,nan,nan,nan,71
+Ref.,Inline Assertion,Magic Number Test,6,0,0,0,nan,nan,nan,71
+Ref.,Inline Assertion,Mystery Guest,6,0,0,0,nan,nan,nan,71
+Ref.,Inline Assertion,NumberOfMethods,6,0,0,0,nan,nan,nan,71
+Ref.,Inline Assertion,Print Statement,6,0,0,0,nan,nan,nan,71
+Ref.,Inline Assertion,Redundant Assertion,6,0,0,0,nan,nan,nan,71
+Ref.,Inline Assertion,Resource Optimism,6,0,0,0,nan,nan,nan,71
+Ref.,Inline Assertion,Sensitive Equality,6,0,0,0,nan,nan,nan,71
+Ref.,Inline Assertion,Sleepy Test,6,0,0,0,nan,nan,nan,71
+Ref.,Inline Assertion,Unknown Test,6,3,3,0,nan,nan,nan,71
+Ref.,Inline Assertion,Verbose Test,6,0,0,0,nan,nan,nan,71
+Ref.,Parameterized Test,Assertion Roulette,23,6,6,0,0.03125,-1.0,0.05282738095238095,71
+Ref.,Parameterized Test,Conditional Test Logic,23,5,1,4,nan,nan,nan,71
+Ref.,Parameterized Test,Constructor Initialization,23,0,0,0,nan,nan,nan,71
+Ref.,Parameterized Test,Default Test,23,0,0,0,nan,nan,nan,71
+Ref.,Parameterized Test,Dependent Test,23,0,0,0,nan,nan,nan,71
+Ref.,Parameterized Test,Duplicate Assert,23,2,2,0,nan,nan,nan,71
+Ref.,Parameterized Test,Eager Test,17,4,4,0,nan,nan,nan,71
+Ref.,Parameterized Test,Empty Test,23,0,0,0,nan,nan,nan,71
+Ref.,Parameterized Test,Exception Catching Throwing,23,7,5,2,0.265625,-0.5714285714285714,0.3251616379310345,71
+Ref.,Parameterized Test,General Fixture,23,4,4,0,nan,nan,nan,71
+Ref.,Parameterized Test,IgnoredTest,23,2,1,1,nan,nan,nan,71
+Ref.,Parameterized Test,Lazy Test,17,4,4,0,nan,nan,nan,71
+Ref.,Parameterized Test,Magic Number Test,23,12,7,5,0.208984375,-0.4230769230769231,0.26977982954545454,71
+Ref.,Parameterized Test,Mystery Guest,23,0,0,0,nan,nan,nan,71
+Ref.,Parameterized Test,NumberOfMethods,23,0,0,0,nan,nan,nan,71
+Ref.,Parameterized Test,Print Statement,23,0,0,0,nan,nan,nan,71
+Ref.,Parameterized Test,Redundant Assertion,23,0,0,0,nan,nan,nan,71
+Ref.,Parameterized Test,Resource Optimism,23,1,1,0,nan,nan,nan,71
+Ref.,Parameterized Test,Sensitive Equality,23,1,1,0,nan,nan,nan,71
+Ref.,Parameterized Test,Sleepy Test,23,0,0,0,nan,nan,nan,71
+Ref.,Parameterized Test,Unknown Test,23,1,1,0,nan,nan,nan,71
+Ref.,Parameterized Test,Verbose Test,23,0,0,0,nan,nan,nan,71
+Ref.,Custom Assertion,Assertion Roulette,6,1,1,0,nan,nan,nan,71
+Ref.,Custom Assertion,Conditional Test Logic,6,0,0,0,nan,nan,nan,71
+Ref.,Custom Assertion,Constructor Initialization,6,0,0,0,nan,nan,nan,71
+Ref.,Custom Assertion,Default Test,6,0,0,0,nan,nan,nan,71
+Ref.,Custom Assertion,Dependent Test,6,0,0,0,nan,nan,nan,71
+Ref.,Custom Assertion,Duplicate Assert,6,1,1,0,nan,nan,nan,71
+Ref.,Custom Assertion,Eager Test,4,0,0,0,nan,nan,nan,71
+Ref.,Custom Assertion,Empty Test,6,0,0,0,nan,nan,nan,71
+Ref.,Custom Assertion,Exception Catching Throwing,6,1,0,1,nan,nan,nan,71
+Ref.,Custom Assertion,General Fixture,6,1,0,1,nan,nan,nan,71
+Ref.,Custom Assertion,IgnoredTest,6,2,0,2,nan,nan,nan,71
+Ref.,Custom Assertion,Lazy Test,4,1,1,0,nan,nan,nan,71
+Ref.,Custom Assertion,Magic Number Test,6,2,1,1,nan,nan,nan,71
+Ref.,Custom Assertion,Mystery Guest,6,0,0,0,nan,nan,nan,71
+Ref.,Custom Assertion,NumberOfMethods,6,0,0,0,nan,nan,nan,71
+Ref.,Custom Assertion,Print Statement,6,0,0,0,nan,nan,nan,71
+Ref.,Custom Assertion,Redundant Assertion,6,0,0,0,nan,nan,nan,71
+Ref.,Custom Assertion,Resource Optimism,6,0,0,0,nan,nan,nan,71
+Ref.,Custom Assertion,Sensitive Equality,6,0,0,0,nan,nan,nan,71
+Ref.,Custom Assertion,Sleepy Test,6,0,0,0,nan,nan,nan,71
+Ref.,Custom Assertion,Unknown Test,6,3,1,2,nan,nan,nan,71
+Ref.,Custom Assertion,Verbose Test,6,0,0,0,nan,nan,nan,71
+Ref.,Change Exception Verification,Assertion Roulette,27,2,1,1,nan,nan,nan,71
+Ref.,Change Exception Verification,Conditional Test Logic,27,0,0,0,nan,nan,nan,71
+Ref.,Change Exception Verification,Constructor Initialization,27,0,0,0,nan,nan,nan,71
+Ref.,Change Exception Verification,Default Test,27,0,0,0,nan,nan,nan,71
+Ref.,Change Exception Verification,Dependent Test,27,0,0,0,nan,nan,nan,71
+Ref.,Change Exception Verification,Duplicate Assert,27,0,0,0,nan,nan,nan,71
+Ref.,Change Exception Verification,Eager Test,18,0,0,0,nan,nan,nan,71
+Ref.,Change Exception Verification,Empty Test,27,0,0,0,nan,nan,nan,71
+Ref.,Change Exception Verification,Exception Catching Throwing,27,17,15,2,0.002349853515625,-0.7647058823529411,0.006951649983723958,71
+Ref.,Change Exception Verification,General Fixture,27,0,0,0,nan,nan,nan,71
+Ref.,Change Exception Verification,IgnoredTest,27,0,0,0,nan,nan,nan,71
+Ref.,Change Exception Verification,Lazy Test,18,0,0,0,nan,nan,nan,71
+Ref.,Change Exception Verification,Magic Number Test,27,0,0,0,nan,nan,nan,71
+Ref.,Change Exception Verification,Mystery Guest,27,0,0,0,nan,nan,nan,71
+Ref.,Change Exception Verification,NumberOfMethods,27,0,0,0,nan,nan,nan,71
+Ref.,Change Exception Verification,Print Statement,27,0,0,0,nan,nan,nan,71
+Ref.,Change Exception Verification,Redundant Assertion,27,0,0,0,nan,nan,nan,71
+Ref.,Change Exception Verification,Resource Optimism,27,0,0,0,nan,nan,nan,71
+Ref.,Change Exception Verification,Sensitive Equality,27,1,1,0,nan,nan,nan,71
+Ref.,Change Exception Verification,Sleepy Test,27,0,0,0,nan,nan,nan,71
+Ref.,Change Exception Verification,Unknown Test,27,1,1,0,nan,nan,nan,71
+Ref.,Change Exception Verification,Verbose Test,27,0,0,0,nan,nan,nan,71
+Ref.,Split Test Method,Assertion Roulette,37,6,3,3,0.65625,0.2857142857142857,0.695429104477612,71
+Ref.,Split Test Method,Conditional Test Logic,37,4,0,4,nan,nan,nan,71
+Ref.,Split Test Method,Constructor Initialization,37,0,0,0,nan,nan,nan,71
+Ref.,Split Test Method,Default Test,37,0,0,0,nan,nan,nan,71
+Ref.,Split Test Method,Dependent Test,37,0,0,0,nan,nan,nan,71
+Ref.,Split Test Method,Duplicate Assert,37,15,15,0,6.103515625e-05,-1.0,0.0003611246744791667,71
+Ref.,Split Test Method,Eager Test,8,5,2,3,nan,nan,nan,71
+Ref.,Split Test Method,Empty Test,37,0,0,0,nan,nan,nan,71
+Ref.,Split Test Method,Exception Catching Throwing,37,9,3,6,0.3984375,0.4,0.46375512295081966,71
+Ref.,Split Test Method,General Fixture,37,2,0,2,nan,nan,nan,71
+Ref.,Split Test Method,IgnoredTest,37,1,0,1,nan,nan,nan,71
+Ref.,Split Test Method,Lazy Test,8,5,1,4,nan,nan,nan,71
+Ref.,Split Test Method,Magic Number Test,37,33,1,32,8.173954948453854e-07,0.9714795008912656,9.672513355670395e-06,71
+Ref.,Split Test Method,Mystery Guest,37,10,1,9,0.017578125,0.8363636363636363,0.03565848214285714,71
+Ref.,Split Test Method,NumberOfMethods,37,0,0,0,nan,nan,nan,71
+Ref.,Split Test Method,Print Statement,37,0,0,0,nan,nan,nan,71
+Ref.,Split Test Method,Redundant Assertion,37,0,0,0,nan,nan,nan,71
+Ref.,Split Test Method,Resource Optimism,37,0,0,0,nan,nan,nan,71
+Ref.,Split Test Method,Sensitive Equality,37,3,0,3,nan,nan,nan,71
+Ref.,Split Test Method,Sleepy Test,37,0,0,0,nan,nan,nan,71
+Ref.,Split Test Method,Unknown Test,37,1,0,1,nan,nan,nan,71
+Ref.,Split Test Method,Verbose Test,37,0,0,0,nan,nan,nan,71

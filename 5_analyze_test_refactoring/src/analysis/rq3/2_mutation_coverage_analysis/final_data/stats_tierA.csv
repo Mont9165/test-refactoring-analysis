@@ -1,0 +1,12 @@
+metric,n,k_nonzero,median_before,median_after,A12,p_value,test
+branch_coverage,23,4,0.0964962665134979,0.1009933774834437,0.48582230623818523,0.125,exact_midranks_zero_drop
+class_coverage,23,2,0.1507936507936507,0.1573208722741433,0.4933837429111531,0.5,exact_midranks_zero_drop
+complexity_coverage,23,4,0.0789473684210526,0.113605130554283,0.4820415879017013,0.125,exact_midranks_zero_drop
+instruction_coverage,23,3,0.0985324947589098,0.1054821783969603,0.4848771266540643,0.25,exact_midranks_zero_drop
+line_coverage,23,3,0.0975609756097561,0.1006754026438838,0.4848771266540643,0.25,exact_midranks_zero_drop
+method_coverage,23,3,0.1153846153846153,0.1253776435045317,0.4848771266540643,0.25,exact_midranks_zero_drop
+mutation_score,34,9,0.14378038002651344,0.18496825210182838,0.4718858131487889,1.0,exact_midranks_zero_drop
+mutations_killed,34,9,24.0,33.5,0.4852941176470588,0.2265625,exact_midranks_zero_drop
+mutations_no_coverage,34,8,189.5,189.5,0.495242214532872,0.84375,exact_midranks_zero_drop
+mutations_survived,34,8,7.5,8.0,0.5060553633217993,0.859375,exact_midranks_zero_drop
+mutations_total,34,1,266.0,266.0,0.4939446366782007,1.0,exact_midranks_zero_drop

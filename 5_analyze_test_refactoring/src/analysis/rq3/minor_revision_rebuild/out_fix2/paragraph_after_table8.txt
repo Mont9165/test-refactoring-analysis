@@ -1,0 +1,83 @@
+
+######## file-level BH family: m=52 tests (valid p, n>=6)
+  Change Assertion Type          n=123 #sig= 4 lower-count smells (non-NOM)= 2 A12 [0.506, 0.696]; higher-count: ['Duplicate Assert', 'NumberOfMethods']; NOM: A12=0.495 median_diff=0 q=0.00936
+  Grouping Tests                 n= 22 #sig=12 lower-count smells (non-NOM)=11 A12 [0.610, 0.804]; higher-count: []; NOM: A12=0.907 median_diff=-50.5 q=1.49e-05
+  Split Test Method              n= 37 #sig= 5 lower-count smells (non-NOM)= 1 A12 [0.792, 0.792]; higher-count: ['NumberOfMethods', 'Magic Number Test', 'Mystery Guest', 'Sensitive Equality']; NOM: A12=0.224 median_diff=9 q=2.71e-06
+
+  -- Change Exception Verification (file) all tested rows:
+                      smell  n  improved  degraded  unchanged  p_value        q      A12  median_diff
+            NumberOfMethods 27         3         0         24 0.083265 0.135305 0.507545          0.0
+Exception Catching Throwing 27        15         3          9 0.111480 0.175665 0.724966         -2.0
+     Conditional Test Logic 27         2         0         25 0.157299 0.227210 0.537037          0.0
+         Sensitive Equality 27         1         0         26 0.317311 0.343753 0.518519          0.0
+                 Eager Test 18         1         0         17 0.317311 0.343753 0.501543          0.0
+               Unknown Test 27         1         0         26 0.317311 0.343753 0.500686          0.0
+         Assertion Roulette 27         2         1         24 0.563703 0.586251 0.501372          0.0
+
+  -- Grouping Tests (file) all tested rows:
+                      smell  n  improved  degraded  unchanged  p_value        q      A12  median_diff
+            NumberOfMethods 22        21         1          0 0.000001 0.000015 0.907025        -50.5
+          Magic Number Test 22        18         1          3 0.000181 0.001174 0.803719        -37.5
+         Assertion Roulette 22        15         1          6 0.000448 0.002586 0.788223         -6.0
+Exception Catching Throwing 22        14         2          6 0.000765 0.003618 0.675620        -22.5
+               Unknown Test 22        14         0          8 0.000965 0.004180 0.681818         -4.5
+           Duplicate Assert 22        13         0          9 0.001197 0.004786 0.774793         -2.0
+ Constructor Initialization 22         9         0         13 0.002700 0.009359 0.704545          0.0
+     Conditional Test Logic 22        11         0         11 0.003268 0.010621 0.628099         -0.5
+        Redundant Assertion 22        10         0         12 0.003868 0.011831 0.698347          0.0
+         Sensitive Equality 22         9         0         13 0.005000 0.014445 0.706612          0.0
+                IgnoredTest 22         9         0         13 0.006956 0.019039 0.644628          0.0
+            Print Statement 22         8         0         14 0.011210 0.027757 0.609504          0.0
+            General Fixture 22         1         0         21 0.317311 0.343753 0.522727          0.0
+
+######## method-level BH family: m=41 tests (valid p, n>=6)
+  Change Assertion Type          n=123 #sig= 1 lower-count smells (non-NOM)= 1 A12 [0.570, 0.570]; higher-count: []; NOM: n.s.
+  Change Exception Verification  n= 27 #sig= 1 lower-count smells (non-NOM)= 1 A12 [0.741, 0.741]; higher-count: []; NOM: n.s.
+  Split Test Method              n= 37 #sig= 2 lower-count smells (non-NOM)= 1 A12 [0.698, 0.698]; higher-count: ['Magic Number Test']; NOM: n.s.
+
+  -- Change Exception Verification (method) all tested rows:
+                      smell  n  improved  degraded  unchanged  p_value        q      A12  median_diff
+Exception Catching Throwing 27        15         2         10 0.001616 0.016566 0.740741         -1.0
+         Sensitive Equality 27         1         0         26 0.317311 0.419669 0.518519          0.0
+               Unknown Test 27         1         0         26 0.317311 0.419669 0.518519          0.0
+         Assertion Roulette 27         1         1         25 1.000000 1.000000 0.500000          0.0
+
+  -- Grouping Tests (method) all tested rows:
+                      smell  n  improved  degraded  unchanged  p_value        q      A12  median_diff
+     Conditional Test Logic 22         3         0         19 0.108809 0.419669 0.506198          0.0
+          Magic Number Test 22         4         2         16 0.114850 0.419669 0.509298          0.0
+            Print Statement 22         2         0         20 0.179712 0.419669 0.521694          0.0
+Exception Catching Throwing 22         3         2         17 0.222801 0.419669 0.493802          0.0
+           Duplicate Assert 22         1         0         21 0.317311 0.419669 0.503099          0.0
+        Redundant Assertion 22         1         0         21 0.317311 0.419669 0.502066          0.0
+         Assertion Roulette 22         1         2         19 0.414216 0.530714 0.483471          0.0
+                IgnoredTest 22         1         1         20 0.654721 0.706409 0.481405          0.0
+               Unknown Test 22         1         1         20 0.654721 0.706409 0.496901          0.0
+
+[file] CEV x Exception Catching Throwing: rows=27, complete pairs=27, NaN before=0 after=0
+   NaN->0 : reduced=15  removed to zero (before>0 & after==0)=15  increased=3  unchanged=9  (present before: 23)
+   NaN-drop: reduced=15  removed to zero=15  increased=3  unchanged=9
+                                        rows  reduced  increased  unchanged  before_sum  after_sum
+sha                                                                                               
+apache/jspwiki/62857b9                   1.0      0.0        0.0        1.0         3.0        3.0
+apache/karaf/100420f                     2.0      0.0        0.0        2.0         2.0        2.0
+b3dgs/lionengine/15c0bb0                 2.0      1.0        0.0        1.0         1.0        0.0
+blackducksoftware/detect/0940d15         2.0      0.0        0.0        2.0         7.0        7.0
+fabric8io/fabric8-maven-plugin/89abcae  14.0     14.0        0.0        0.0        28.0        0.0
+jMetal/jMetal/50758e9                    2.0      0.0        0.0        2.0         0.0        0.0
+junit-team/junit4/66bfb24                1.0      0.0        0.0        1.0         8.0        8.0
+junit-team/junit4/df016dc                3.0      0.0        3.0        0.0         6.0       15.0
+
+[method] CEV x Exception Catching Throwing: rows=27, complete pairs=27, NaN before=0 after=0
+   NaN->0 : reduced=15  removed to zero (before>0 & after==0)=15  increased=2  unchanged=10  (present before: 18)
+   NaN-drop: reduced=15  removed to zero=15  increased=2  unchanged=10
+                                        rows  reduced  increased  unchanged  before_sum  after_sum
+sha                                                                                               
+apache/jspwiki/62857b9                     1        0          0          1           1          1
+apache/karaf/100420f                       2        0          0          2           0          0
+b3dgs/lionengine/15c0bb0                   2        1          0          1           1          0
+blackducksoftware/detect/0940d15           2        0          0          2           1          1
+fabric8io/fabric8-maven-plugin/89abcae    14       14          0          0          14          0
+jMetal/jMetal/50758e9                      2        0          0          2           0          0
+junit-team/junit4/66bfb24                  1        0          0          1           1          1
+junit-team/junit4/df016dc                  3        0          2          1           0          2

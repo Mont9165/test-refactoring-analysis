@@ -1,0 +1,8 @@
+excluded instances: 24
+            0 |             0 | kept     | 4771
+            0 |  not measured | excluded | 67
+    1 or more |  not measured | excluded | 74
+ not measured |             0 | excluded | 177
+ not measured |     1 or more | excluded | 38
+ not measured |  not measured | excluded | 580
+excluded cells total: 936

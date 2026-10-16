@@ -1,0 +1,124 @@
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+/Users/horikawa/Dev/Research-repo/InvestigatingTheImpactOfTestSpecificRefactoring/.venv/lib/python3.9/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+[file] loaded 379 rows from file_level_wide.csv
+[file] 320 (type,smell) rows -> out_fix2/new_types_effect_sizes_file.csv
+
+[file] top 15 (type, smell) effect-size signals (n>=3):
+                  refactoring_type                        smell    n  improved  degraded       p_value       A12  mean_diff
+162                 Grouping Tests              NumberOfMethods   22        21         1  1.430511e-06  0.907025 -91.045455
+113             Delete Mock Object              General Fixture    3         2         0  1.797125e-01  0.833333  -4.000000
+160                 Grouping Tests            Magic Number Test   22        18         1  1.805391e-04  0.803719 -48.954545
+283              Split Test Method             Duplicate Assert   37        23         0  2.368922e-05  0.791819  -1.918919
+190               Inline Assertion                 Unknown Test    6         3         0  8.326452e-02  0.791667 -12.500000
+148                 Grouping Tests           Assertion Roulette   22        15         1  4.475224e-04  0.788223  -8.727273
+292              Split Test Method              NumberOfMethods   37         0        36  1.565678e-07  0.224251   8.432432
+153                 Grouping Tests             Duplicate Assert   22        13         0  1.196615e-03  0.774793  -3.181818
+290              Split Test Method            Magic Number Test   37         0        34  3.435008e-07  0.238860   8.297297
+180               Inline Assertion                  IgnoredTest    6         3         0  8.326452e-02  0.750000  -2.000000
+154                 Grouping Tests                   Eager Test    4         2         0  1.797125e-01  0.750000  -5.500000
+45           Change Assertion Type             Duplicate Assert  123         0        77  1.709580e-18  0.258246   0.626016
+70   Change Exception Verification  Exception Catching Throwing   27        15         3  1.114796e-01  0.724966  -0.740741
+166                 Grouping Tests           Sensitive Equality   22         9         0  5.000169e-03  0.706612  -1.318182
+150                 Grouping Tests   Constructor Initialization   22         9         0  2.699796e-03  0.704545  -0.409091
+[method] loaded 379 rows from method_level_wide.csv
+[method] 320 (type,smell) rows -> out_fix2/new_types_effect_sizes_method.csv
+
+[method] top 15 (type, smell) effect-size signals (n>=3):
+                        refactoring_type                        smell    n  improved  degraded       p_value       A12  mean_diff
+290                    Split Test Method            Magic Number Test   37         1        32  8.173955e-07  0.093864   2.648649
+113                   Delete Mock Object              General Fixture    3         2         0  1.797125e-01  0.833333  -4.000000
+190                     Inline Assertion                 Unknown Test    6         3         0  1.024704e-01  0.791667  -4.166667
+159                       Grouping Tests                    Lazy Test    4         2         0  1.572992e-01  0.750000  -1.500000
+70         Change Exception Verification  Exception Catching Throwing   27        15         2  1.616222e-03  0.740741  -0.481481
+283                    Split Test Method             Duplicate Assert   37        15         0  1.624408e-04  0.697955  -0.432432
+180                     Inline Assertion                  IgnoredTest    6         2         0  1.572992e-01  0.666667  -0.333333
+33                           Await Event              Print Statement    3         1         0  3.173105e-01  0.666667  -0.333333
+289                    Split Test Method                    Lazy Test    8         1         4  1.040592e-01  0.335938   5.875000
+248  Replace Dependency with Test Double            Magic Number Test    6         1         2  2.850494e-01  0.361111   0.666667
+154                       Grouping Tests                   Eager Test    4         0         1  3.173105e-01  0.375000   0.250000
+255  Replace Dependency with Test Double                  Sleepy Test    6         1         0  3.173105e-01  0.583333  -0.166667
+236  Replace Dependency with Test Double           Assertion Roulette    6         1         2  2.763029e-01  0.416667   0.500000
+41                 Change Assertion Type       Conditional Test Logic  123        19         2  2.385635e-04  0.570097  -0.154472
+124                   Delete Mock Object                 Unknown Test    3         1         0  3.173105e-01  0.555556  -0.333333

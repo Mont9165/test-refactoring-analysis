@@ -1,0 +1,42 @@
+
+=== file level (n=145 commits) ===
+smell                        n(pres) improved degraded  nochg absent  base
+Magic Number Test                122       26       24     72     23   145
+Assertion Roulette                84       30       14     45     56   145
+Exception Catching Throwing       76       20       16     43     66   145
+Conditional Test Logic            45       16        7     25     97   145
+Unknown Test                      45       19        9     21     96   145
+Duplicate Assert                  41       15        2     24    104   145
+Lazy Test                         36       10        7     21     25    63
+Eager Test                        33       13        5     15     30    63
+General Fixture                   30        8        7     18    112   145
+IgnoredTest                       18        8        6      8    123   145
+Sensitive Equality                15        5        2      9    129   145
+Constructor Initialization        11        2        3      9    131   145
+Mystery Guest                     11        1        2      9    133   145
+Print Statement                   10        7        1      3    134   145
+Resource Optimism                 10        1        2      8    134   145
+Redundant Assertion                5        3        0      2    140   145
+Sleepy Test                        4        1        0      3    141   145
+[done] change_patterns_file_n145.pdf / .png
+
+=== method level (n=145 commits) ===
+smell                        n(pres) improved degraded  nochg absent  base
+Magic Number Test                105       26       29     52     38   145
+Assertion Roulette                56       23       17     24     81   145
+Exception Catching Throwing       56       19       16     26     84   145
+Eager Test                        24        9        6     10     38    63
+Unknown Test                      24       13        8      7    117   145
+Conditional Test Logic            23       11        9      8    117   145
+Lazy Test                         22       11        5      8     39    63
+Duplicate Assert                  21       10        2      9    124   145
+General Fixture                   20        9        8      7    121   145
+IgnoredTest                        7        3        5      3    134   145
+Mystery Guest                      6        2        2      3    138   145
+Print Statement                    6        6        1      0    138   145
+Resource Optimism                  5        1        0      4    140   145
+Sensitive Equality                 4        2        3      1    139   145
+Sleepy Test                        2        1        0      1    143   145
+Redundant Assertion                1        1        0      0    144   145
+Constructor Initialization         0        0        0      0    145   145
+[done] change_patterns_method_n145.pdf / .png
