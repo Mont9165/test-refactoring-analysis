@@ -37,7 +37,7 @@ Order, as in the session:
 2. `verify_flaws.py` writes `flags_405.pkl`, which records the annotated sides of each row.
 3. `build_fixed.py` writes `data_fix` and `data_fix_mmask`. `data_fix` is the 403 rows minus the 21 one-sided pairs: 382 rows and 146 commits, with NaN kept as missing. `data_fix_mmask` also blanks every refactoring-level cell whose file-level cell is NaN on either side.
 4. `build_fix2.py` writes `data_fix2`, which is `data_fix_mmask` minus the 3 rows of `openjdk/lilliput` commit 7f80683: 379 rows and 145 commits.
-5. The analyses on `data_fix2` are `rq3_row_level_tables_nanmissing.py`, `new_types_effect_sizes.py`, `paragraph_after_table8.py`, `contradictory_smells.py` and `regen_change_patterns_{nanmissing,v3,v4,presentonly}.py`. The paper uses `figures/change_patterns_{file,method}_n145_v4.pdf`, which are byte-identical, apart from CreationDate, to the files on Overleaf.
+5. The analyses on `data_fix2` are `rq3_row_level_tables_nanmissing.py`, `new_types_effect_sizes.py`, `paragraph_after_table8.py`, `contradictory_smells.py` and `regen_change_patterns_{nanmissing,v3,v4,v6,presentonly}.py`. The paper uses `figures/change_patterns_{file,method}_n145_v6.pdf`, which are the files on Overleaf. In v6, each bar shows shares of the commits in which the smell was measured, and the label n gives that number: 145, or 63 for *Eager Test* and *Lazy Test*. The earlier v4 counted the commits in which these two smells could not be measured as *Not present*.
 6. Former inline code: `table6_prevalence_fix2.py` (Table 6 and the Section 7 prevalence), `cev_grouping_fix2.py`, `eager_lazy_{nan,commits}_fix2.py` and `decompose_old_t6.py`. `letter_correction_table.py` prints the correction table of the round-2 response letter.
 7. `check_paper_numbers.py` compares the results with the verified paper numbers.
 
@@ -54,7 +54,7 @@ Order, as in the session:
 - Two scratch files survived the purge, `followup2/regen_change_patterns_presentonly.py` and `scratchpad/decompose_old_t6.py`. Both are byte-identical to their reconstructions.
 - These outputs match the transcript output line for line: `verify_flaws`, `build_fixed`, `build_fix2`, Table 6/prevalence, CEV/Grouping, Eager/Lazy, `decompose_old_t6`, `fig_text_claim2`, the followup3 comparison and the surviving `followup3/out_nan0/*.txt` files. The NaN→0 effect-size log differs only in the output paths it prints.
 - The session's own comparison commands #95–#99 produce identical stdout when rerun against the rebuilt `out_fix2`. Those commands check Table 7, Table 8, the paragraph after Table 8, the per-type CSV and the figure logs.
-- The rebuilt v4 figures match Overleaf's `change_patterns_*_n145.pdf`, and the presentonly figures match `revision_round2/figures_for_overleaf/trial_presentonly/`.
+- The rebuilt v4 figures matched the Overleaf figures before they were replaced by v6 on 2026-10-17, and the presentonly figures match `revision_round2/figures_for_overleaf/trial_presentonly/`.
 
 - Running `run_all.sh` from a clean state inside the repository reproduces `data_fix2/` byte for byte. The figure PDFs differ only in `CreationDate`, and the text logs only in the script paths printed in warnings.
 

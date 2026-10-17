@@ -23,7 +23,8 @@ $PY -B scripts/paragraph_after_table8.py out_fix2 data_fix2 > out_fix2/paragraph
 $PY -B scripts/contradictory_smells.py data_fix2 out_fix2 > out_fix2/contradictory_smells.txt 2>&1               # Spearman pairs
 $PY -B scripts/regen_change_patterns_nanmissing.py data_fix2 out_fix2/figures > out_fix2/figures/regen_fix2_log.txt   # Figs 4/5 (n145)
 $PY -B scripts/regen_change_patterns_v3.py data_fix2 out_fix2/figures > out_fix2/figures/regen_v3_log.txt
-$PY -B scripts/regen_change_patterns_v4.py data_fix2 out_fix2/figures > out_fix2/figures/regen_v4_log.txt             # version on Overleaf
+$PY -B scripts/regen_change_patterns_v4.py data_fix2 out_fix2/figures > out_fix2/figures/regen_v4_log.txt             # unmeasured commits shown as Not present (superseded)
+$PY -B scripts/regen_change_patterns_v6.py data_fix2 out_fix2/figures > out_fix2/figures/regen_v6_log.txt             # version in the paper (Figures 4 and 5)
 $PY -B scripts/regen_change_patterns_presentonly.py data_fix2 out_fix2/figures > out_fix2/figures/regen_presentonly_log.txt  # trial variant
 $PY -B scripts/fig_text_claim2.py        > out_fix2/fig_text_claim2.txt
 
